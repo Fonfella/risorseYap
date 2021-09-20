@@ -1,0 +1,10 @@
+{
+  "name": "WhenIApplyPOSPickerSelection",
+  "description": "Click on apply button from SalesPointsPicker module",
+  "type": "TestCase",
+  "aliases": "When I apply POS picker selection",
+  "children": [
+    "When I click on element SalesPointsPickerModule.ApplyButton",
+    "When I wait 4 seconds"
+  ]
+}

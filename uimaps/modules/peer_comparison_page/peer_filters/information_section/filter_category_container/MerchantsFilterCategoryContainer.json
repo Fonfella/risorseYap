@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "FilterCategoryLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./preceding-sibling::label/span"
+      }
+    },
+    {
+      "entityId": "FilterCategoryButtonList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'filters-category-button')]"
+      }
+    }
+  ]
+}

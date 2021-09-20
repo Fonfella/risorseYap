@@ -1,0 +1,41 @@
+{
+  "children": [
+
+    {
+      "entityId": "EditUserInfo",
+      "reference": "modules/user_edit_modules/EditUserInfo.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//form[contains(@class, 'merchant-profile-form')]"
+      }
+    },
+
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'help helpButton')]"
+      }
+    },
+    {
+      "entityId": "NexiFooter",
+      "reference": "modules/common_modules/NexiFooter.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer[contains(@class, 'main-footer')]"
+      }
+    },
+    {
+      "entityId": "TouchID",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//label[contains(@for,'enableBiometric')]"
+      }
+    }
+  ]
+}

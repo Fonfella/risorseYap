@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "SalePointsLabel",
+      "type": "ELEMENT",
+      "testData": "HeadingLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[./following-sibling::*[@name='Down']]"
+      }
+    },
+    {
+      "entityId": "SalesPointIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Down']"
+      }
+    },
+    {
+      "entityId": "SelectedShopTitle",
+      "type": "ELEMENT",
+      "testData": "ShopLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "((//*[@name='banner'])[1]/XCUIElementTypeOther[3])"
+      }
+    }
+  ]
+}

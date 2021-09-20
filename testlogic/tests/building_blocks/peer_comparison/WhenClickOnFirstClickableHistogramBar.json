@@ -1,0 +1,9 @@
+{
+  "name": "WhenClickOnFirstClickableHistogramBar",
+  "description": "Click on a histogram bar on chart",
+  "aliases": "When I click on first clickable chart histogram bar",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerComparisonContentModule.PeerComparisonContainer.ChartLayer.ChartsSurfaceModule.ClickableBarsYourPVList[filterType='index',filterValue='0']"
+  ]
+}

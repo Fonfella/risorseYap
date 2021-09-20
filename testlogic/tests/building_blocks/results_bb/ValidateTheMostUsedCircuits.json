@@ -1,0 +1,9 @@
+{
+  "name": "ValidateTheMostUsedCircuits",
+  "description": "Validate card I circuiti più utilizzati",
+  "aliases": "Then the most used circuits card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.TheMostUsedCircuitsCard data matches ResultsTestData.Cards.TheMostUsedCircuitsCard.${cardData}"
+  ]
+}

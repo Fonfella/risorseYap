@@ -1,0 +1,11 @@
+{
+  "name": "SandwichMenuNavigationCommissions",
+  "description": "Navigate via sandwich menu using link text as input parameter",
+  "type": "TestCase",
+  "aliases": "When I navigate to commissions page via sandwich menu",
+  "children": [
+    "When I click on element NexiHeader[filterType='index',filterValue='0'].SandwichMenuButton",
+    "When I click on element SandwichMenuModule.NavigationLinks[filterType='text',filterValue='Costi e Condizioni']",
+    "Then Commissions Page is open"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectAgosCircuit",
+  "description": "Select agos circuit by index",
+  "type": "TestCase",
+  "aliases": "When I select agos circuit",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='11']"
+  ]
+}

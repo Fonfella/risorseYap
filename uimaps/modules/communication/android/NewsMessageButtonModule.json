@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "NewsButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]/a"
+      }
+    },
+    {
+      "entityId": "NewsButtonLabel",
+      "type": "ELEMENT",
+      "testData":"NewsButtonLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]/a/span"
+      }
+    },
+    {
+      "entityId": "MessagesButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/a"
+      }
+    },
+    {
+      "entityId": "MessagesButtonLabel",
+      "type": "ELEMENT",
+      "testData":"MessagesButtonLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/a/span"
+      }
+    }
+  ]
+}

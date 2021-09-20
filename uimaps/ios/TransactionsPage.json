@@ -1,0 +1,102 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "optional": true,
+      "reference": "modules/common_modules/NexiHeader.json",
+      "childCount": "2",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']"
+      }
+    },
+    {
+      "entityId": "PageHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']/./XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "SalesPointsModule",
+      "reference": "modules/common_modules/SalesPointsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']"
+      }
+    },
+    {
+      "entityId": "LastUpdateDataModule",
+      "reference": "modules/transactions_page/LastUpdateDataModule.json",
+      "optional": true,
+      "type": "MODULE",
+      "childCount": "1",
+      "locator": {
+        "type": "XPATH",
+          "value": "//XCUIElementTypeOther[@name='banner']/following-sibling::XCUIElementTypeOther[position()<3 or XCUIElementTypeButton]"
+      }
+    },
+    {
+      "entityId": "FiltersAppliedModule",
+      "reference": "modules/transactions_page/FiltersAppliedModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']/following::XCUIElementTypeOther[@name='box' and count(*)=2]"
+      }
+    },
+    {
+      "entityId": "FiltersButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@name='Filter']"
+      }
+    },
+    {
+      "entityId": "TransactionsContentWrappedModule",
+      "reference": "modules/transactions_page/TransactionsContentWrappedModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "childCount": "3",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeOther/*[@name='Filter'] and ./XCUIElementTypeOther/XCUIElementTypeOther/*[@name='Download']]"
+      }
+    },
+    {
+      "entityId": "NoResultsMessage",
+      "testData": "NoResultsMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeStaticText[contains(@name, 'Riprova')]]/.//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsModule",
+      "reference": "modules/transactions_page/TransactionDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeOther[contains(@name, 'panel')]]"
+      }
+    },
+    {
+      "entityId": "NexiFooter",
+      "optional": true,
+      "reference": "modules/common_modules/NexiFooter.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Transazioni']/XCUIElementTypeOther[last() - 1]"
+      }
+    }
+  ]
+}

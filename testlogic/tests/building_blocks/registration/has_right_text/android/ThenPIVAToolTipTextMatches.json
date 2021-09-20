@@ -1,0 +1,11 @@
+{
+  "name": "PIVA ToolTip text matches",
+  "description": "Check for PIVA ToolTip",
+  "aliases":"Then PIVA ToolTip Text Matches",
+  "type": "TestCase",
+  "children": [
+    "When I click on element RegistrationForm.PIVA_CF_ToolTip",
+    "Then RegistrationForm.PIVA_CF_Label data matches ${text}",
+    "Then RegistrationForm.ToolTipLabel is displayed"
+  ]
+}

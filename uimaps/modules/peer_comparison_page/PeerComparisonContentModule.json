@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId": "FiltersBarListModule",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "type": "MODULE",
+      "childCount": "3",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'filters-bar')]/.//div[contains(@class, 'filter-bar-item')]"
+      }
+    },
+    {
+      "entityId": "PeerComparisonContainer",
+      "reference": "modules/peer_comparison_page/PeerComparisonContainer.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'wrapper')]"
+      }
+    }
+  ]
+}

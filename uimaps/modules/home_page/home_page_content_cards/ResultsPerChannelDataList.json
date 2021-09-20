@@ -1,0 +1,30 @@
+{
+  "children":[
+    {
+      "entityId": "ListItemText",
+      "testData":"ListItemText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div//span"
+      }
+    },
+    {
+      "entityId": "ListItemIntValue",
+      "testData":"ListItemIntValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "ResultsRemainedValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'remainder-value')]"
+      }
+    }
+  ]
+}

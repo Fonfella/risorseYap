@@ -1,0 +1,11 @@
+{
+  "name": "Login",
+  "description": "Login test suite",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/InputAuthData.json"
+    //"testlogic/tests/native/StartStcreen.json",
+    //"testlogic/tests/native/AperturaChiusuraBurgerMenu.json"
+  ]
+}

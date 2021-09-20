@@ -1,0 +1,22 @@
+{
+  "children":[
+    {
+      "entityId": "ChartSummaryValue",
+      "type": "ELEMENT",
+      "testData": "SummaryValue",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "ChartSummaryType",
+      "testData": "SummaryType",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p/following-sibling::*/span"
+      }
+    }
+  ]
+}

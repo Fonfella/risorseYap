@@ -1,0 +1,10 @@
+{
+  "name": "WhenOpenCommissionsFiltersPage",
+  "description": "Open commissions filters page",
+  "type": "TestCase",
+  "aliases": "When I open commissions filters page",
+  "children": [
+    "When I click on element CommissionsWrapperContentModule.FilterButton",
+    "Then Commissions Filters Page is open"
+  ]
+}

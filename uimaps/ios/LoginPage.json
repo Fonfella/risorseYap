@@ -1,0 +1,73 @@
+{
+  "children": [
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeImage[@name='Nexi Business Logo']|//XCUIElementTypeOther[@name='Nexi Business Logo']"
+      }
+    },
+    {
+      "entityId": "LoginForm",
+      "type": "MODULE",
+      "reference":"modules/login_page/LoginForm.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business - Login']"
+      }
+    },
+    {
+      "entityId": "ForgotPasswordLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Hai dimenticato la password?']"
+      }
+    },
+    {
+      "entityId": "RememberMeButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Ricordati di me nei prossimi accessi']"
+      }
+    },
+    {
+      "entityId": "HaveNoAccount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Non hai un account?']"
+      }
+    },
+    {
+      "entityId": "RegistrationLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='Registrati'])[1]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeWindow[1]/./XCUIElementTypeOther/./XCUIElementTypeOther[2]"
+      }
+    },
+
+    {
+      "entityId": "SandwichMenuButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']/XCUIElementTypeButton"
+      }
+    }
+  ]
+}

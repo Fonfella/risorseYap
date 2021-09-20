@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "TransactionDate",
+      "type": "ELEMENT",
+      "testData": "TransactionDate",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeOther[position()=1]"
+      }
+    },
+    {
+      "entityId": "TransactionDay",
+      "testData": "TransactionDay",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeOther[position()=2]"
+      }
+    }
+  ]
+}

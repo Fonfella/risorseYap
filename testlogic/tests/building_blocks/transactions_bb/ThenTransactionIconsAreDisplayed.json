@@ -1,0 +1,10 @@
+{
+  "name": "ThenTransactionIconsAreDisplayed",
+  "description": "Validate that transaction icons are displayed",
+  "type": "TestCase",
+  "aliases": "Then transaction icons are displayed",
+  "children": [
+    "Then TransactionsContentWrappedModule.TransactionsListModule[filterType='index',filterValue='${transactionIndex}'].TransactionElementsModule.CardLogo is displayed",
+    "Then TransactionsContentWrappedModule.TransactionsListModule[filterType='index',filterValue='${transactionIndex}'].TransactionElementsModule.TransactionChannelIcon is displayed"
+  ]
+}

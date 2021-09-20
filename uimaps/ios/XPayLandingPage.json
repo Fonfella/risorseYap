@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "entityId": "XPayHeader",
+      "reference": "modules/xpay_modules/xpay_landing_page/XPayHeader.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId": "XPayContentModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/XPayContentModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId": "ContractualDocumentationPdf",
+      "testData": "ContractualDocumentationPdf",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Documentazione contrattuale']"
+      }
+    },
+    {
+      "entityId": "ActivateNowFooterButton",
+      "testData": "ActivateNowFooterButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeStaticText[@name='ATTIVA ORA'])[2]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

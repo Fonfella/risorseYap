@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId": "BackButton",
+      "testData": "BackButton",
+      "reference": "modules/reusable_elements/BackButtonModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'back-button')]"
+      }
+    },
+    {
+      "entityId": "ResetPassForm",
+      "reference": "modules/forgot_password_page/ResetPassForm.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form"
+      }
+    }
+  ]
+}

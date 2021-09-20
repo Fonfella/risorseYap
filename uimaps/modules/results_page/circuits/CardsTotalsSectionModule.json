@@ -1,0 +1,65 @@
+{
+  "children": [
+    {
+      "entityId": "ValueField",
+      "testData": "ValueField",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h3/span[2]"
+      }
+    },
+    {
+      "entityId": "CollapseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./li/button"
+      }
+    },
+    {
+      "entityId": "BulletIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h3/span[contains(@class, 'bullet-icon')]/*"
+      }
+    },
+    {
+      "entityId": "DatePeriodTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h3/span[contains(@class, 'title')]/label"
+      }
+    },
+    {
+      "entityId": "DropDownIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h3/span[contains(@class, 'down-icon')]/*"
+      }
+    },
+    {
+      "entityId": "CardsTotalsDetails",
+      "reference": "modules/results_page/total_customers/CardsTotalsDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'accordion-list-wrapper')]"
+      }
+    },
+    {
+      "entityId": "CardCollapseCircuitsEmptyData",
+      "reference": "modules/results_page/total_customers/CardsTotalsDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'grommetux-collapsible')]"
+      }
+    }
+  ]
+}

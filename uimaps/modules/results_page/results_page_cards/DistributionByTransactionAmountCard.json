@@ -1,0 +1,56 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h1/span"
+      }
+    },
+    {
+      "entityId": "ValueInterval",
+      "testData": "ValueInterval",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div//label"
+      }
+    },
+    {
+      "entityId": "ProgressIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li/./div[contains(@class, 'no-sign')]/div[1]"
+      }
+    },
+    {
+      "entityId": "ProgressIcon2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li/./div[contains(@class, 'no-sign')]/div[2]"
+      }
+    },
+    {
+      "entityId": "ProgressValue",
+      "testData": "ProgressValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li/./div[contains(@class, 'no-sign')]/div[1]/.//div[contains(@class, 'value__annotated')]"
+      }
+    },
+    {
+      "entityId": "ProgressValue2",
+      "testData": "ProgressValue2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li/./div[contains(@class, 'no-sign')]/div[2]/.//div[contains(@class, 'value__annotated')]"
+      }
+    }
+  ]
+}

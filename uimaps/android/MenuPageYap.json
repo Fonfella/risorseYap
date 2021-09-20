@@ -1,0 +1,104 @@
+{
+  "children": [
+    {
+      "entityId": "Bottone_Invia",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_top_end_button']"
+      }
+    }
+    ,
+    {
+      "entityId": "Bottone_Richiedi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_top_start_button']"
+      }
+    }
+    ,
+    {
+      "entityId": "Bottone_Ricarica",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_top_button']"
+      }
+    }
+    ,
+    {
+      "entityId": "Bottone_PagaOnLine",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_bottom_end_button']"
+      }
+    }
+    ,
+    {
+      "entityId": "Bottone_DividiConto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_bottom_start_button']"
+      }
+    }
+    ,
+    {
+      "entityId": "Bottone_Dividi_Conto_link",
+      "testData":"Bottone_Dividi_Conto_link",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tv_split_bill_title']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invita_Amici_link",
+      "testData":"Invita_Amici_link",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tv_mgm_title']"
+      }
+    }
+    ,
+    {
+      "entityId": "CTA_X",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_main_button']"
+      }
+    }
+    ,
+    {
+      "entityId": "Parent01Carlos",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_parent_name' and @text='Carlos Pancioni']"
+      }
+    }
+    ,
+    {
+      "entityId": "Parent01Carlos",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_parent_name' and @text='Carlos Pancioni']"
+      }
+    }
+    ,
+    {
+      "entityId": "Pay_Wallet_button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.RelativeLayout[@content-desc=\"Google Pay\"]/android.widget.ImageView"
+      }
+    }
+  ]
+}

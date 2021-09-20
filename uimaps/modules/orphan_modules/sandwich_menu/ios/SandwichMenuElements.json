@@ -1,0 +1,103 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButtonLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Close']"
+      }
+    },
+    {
+      "entityId": "LastAccessTimeStamp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[4]"
+      }
+    },
+    {
+      "entityId": "UserName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[5]"
+      }
+    },
+    {
+      "entityId": "ProfilePageLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Profilo']"
+      }
+    },
+    {
+      "entityId": "ImpostazioniLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Impostazioni']"
+      }
+    },
+    {
+      "entityId": "NavigationLinks",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='navigation']/.//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "NeedHelpLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    },
+    {
+      "entityId": "LogOutButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='ESCI']"
+      }
+    },
+    {
+      "entityId": "ProtectionPlushyperlink",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Protection Plus']"
+      }
+    },
+    //TODO following modules to be deleted after atf will be able to click on filtered elements
+
+    {
+      "entityId": "TODELETEDashboard",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Home Punti Vendita']"
+      }
+    },
+    {
+      "entityId": "TODELETEDocuments",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Documenti']"
+      }
+    },
+    {
+      "entityId": "TODELETETransactions",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Transazioni']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0024",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "simple send money",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given I create MAC as SHA1 hashing of the string \"timeStamp=${_timeStamp}\"",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.Utenti_2",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_Invia",
+    "Given InviaSoldi Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then InviaSoldiLabel is displayed",
+    "As a Provayap.Labels",
+    //    "Then InviaSoldiLabel data matches Provayap.Labels",
+    "As a Yapinviasoldi.Valid.3511669952",
+    "When I input data into CercaContattiBianco",
+    "Given I wait 2 seconds",
+    "When I click on element Contatto_Utente_Bianco",
+    "Given I wait 2 seconds",
+    "When I click on element Avanti_Button",
+    "When I click on element Input_1",
+    "When I click on element Avanti_Button",
+    "Given I wait 2 seconds",
+    "When I click on element Input_Message_input",
+    "Then I input data into Input_Message_test",
+    "When I click on element Inserisci_button",
+    "Given I wait 2 seconds",
+
+
+    "Given I scroll Slider_Yap towards _UP",
+
+
+    "As a Provayap.Valid.User4",
+    "Given I wait 4 seconds",
+    "When I input data into InputOtp",
+
+    // "Then DescrizioneLabel data matches Provayap.Labels",
+    // "Then AutorizzaOperazioneLabel data matches Provayap.Labels",
+    // "When I click on element InputOtp",
+    //  "When I input data into InputOtp",
+    "When I click on element ContinuaButtonGeneral",
+    "Given I wait 4 seconds",
+
+    //  "When Soldi_Inviati_label is displayed",
+    // "Then Soldi_Inviati_label data matches Yapinviasoldi.Valid.3511669952",
+    // "When Amount_label is displayed",
+    // "Then Amount_label data matches Yapinviasoldi.Valid.3511669952",
+    "As a Yaptimeline.Valid.3511669952",
+    "Given I wait 8 seconds",
+    "Then I Check timeLine Event: \"${Utente_Bianco}\", \"${Importo_Richiesta_Meno1}\", \"${Vuoto}\", \"${Vuoto}\"",
+    "Given TimeLine Page_Yap is open",
+    "When Richiedi_Soldi_Button is displayed",
+    "When Invia_Soldi_Button is displayed"
+  ]
+}

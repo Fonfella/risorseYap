@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "CardIcon",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3/span/*[name()='svg']"
+      }
+    },
+    {
+      "entityId": "CardTitle",
+      "testData": "CardTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3/span/span"
+      }
+    },
+    {
+      "entityId": "CardText",
+      "testData": "CardText",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../span/div"
+      }
+    },
+    {
+      "entityId": "CardExpandButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[name()='svg'][contains(@class,'accordion-down-icon')]"
+      }
+    }
+  ]
+}

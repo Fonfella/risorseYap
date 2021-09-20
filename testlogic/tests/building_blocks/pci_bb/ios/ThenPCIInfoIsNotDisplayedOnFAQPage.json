@@ -1,0 +1,13 @@
+{
+  "name": "ThenPCIInfoIsNotDisplayedOnFAQPage",
+  "description": "Verify that info related to PCI is not displayed on FAQ page",
+  "type": "TestCase",
+  "aliases": "Then verify that information related to PCI is not displayed on FAQ page",
+  "children": [
+    "When I scroll to FAQSectionModule.TopicsDropdownModule",
+    "When I click on element FAQSectionModule.TopicsDropdownModule",
+    "Then FAQSectionModule.TopicsDropdown.ProgrammaProtectionPlus is not displayed",
+    "Then FAQSectionModule.TopicsDropdownPCIDSS is not displayed",
+    "Then FAQSectionModule.TopicsDropdown.QuestionaireSimplicato is not displayed"
+  ]
+}

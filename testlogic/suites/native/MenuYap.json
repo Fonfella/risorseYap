@@ -1,0 +1,13 @@
+{
+  "name": "MENU",
+  "description": "Menu test suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/provaYap/MenuYap/Menu_1.json",
+    "testlogic/tests/native/provaYap/MenuYap/Menu_2.json",
+    "testlogic/tests/native/provaYap/MenuYap/Menu_3.json",
+    "testlogic/tests/native/provaYap/MenuYap/Menu_4.json",
+    "testlogic/tests/native/provaYap/MenuYap/Menu_5.json"
+  ]
+}

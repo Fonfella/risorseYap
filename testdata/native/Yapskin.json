@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "HelpCenterLabel",
+              "value": "HELP CENTER"
+            }
+            ,
+            {
+              "entityId": "Cosa_Sono_Le_Skin_label",
+              "value": "Cosa sono le Skin"
+            }
+            ,
+            {
+              "entityId": "Come_Si_Sbloccano_Le_Skin_label",
+              "value": "Come si sbloccano le Skin"
+            }
+            ,
+            {
+              "entityId": "Come_Si_Sbloccano_Le_Skin_title",
+              "value": "Come si sbloccano le Skin"
+            }
+            ,
+            {
+              "entityId": "Skin_Title_label",
+              "value": "🔥Per te una skin ogni giorno alla prima ricarica 🔥"
+            }
+            ,
+            {
+              "entityId": "Wild_Beauty_label",
+              "value": "Wild Beauty"
+            }
+            ,
+            {
+              "entityId": "Allianz_Bank_label",
+              "value": "Allianz Bank"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

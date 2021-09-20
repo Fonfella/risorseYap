@@ -1,0 +1,36 @@
+{
+  "ids": [
+    {
+      "id":"YP-0000",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Corretta Versione",
+  "description": "HappyFlow",
+  "priority": "MEDIUM",
+  "type": "TestCase",
+  "children": [
+//eliminare parte fino a commento per avere test corretto
+    "As a Provayap.Valid.User1",
+    "Given Start Page is open",
+  //  "When I receive the latest email with subject Generazione OTP",
+    "Given I wait 5 seconds",
+    "Then Oggetto_2 is displayed",
+    //"When I Click on Back Button",
+    //"Given I activate the application",
+    "Then Oggetto_2 data matches Provayap.Valid.User1",
+    "Given I get data from Oggetto_2 as Oggetto",
+    "Then Oggetto_2 data matches $Oggetto",
+    "Then Oggetto_2 data matches regex NON LA",
+    "When I background the application",
+    "Given I activate the application",
+    "Given I wait 5 seconds",
+    //"When I dismiss the full page popup"
+    //fin qui
+    "As a Provayap.Valid.Versione",
+    "Given Login Page_Yap is open",
+   // "Given I click on Annulla_Impronta_Digitale if present",
+    "Then VersionControll is displayed",
+    "Then VersionControll data matches Provayap.Valid.Versione"
+  ]
+}

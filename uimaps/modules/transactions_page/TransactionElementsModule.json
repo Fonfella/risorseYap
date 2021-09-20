@@ -1,0 +1,86 @@
+{
+  "children": [
+    {
+      "entityId": "TransactionDateStampModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/transactions_page/TransactionDateStampModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "TransactionsDate",
+      "type": "ELEMENT",
+      "testData": "TransactionsDate",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "CardNumber",
+      "type": "ELEMENT",
+      "testData": "CardNumber",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/.//span[following-sibling::div or following-sibling::span[@class]]"
+      }
+    },
+    {
+      "entityId": "TransactionStatus",
+      "testData": "TransactionStatus",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/div/*[span]"
+      }
+    },
+    {
+      "entityId": "CardLogo",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'grommetux-logo-icon ')]"
+      }
+    },
+    {
+      "entityId": "TransactionChannelIcon",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'transaction-payment-icon')]/div[1]"
+      }
+    },
+    {
+      "entityId": "TransactionWirelessIcon",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'transaction-payment-icon')]/div[2]"
+      }
+    },
+    {
+      "entityId": "TransactionAmount",
+      "type": "ELEMENT",
+      "testData": "TransactionAmount",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[3]/*[span][last()]"
+      }
+    },
+    {
+      "entityId": "TransactionRefund",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[contains(@class, 'cost-value')]/preceding-sibling::p"
+      }
+    }
+  ]
+}

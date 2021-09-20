@@ -1,0 +1,42 @@
+{
+  "children": [
+    {
+      "entityId": "YourCompanyLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='La tua Società']"
+      }
+    },
+    {
+      "entityId": "CompanyLabel",
+      "testData": "CompanyLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name,'Codice Società') or (contains(@name,'Partita IVA')) or (contains(@name,'Indirizzo')) or (contains(@name,'Legale'))]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "CompanyInfo",
+      "testData": "CompanyInfo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther//XCUIElementTypeOther[2]//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "CompanyDropDownBox",
+     "reference": "modules/profile_modules/ComboBoxContainer.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='box'][1]/XCUIElementTypeTextField"
+      }
+    }
+  ]
+}
+
+

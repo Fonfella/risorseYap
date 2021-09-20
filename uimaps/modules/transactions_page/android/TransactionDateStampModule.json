@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "entityId": "TransactionDate",
+      "type": "ELEMENT",
+      "testData": "TransactionDate",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[span[(not(@class))] and not(contains(@class, 'xsmall')) and not(contains(@class, 'authorisation'))]"
+      }
+    },
+    {
+      "entityId": "TransactionDay",
+      "testData": "TransactionDay",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[span[(not(@class))] and not(contains(@class, 'xsmall')) and not(contains(@class, 'authorisation'))]/following-sibling::div/div[1]"
+      }
+    },
+    {
+      "entityId": "TransactionHour",
+      "testData": "TransactionHour",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[span[(not(@class))] and not(contains(@class, 'xsmall')) and not(contains(@class, 'authorisation'))]/following-sibling::div/div[2]"
+      }
+    }
+  ]
+}
+

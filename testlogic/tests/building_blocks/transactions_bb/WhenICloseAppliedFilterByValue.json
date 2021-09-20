@@ -1,0 +1,9 @@
+{
+  "name": "WhenICloseAppliedFilterByValue",
+  "description": "Click on close button of applied filter by it's value",
+  "type": "TestCase",
+  "aliases": "When I close applied filter by value",
+  "children": [
+    "When I click on element FiltersAppliedModule[byChild='AppliedFiltersList',filterType='text',filterValue='${filterValue}'].FilterCloseIcon"
+  ]
+}

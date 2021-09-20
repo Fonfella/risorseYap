@@ -1,0 +1,43 @@
+{
+  "children": [
+    {
+      "entityId": "FiltersLayoutModule",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/FiltersLayout.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class, 'filters-layout')]"
+      }
+    },
+    {
+      "entityId": "ProductCategoryFilterDetailsModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/peer_comparison_page/peer_filters/ProductCategoryFilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class, 'filters-details')][div[header[h1[span[text() = 'Categoria merceologica']]]]]"
+      }
+    },
+    {
+      "entityId": "GeoAreaFilterDetailsModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/peer_comparison_page/peer_filters/GeoAreaFilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class, 'filters-details')][div[header[h1[span[text() = 'Area geografica']]]]]"
+      }
+    },
+    {
+      "entityId": "CompareDateFilterDetailsModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/peer_comparison_page/peer_filters/CompareDateFilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class, 'filters-details')][div[header[h1[span[text() = 'Data confronto']]]]]"
+      }
+    }
+  ]
+}

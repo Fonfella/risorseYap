@@ -1,0 +1,97 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "Extra_Bonus_Invita_Amici_detail_label",
+              "value": "Extra Bonus Invita Amici"
+            }
+            ,
+            {
+              "entityId": "Extra_Bonus_Info_detail_label",
+              "value": "Dedicato ai clienti Illimity"
+            }
+            ,
+            {
+              "entityId": "Extra_Bonus_Amount_label",
+              "value": "+5,00€"
+            },
+            {
+              "entityId": "Importo_Richiesta_0_02",
+              "value": "-0,02€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_0_01",
+              "value": "-0,01€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_1",
+              "value": "+1,00€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_0,95",
+              "value": "+0,95€"
+            }
+          ,
+
+            {
+              "entityId": "Importo_Richiesta_10_20",
+              "value": "+10€ / 20€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_5_20",
+              "value": "+5€ / 20€"
+            }
+          ,
+
+            {
+              "entityId": "Text_Espresso",
+              "value": "Hi dad. Please give me money for an espresso"
+            },
+            {
+              "entityId": "Utente_Bonardi",
+              "value": "Matteo Bonardi"
+            },
+            {
+              "entityId": "Vuoto",
+              "value": "Null"
+            },
+            {
+              "entityId": "MessageTextDC",
+              "value": "Test per Dividi Conto Cena"
+            },
+            {
+              "entityId": "Prova2",
+              "value": "Fabio Fabio"
+            },
+            {
+              "entityId": "Type_HaiChiesto",
+              "value": "HAI CHIESTO"
+            },
+            {
+              "entityId": "Utente_Lettieri",
+              "value": "Diego Lettieri"
+            },
+            {
+              "entityId": "Utente_LettieriDC",
+              "value": "Diego Lettieri • Cena"
+            },
+
+            {
+              "entityId": "Utente_Pancioni",
+              "value": "Carlos Pancioni"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

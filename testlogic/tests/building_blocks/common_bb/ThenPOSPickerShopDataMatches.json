@@ -1,0 +1,10 @@
+{
+  "name": "ThenPOSPickerShopDataMatches",
+  "description": "Verify shops displayed in POS picker",
+  "aliases": "Then POS picker shop data matches",
+  "type": "TestCase",
+  "children": [
+    "Then SalesPointsPickerModule.SalesPointsScrollList.ShopsOptionsIterator${shopFilter} data matches ${salePointsPickerData}"
+  ]
+}
+

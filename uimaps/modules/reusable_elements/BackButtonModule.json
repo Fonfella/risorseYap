@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "BackButtonLabel",
+      "testData": "BackButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span[last()]"
+      }
+    },
+    {
+      "entityId": "BackButtonIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./*[contains(@class, 'icon')]"
+      }
+    }
+  ]
+}

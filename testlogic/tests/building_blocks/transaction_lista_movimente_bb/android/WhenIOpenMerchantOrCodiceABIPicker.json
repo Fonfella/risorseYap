@@ -1,0 +1,9 @@
+{
+  "name": "WhenIOpenPOSPicker",
+  "description": "Click on any sales points configuration label, based on filters, specific for cluster 2,3",
+  "aliases": "When I open merchant picker", //;When I open ABI Code has been removed from aliases part due to exclude duplicate references
+  "type": "TestCase",
+  "children": [
+    "When I click on element SalesPointsModule.SalePointsLabel[filterType='index',filterValue='1']"
+  ]
+}

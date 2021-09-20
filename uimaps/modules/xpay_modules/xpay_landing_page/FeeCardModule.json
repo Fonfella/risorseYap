@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "CardTitle",
+      "testData": "CardTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "CardSubTitle",
+      "testData": "CardSubTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span"
+      }
+    },
+    {
+      "entityId": "AmountModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/AmountModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class,'grommetux-tiles')]/div"
+      }
+    },
+    {
+      "entityId": "CardPointsList",
+      "testData": "CardPointsList",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/li/span"
+      }
+    }
+  ]
+}

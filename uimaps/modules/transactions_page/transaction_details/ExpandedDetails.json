@@ -1,0 +1,61 @@
+{
+  "children": [
+    {
+      "entityId": "DetailsElementsList",
+      "testData": "DetailsElementsList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./p[1]"
+      }
+    },
+    {
+      "entityId": "DetailsElementsValuesList",
+      "testData": "DetailsElementsValuesList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./p[2]"
+      }
+    },
+    {
+      "entityId": "RefundListSectionHeader",
+      "testData": "RefundListSectionHeader",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3"
+      }
+    },
+    {
+      "entityId": "RefundListSectionDateTime",
+      "testData": "RefundListSectionDateTime",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3/following-sibling::div"
+      }
+    },
+    {
+      "entityId": "RefundStatus",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3/following-sibling::p"
+      }
+    },
+    {
+      "entityId": "RefundHistoryCost",
+      "testData": "RefundHistoryCost",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'history-cost')]"
+      }
+    }
+  ]
+}

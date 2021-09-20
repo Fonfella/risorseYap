@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectACompanyFromPOSPicker",
+  "description": "Select company based on input",
+  "type": "TestCase",
+  "aliases": "When I select a company from POS picker",
+  "children": [
+    "When I click on element SalesPointsPickerModule.SalesPointsScrollList.CompanyOptionsIterator[byChild='InputLabel',filterType='text',filterValue='${companyName}']"
+  ]
+}

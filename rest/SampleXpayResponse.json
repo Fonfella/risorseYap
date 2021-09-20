@@ -1,0 +1,49 @@
+{
+  "expectedStatusCode": "<statusCode>",
+  "expectedHeaders": {
+    "Content-Type": [
+      "application/json;"
+    ],
+    "Connection": [
+      "Keep-Alive"
+    ]
+  },
+  "expectedBody": [
+    {
+      "path": {
+        "$.alias": "<fiscalCode>"
+      }
+    },
+    {
+      "path": {
+        "$.data.companies[?(@.name == '<companyName>')].address.country": "[\"<country>\"]"
+      }
+    }
+  ],
+  "expectedBodySql": [
+    {
+      "path": {
+        "$.data.users[?(@.username == '<userName>')]": "User.sql"
+      },
+      "schema": "<schema>",
+      "params": {
+        "<username>": "<userName>"
+      }
+    }
+  ],
+  "expectedBodyUi": [
+    {
+      "path": "$.data.users[?(@.username == '<userName>')]",
+      "uiRestPairs": {
+        "UserInfo.MerchantNameSurnameLabel": "{{$.[0].firstName}} {{$.[0].lastName}}"
+      }
+    },
+    {
+      "path": "$.data.users[?(@.username == '<userName>')]",
+      "uiRestPairs": {
+        "UserInfo.LabelInput[filterType='index',filterValue='0']": "{{$.[0].username}}",
+        "UserInfo.LabelInput[filterType='index',filterValue='2']": "{{$.[0].phone}}"
+      }
+    }
+  ]
+}

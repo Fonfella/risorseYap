@@ -1,0 +1,76 @@
+{
+  "children": [
+    {
+      "entityId": "PageHeader",
+      "reference": "modules/registration/RegHeaderModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'registration-header')]"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "testData":"PageTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//p[contains(@class,'page--title')]"
+      }
+    },
+    {
+      "entityId":"BackButton",
+      "reference": "modules/reusable_elements/BackButtonModule.json",
+      "type": "MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[contains(@class,'back-button')]"
+      }
+    },
+    {
+      "entityId":"OptionsForm",
+      "reference":"modules/xpay_modules/xpay_opzioni1_page/OptionsForm.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//form/div[1]"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "type":"MODULE",
+      "reference":"modules/labeled_input_elements/LabeledInput3.json",
+      "locator":{
+        "type":"XPATH",
+        "value":"//button[contains(@class,'large')]"
+      }
+    },
+    {
+      "entityId": "PageFooter",
+      "reference": "modules/xpay_modules/XpayFooter.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'progress-item')]/.."
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'help helpButton')]"
+      }
+    },
+    {
+      "entityId":"ErrorMessage",
+      "testData":"ErrorMessage",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//span[contains(@class, 'field__error')]//span"
+      }
+    }
+  ]
+}

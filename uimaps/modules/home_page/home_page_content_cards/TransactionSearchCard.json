@@ -1,0 +1,86 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'heading')]/span"
+      }
+    },
+    {
+      "entityId": "CardHeaderDescription",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": "./div//span"
+      }
+    },
+    {
+      "entityId": "DateInputPickerFromLabel",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//span[text()='Da']"
+      }
+    },
+    {
+      "entityId": "DateInputPickerFromInput",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//span[text()='Da']/../preceding-sibling::input"
+      }
+    },
+    {
+      "entityId": "DateInputPickerToLabel",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//span[text()='A']"
+      }
+    },
+    {
+      "entityId": "DateInputPickerToInput",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//span[text()='A']/../preceding-sibling::input"
+      }
+    },
+    {
+      "entityId": "InputCardDigitsLabel",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//span[text()='Ultime 4 cifre carta']"
+      }
+    },
+    {
+      "entityId": "InputCardDigits",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": "./descendant::input[3]"
+      }
+    },
+    {
+      "entityId": "CalendarIcon",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//*[contains(@role, 'img')]"
+      }
+    },
+    {
+      "entityId": "TransactionSearchButtons",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/TransactionSearchButtonsModule",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//form/div/div[last()-1]"
+      }
+    }
+  ]
+}

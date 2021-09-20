@@ -1,0 +1,18 @@
+{
+  "id": 123,
+  "name": "FailedLogin4Times",
+  "description": "Fail Login 4 times with the same email",
+  "aliases": "When I fail login 5 times with the same email",
+  "type": "TestCase",
+  "children": [
+    "When I fail login",
+    "When I close invalid credentials error message popup",
+    "When I fail login",
+    "When I close invalid credentials error message popup",
+    "When I fail login",
+    "When I close invalid credentials error message popup",
+    "When I fail login",
+    "When I close invalid credentials error message popup",
+    "When I fail login"
+  ]
+}

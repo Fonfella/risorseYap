@@ -1,0 +1,13 @@
+{
+  "name": "WhenITryToLogin",
+  "description": "Authentication flow IOS",
+  "aliases": "When I try to login",
+  "type": "TestCase",
+  "children": [
+    "As a ${userCredentials}",
+    "Given I logout using logout button:[SandwichMenuButton,SandwichMenuModule.LogOutButton] if login form: LoginForm was skipped",
+    "When I input data into LoginForm.Email",
+    "When I input data into LoginForm.Password",
+    "When I click on element LoginForm.SubmitButton"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "NavigateToTransactionPage",
+  "description": "Get to transaction page ",
+  "aliases": "When I navigate to transaction page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PageContent.DataWrapper.FirstCardsTotalsSection.TransactionDetailsList.CardsTotalsDetails.TransactionDetailsList.TransactionDetailsLink",
+    "Then Transactions Page is open"
+
+  ]
+}

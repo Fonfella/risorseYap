@@ -1,0 +1,70 @@
+{
+  "children": [
+    {
+      "entityId":"PromoCode",
+      "type":"ELEMENT",
+      "testData":"promo",
+      "locator":{
+        "type":"XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[4]"
+      }
+    },
+    {
+      "entityId": "PromoInputLabel",
+      "type": "ELEMENT",
+      "testData": "PromoLabelText",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Codice promo']"
+      }
+    },
+    {
+      "entityId": "PromoError",
+      "optional":true,
+      "testData": "PromoErrorText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Il codice promozionale inserito non è valido']"
+      }
+    },
+    {
+      "entityId": "PromoAccepted",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Il codice inserito è corretto']"
+      }
+    },
+    {
+      "entityId": "PromoAcceptedMessage",
+      "optional":true,
+      "testData": "PromoErrorText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Il codice inserito è corretto']"
+      }
+    },
+    {
+      "entityId": "PromoSubmitButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='VERIFICA']"
+      }
+    },
+    {
+      "entityId": "PromoCodeSubmitButtonLabel",
+      "optional":true,
+      "type": "ELEMENT",
+      "testData": "SubmitPromoButtonText",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='VERIFICA']"
+      }
+    }
+  ]
+}

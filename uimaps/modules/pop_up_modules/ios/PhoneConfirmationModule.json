@@ -1,0 +1,97 @@
+{
+  "children":
+  [
+    {
+      "entityId":"Xbutton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//*[@name='Chiudi'])[1]"
+      }
+    },
+    {
+      "entityId":"ConfirmationPageHeadingLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Inserisci il codice che ti abbiamo inviato al numero']"
+      }
+    },
+    {
+      "entityId":"ConfirmationNumberLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[contains(@name,'+39 ********')]"
+      }
+    },
+    {
+      "entityId":"ModifyNumber",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Modifica il numero']"
+      }
+    },
+    {
+      "entityId":"ModifyConfirmationNumberLabel",
+      "testData":"ModifyPhoneNumberText",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Modifica il numero']"
+      }
+    },
+    {
+      "entityId":"ConfirmationCodeInput",
+      "testData": "mailConfirmCode",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='grommetux-modal']//XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":"ConfirmationCodeErrLabel",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Il codice digitato risulta non valido.']"
+      }
+    },
+    {
+      "entityId":"ConfirmationCodeInputLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Codice']"
+      }
+    },
+    {
+    "entityId":"NonCodeReceivedHelpButton",
+    "type":"ELEMENT",
+    "locator":{
+    "type":"XPATH",
+    "value":"//XCUIElementTypeStaticText[@name='Non hai ricevuto il codice?']"
+      }
+    },
+    {
+      "entityId":"NonCodeReceivedHelpButtonLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Non hai ricevuto il codice?']"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='grommetux-modal']/XCUIElementTypeButton"
+      }
+    }
+  ]
+}

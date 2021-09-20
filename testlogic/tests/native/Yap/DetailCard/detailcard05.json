@@ -1,0 +1,33 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0015",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "open detail card and make copy iban",
+  "description": " HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element Tail_card",
+    "Given DetailCard Page_Yap is open",
+    "Given I wait 3 seconds",
+    "Then CardHolder is displayed",
+    "Then CardHolder data matches Provayap.Valid.User4",
+    "Then IbanValue is displayed",
+    "Then IbanValue data matches Provayap.Valid.User4",
+    "Then Button_Copia_Iban is displayed",
+    "Then Button_Copia_Iban data matches Provayap.Valid.User4",
+
+    "When I click element by Id: \"${WarningToCheckIban}\" and Check warning by Id: \"${WarningToCheckNumero}\"",
+    "Given I wait 5 seconds",
+    "When I click on element CTA_Previous",
+    "Given Home Page_Yap is open"
+  ]
+}

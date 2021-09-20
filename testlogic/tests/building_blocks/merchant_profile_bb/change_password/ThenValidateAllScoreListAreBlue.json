@@ -1,0 +1,10 @@
+{
+  "name": "ThenValidateAllScoreListAreBlue",
+  "description": "Change Password User",
+  "aliases": "Then validate that all score list are blue",
+  "type": "TestCase",
+  "children": [
+    "When I input data[${inputString}] into ChangePasswordForm",
+    "Then ChangePasswordForm.PasswordStrengthModule.ScoreListBlue data matches ${scoreListBlue}"
+  ]
+}

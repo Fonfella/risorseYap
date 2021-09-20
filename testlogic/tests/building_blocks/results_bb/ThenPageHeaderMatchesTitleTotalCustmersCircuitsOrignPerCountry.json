@@ -1,0 +1,10 @@
+{
+  "name": "ThenPageHeaderMatchesTitle",
+  "description": "Match for 3 Page Headers",
+  "aliases":"Then PageContent data match",
+  "type": "TestCase",
+  "children": [
+    "Then PageHeader data matches ${testData}",
+    "Then PageContent.BackButton data matches ${testData}"
+  ]
+}

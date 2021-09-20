@@ -1,0 +1,9 @@
+{
+  "name": "RichiediSoldi2Feature",
+  "description": "Richiedi Soldi 2 Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/RichiediSoldi/richiedi04.json"
+  ]
+}

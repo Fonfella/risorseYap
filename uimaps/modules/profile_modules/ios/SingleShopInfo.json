@@ -1,0 +1,58 @@
+{
+  "children": [
+    {
+      "entityId": "TitleSingleShop",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Il tuo Punto Vendita']//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ShopDetailsLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther//XCUIElementTypeOther[1]//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ShopDetailsValue",
+      "testData": "ShopDetailsValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther//XCUIElementTypeOther[2]//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ChangeShopInfoLink",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "..//XCUIElementTypeLink[@name='MODIFICA INFORMAZIONI']/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ShopInfoButtonReference",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='shop-alias']/XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "ToolTipContent",
+      "testData": "ToolTipContent",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton/following::XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText"
+      }
+    }
+  ]
+}
+

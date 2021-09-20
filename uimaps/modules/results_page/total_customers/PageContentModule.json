@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "BackButton",
+      "testData": "BackButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'link-black')]/span"
+      }
+    },
+    {
+      "entityId": "DataWrapper",
+      "reference": "modules/results_page/total_customers/DataWrapperModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'wrapper-content')]/div"
+      }
+    }
+  ]
+}

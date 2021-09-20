@@ -1,0 +1,119 @@
+{
+  "children":
+  [
+    {
+      "entityId":"ContoCorrenteTabButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='CONTO CORRENTE']"
+      }
+    },
+    {
+      "entityId":"CodLineaDirettaTab",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='COD. LINEA DIRETTA']"
+      }
+    },
+    {
+      "entityId": "ContoCorrente1",
+      "optional":true,
+      "testData":"cc1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField[1]"
+      }
+    },
+    {
+      "entityId": "ContoCorrente2",
+      "optional":true,
+      "testData":"cc2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField[2]"
+      }
+    },
+    {
+      "entityId": "ContoCorrente3",
+      "optional":true,
+      "testData":"cc3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField[3]"
+      }
+    },
+    {
+      "entityId": "ContoCorrente4",
+      "optional":true,
+      "testData":"cc4",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField[4]"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDiretta",
+      "optional":true,
+      "testData":"cti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaLabel",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Codice Linea Diretta']"
+      }
+    },
+    {
+      "entityId": "CTITabTooltipIcon",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Operazione, tab panel']/XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaTooltipImage",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[2]/XCUIElementTypeImage"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaTabTooltipText",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[2]/XCUIElementTypeImage"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaTooltipBodyImage",
+      "optional":true,
+      "testData":"cti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[2]/XCUIElementTypeImage"
+      }
+    }
+  ]
+}

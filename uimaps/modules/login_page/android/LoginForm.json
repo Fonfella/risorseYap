@@ -1,0 +1,81 @@
+{
+  "children": [
+    {
+      "entityId": "UsernameTextBox",
+      "testData":"UsernameTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@type='email']"
+      }
+    },
+    {
+      "entityId": "EmailLabel",
+      "testData":"MailText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@type='email']/ancestor::div[label]/label/span"
+      }
+    },
+    {
+      "entityId": "PasswordTextBox",
+      "testData":"PasswordTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@type='password']"
+      }
+    },
+    {
+      "entityId": "PasswordLabel",
+      "testData":"PwdLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@type='password']/ancestor::div[label]/label/span"
+      }
+    },
+    {
+      "entityId": "ShowPassword",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'show-password')]"
+      }
+    },
+    {
+      "entityId": "ForgotPasswordLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@href,'/forgot/password')]/span"
+      }
+    },
+    {
+      "entityId": "RememberMe",
+      "type": "ELEMENT",
+      "testData":"RemeberText",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@type='checkbox']/ancestor::div[label]/label/span"
+      }
+    },
+    {
+      "entityId": "SubmitButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button[@type='button']"
+      }
+    },
+    {
+      "entityId": "SubmitButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button[@type='button']/span/span"
+      }
+    }
+  ]
+}

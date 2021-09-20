@@ -1,0 +1,16 @@
+{
+  "name": "LOGIN",
+  "description": "Login test suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+     "testlogic/tests/native/Yap-NoRegressionTest/LoginYap/LoginCorretta.json"
+   //  "testlogic/tests/native/Yap-NoRegressionTest/LoginYap/LoginErrata.json",
+   //  "testlogic/tests/native/Yap-NoRegressionTest/LoginYap/LoginErrata3volte.json"
+   //  "testlogic/tests/native/provaYap/LoginYap/LoginProvaOtp.json"
+    // "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_1.json",
+    // "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_2.json",
+    // "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_3.json"
+
+  ]
+}

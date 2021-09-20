@@ -1,0 +1,46 @@
+{
+  "children":
+  [
+    {
+      "entityId":"XButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//*[@name='Chiudi'])[1]"
+      }
+    },
+    {
+      "entityId":"PopUpTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='A cosa serve l’email?']"
+      }
+    },
+    {
+      "entityId":"EmailIsUsernameLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='L’indirizzo email diventerà la tua username per accedere all’area riservata.']"
+      }
+    },
+    {
+      "entityId":"EmailToResumeLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[contains(@name,'Utilizzeremo')]"
+        //"//XCUIElementTypeStaticText[@name='Utilizzeremo l’email per permetterti di riprendere il processo di registrazione, nel caso in cui tu decida di sospenderlo o non riesca a portarlo a termine.']"
+      }
+    },
+    {
+      "entityId":"CancelButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='CHIUDI']"
+      }
+    }
+  ]
+}

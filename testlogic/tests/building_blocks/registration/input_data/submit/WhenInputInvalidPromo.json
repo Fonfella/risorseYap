@@ -1,0 +1,12 @@
+{
+  "name": "Input Valid Merchant data and Invalid Promo into Registration form and submit",
+  "description": "Registration Flow",
+  "aliases": "When I input Valid Merchant data and Invalid Promo and submit",
+  "type": "TestCase",
+  "children": [
+    "When I input data[MerchantEmailProfile.Valid.ProfileEmailData] into RegistrationForm",
+    "When I click on element RegistrationForm.HavePromo",
+    "When I input data[PromoCode.Invalid] into PromoCodeModule",
+    "When I click on element PromoCodeModule.PromoSubmitButton"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "children": [
+    {
+      "entityId": "PerformanceIndicatorLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "testData": "PerformanceIndicatorLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "./preceding-sibling::div[contains(@class, 'performance-label')]"
+      }
+    },
+    {
+      "entityId": "PerformanceIndicatorIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@role, 'img')]"
+      }
+    },
+    {
+      "entityId": "PositiveSignPerformanceIndicatorDeviation",
+      "type": "ELEMENT",
+      "testData": "PositiveDeviationPercentage",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'progress-info positive-sign')]"
+      }
+    },
+    {
+      "entityId": "NegativeSignPerformanceIndicatorDeviation",
+      "type": "ELEMENT",
+      "testData": "NegativeDeviationPercentage",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'progress-info negative-sign')]"
+      }
+    },
+    {
+      "entityId": "NoSignPerformanceIndicatorDeviation",
+      "type": "ELEMENT",
+      "testData": "NoSignDeviationPercentage",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'progress-info no-sign')]"
+      }
+    },
+    {
+      "entityId": "DefaultPerformanceIndicatorDeviation",
+      "type": "ELEMENT",
+      "testData": "DefaultDeviationPercentage",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'progress-info default-label')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ThenIValidateDownloadedExcelDocumentAllTransaction",
+  "description": "Validate download document name",
+  "aliases": "Then I validate downloaded excel document for all transactions",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ModalDownloadPopup.DownloadExcelButton",
+    "Then ${fileName} was downloaded to default directory",
+    "When I click on element ModalDownloadPopup.CloseButton"
+  ]
+}

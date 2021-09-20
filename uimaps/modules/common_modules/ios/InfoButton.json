@@ -1,0 +1,14 @@
+{
+  "children": [
+    {
+      "entityId": "ToolTipContent",
+      "testData": "ToolTipContent",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-code']//XCUIElementTypeOther[@name='box']/XCUIElementTypeOther/XCUIElementTypeStaticText"
+      }
+    }
+  ]
+}

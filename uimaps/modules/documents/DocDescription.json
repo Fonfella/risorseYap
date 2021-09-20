@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "DocIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div//*[@role]"
+      }
+    },
+    {
+      "entityId": "DocTitle",
+      "testData": "DocTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'doc-title')]/span"
+      }
+    },
+    {
+      "entityId": "DocPublishDate",
+      "testData": "DocPublishDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    },
+    {
+      "entityId": "DocPrice",
+      "testData": "DocPrice",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p/span"
+      }
+    },
+    {
+      "entityId": "DownloadButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'download')]"
+      }
+    }
+  ]
+}

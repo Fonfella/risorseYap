@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "entityId": "Xbutton",
+      "testData":"UsernameTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'close-error')]"
+      }
+    },
+    {
+      "entityId": "ErrorHeader",
+      "testData":"ErrorHeaderText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h2/span"
+      }
+    },
+    {
+      "entityId": "ExplanationMessage",
+      "testData":"ExplanationText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h3/span"
+      }
+    },
+    {
+      "entityId": "WarningDescription",
+      "testData":"Description",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./p/span"
+      }
+    },
+    {
+      "entityId": "RecoverPassword",
+      "testData":"RecoverPwdText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./a[contains(@href,'/forgot/password')]/span"
+      }
+    }
+  ]
+}

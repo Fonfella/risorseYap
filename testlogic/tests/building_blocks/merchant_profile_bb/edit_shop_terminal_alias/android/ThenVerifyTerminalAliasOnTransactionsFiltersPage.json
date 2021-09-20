@@ -1,0 +1,16 @@
+{
+  "name": "ThenVerifyTerminalAliasOnTransactionsFiltersPage",
+  "description": "Verify the terminal alias code on transactions filters page",
+  "type": "TestCase",
+  "aliases": "Then I verify terminal alias on transactions filter page",
+  "children": [
+    "When I navigate to ${page} via sandwich menu",
+    "When I open POS picker",
+    "When I select a shop from POS picker",
+    "When I click on element SelectShopsWindow.SaveButton",
+    "When I click on element FiltersButton",
+    "Then Transactions Filters Page is open",
+    "When I click on element FiltersLayoutModule.FilterSectionSelectableList.FilterName[filterType='text',filterValue='POS']"
+
+  ]
+}

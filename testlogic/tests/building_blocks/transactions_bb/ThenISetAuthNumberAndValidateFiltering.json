@@ -1,0 +1,14 @@
+{
+  "name": "ThenISetAuthNumberAndValidateFiltering",
+  "description": "Validate selected filter value based on input",
+  "aliases": "Then I set input value and validate filtering",
+  "type": "TestCase",
+  "children": [
+    "When I input data",
+    "When I apply input data",
+    "Then configured filter data match",
+    "Then searched elements list data match",
+    "When I apply filters selection",
+    "Then FiltersAppliedModule data matches ${filtersApplied}"
+  ]
+}

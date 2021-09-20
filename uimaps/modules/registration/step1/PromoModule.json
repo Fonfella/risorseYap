@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "entityId":"PromoCode",
+      "type":"ELEMENT",
+      "testData":"promo",
+      "locator":{
+        "type":"XPATH",
+        "value": ".//input[@name='promoCode']"
+      }
+    },
+    {
+      "entityId": "PromoInputLabel",
+      "type": "ELEMENT",
+      "testData": "PromoLabelText",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@name='promoCode']/ancestor::form//label/span"
+      }
+    },
+    {
+      "entityId": "PromoError",
+      "optional":true,
+      "testData": "PromoErrorText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@name='promoCode']/ancestor::form//span[contains(@class,'field__error')]/span"
+      }
+    },
+    {
+      "entityId": "PromoAcceptedMessage",
+      "optional":true,
+      "testData": "PromoErrorText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@name='promoCode']/ancestor::form//span[contains(@class,'field__success')]/span"
+      }
+    },
+    {
+      "entityId": "PromoSubmitButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button/span[contains(@class,'button__label')]"
+      }
+    },
+    {
+      "entityId": "PromoCodeSubmitButtonLabel",
+      "type": "ELEMENT",
+      "testData": "SubmitPromoButtonText",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button/span[contains(@class,'button__label')]/span"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenConfiguredFilterDataMatch",
+  "description": "Data match for configured filter based on input",
+  "aliases": "Then configured filter data match",
+  "type": "TestCase",
+  "children": [
+    "Then FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterName',filterType='text',filterValue='${filterName}'] data matches ${data}",
+    "Then I click on element FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterName',filterType='text',filterValue='${filterName}']"
+  ]
+}

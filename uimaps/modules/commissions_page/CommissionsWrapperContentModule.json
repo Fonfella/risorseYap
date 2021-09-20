@@ -1,0 +1,33 @@
+{
+  "children": [
+    {
+      "entityId":"YearMonthLabel",
+      "testData":"YearMonthLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div//h1[contains(@class,'transactions-heading')]/span[last()]"
+      }
+    },
+    {
+      "entityId":"FilterButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./div/div[1]//a"
+      }
+    },
+    {
+      "entityId": "CommissionsCard",
+      "reference": "modules/home_page/home_page_content_cards/CommissionsCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Commissioni']]]"
+      }
+    }
+
+    //TO DO -> ADD ALL ELEMENTS OF THE PAGE
+
+  ]
+}

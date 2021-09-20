@@ -1,0 +1,16 @@
+{
+  "name": "GivenIAmOnXPayOpzioni2Page",
+  "description": "Successfully pass Anagrafica1,Anagrafica2 and Opzioni1 pages",
+  "aliases": "Given I am on XPay Opzioni2 page",
+  "type": "TestCase",
+  "children": [
+    "Given I am on XPay Opzioni1 page",
+    "When I click on element OptionsForm.CheckBox[filterType='index',filterValue='0']",
+    "When I input data[XpayOnlyData.Opzioni1.FirstOptionValidAdress] into OptionsForm.ECommerceInput.InputField",
+    "When I click on element OptionsForm.CheckBox[filterType='index',filterValue='1']",
+    "When I input data[XpayOnlyData.Opzioni1.SecondOptionValidString] into OptionsForm.AppInput.InputField",
+    "When I click on element OptionsForm.CheckBox[filterType='index',filterValue='2']",
+    "When I click on element SubmitButton",
+    "Then XPay Opzioni2 PaymentTypes Page is open"
+  ]
+}

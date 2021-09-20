@@ -1,0 +1,9 @@
+{
+  "name": "ValidateTransactionCard",
+  "description": "Validate card Transato",
+  "aliases": "Then transaction card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.TransactionCard data matches ResultsTestData.Cards.TransactionCard.${cardData}"
+  ]
+}

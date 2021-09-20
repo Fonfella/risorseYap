@@ -1,0 +1,10 @@
+{
+  "name": "ThenTerminalSectionForSingleShopIsDisplayed",
+  "description": "Then Terminal Section For Single Shop Is Displayed",
+  "aliases": "Then terminal section for single shop is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.SingleShopTerminalsModule is displayed",
+    "Then ShopsDetailsModule.SingleShopTerminalsModule data matches ProfileData.OneShopOneTerminalCluster1User.TerminalInfo"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "children": [
+    {
+      "entityId": "UsernameTextBox",
+      "type": "ELEMENT",
+      "testData": "UsernameTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@id='username']"
+      }
+    },
+    {
+      "entityId": "UsernameEmptyErrorMsg",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@id='username']/../p[contains(@class, 'error')]"
+      }
+    },
+    {
+      "entityId": "PasswordTextBox",
+      "testData": "PasswordTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@id='password']"
+      }
+    },
+    {
+      "entityId": "PasswordEmptyErrorMsg",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@id='password']/../p[contains(@class, 'error')]"
+      }
+    },
+    {
+      "entityId": "ForgotPasswordLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[@id='forgotPasswordLinkBlock']/span"
+      }
+    },
+    {
+      "entityId": "ShowPasswordButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button[@class='toggle-password']"
+      }
+    },
+    {
+      "entityId": "RememberPasswordCheckbox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@id='rememberMe']/following-sibling::label"
+      }
+    },
+    {
+      "entityId": "RememberPasswordLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[@class='row check']/p/label"
+      }
+    },
+    {
+      "entityId": "LoginButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@class='btn btn-submit']"
+      }
+    }
+  ]
+}

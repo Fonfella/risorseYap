@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId":"CradBrandIcon",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div//*[@role]"
+      }
+    },
+    {
+      "entityId":"ProductListModule",
+      "type":"MODULE",
+      "reference": "modules/commissions_page/condizioni_economiche/ProductListModule.json",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[contains(@class,'sticky-table-row') and not (contains(@class,'group'))]"
+      }
+    }
+  ]
+}

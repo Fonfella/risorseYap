@@ -1,0 +1,31 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "ELEMENT",
+      "testData": "AreaTitle",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h1/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "testData": "ButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a/span[not(@class)]"
+      }
+    },
+    {
+      "entityId": "GeoAreaInfoSectionModule",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/information_section/GeoAreaInfoSectionModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'information-section')]"
+      }
+    }
+  ]
+}

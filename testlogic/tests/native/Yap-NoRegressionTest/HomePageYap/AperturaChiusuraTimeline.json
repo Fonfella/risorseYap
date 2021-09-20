@@ -1,0 +1,32 @@
+{
+  "ids": [
+    {
+      "id":"YP-0010",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Apertura/Chiusura Timeline",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+   // "Given I click on Annulla_Impronta_Digitale if present",
+   // "Given I wait 2 seconds",
+    "When I click on element Input_1",
+    "When I click on element Input_4",
+    "When I click on element Input_7",
+    "When I click on element Input_2",
+    "When I click on element Input_5",
+    "When I click on element Input_8",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+   // "When I click on element TimeLine",
+    //errore gestito per demo
+    "When I click on element TimeLine",
+    "Given TimeLine Page_Yap is open",
+    "Given TimeLinelabel data matches Provayap.Labels",
+    "Given I wait 2 seconds"
+  ]
+}

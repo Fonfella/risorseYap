@@ -1,0 +1,9 @@
+{
+  "name": "WhenIOpenMonthFromDropDown",
+  "description": "Click on dropdown based on input name",
+  "aliases": "When I open FROM month dropdown",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.CompareDateFilterDetailsModule.DatePickersSectionModule.PickerLabel[filterType='index',filterValue='0']"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "GivenILoginToNexi",
+  "description": "Authentication Flow IOS",
+  "aliases": "Given I login to Nexi",
+  "type": "TestCase",
+  "children": [
+    "Given I open Login Page",
+    "When I try to login",
+    "Then Home Page is open"
+//    "When I click on TutorialPopup.CloseButton if present"
+  ]
+}

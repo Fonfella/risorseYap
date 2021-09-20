@@ -1,0 +1,10 @@
+{
+  "name": "WhenISwitchToCalendarioTab",
+  "description": "Switch to calendario tab",
+  "type": "TestCase",
+  "aliases": "When I switch to calendario tab",
+  "children": [
+    "When I select filter with [filterName=Data]",
+    "When I click on element FilterDetailsModule.FilterDetailsTabsModule.NotSelectedTabs.ButtonLabel"
+  ]
+}

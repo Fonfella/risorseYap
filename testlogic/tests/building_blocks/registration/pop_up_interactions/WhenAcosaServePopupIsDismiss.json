@@ -1,0 +1,11 @@
+{
+  "name": "What Is email for Pop up is dismissed",
+  "description": "Registration Flow",
+  "aliases":"When I close 'A cosa serve' Pop up using Chiudi button",
+  "type": "TestCase",
+  "children": [
+    "When I click on element AcosaServeModule.CancelButton"
+  ]
+}
+
+

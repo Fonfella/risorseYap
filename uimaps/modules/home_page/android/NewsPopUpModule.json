@@ -1,0 +1,55 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/a/span"
+      }
+    },
+    {
+      "entityId": "NewsMessage",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//span[contains(@class,'heading')]/p"
+      }
+    },
+    {
+      "entityId": "ShortContent",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'heading')]"
+      }
+
+    },
+    {
+      "entityId": "NewsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "FindOutMoreButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/span[contains(@class,'text')][1]"
+      }
+    },
+    {
+      "entityId": "NewsPublishDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/span[contains(@class,'text')][2]"
+      }
+    }
+  ]
+}

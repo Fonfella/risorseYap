@@ -1,0 +1,9 @@
+{
+  "name": "ThenInputErrorDataMatch",
+  "description": "Input error data match",
+  "type": "TestCase",
+  "aliases": "Then input error data match",
+  "children": [
+    "Then TransactionsFiltersModule.FilterDetailsModule.DigitsInputError data matches ${errorData}"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenTerminalToolTipContentForSingleShopIsDisplayed",
+  "description": "Then Terminal Tool Tip Content Is Displayed",
+  "aliases": "Then terminal tool tip content is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.ToolTipContent is displayed", //not working when more than one terminal available
+    "Then ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.ToolTipContent data matches ProfileData.ToolTipContentTerminal" //not working when more than one terminal available
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WhenICheckMultipleShopsTerminalToolTip",
+  "description": "Double clisk Multiple Shops Terminal's Tool Tip",
+  "aliases": "When I check Multiple Shops Terminal's Tooltip Icon",
+  "type": "TestCase",
+  "children": [
+    "When I double click on Multiple Shops Terminal's Tooltip Icon"
+  ]
+}

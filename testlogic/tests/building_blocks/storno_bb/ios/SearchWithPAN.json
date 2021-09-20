@@ -1,0 +1,10 @@
+{
+  "name": "SearchWithPAN",
+  "description": "Fill PAN field with data and try to search",
+  "type": "TestCase",
+  "aliases": "When I try to search using PAN",
+  "children": [
+    "When I input data[${pan}] into StornoCard.PANInput",
+    "When I click on element StornoCard.SearchButton"
+  ]
+}

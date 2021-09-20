@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "CardTitle",
+      "testData": "CardTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Scopri l’offerta pensata per te']"
+      }
+    },
+    {
+      "entityId": "CardSubTitle",
+      "testData": "CardSubTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Oggi ti offriamo XPay a condizioni ancora più vantaggiose']"
+      }
+    },
+    {
+      "entityId": "AmountModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/AmountModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId": "CardPointsList",
+      "testData": "CardPointsList",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']/XCUIElementTypeOther[16]"
+      }
+    }
+  ]
+}

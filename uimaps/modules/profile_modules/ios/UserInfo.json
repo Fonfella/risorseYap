@@ -1,0 +1,28 @@
+{
+  "children": [
+    {
+      "entityId": "YourDataLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeLink[1]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "LabelText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeLink[1]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ArrowButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[@name='Next']"
+      }
+    }
+  ]
+}

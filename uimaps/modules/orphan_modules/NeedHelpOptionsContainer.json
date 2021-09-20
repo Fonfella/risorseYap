@@ -1,0 +1,45 @@
+{
+  "children": [
+    {
+      "entityId": "NeedHelpLabel",
+      "type": "ELEMENT",
+      "testData":"HelpButtonText",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, '1')]"
+      }
+    },
+    {
+      "entityId": "AccessTheAssistanceLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/./div[1]/.//a"
+      }
+    },
+    {
+      "entityId": "CallToUsLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/./div[2]/.//a"
+      }
+    },
+    {
+      "entityId": "WriteToUsLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/./div[3]/.//a"
+      }
+    }
+  ]
+}

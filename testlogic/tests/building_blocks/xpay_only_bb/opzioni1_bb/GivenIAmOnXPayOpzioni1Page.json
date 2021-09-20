@@ -1,0 +1,19 @@
+{
+  "name": "GivenIAmOnXPayOpzioni1Page",
+  "description": "Successfully pass Anagrafica1 and Anagrafica2 pages",
+  "aliases": "Given I am on XPay Opzioni1 page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element XPayHeader.ActivateNowButton",
+    "Then XPay Anagrafica1 Page is open",
+    "When I select a shop from dropdown for a specific company",
+    "When I click on element SubmitButton",
+    "Then XPay Anagrafica2 Page is open",
+    "When I input data[XpayOnlyData.Anagrafica2.ValidEmailInput] into Anagrafica2Form.EmailInputBox.InputField",
+    "When I input data[XpayOnlyData.Anagrafica2.PhoneNumberInput] into Anagrafica2Form.PhoneInputBox.InputField",
+    "When I click on element Anagrafica2Form.ConsentsModule.ConsentsCheckbox[filterType='index',filterValue='0']",
+    "When I click on element Anagrafica2Form.ConsentsModule.ConsentsCheckbox[filterType='index',filterValue='1']",
+    "When I click on element SubmitButton",
+    "Then XPay Opzioni1 Services Page is open"
+  ]
+}

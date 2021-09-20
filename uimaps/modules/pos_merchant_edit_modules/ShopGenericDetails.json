@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "LabelText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label"
+      }
+    },
+    {
+      "entityId": "LabelInput",
+      "testData": "LabelInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input"
+      }
+    }
+  ]
+}

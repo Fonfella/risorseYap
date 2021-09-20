@@ -1,0 +1,9 @@
+{
+  "name": "WhenIInputDataIntoAmountInput",
+  "description": "Input data into input name using input data",
+  "type": "TestCase",
+  "aliases": "When I input data",
+  "children": [
+    "When I input data[${data}] into FilterDetailsModule.DigitsInputField"
+  ]
+}

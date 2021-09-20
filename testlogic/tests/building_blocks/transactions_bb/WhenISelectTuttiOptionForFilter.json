@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectTuttiOptionForFilter",
+  "description": "Click on tutti option in filter settings",
+  "type": "TestCase",
+  "aliases": "When I select tutti option for filter",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FilterDetailsModule.AllOption"
+  ]
+}

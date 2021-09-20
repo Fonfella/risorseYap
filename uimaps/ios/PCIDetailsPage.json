@@ -1,0 +1,12 @@
+{
+  "children": [
+    {
+      "entityId": "BackButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='Previous'])[1]"
+      }
+    }
+  ]
+}

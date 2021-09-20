@@ -1,0 +1,45 @@
+{
+  "children":
+  [
+    {
+      "entityId":"XButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//*[@name='Chiudi'])[1]"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Non hai ricevuto il codice di conferma?']"
+      }
+    },
+    {
+      "entityId":"PopUpMessage",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Puoi richiedere un nuovo invio al numero di telefono fornito in fase di registrazione.']"
+      }
+    },
+    {
+      "entityId":"GetNewCodeButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='INVIA IL NUOVO CODICE']"
+      }
+    },
+    {
+      "entityId":"ContactCustomerServiceMessage",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Se non hai ricevuto neppure il secondo codice, contatta il nostro Servizio Clienti.']"
+      }
+    }
+  ]
+}

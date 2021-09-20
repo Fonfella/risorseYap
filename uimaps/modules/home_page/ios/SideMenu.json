@@ -1,0 +1,92 @@
+{
+  "children": [
+    {
+      "entityId": "Xbutton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Close']"
+      }
+    },
+    {
+      "entityId": "Profile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Profilo']"
+      }
+    },
+    {
+      "entityId": "Home",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Home Punti Vendita']"
+      }
+    },
+    {
+      "entityId": "Transactions",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Transazioni']"
+      }
+    },
+    {
+      "entityId": "Results",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Risultati']"
+      }
+    },
+    {
+      "entityId": "ContoDiSettore",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Confronto di settore']"
+      }
+    },
+    {
+      "entityId": "Documents",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Documenti']"
+      }
+    },
+    {
+      "entityId": "LogOutButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='ESCI']"
+      }
+    },
+    {
+      "entityId": "HelpButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    },
+    {
+      "entityId": "TermsAndConditions",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Trasparenza']"
+      }
+    },
+    {
+      "entityId": "PrivacyConditions",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Privacy']"
+      }
+    }
+  ]
+}

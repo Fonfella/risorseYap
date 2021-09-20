@@ -1,0 +1,11 @@
+{
+  "name": "SandwichMenuNavigationPCI",
+  "description": "Navigate via sandwich menu using link text as input parameter",
+  "type": "TestCase",
+  "aliases": "When I navigate to pci page via sandwich menu",
+  "children": [
+    "When I click on element NexiHeader.SandwichMenuButton",
+    "When I click on element SandwichMenuModule.NavigationLinks[filterType='text',filterValue='Protection Plus']",
+    "Then PCI Page is open"
+  ]
+}

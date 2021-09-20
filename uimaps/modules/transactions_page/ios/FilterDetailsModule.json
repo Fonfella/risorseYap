@@ -1,0 +1,163 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "MODULE",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "AreaTitle",
+      "testData": "AreaTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name, 'Titolo')]/.//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "InformationSection",
+      "testData": "InformationSection",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name, 'Titolo')]/following-sibling::XCUIElementTypeOther[1][@name]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "LastSearchedPANsLabel",
+      "testData": "LastSearchedPANsLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name,'Ultimi')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "FilterDetailsTabsModule",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FilterDetailsTabsModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[./following-sibling::XCUIElementTypeOther[1][contains(@name, 'tab panel')]]/XCUIElementTypeOther"
+      }
+    },
+    {
+      "entityId": "FiltersTimePeriodListModule",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FiltersTimePeriodListModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'tab panel')]/.//XCUIElementTypeOther[count(XCUIElementTypeStaticText)>=2]"
+      }
+    },
+    {
+      "entityId": "FiltersParametersList",
+      "testData": "FiltersParametersList",
+      "type": "MODULE",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "childCount": "1",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[count(./XCUIElementTypeOther)=2 and ./XCUIElementTypeOther/XCUIElementTypeStaticText and not(.//XCUIElementTypeStaticText[contains(@name, 'Tutti')])]"
+      }
+    },
+    {
+      "entityId": "FilterCalendarModule",
+      "type": "MODULE",
+      "reference": "modules/daypicker_modules/DatePickerModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'tab panel')]"
+      }
+    },
+    {
+      "entityId": "AllOption",
+      "testData": "AllOption",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[./XCUIElementTypeStaticText[contains(@name, 'Tut')]]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "FilterAmountWithSliderModule",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FilterAmountWithSliderModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'filter')]"
+      }
+    },
+    {
+      "entityId": "FilterCircuitLogosList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[./XCUIElementTypeOther[contains(@name, 'logo')]]/XCUIElementTypeOther[contains(@name, 'logo')]"
+      }
+    },
+    {
+      "entityId": "ErrorMSGLabel",
+      "testData": "ErrorMSGLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeTextField/following::XCUIElementTypeOther[2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "DigitsInputError",
+      "testData": "DigitsInputError",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeTextField/following::XCUIElementTypeOther[2]/XCUIElementTypeStaticText[not(contains(@name, 'Ultimi'))]"
+      }
+    },
+    {
+      "entityId": "DigitsInputField",
+      "testData": "InputField",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeTextField"
+      }
+    },
+    {// no need for cluster 2/3
+      "entityId": "SearchedList",
+      "type": "ELEMENT",
+      "testData": "Link",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name,'Ultimi')]/following-sibling::XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeOther]/.//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "testData": "ApplyButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name, 'APPLICA')]"
+      }
+    }
+  ]
+}

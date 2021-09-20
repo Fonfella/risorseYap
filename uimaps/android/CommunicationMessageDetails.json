@@ -1,0 +1,96 @@
+{
+  "children": [
+    {
+      "entityId": "MessaggiButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-return')]/a"
+      }
+    },
+    {
+      "entityId": "MessaggiButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-return')]/a/span"
+      }
+    },
+    {
+      "entityId": "ReceivedDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//span[contains(@class,'message-details-date')]"
+      }
+    },
+    {
+      "entityId": "MessageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-title')]"
+      }
+    },
+    {
+      "entityId": "MessageContent",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'messages-paragraph')]"
+      }
+    },
+    {
+      "entityId": "LettoIcon",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'circle-shape-blue')]"
+      }
+    },
+    {
+      "entityId": "LettoLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'brand-blue-primary')]/span"
+      }
+    },
+    {
+      "entityId": "OKButton",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//button[contains(@class,'button--primary')]"
+      }
+    },
+    {
+      "entityId": "OKButtonLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//button[contains(@class,'button--primary')]/span"
+      }
+    },
+    {
+      "entityId": "PageFooter",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer[div]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'helpButton')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId": "ElementLabel",
+      "type": "ELEMENT",
+      "testData": "ElementLabel",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ElementImage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./following::XCUIElementTypeOther[position()=1]/.//XCUIElementTypeOther[@name]"
+      }
+    }
+  ]
+}

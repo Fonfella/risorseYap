@@ -1,0 +1,20 @@
+{
+  "name": "ThenPCIInfoIsDisplayedOnFAQPage",
+  "description": "Verify that info related to PCI is displayed on FAQ page",
+  "type": "TestCase",
+  "aliases": "Then verify that information related to PCI is displayed on FAQ page",
+  "children": [
+    "When I click on element FAQSectionModule.TopicsDropdown",
+    "Then FAQSectionModule.TopicsDropdown.ProgrammaProtectionPlus is displayed",
+    "Then FAQSectionModule.TopicsDropdown.PCIDSS is not displayed",
+    "Then FAQSectionModule.TopicsDropdown.QuestionaireSimplicato is displayed",
+    "When I click on element FAQSectionModule.TopicsDropdown.ProgrammaProtectionPlus",
+    "Then information related to selected topic is displayed with [selectedTopic=FAQ_PROGRAMA_PROTECTION_PLUS]",
+    "When I click on element FAQSectionModule.TopicsDropdown",
+    "When I click on FAQSectionModule.TopicsDropdown.PCIDSS",
+    "Then information related to selected topic is displayed with [selectedTopic=FAQ_STANDARD_PCI_DSS]",
+    "When I click on element FAQSectionModule.TopicsDropdown",
+    "When I click on element FAQSectionModule.TopicsDropdown.QuestionaireSimplicato",
+    "Then information related to selected topic is displayed with [selectedTopic=FAQ_QUESTIONARIO_SEMPLIFICATO]"
+  ]
+}

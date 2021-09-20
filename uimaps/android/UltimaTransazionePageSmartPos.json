@@ -1,0 +1,116 @@
+{
+  "children": [
+    {
+      "entityId": "LabelTransactionId",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'TRANSAZIONE')]"
+      }
+    },
+    {
+      "entityId": "ScontrinoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/payment_menu_option_text' and @text='SCONTRINO']"
+      }
+    },
+    {
+      "entityId": "EmailButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/email_receipt_text_view']"
+      }
+    },
+    {
+      "entityId": "EmailEntryField",
+      "testData": "EmailEntryField",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/entry_field']"
+      }
+    },
+    {
+      "entityId": "SendEmailButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/send_btn']"
+      }
+    },
+    {
+      "entityId": "LabelTransazioneEseguita",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/instruction' and@text='Transazione eseguita']"
+      }
+    },
+
+    {
+      "entityId": "LabelScontrinoSpeditoViaEmail",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Scontrino spedito via email']"
+      }
+    },
+    {
+      "entityId": "LabelTransactionStatus",
+      "testData": "LabelTransactionStatus",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/transaction_status_text']"
+      }
+    },
+    {
+      "entityId": "LabelDateCreated",
+      "testData": "LabelDateCreated",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/created_date']"
+      }
+    },
+    {
+      "entityId": "LabelIncreaseValues",
+      "testData":"LabelIncreaseValues",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/amountView']"
+      }
+    },
+    {
+      "entityId": "LabelIncreaseValues_3",
+      "testData":"LabelIncreaseValues_3",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/amountView']"
+      }
+    },
+    {
+      "entityId": "StoricoPanel",
+      "testData":"StoricoPanel",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='STORICO']"
+      }
+    },
+    {
+      "entityId": "LabelAutorizzato",
+      "testData":"LabelAutorizzato",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/trx_status' and @text='Autorizzato']"
+      }
+    }
+  ]
+}

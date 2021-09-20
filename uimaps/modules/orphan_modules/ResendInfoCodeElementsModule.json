@@ -1,0 +1,45 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/a[@class]/span/*[@role='img']"
+      }
+    },
+    {
+      "entityId": "ModuleHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'registration-modal-title')]/*/span"
+      }
+    },
+    {
+      "entityId": "ModuleText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'registration-modal-text')]/p/span"
+      }
+    },
+    {
+      "entityId": "ResendCodeButton",
+      "reference": "../labeled_input_elements/Labeledinput2",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/preceding-sibling::div[button]"
+      }
+    },
+    {
+      "entityId": "ModuleFooterLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/div/div/p/span"
+      }
+    }
+  ]
+}

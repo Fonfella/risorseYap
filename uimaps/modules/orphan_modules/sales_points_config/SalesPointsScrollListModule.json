@@ -1,0 +1,44 @@
+{
+  "children": [
+    {
+      "entityId": "ShopsOptionsIterator",
+      "type": "MODULE",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "childCount": "1",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[contains(@class, 'none grommetux-list-item')]"
+      }
+    },
+    {
+      "entityId": "CompanyOptionsIterator",
+      "optional": true,
+      "type": "MODULE",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "childCount": "1",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[contains(@class, 'bottom grommetux-list-item')]"
+      }
+    },
+    {
+      "entityId": "RefundOption",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'refund-checkbox')]"
+      }
+    },
+    {
+      "entityId": "ScrollBar",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[@class='scrollbar']"
+      }
+    }
+  ]
+}

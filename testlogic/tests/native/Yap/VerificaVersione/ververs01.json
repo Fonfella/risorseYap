@@ -1,0 +1,28 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0000",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Verifica Versione Applicativa",
+  "description": "HappyFlow",
+  "priority": "MEDIUM",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+    "Given I click on Permission_Button2 if present",
+    "Given Start Page is open",
+    "Then Oggetto_2 is displayed",
+    "Then Oggetto_2 data matches Provayap.Valid.User1",
+    "Given I get data from Oggetto_2 as Oggetto",
+    "Then Oggetto_2 data matches $Oggetto",
+    "Then Oggetto_2 data matches regex NON LA",
+    "Given I wait 2 seconds",
+    "As a Provayap.Valid.Versione",
+    "Given Login Page_Yap is open",
+    "Then VersionControll is displayed",
+    "Then VersionControll data matches Provayap.Valid.Versione"
+  ]
+}

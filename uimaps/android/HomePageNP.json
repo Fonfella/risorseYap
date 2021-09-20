@@ -1,0 +1,102 @@
+{
+  "children": [
+    {
+      "entityId": "BurgerMenu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout[3]/android.widget.RelativeLayout[1]/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "Carta_Label",
+      "type": "ELEMENT",
+     // "testData":"",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[contains(@text,'CARTA *')]"
+      }
+    },
+
+    {
+      "entityId": "NonHaiEffettuatoMovimenti_Label",
+      "type": "ELEMENT",
+      // "testData":"",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Non hai effettuato movimenti.']"
+      }
+    },
+
+    {
+      "entityId": "Icon_Menu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout[3]/android.widget.RelativeLayout[1]/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "CTA_ClosePopUpValutazione",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.ImageView"
+      }
+    },
+
+    {
+      "entityId": "GestisciCartaSlider",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView"
+        // "value": "//android.support.v7.widget.RecyclerView[android.widget.FrameLayout]"
+      }
+    },
+
+    {
+      "entityId": "CTA_NonMostrarePiu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Non mostrare più']"
+      }
+    },
+
+    {
+      "entityId": "GestisciCartaBtn",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='GESTISCI CARTA']"
+      }
+    },
+
+    {
+      "entityId": "CTA_CloseAttivaCarta",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "Carta_Principale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.ImageView"
+      }
+    },
+
+    {
+      "entityId": "Help_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout[3]/android.widget.RelativeLayout[2]"
+      }
+    }
+  ]
+}

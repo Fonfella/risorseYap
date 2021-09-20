@@ -1,0 +1,93 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "testData": "ColseButton",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a/span[text()='Chiudi'] | //div[contains(@class, 'commission-filters')]/.//*[contains(@class,'al-s')]/a"
+      }
+    },
+    {
+      "entityId": "FilterTitle",
+      "testData": "FilterTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1//span[text()='Filtri'] | //span[text()='Seleziona i filtri']"
+      }
+    },
+    {
+      "entityId": "OptionsLabel",
+      "testData": "OptionsLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul//li//label"
+      }
+    },
+    {
+      "entityId": "MonthPicker",
+      "testData": "MonthPicker",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[2]/div/div/div[1]"
+      }
+    },
+    {
+      "entityId": "MonthPickerError",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[2]/div/div/div[1][contains(@class,'filter-error')]"
+      }
+    },
+    {
+      "entityId": "YearPicker",
+      "testData": "YearPicker",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[2]/div/div/div[2]"
+      }
+    },
+    {
+      "entityId": "YearPickerError",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[2]/div/div/div[2][contains(@class,'filter-error')]"
+      }
+    },
+    {
+      "entityId": "DropDownSelector",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ol//li"
+      }
+    },
+    {
+      "entityId": "FooterButtons",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'separator-top')]/div[contains(@class, 'e')]/div"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "type": "ELEMENT",
+       "locator": {
+        "type": "XPATH",
+        "value": "//a[not(contains(@class,'disabled'))]//span[text()='Applica']"
+      }
+    }
+  ]
+}

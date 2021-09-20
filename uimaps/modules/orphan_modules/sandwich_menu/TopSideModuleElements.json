@@ -1,0 +1,44 @@
+{
+  "children":[
+    {
+      "entityId": "CloseButtonLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'close-button')]"
+      }
+    },
+    {
+      "entityId": "CloseButtonImg",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'close-button')]/span/*[contains(@role, 'img')]"
+      }
+    },
+    {
+      "entityId": "LastAccessTimeStamp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class,'user-name-title')]/preceding-sibling::*/span"
+      }
+    },
+    {
+      "entityId": "UserName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class,'user-name-title')]/span"
+      }
+    },
+    {
+      "entityId": "ProfilePageLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[span[text()='Profilo']]"
+      }
+    }
+  ]
+}

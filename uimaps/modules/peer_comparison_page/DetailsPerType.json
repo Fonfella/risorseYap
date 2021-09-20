@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId": "OtherKPISectionModule",
+      "reference": "modules/peer_comparison_page/ChartGroupDetailsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "SelectedShopKPISectionModule",
+      "reference": "modules/peer_comparison_page/ChartGroupDetailsModule.json",
+      "type": "MODULE",
+      "childCount": "4",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]"
+      }
+    }
+  ]
+}

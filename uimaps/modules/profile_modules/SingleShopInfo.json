@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "ShopDetailsLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label"
+      }
+    },
+    {
+      "entityId": "ShopDetailsValue",
+      "testData": "ShopDetailsValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "ChangeShopInfoLink",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a"
+      }
+    },
+    {
+      "entityId": "ShopInfoButtonReference",
+      "reference": "modules/common_modules/InfoButton.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'tooltip')]/div"
+      }
+    }
+  ]
+}
+

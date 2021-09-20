@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "CardDetailsModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/CardDetailsModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'carousel-cell')]" // TODO update xpath when get here
+      }
+    },
+    {
+      "entityId": "CarouselPaginationButtons",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@aria-label,'Carousel Pagination')]/button" // TODO update xpath
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Input Valid Last 4 digits of Bank account",
+  "description": "Registration flow",
+  "aliases":"When I input Last 4 digits of Bank account",
+  "type": "TestCase",
+  "children": [
+    "When I input data into ContoCorrente1",
+    "When I input data into ContoCorrente2",
+    "When I input data into ContoCorrente3",
+    "When I input data into ContoCorrente4"
+  ]
+}

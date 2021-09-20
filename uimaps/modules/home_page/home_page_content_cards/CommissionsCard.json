@@ -1,0 +1,99 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'heading')]/span"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../.."
+      }
+    },
+    {
+      "entityId": "TotalCommissionAmount",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[1]/span/span"
+      }
+    },
+    {
+      "entityId": "TotalTransactionsAmount",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[2]/span[2]/span"
+      }
+    },
+    {
+      "entityId": "SuTransatoDiLabel",
+      "testData": "SuTransatoDiLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/div[2]/span[1]/span"
+      }
+    },
+    {
+      "entityId": "Cluster2CardContent",
+      "testData": "Cluster2CardContent",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'color-accent-2') and not (contains(@class,'font-size-large'))]/span"
+      }
+    },
+    {
+      "entityId": "TaxDetailsLabel",
+      "testData": "TaxDetailsLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//span//span[text()='Dettaglio oneri']"
+      }
+    },
+    {
+      "entityId": "TaxDetailsTollTip",
+      "testData": "TaxDetailsTollTip",
+      "reference": "modules/common_modules/InfoButton.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'icbpi_tooltip')]/div/.."
+      }
+    },
+    {
+      "entityId": "ListOfFees",
+      "reference": "modules/commissions_page/ListOfFees.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/div[2]//li"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "testData": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'hover-underline')]/span"
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "children":
+  [
+    {
+      "entityId": "TransactionAuthorizationCode",
+      "optional": true,
+      "testData": "AuthCode",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name,'item-auth')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionDateStampModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/transactions_page/TransactionDateStampModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-date')]"
+      }
+    },
+    {
+      "entityId": "TransactionsDate",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-date')]/XCUIElementTypeOther/XCUIElementTypeStaticText[@name]"
+      }
+    },
+    {
+      "entityId": "CardNumber",
+      "type": "ELEMENT",
+      "testData": "CardNumber",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-pan')]/.//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionAmount",
+      "type": "ELEMENT",
+      "testData": "TransactionAmount",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-amount')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "CommissionsLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-commissions')]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "CommissionsValue",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-commissions')]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionStatus",
+      "testData": "TransactionStatus",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-status')]/.//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "CardLogo",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@name,'item-card-brand') or contains(@name, 'logo icona')]"
+      }
+    },
+    {
+      "entityId": "TransactionChannelIcon",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name,'item-status')]/XCUIElementTypeOther[contains(@name,'controllo icona')]"
+      }
+    },
+    {
+      "entityId": "TransactionRefund",
+      "testData": "TransactionRefund",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[./following::XCUIElementTypeOther[contains(@name, 'item-amount')] and ./XCUIElementTypeStaticText[contains(@name, '€')] and not(@name)]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionWirelessIcon",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'item-status')]/XCUIElementTypeOther[contains(@name,'Wireless')]"
+      }
+    }
+  ]
+}
+

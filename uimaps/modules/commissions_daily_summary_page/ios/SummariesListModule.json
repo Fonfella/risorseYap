@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "entityId": "SummaryDateStampModule",
+      "testData": "SummaryDateStampModule",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[position()<3]/XCUIElementTypeStaticText"
+
+      }
+    },
+    {
+      "entityId": "TotalCommissionsSummaryModule",
+      "reference": "modules/commissions_daily_summary_page/ios/TotalCommissionsSummaryModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[contains(@name,'movimenti')]/following::XCUIElementTypeOther[position()<4]|/XCUIElementTypeOther[position()>2 and position()<6]"
+      }
+    },
+    {
+      "entityId": "NumberOfMovimenti",
+      "testData": "NumberOfMovimenti",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[contains(@name,'movimenti')]"
+      }
+    },
+    {
+      "entityId": "GrossAmount",
+      "testData": "GrossAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[contains(@name,'commissioni')]/following::XCUIElementTypeStaticText[position()<3]"
+      }
+    },
+    {
+      "entityId": "NetAmount",
+      "testData": "NetAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[contains(@name,'commissioni')]/following::XCUIElementTypeStaticText[position()>2 and position()<5]"
+      }
+    },
+    {
+      "entityId": "SeeDetailsLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='VEDI DETTAGLIO']"
+      }
+    }
+  ]
+}

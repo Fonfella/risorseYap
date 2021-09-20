@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "entityId": "SectionHeader",
+      "testData": "SectionHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h3"
+      }
+    },
+    {
+      "entityId": "SectionDropDownIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h3//*[@role='img']"
+      }
+    },
+    {
+      "entityId": "ExpandedDetails",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/transactions_page/transaction_details/ExpandedDetails.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[not(contains(@class, 'accordion'))]"
+      }
+    }
+  ]
+}

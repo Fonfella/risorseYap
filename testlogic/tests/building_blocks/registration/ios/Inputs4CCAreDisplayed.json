@@ -1,0 +1,12 @@
+{
+  "name": "Conto Corente Imputs are shown",
+  "aliases": "Then 4 inputs are available on the page",
+  "description": "4 inputs are Displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ContoCorrente1 is displayed",
+    "Then ContoCorrente2 is displayed",
+    "Then ContoCorrente3 is displayed",
+    "Then ContoCorrente4 is displayed"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "FAQTile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2/span"
+      }
+    },
+    {
+      "entityId": "TopicsDropdownModule",
+      "type": "MODULE",
+      "reference": "modules/faq_modules/TopicsDropdownModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]/div[2]"
+      }
+    },
+    {
+      "entityId": "FAQListItemsModule",
+      "type": "MODULE",
+      "reference": "modules/faq_modules/FAQListItemsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]"
+      }
+    }
+  ]
+}

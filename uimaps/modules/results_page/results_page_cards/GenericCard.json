@@ -1,0 +1,83 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "CounterSecondPeriod",
+      "testData": "CounterSecondPeriod",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[1]/.//p/./span"
+      }
+    },
+
+    {
+      "entityId": "CounterFirstPeriod",
+      "testData": "CounterFirstPeriod",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[2]/.//p/./span"
+      }
+    },
+    {
+      "entityId": "CustomersPercentageFirstPeriod",
+      "testData": "CustomersPercentageFirstPeriod",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[1]/./div/.//div[contains(@class,'annotated')]"
+      }
+    },
+    {
+      "entityId": "PercentageSecondPeriod",
+      "testData": "PercentageSecondPeriod",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[2]/./div/.//div[contains(@class,'annotated')]"
+      }
+    },
+    {
+      "entityId": "CustomersSecondPeriodLabel",
+      "testData": "CustomersSecondPeriodLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[1]/./div/./div[1]/.//span"
+      }
+    },
+    {
+      "entityId": "CustomersFirstPeriodLabel",
+      "testData": "CustomersFirstPeriodLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[2]/./div/./div[1]/.//span"
+      }
+    },
+    {
+      "entityId": "FindOutMoreLink",
+      "testData": "FindOutMoreLink",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label"
+      }
+    }
+  ]
+}

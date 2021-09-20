@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "Title",
+      "testData":"Title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../div[contains(@class,'brick')]/h1/span"
+      }
+    },
+    {
+      "entityId": "OverlayContainer",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/android/StornoOverlayContainer.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "../following::div[contains(@class,'overlay-container')]"
+      }
+    },
+    {
+      "entityId": "CardDescription",
+      "testData": "CardDescription",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../div[contains(@class,'brick')]/span"
+      }
+    },
+    {
+      "entityId": "InputForm",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/StornoCardInputForm.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form"
+      }
+    }
+  ]
+}

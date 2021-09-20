@@ -1,0 +1,9 @@
+{
+  "name": "WhenIClickOnRefundableTransaction",
+  "description": "Click on not refunded transaction by input index",
+  "type": "TestCase",
+  "aliases": "When I click on refundable transaction",
+  "children": [
+    "When I click on element TransactionsContentWrappedModule.TransactionsListModule.TransactionElementsModule[byChild='TransactionStatus',filterType='notEquals',filterValue='RIFIUTATO'][byChild='TransactionStatus',filterType='notEquals',filterValue='ANNULATO'][byChild='TransactionAmount',filterType='greaterThan',filterValue='0'][filterType='index',filterValue='${transactionIndex}'].CardNumber"
+  ]
+}

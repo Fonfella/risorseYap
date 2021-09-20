@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "ChartLayer",
+      "reference": "modules/common_modules/ChartLayerModule.json",
+      "type": "MODULE",
+        "locator": {
+          "type": "XPATH",
+        "value": "./section"
+      }
+    },
+    {
+      "entityId": "PeerComparisonCardsModule",
+      "reference": "modules/peer_comparison_page/PeerComparisonCardsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./section/following-sibling::div/.//div[h1]"
+      }
+    }
+  ]
+}

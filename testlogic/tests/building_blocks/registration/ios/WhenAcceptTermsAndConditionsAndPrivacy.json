@@ -1,0 +1,10 @@
+{
+  "name": "WhenAcceptTermsAndConditionsAndPrivacy",
+  "description": "Registration Flow",
+  "aliases": "When I accept Terms and Conditions and Privacy Policy",
+  "type": "TestCase",
+  "children": [
+    "When I click on element RegistrationForm.PrivacyConditionsCheckbox",
+    "When I click on element RegistrationForm.TermsAndConditionsCheckbox"
+  ]
+}

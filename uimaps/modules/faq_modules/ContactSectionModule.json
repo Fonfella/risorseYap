@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "ContactTile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "ContactInfoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3/span"
+      }
+    },
+    {
+      "entityId": "CallUsArea",
+      "type": "MODULE",
+      "reference":"modules/faq_modules/ContactCommonLabels.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[1][contains(@class,'contact-box--item')]"
+      }
+    },
+    {
+      "entityId": "WriteUsArea",
+      "type": "MODULE",
+      "reference":"modules/faq_modules/ContactCommonLabels.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[2][contains(@class,'contact-box--item')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenShopsForSelectedCompanyAreDisplayed",
+  "description": "Shop section is displayed perc selected company",
+  "aliases": "Then shops for selected company are displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem data matches ProfileData.MoreThanOneCompany.SanMartinoSalermoShops"
+  ]
+}
+

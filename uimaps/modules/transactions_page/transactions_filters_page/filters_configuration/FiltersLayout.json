@@ -1,0 +1,61 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "ELEMENT",
+      "testData": "AreaTitle",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h1"
+      }
+    },
+    {
+      "entityId": "FilterSectionSelectedOption",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FiltersSectionList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'filter-section')]//ul/li[contains(@class, 'selected')]"
+      }
+    },
+    {
+      "entityId": "FilterSectionSelectableList",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FiltersSectionList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'filter-section')]//ul/li[not(contains(@class, 'selected')) and not(.//input)]"
+      }
+    },
+    {
+      "entityId": "SoloContactlessFilterName",
+      "testData": "SoloContactlessFilterName",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'scrollarea-content')]/ul/li[.//input]/./*[1]/*[not(@id)]"
+      }
+    },
+    {
+      "entityId": "SoloContactlessFilterValue",
+      "testData": "SoloContactlessFilterValue",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'scrollarea-content')]/ul/li[.//input]/./*[1]/*[@id]"
+      }
+    },
+    {
+      "entityId": "FooterButtons",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer"
+      }
+    }
+  ]
+}

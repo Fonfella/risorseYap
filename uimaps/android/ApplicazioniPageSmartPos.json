@@ -1,0 +1,94 @@
+{
+  "children": [
+    {
+      "entityId": "ElencoApp",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//*[@resource-id='com.poynt.store:id/action_browse']"
+      }
+    },
+    {
+      "entityId": "SelectedApp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/app_item_title' and @text='EWA']"
+      }
+    },
+    {
+      "entityId": "OttieniButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/app_details_action_button']"
+      }
+    },
+    {
+      "entityId": "InstallaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/billing_plan_subscribe_button']"
+      }
+    },
+    {
+      "entityId": "AccettoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ACCETTO']"
+      }
+    },
+    {
+      "entityId": "AcquistaAdessoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/finish_button']"
+      }
+    },
+
+    {
+      "entityId": "CambiaUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/switch_user']"
+      }
+    },
+    {
+      "entityId": "ChiudiPopUpAcquisto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/close_button']"
+      }
+    },
+    {
+      "entityId": "ChiudiPopUpUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/close']"
+      }
+    },
+    {
+      "entityId": "ChiudiAppPopUp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.poynt.store:id/bill_plan_close_icon']"
+      }
+    },
+    {
+      "entityId": "BackToList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "android.widget.ImageButton[@content-desc='Vai in alto']"
+      }
+    }
+
+  ]
+}

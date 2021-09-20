@@ -1,0 +1,139 @@
+{
+  "children":
+  [
+    {
+      "entityId":"PIVA_CF",
+      "testData":"pa",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='merchantIdentifier']"
+      }
+    },
+    {
+      "entityId":"PIVA_CF_Label",
+      "type":"ELEMENT",
+      "testData":"PivaLabelText",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='merchantIdentifier']/ancestor::div[contains(@class, 'form-field__label')]/label/span"
+      }
+    },
+    {
+      "entityId": "PIVA_CF_Error",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[@name='merchantIdentifier']/ancestor::div/span[contains(@class,'field__error')]/span"
+      }
+    },
+    {
+      "entityId":"PIVA_CF_ToolTip",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//button[contains(@class, 'icon')]"
+      }
+    },
+    {
+      "entityId":"ToolTipLabel",
+      "testData":"PivaTooltipText",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[contains(@class,'tooltip-content')]/span"
+      }
+    },
+    {
+      "entityId":"AcosaServeLink",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//span[contains(@class,'hint')]/a"
+      }
+    },
+    {
+      "entityId":"AcosaServeLabel",
+      "type":"ELEMENT",
+      "testData":"AcosaServeLinkText",
+      "locator":{
+        "type":"XPATH",
+        "value":".//span[contains(@class,'hint')]/a/span"
+      }
+    },
+    {
+      "entityId":"Email",
+      "testData":"Email",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='email']"
+      }
+    },
+    {
+      "entityId":"EmailError",
+      "testData":"EmailErrorText",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='email']/ancestor::div/span[contains(@class,'field__error')]/span"
+      }
+    },
+    {
+      "entityId":"EmailLabel",
+      "testData":"EmailLabelText",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='email']/ancestor::div[contains(@class, 'form-field__label')]/label/span"
+      }
+    },
+    {
+      "entityId":"ConfirmationEmail",
+      "testData":"ConfirmationEmail",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='confirmEmail']"
+      }
+    },
+    {
+      "entityId":"ConfirmationEmailLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='confirmEmail']/ancestor::div[contains(@class, 'form-field__label')]/label/span"
+      }
+    },
+    {
+      "entityId":"ConfirmationEmailError",
+      "testData":"ConfirmEmailErrorText",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//input[@name='confirmEmail']/ancestor::div/span[contains(@class,'field__error')]/span"
+      }
+    },
+    {
+      "entityId":"HavePromo",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//span[contains(@class,'text--font-family-karbon')]/a"
+      }
+    },
+    {
+      "entityId":"HavePromoLabel",
+      "type":"ELEMENT",
+      "testData":"HavePromotext",
+      "locator":{
+        "type":"XPATH",
+        "value":".//span[contains(@class,'text--font-family-karbon')]/a/span"
+      }
+    }
+  ]
+}

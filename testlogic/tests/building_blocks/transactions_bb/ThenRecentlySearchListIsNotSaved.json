@@ -1,0 +1,9 @@
+{
+  "name": "ThenRecentlySearchListIsNotSaved",
+  "description": "Recently search list is not displayed",
+  "type": "TestCase",
+  "aliases": "Then recently search list is not saved",
+  "children": [
+    "Then TransactionsFiltersModule.FilterDetailsModule.SearchedList is not displayed"
+  ]
+}

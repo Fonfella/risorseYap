@@ -1,0 +1,108 @@
+{
+  "children": [
+    {
+      "entityId": "HelplineProfile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='helpline']"
+      }
+    },
+    {
+      "entityId": "CassiereDemo2Profile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Cassiere Demo 2']"
+      }
+    },
+    {
+      "entityId": "PinNumber1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/passcode1']"
+      }
+    },
+    {
+      "entityId": "PinNumber2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/passcode2']"
+      }
+    },
+    {
+      "entityId": "PinNumber3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/passcode3']"
+      }
+    },
+    {
+      "entityId": "PinNumber4",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/passcode4']"
+      }
+    },
+    {
+      "entityId": "PinNumber5",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/passcode5']"
+      }
+    },
+    {
+      "entityId": "PinNumber6",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/passcode6']"
+      }
+    },
+    {
+      "entityId": "List_Profile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/list_view']"
+      }
+    },
+    {
+      "entityId": "Profile_Nexi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Nexi .']"
+      }
+    },
+    {
+      "entityId": "PinEnter",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/enter']"
+      }
+    },
+    {
+      "entityId": "PinNonValido",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='PIN non valido']"
+      }
+    },
+    {
+      "entityId": "CloseContainer",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/close_container']"
+      }
+    }
+  ]
+}

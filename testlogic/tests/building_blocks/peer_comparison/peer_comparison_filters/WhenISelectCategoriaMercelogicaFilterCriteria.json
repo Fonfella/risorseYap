@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectCategoriaMercelogicaFilterCriteria",
+  "description": "Click on input categoria mercelogica criteria",
+  "aliases": "When I select categoria mercelogica filter criteria",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.ProductCategoryFilterDetailsModule.ProductCategoryInfoSectionModule.ProductFilterCategoryContainer.FilterCategoryButtonList[filterType='text',filterValue='${category}']"
+  ]
+}

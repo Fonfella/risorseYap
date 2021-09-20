@@ -1,0 +1,29 @@
+{
+  "ids": [
+    {
+      "id":"YP-0003",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "CTA 'Contatta l'assistenza':ANNULLA",
+  "description": "HappyFlow",
+  "priority": "LOW",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+   // "Given I click on Annulla_Impronta_Digitale if present",
+   // "Given I wait 2 seconds",
+    "Given CTA_NonLaRicordiLabel data matches Provayap.Labels",
+    "When I click on element CTA_NonLaRicordiLabel",
+    "Given Recupera Password Page_Yap is open",
+    "When I background the application",
+    "Given I activate the application",
+    "Then RecuperaPasswordLabel is displayed",
+    "Given RecuperaPasswordLabel data matches Provayap.Labels",
+    "When I click on element Contatta_Assistenza",
+    "When I click on element PopUp_Annulla",
+    "Then Contatta_Assistenza is displayed",
+    "Given I wait 2 seconds"
+  ]
+}

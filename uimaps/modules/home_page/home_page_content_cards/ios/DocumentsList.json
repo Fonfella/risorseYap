@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "DocumentIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink/XCUIElementTypeButton)[1]"
+      }
+    },
+    {
+      "entityId": "DocumentName",
+      "testData": "DocumentName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[4]/XCUIElementTypeOther[@name='box']/XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "DocumentMonthYearStamp",
+      "testData": "DocumentMonthYearStamp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeLink[2]"
+      }
+    },
+    {
+      "entityId": "DocumentPriceValue",
+      "testData": "DocumentPriceValue",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Ultimi documenti VEDI TUTTI']/XCUIElementTypeLink[2]/XCUIElementTypeLink/XCUIElementTypeLink[2]"
+      }
+    }
+  ]
+}

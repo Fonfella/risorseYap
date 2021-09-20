@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "CanoneAmountValue",
+      "testData": "AmountValue",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']/XCUIElementTypeOther[12]"
+      }
+    },
+    {
+      "entityId": "CanoneText",
+      "testData": "AmountTypeText",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='canone mensile']"
+      }
+    },
+    {
+      "entityId": "TransactionsCostValue",
+      "testData": "AmountValue",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']/XCUIElementTypeOther[12]"
+      }
+    },
+    {
+      "entityId": "TransactionsCostText",
+      "testData": "AmountTypeText",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='costo di transazione']"
+      }
+    }
+  ]
+}

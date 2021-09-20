@@ -1,0 +1,87 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h1/span"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "testData": "CardLink",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./label/.//span"
+      }
+    },
+    {
+      "entityId": "ForeignTransactionsHeadingValue",
+      "testData": "ForeignTransactionsHeadingValue",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[ul[li]]/./div/div[1]/div/div/div"
+      }
+    },
+    {
+      "entityId": "ForeignTransactionsLabel",
+      "testData": "ForeignTransactionsLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[ul[li]]/./div/div[2]/span"
+      }
+    },
+
+    {
+      "entityId": "CountryLabel",
+      "testData": "CountryLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/li/.//p"
+      }
+    },
+    {
+      "entityId": "CountryTransactPercentage",
+      "testData": "CountryTransactPercentage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/li/.//div[contains(@class, 'value__annotated')]"
+      }
+    },
+    {
+      "entityId": "CardNoSalesPointsSelected",
+      "testData": "CardNoSalesPointsSelected",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]/.//p"
+      }
+    },
+    {
+      "entityId": "CardNoSalesPointsSelected2",
+      "testData": "CardNoSalesPointsSelected2",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/.//p"
+      }
+    }
+
+  ]
+}
+
+

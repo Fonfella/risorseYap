@@ -1,0 +1,10 @@
+{
+  "name": "WhenITryToLogin",
+  "description": "Authentication flow",
+  "aliases": "When I try to login",
+  "type": "TestCase",
+  "children": [
+    "When I input data[${userCredentials}] into LoginForm",
+    "When I click on element LoginForm.SubmitButton"
+  ]
+}

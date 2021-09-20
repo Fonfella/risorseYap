@@ -1,0 +1,52 @@
+{
+  "children": [
+    {
+      "entityId": "PopupTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "PopupMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/./div[2]/./div/.//p"
+      }
+    },
+    {
+      "entityId": "PopupCustomerServiceLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/.//p"
+      }
+    },
+    {
+      "entityId": "SendNewCodeButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    },
+    {
+      "entityId": "SubmitButtonSpan",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button/.//span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/./div/.//a"
+      }
+    }
+  ]
+}

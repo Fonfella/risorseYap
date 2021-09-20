@@ -1,0 +1,9 @@
+{
+  "name": "ThenPeerComparisonPageCardDataMatch",
+  "description": "Check cards content in case based on cardHeader and cardContent input",
+  "type": "TestCase",
+  "aliases": "Then peer comparison page card data match",
+  "children": [
+    "Then PeerComparisonContentModule.PeerComparisonContainer.PeerComparisonCardsModule[byChild='CardHeader',filterType='text',filterValue='${cardHeader}'] data matches ${cardData}"
+  ]
+}

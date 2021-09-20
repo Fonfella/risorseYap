@@ -1,0 +1,12 @@
+{
+  "name": "GivenIAmOnProfilePage",
+  "description": "Change Name/Surname User",
+  "aliases": "Given I am on Profile Page",
+  "type": "TestCase",
+  "children": [
+    "Given I login to Nexi",
+    "Then Home Page is open",
+    "When I click on element NexiHeader.QuickActionsModule.ProfileLink",
+    "Then Profile Page is open"
+  ]
+}

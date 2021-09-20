@@ -1,0 +1,12 @@
+{
+  "name": "WhenINavigateToHomePageAndSelectTuttiPuntiVendita",
+  "description": "Navigate to home page and set tutti option in POSPickerModule",
+  "type": "TestCase",
+  "aliases": "When I navigate to page and select Tutti in Punti Vendita dropdown",
+  "children": [
+    "When I navigate to ${pageName} via sandwich menu",
+    "When I open POS picker",
+    "When I select all option from POS picker",
+    "When I apply POS picker selection"
+  ]
+}

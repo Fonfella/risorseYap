@@ -1,0 +1,13 @@
+{
+  "name": "ThenVerifyShopsListForSelectedCompany",
+  "description": "Then verify shops list for selected company",
+  "aliases":"Then verify shops list for selected company",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='0']",
+    "When I click on element SelectShopForm.DropdownList.ListElement[filterType='text',filterValue='${company}']",
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='1']",
+    "Then SelectShopForm.DropdownList data matches ${shopData}",
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='1']"
+  ]
+}

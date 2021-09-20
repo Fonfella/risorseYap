@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "testData": "ColseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "XPayLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='BankStatement']"
+      }
+    }
+  ]
+}

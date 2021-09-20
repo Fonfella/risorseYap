@@ -1,0 +1,31 @@
+{
+  "ids": [
+    {
+      "id":"YP-0007",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Accesso a YAP INFO ",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+   // "Given I click on Annulla_Impronta_Digitale if present",
+   // "Given I wait 2 seconds",
+    "When I click on element Input_1",
+    "When I click on element Input_4",
+    "When I click on element Input_7",
+    "When I click on element Input_2",
+    "When I click on element Input_5",
+    "When I click on element Input_8",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element Yap_Card",
+    "Given Yap Info Page_Yap is open",
+    "Given YapInfoLabel data matches Provayap.Labels",
+    //"Then NomeUtente_Carta data matches Provayap.Valid.User1",
+    "Given I wait 2 seconds"
+  ]
+}

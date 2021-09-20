@@ -1,0 +1,56 @@
+{
+  "children": [
+    {
+      "entityId": "BacktoProfileButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@class,'profile-back-anchor')]"
+      }
+    },
+
+    {
+      "entityId": "EditShopTerminalAliasForm",
+      "reference": "modules/pos_merchant_edit_modules/EditShopTerminalAliasForm.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//form"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'help helpButton')]"
+      }
+    },
+    {
+      "entityId": "NexiFooter",
+      "reference": "modules/common_modules/NexiFooter.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@href,'profile')]/*[name()='svg']"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@class,'save-anchor')]"
+      }
+    }
+  ]
+}

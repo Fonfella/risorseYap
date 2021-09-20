@@ -1,0 +1,9 @@
+{
+  "name": "WhenClickOnProfileIcon",
+  "description": "Click on profile Icon",
+  "type": "TestCase",
+  "aliases": "When I click on profile Icon",
+  "children": [
+    "When I click on element NexiHeader.QuickActionsModule.ProfileLink"
+  ]
+}

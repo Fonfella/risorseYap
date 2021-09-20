@@ -1,0 +1,10 @@
+{
+  "name": "WhenIOpenPeerComparisonPageFilters",
+  "description": "Click on filter from Confronto di settore page based on input",
+  "aliases": "When I open peer comparison page filters",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerComparisonContentModule.FiltersBarListModule[byChild='ElementTitle',filterType='text',filterValue='${filterTitle}']",
+    "Then Peer Comparison Filters Page is open"
+  ]
+}

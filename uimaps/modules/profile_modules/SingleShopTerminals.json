@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "entityId": "TerminalsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "TerminalGenericDetails",
+      "type": "MODULE",
+      "reference": "modules/profile_modules/TerminalGenericDetails.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'grommetux-box--pad-between-thirds')]"
+      }
+    },
+    {
+      "entityId": "EditInfoLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'link-strong')]"
+      }
+    }
+  ]
+}
+
+
+

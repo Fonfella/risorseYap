@@ -1,0 +1,90 @@
+{
+  "children": [
+    {
+      "entityId": "UserNameLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Nome']"
+      }
+    },
+    {
+      "entityId": "UserNameInput",
+      "testData": "UserNameInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='profile-edit-name']/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "SurnameLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Cognome']"
+      }
+    },
+    {
+      "entityId": "SurnameInput",
+      "testData": "SurnameInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name=/profile-edit-last-name/]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "ErrorMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[contains(@name,'Inserisci')]"
+      }
+    },
+    {
+      "entityId": "UserGenericDetail",
+      "reference": "modules/user_edit_modules/UserGenericDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name,'user-name')] | /XCUIElementTypeLink[contains(@name,'Password') or (contains(@name,'Telefono'))]"
+      }
+    },
+    {
+      "entityId": "ModifyPasswordLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeLink[contains(@name,'Password')]/XCUIElementTypeLink/*[@name='prossimo']"
+      }
+    },
+    {
+      "entityId": "ModifyPhoneNumberLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeLink[contains(@name,'Telefono')]/XCUIElementTypeLink/*[@name='prossimo']"
+      }
+    },
+    {
+      "entityId": "PrivacyButtonTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeButton[@name='profile-privacy-accordion']"
+      }
+    },
+    {
+      "entityId": "PrivacyListContainer",
+      "type": "MODULE",
+      "reference": "modules/user_edit_modules/Privacy.json",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Telefono']/following::XCUIElementTypeOther[1]"
+      }
+    }
+  ]
+}

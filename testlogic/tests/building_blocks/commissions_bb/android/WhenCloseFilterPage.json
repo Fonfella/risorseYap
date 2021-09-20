@@ -1,0 +1,10 @@
+{
+  "name": "WhenCloseFilterPage",
+  "description": "Close commissions filters page android",
+  "type": "TestCase",
+  "aliases": "When I close Commissions Filters Page",
+  "children": [
+    "When I click on element CommissionsFiltersModule.CloseButton",
+    "Then Commissions Page is open"
+  ]
+}

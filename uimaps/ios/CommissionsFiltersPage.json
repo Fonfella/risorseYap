@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId": "CommissionsFiltersModule",
+      "reference": "modules/commissions_page/commissions_filters_page/FilterModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Costi e Condizioni']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LoginFeature",
+  "description": "Login Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/Login/login01.json",
+    "testlogic/tests/native/Yap/Login/login02.json",
+    "testlogic/tests/native/Yap/Login/login03.json"
+  ]
+}

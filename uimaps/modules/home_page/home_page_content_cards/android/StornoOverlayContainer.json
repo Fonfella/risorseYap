@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "Title",
+      "testData": "Title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h1"
+      }
+    },
+    {
+      "entityId": "Body",
+      "testData": "Body",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/span"
+      }
+    },
+    {
+      "entityId": "ScopriButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/label/span"
+      }
+    }
+  ]
+}

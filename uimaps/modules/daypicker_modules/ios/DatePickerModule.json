@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "PreviousMonthButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton[contains(@name, 'backward')]"
+      }
+    },
+    {
+      "entityId": "NextMonthButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton[contains(@name, 'forward')]"
+      }
+    },
+    {
+      "entityId": "FromMonthTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name,'Calendar')]//XCUIElementTypeOther[./XCUIElementTypeStaticText[@name]][2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "SelectDateList",
+      "type": "MODULE",
+      "reference":"modules/daypicker_modules/Days.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[contains(@name,'Calendar')]"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "..//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name, 'APPLICA')]"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "..//XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name, 'CANCELLA')]"
+      }
+    }
+  ]
+}

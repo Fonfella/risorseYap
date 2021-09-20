@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId": "CompanyCodeDropDownListInput",
+      "type": "ELEMENT",
+      "obtional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li"
+      }
+    }
+  ]
+}

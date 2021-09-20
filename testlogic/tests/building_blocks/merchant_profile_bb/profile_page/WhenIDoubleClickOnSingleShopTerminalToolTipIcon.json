@@ -1,0 +1,11 @@
+{
+  "name": "WhenIDoubleClickOnToolTipIcon",
+  "description": "MP132_TC01_01-Profile Page/View Company Details/Desktop UI view",
+  "aliases": "When I double click on Single Shop Terminal's Tooltip Icon",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.TerminalInfoButtonReference.ToolTipButton",
+    "When I click on element ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.TerminalInfoButtonReference.ToolTipButton"
+  ]
+}
+

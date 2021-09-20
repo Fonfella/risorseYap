@@ -1,0 +1,10 @@
+{
+  "name": "ThenIApplyPeerComparisonFiltersSelection",
+  "description": "Click on applica button on peer comparison filters page",
+  "aliases": "Then I apply peer comparison filters selection",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.ProductCategoryFilterDetailsModule.ApplyButton",
+    "Then Peer Comparison Page is open"
+  ]
+}

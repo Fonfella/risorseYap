@@ -1,0 +1,35 @@
+{
+  "children": [
+
+    {
+      "entityId": "InputPreAutCode",
+      "type": "ELEMENT",
+      "locator": {
+        "testData": "PreAutCode",
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/pre_auth_code']"
+      }
+    },
+    {
+      "entityId": "InputAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "testData": "InputAmount",
+        "type": "XPATH",
+        "value": "//android.widget.EditText[@resource-id='co.nexi:id/pre_auth_amount']"
+      }
+    },
+    {
+      "entityId": "Button_Conferma",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/pre_auth_charge']"
+      }
+    }
+
+
+
+
+  ]
+}

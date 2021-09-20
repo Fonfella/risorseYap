@@ -1,0 +1,76 @@
+{
+  "children": [
+    {
+      "entityId": "TransactionCard",
+      "type": "MODULE",
+      "reference": "modules/results_page/results_page_cards/GenericCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Transato']]]"
+      }
+    },
+    {
+      "entityId": "NumberOfTransactionsCard",
+      "reference": "modules/results_page/results_page_cards/GenericCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Numero transazioni']]]"
+      }
+    },
+    {
+      "entityId": "AverageAmountCard",
+      "reference": "modules/results_page/results_page_cards/GenericCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Importo medio']]]"
+      }
+    },
+    {
+      "entityId": "TotalCustomersCard",
+      "reference": "modules/results_page/results_page_cards/GenericCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Totale carte']]]"
+      }
+    },
+    {
+      "entityId": "DistributionByTransactionAmountCard",
+      "reference": "modules/results_page/results_page_cards/DistributionByTransactionAmountCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Distribuzione per importo delle transazioni']]]"
+      }
+    },
+    {
+      "entityId": "RecordDaysCard",
+      "reference": "modules/results_page/results_page_cards/RecordDaysCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Giornate da record']]]"
+      }
+    },
+    {
+      "entityId": "TheMostUsedCircuitsCard",
+      "reference": "modules/results_page/results_page_cards/TheMostUsedCircuitsCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='I circuiti più utilizzati']]]"
+      }
+    },
+    {
+      "entityId": "ProvenanceOfForeignCards",
+      "reference": "modules/results_page/results_page_cards/ProvenanceOfForeignCards.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h1[span[text()='Provenienza carte estere']]]"
+      }
+    }
+  ]
+}

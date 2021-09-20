@@ -1,0 +1,490 @@
+{
+  "children": [
+    {
+      "entityId": "Richiedi_Soldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]"
+      }
+    },
+    {
+      "entityId": "RichiediSoldiLabel",
+      "testData":"RichiediSoldiLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_text_title']"
+      }
+    },
+    {
+      "entityId": "CercaContatti",
+      "testData":"Utente_2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    },
+    {
+      "entityId": "CercaContatti_Bosch",
+      "testData":"Utente_Bosch",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    },
+    {
+      "entityId": "CercaContattiTest1",
+      "testData":"Utente_Test1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    },
+    {
+      "entityId": "CercaContattiTest2",
+      "testData":"Utente_Test2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    },
+    {
+      "entityId": "CercaContattiLettieri",
+      "testData":"Utente_Lettieri",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    }
+    ,
+    {
+      "entityId": "CercaContattiBiancaneve",
+      "testData":"Utente_Biancaneve",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    }
+    ,
+    {
+      "entityId": "CercaContattiBonardi",
+      "testData":"Utente_Bonardi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    }
+    ,
+    {
+      "entityId": "CercaContattiCoscarelli",
+      "testData":"Utente_Coscarelli",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_src_text']"
+      }
+    }
+    ,
+    {
+      "entityId": "ButtonCancelX",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/search_close_btn']"
+      }
+    }
+    ,
+    {
+      "entityId": "Utente_TestCartaYap",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/checkbox']"
+      }
+    },
+    {
+      "entityId": "Contatto_Utente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name']"
+      }
+    },
+    {
+      "entityId": "Contatto_Utente_Lettieri",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name' and contains(@text,'Diego Lettieri')]"
+      }
+    },
+    {
+      "entityId": "Contatto_Utente_Test1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name' and contains(@text,'Carlos Pancioni')]"
+      }
+    },
+    {
+      "entityId": "Contatto_Utente_Biancaneve",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name' and contains(@text,'Nana Biancaneve STG')]"
+      }
+    },
+    {
+      "entityId": "Contatto_Utente_Test2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name' and contains(@text,'Francesca Boschiroli')]"
+      }
+    }
+  ,
+    {
+      "entityId": "Contatto_Utente_Bonardi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name' and contains(@text,'Matteo Bonardi')]"
+      }
+    },
+    {
+      "entityId": "Contatto_Utente_Coscarelli",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contact_name' and contains(@text,'Marialuigia Coscarelli')]"
+      }
+    },
+    {
+      "entityId": "TestCartaYapUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[1]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "Contiuna",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "Input_1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_1' and @index='1']"
+      }
+    },
+    {
+      "entityId": "Input_2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_2' and @index='2']"
+      }
+    },
+    {
+      "entityId": "Input_3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_3' and @index='5']"
+      }
+    },
+    {
+      "entityId": "Input_4",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_4' and @index='7']"
+      }
+    },
+    {
+      "entityId": "Input_5",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_5' and @index='8']"
+      }
+    },
+    {
+      "entityId": "Input_6",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_6' and @index='10']"
+      }
+    },
+    {
+      "entityId": "Input_7",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_7' and @index='12']"
+      }
+    },
+    {
+      "entityId": "Input_8",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_8' and @index='14']"
+      }
+    },
+    {
+      "entityId": "Input_9",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_9' and @index='16']"
+      }
+    },
+    {
+      "entityId": "Input_0",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_0' and @index='20']"
+      }
+    },
+    {
+      "entityId": "Input_Comma",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_extra' and @index='18']"
+      }
+    },
+    {
+      "entityId": "Input_Cancel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_backspace' and @index='22']"
+      }
+    },
+    {
+      "entityId": "Avanti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "CTA_Avanti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_continue']"
+      }
+    },
+
+    {
+      "entityId": "CTA_Contiuna",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "Richiesta_Inviata",
+      "testData":"Richiesta_Inviata",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Richiesta Inviata']"
+      }
+    },
+    {
+      "entityId": "Importo_Richiesta",
+      "testData":"Importo_Richiesta",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_amount']"
+      }
+    },
+    {
+      "entityId": "Importo_Richiesta_3",
+      "testData":"Importo_Richiesta_3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_amount']"
+      }
+    },
+    {
+      "entityId": "Importo_Richiesta_2_50",
+      "testData":"Importo_Richiesta_2_50",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_amount']"
+      }
+    },
+    {
+      "entityId": "Info_RS_Mix",
+      "testData":"Info_RS_Mix",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_title']"
+      }
+    },
+    {
+      "entityId": "Importo_Richiesta_0_95",
+      "testData":"Importo_Richiesta_0_95",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_amount']"
+      }
+    },
+    {
+      "entityId": "Home_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_primary']"
+      }
+    },
+    {
+      "entityId": "Slider_Yap",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/swipe_rail']"
+      }
+    },
+    {
+      "entityId": "CTA_Back_Importo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_start']"
+      }
+    },
+    {
+      "entityId": "CTA_Back_RichSoldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_start']"
+      }
+    },
+    {
+      "entityId": "Help_Importo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_end']"
+      }
+    },
+    {
+      "entityId": "Help_RichSoldiLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_end']"
+      }
+    }
+    ,
+    {
+      "entityId": "Help_Center_Title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_text_title']"
+      }
+    },
+    {
+      "entityId": "Help_Voce_RichiediSoldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[4]/android.view.View[1]/android.view.View"
+      }
+    },
+    {
+      "entityId": "Help_Voce_ComeRichiedereSoldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[2]/android.view.View[1]"
+      }
+    },
+    {
+      "entityId": "Help_Guida_ComeRichiedereSoldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='article-container']"
+      }
+    }
+    ,
+    {
+      "entityId": "Help_Back",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_back']"
+      }
+    }
+    ,
+    {
+      "entityId": "Messagge_text_rm",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_message']"
+      }
+    }
+    ,
+    {
+      "entityId": "Messagge_input_rm",
+      "type": "ELEMENT",
+      "testData":"Message_Parent",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/etMesssage']"
+      }
+    }
+    ,
+    {
+      "entityId": "Messagge_input_mac",
+      "type": "ELEMENT",
+      "testData":"Message_Mac",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/etMesssage']"
+      }
+    }
+    ,
+    {
+      "entityId": "Inserisci_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_insert']"
+      }
+    }
+  ]
+}

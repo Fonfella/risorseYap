@@ -1,0 +1,54 @@
+{
+  "children": [
+    {
+      "entityId": "PeriodKPIValue",
+      "testData": "PeriodKPIValue",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[span]"
+      }
+    },
+    {
+      "entityId": "KPIProgressModule",
+      "reference": "modules/reusable_elements/CardMeterProgressModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[div[contains(@class, 'meter-progress')]]"
+      }
+    },
+    {
+      "entityId": "ProgressLabel",
+      "testData": "ProgressLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[div[contains(@class, 'meter-progress')]]/preceding-sibling::div"
+      }
+    },
+    {
+      "entityId": "CountryLabel",
+      "testData": "CountryLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[not(*)]"
+      }
+    },
+    {
+      "entityId": "CountryPercentage",
+      "testData": "CountryPercentage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[not(*)]/following-sibling::div"
+      }
+    }
+  ]
+}

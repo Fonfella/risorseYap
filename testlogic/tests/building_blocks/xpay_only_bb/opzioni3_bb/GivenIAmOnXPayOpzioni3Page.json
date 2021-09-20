@@ -1,0 +1,16 @@
+{
+  "name": "GivenIAmOnXPayOpzioni3Page",
+  "description": "Successfully pass Anagrafica1,Anagrafica2,Opzioni1 and Opzioni2 pages",
+  "aliases": "Given I am on XPay Opzioni3 page",
+  "type": "TestCase",
+  "children": [
+    "Given I am on XPay Opzioni2 page",
+    "When I click on element SelectPaymentForm.PaymentMethodList[filterType='index',filterValue='0'].PaymentMethodCheckbox",
+    "When I click on element SelectPaymentForm.PaymentMethodList[filterType='index',filterValue='1'].PaymentMethodCheckbox",
+    "When I click on element SelectPaymentForm.PaymentMethodList[filterType='index',filterValue='2'].PaymentMethodCheckbox",
+    "When I click on element SelectPaymentForm.PaymentMethodList[filterType='index',filterValue='3'].PaymentMethodCheckbox",
+    "When I click on element SelectPaymentForm.PaymentMethodList[filterType='index',filterValue='4'].PaymentMethodCheckbox",
+    "When I click on element SubmitButton",
+    "Then XPay Opzioni3 Additional Services Page is open"
+  ]
+}

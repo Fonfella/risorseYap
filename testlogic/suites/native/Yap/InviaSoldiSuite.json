@@ -1,0 +1,9 @@
+{
+  "id": "01005",
+  "name": "InviaSoldiSuite",
+  "description": "Invia Soldi Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/InviaSoldiFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

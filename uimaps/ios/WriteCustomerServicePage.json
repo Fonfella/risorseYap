@@ -1,0 +1,70 @@
+{
+  "children": [
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='Nexi Business Logo'])[2]"
+      }
+    },
+    {
+      "entityId": "HeaderCloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='CHIUDI'])[1]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Scrivi al Servizio Clienti']"
+      }
+    },
+    {
+      "entityId": "ShopLabel",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeOther/XCUIElementTypeStaticText)[2]"
+      }
+    },
+    {
+      "entityId": "ShopName",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeOther/XCUIElementTypeStaticText)[3]"
+      }
+    },
+    {
+      "entityId": "AssistanceEmail",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeLink)[1]"
+      }
+    },
+    {
+      "entityId": "WriteToAssistanceButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeLink)[2]"
+      }
+    },
+    {
+      "entityId": "FooterCloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='CHIUDI'])[2]"
+      }
+    }
+  ]
+}

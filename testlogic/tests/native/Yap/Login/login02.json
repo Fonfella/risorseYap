@@ -1,0 +1,45 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0004",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "execution login in error 1 time and then correct",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "Given I click on Permission_Button2 if present",
+    "When I click on element Input_2",
+    "When I click on element Input_2",
+    "When I click on element Input_2",
+    "When I click on element Input_3",
+    "When I click on element Input_4",
+    "When I click on element Input_5",
+    "Given I wait 3 seconds",
+    "As a Provayap.Invalid",
+    "Then Pin_non_corretto_error_message is displayed",
+    "Then Pin_non_corretto_error_message data matches Provayap.Invalid",
+    "When I click on element RiprovaButton",
+    "When I click on element Input_9",
+    "When I click on element Input_Cancel",
+    "When I click on element Input_2",
+    "When I click on element Input_2",
+    "When I click on element Input_3",
+    "When I click on element Input_3",
+    "When I click on element Input_4",
+    "When I click on element Input_4",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.User4",
+    "Then Burger_Menu_Open is displayed",
+    "Then Yap_Card is displayed",
+    "Then Bottone_Principale is displayed",
+    "Then Soldi_Disponibili_label is displayed",
+    "Then Soldi_Disponibili_label data matches Provayap.Valid.User4",
+    "Then Timeline_panel_closer is displayed"
+  ]
+}

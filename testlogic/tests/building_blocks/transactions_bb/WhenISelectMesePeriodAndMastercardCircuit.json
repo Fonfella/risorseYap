@@ -1,0 +1,11 @@
+{
+  "name": "WhenISelectMesePeriodAndMastercardCircuit",
+  "description": "Input based data match for transaction filtered by input index",
+  "type": "TestCase",
+  "aliases": "When I set messe period and select mastercard circuito",
+  "children": [
+    "When I select predefined period filter with [period=Mese]",
+    "When I select filter with [filterName=Circuito]",
+    "When I select mastercard circuit"
+  ]
+}

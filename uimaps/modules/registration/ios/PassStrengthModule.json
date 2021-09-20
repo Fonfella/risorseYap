@@ -1,0 +1,87 @@
+{
+  "children":
+  [
+    {
+      "entityId":"StrengthTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Deve contenere:']"
+      }
+    },
+    {
+      "entityId":"LengthBullet",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//*[@name='Bullet'])[1]"
+      }
+    },
+    {
+      "entityId":"PasswordLength",
+      "testData":"Summary",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='da 8 a 20 caratteri']"
+      }
+    },
+    {
+      "entityId":"1majorCharacterBullet",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//*[@name='Bullet'])[2]"
+      }
+    },
+    {
+      "entityId":"1majorCharacter",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='una maiuscola']"
+      }
+    },
+    {
+      "entityId":"1minorCharacterBullet",
+      "type":"ELEMENT",
+      "locator": {
+        "type":"XPATH",
+        "value":"(//*[@name='Bullet'])[3]"
+      }
+    },
+    {
+      "entityId":"1minorCharacter",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[@name='una minuscola']"
+      }
+    },
+    {
+      "entityId":"1NumberBullet",
+      "type":"ELEMENT",
+      "locator": {
+        "type":"XPATH",
+        "value":"(//*[@name='Bullet'])[4]"
+      }
+    },
+    {
+      "entityId":"1NumberBullet",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='un numero']"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[@name='ENTRA']"
+      }
+    }
+  ]
+}

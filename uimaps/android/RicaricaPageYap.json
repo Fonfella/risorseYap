@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "RicaricaLabel",
+      "testData":"RicaricaLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "CTA_Back",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ImageView"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenPCICardIsNotDisplayedOnHomePage",
+  "description": "PCI Card is not displayed on HomePage",
+  "type": "TestCase",
+  "aliases": "Then PCI Card is not available on HomePage",
+  "children": [
+    "Then PCICard.CardHeader is not displayed",
+    "Then PCICard.CardDescription is not displayed"
+  ]
+}

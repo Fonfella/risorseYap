@@ -1,0 +1,38 @@
+{
+  "name": "ThenVerifyShopListForEachCompany",
+  "description": "Shop section displayed per selected company",
+  "aliases": "Then I verify shops and terminals displayed for each company",
+  "type": "TestCase",
+  "children": [
+    "When I click on element CompanyInfo.CompanyDropDownBox.ComboBoxList.ComboBoxListIterator[filterType='index',filterValue='2']",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem data matches ProfileData.MoreThanOneCompany.Company3.ShopsList",
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem[filterType='index',filterValue='0']",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company3.Shop1Terminal",
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem[filterType='index',filterValue='1']",
+    "Given I wait 3 seconds", //NOTE : without wait step error is thrown :Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company3.Shop2Terminal",
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem[filterType='index',filterValue='2']",
+    "Given I wait 3 seconds",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company3.Shop3Terminal",
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem[filterType='index',filterValue='3']",
+    "Given I wait 3 seconds",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company3.Shop4Terminal",
+
+    "When I click on element CompanyInfo.CompanyDropDownBox",
+    "When I click on element CompanyInfo.CompanyDropDownBox.ComboBoxList.ComboBoxListIterator[filterType='index',filterValue='1']",
+    "Given I wait 3 seconds",
+    "Then ShopsDetailsModule.SingleShopInfoModule.ShopDetailsValue[filterType='index',filterValue='0'] data matches ProfileData.MoreThanOneCompany.Company2",
+    "Then ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company2.ShopTerminal",
+
+    "When I click on element CompanyInfo.CompanyDropDownBox",
+    "When I click on element CompanyInfo.CompanyDropDownBox.ComboBoxList.ComboBoxListIterator[filterType='index',filterValue='0']",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem data matches ProfileData.MoreThanOneCompany.Company1.ShopsList",
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem[filterType='index',filterValue='0']",
+    "Given I wait 3 seconds",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company1.Shop1Terminal",
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem[filterType='index',filterValue='1']",
+    "Given I wait 3 seconds",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails data matches ProfileData.MoreThanOneCompany.Company1.Shop2Terminal"
+  ]
+}
+

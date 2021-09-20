@@ -1,0 +1,9 @@
+{
+  "id": "01009",
+  "name": "LoginSuite",
+  "description": "Login Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/LoginFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectAllOptionFromPOSPicker",
+  "description": "Select all option from POS picker",
+  "aliases": "When I select all option from POS picker",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SalesPointsPickerModule.SelectAllOption"
+  ]
+}

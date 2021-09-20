@@ -1,0 +1,67 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "testData": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Profilo']"
+      }
+    },
+    {
+      "entityId": "MerchantNameSurname",
+      "testData": "MerchantNameSurname",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Profilo']/.././following::XCUIElementTypeOther[1]//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "UserInfo",
+      "reference": "modules/profile_modules/UserInfo.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[contains(@name,'I tuoi dati Dati')]"
+      }
+    },
+    {
+      "entityId": "CompanyInfo",
+      "reference": "modules/profile_modules/CompanyInfo.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='company-container']"
+      }
+    },
+    {
+      "entityId": "ShopsDetailsModule",
+      "reference": "modules/profile_modules/ShopsDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='company-container']/following-sibling::XCUIElementTypeOther[position()<3]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

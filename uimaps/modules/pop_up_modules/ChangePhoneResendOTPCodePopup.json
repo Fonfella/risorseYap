@@ -1,0 +1,61 @@
+{
+  "children": [
+    {
+      "entityId": "PopupTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "PopupMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/div/div[2]//span/span"
+      }
+    },
+    {
+      "entityId": "SendNewCodeButton",
+      "type": "MODULE",
+      "reference":"modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    },
+    {
+      "entityId": "ModifyPhoneNumberQuestion",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer//div[1]/span/span"
+      }
+    },
+    {
+      "entityId": "ModifyPhoneNumberLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer//div[1]/a"
+      }
+    },
+    {
+      "entityId": "CustomerServiceLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer//div[2]/span/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]//a"
+      }
+    }
+  ]
+}

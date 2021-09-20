@@ -1,0 +1,36 @@
+{
+  "ids": [
+    {
+      "id":"YP-0006",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Burger Menu",
+  "description": "CheckFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "Given I click on AnnullaButton if present",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Given I click on PermissionDenyButton if present",
+    "When I click on element Burger_Menu_Open",
+    "Given I wait 2 seconds",
+    "Then Burger_Menu_Item_Profile is displayed",
+    "Then Burger_Menu_Item_Info is displayed",
+    //non più visibile
+   // "Then Burger_Menu_Item_Family is displayed",
+    "Then Burger_Menu_Item_Help is displayed",
+    "Then Burger_Menu_Item_MGM is displayed",
+    "When I click on element Burger_Menu_Close_Empty_Space",
+    "Given I wait 2 seconds",
+    "Then Burger_Menu_Item_Info is not displayed",
+    "Then Burger_Menu_Item_Profile is not displayed",
+    "Then Burger_Menu_Item_Info is not displayed",
+    //"Then Burger_Menu_Item_Family is not displayed",
+    "Then Burger_Menu_Item_Help is not displayed",
+    "Then Burger_Menu_Item_MGM is not displayed"
+  ]
+}

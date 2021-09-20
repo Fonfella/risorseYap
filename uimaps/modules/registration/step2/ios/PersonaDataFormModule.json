@@ -1,0 +1,149 @@
+{
+  "children":
+  [
+    {
+      "entityId":"FirstName",
+      "type":"ELEMENT",
+      "testData":"name",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":"FirstNameLabel",
+      "type":"ELEMENT",
+      "testData":"NameLabelText",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Nome']"
+      }
+    },
+    {
+      "entityId":"FirstNameError",
+      "type":"ELEMENT",
+      "testData":"FirstNameErrorText",
+      "optional": true,
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Nome']"
+      }
+    },
+
+    {
+      "entityId":":LastName",
+      "testData":"lastname",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='box'])[2]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":":LastNameLabel",
+      "type":"ELEMENT",
+      "testData":"LastNameLabelText",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Cognome']"
+      }
+    },
+    {
+      "entityId":"LastNameError",
+      "testData":"LastNameErrorText",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Cognome']"
+      }
+    },
+    {
+      "entityId":"PhoneNumber",
+      "testData":"phone",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":"PhoneNumberLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Cellulare']"
+      }
+    },
+    {
+      "entityId":"PhoneNumberCodeLabel",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Cellulare']"
+      }
+    },
+    {
+      "entityId":"PhoneNumberShortError",
+      "optional":true,
+      "type":"ELEMENT",
+      "testData":"PhoneErrorText",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Il numero di cellulare deve contenere almeno 6 cifre.']"
+      }
+    },
+    {
+      "entityId":"InvalidPhoneNumberError",
+      "optional":true,
+      "type":"ELEMENT",
+      "testData":"PhoneErrorText",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Inserisci un numero di cellulare valido.']"
+      }
+
+    },
+    {
+      "entityId":"TermsAndConditionsCheckbox",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Ho letto e accetto le']"
+      }
+    },
+    {
+      "entityId":"TermsAndConditionsLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='condizioni generali di contratto']"
+      }
+    },
+    {
+      "entityId": "PrivacyConditionsCheckbox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Ho letto']"
+      }
+    },
+    {
+      "entityId":"PrivacyConditionsLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='l’informativa privacy']"
+      }
+    },
+    {
+      "entityId":"AcosaServeLink",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='A cosa serve?']"
+      }
+    }
+  ]
+}

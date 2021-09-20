@@ -1,0 +1,55 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='banner'])[1]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Serve aiuto?'])/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "PageSubTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Assistenza e Contatti']"
+      }
+    },
+    {
+      "entityId":"ContactSection",
+      "reference":"modules/faq_modules/ContactSectionModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Contatti']"
+      }
+    },
+    {
+      "entityId":"FAQSection",
+      "reference":"modules/faq_modules/FAQSectionModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='FAQ']"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ThenSelectedFilterOptionsDataMatch",
+  "description": "Data match selected filter options based on input",
+  "type": "TestCase",
+  "aliases": "Then selected filter options data match",
+  "children": [
+    "Then FilterDetailsModule data matches ${optionsData}"
+  ]
+}

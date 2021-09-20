@@ -1,0 +1,20 @@
+{
+  "children": [
+    {
+      "entityId": "NewsButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[@href='#/communication/news']"
+      }
+    },
+    {
+      "entityId": "NewsButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[@href='/communication/news']/span"
+      }
+    }
+  ]
+}

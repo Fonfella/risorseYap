@@ -1,0 +1,73 @@
+{
+  "children": [
+    {
+      "entityId": "BulletImg",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div//*[@role='img']"
+      }
+    },
+    {
+      "entityId": "KPIType",
+      "optional": true,
+      "type": "ELEMENT",
+      "testData": "KPIType",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div//label"
+      }
+    },
+    {
+      "entityId": "PeriodLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "testData": "PeriodLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2"
+      }
+    },
+    {
+      "entityId": "ShopOptionSelected",
+      "type": "ELEMENT",
+      "testData": "SelectedShopLabel",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div//span[contains(@class, 'option-selected')]"
+      }
+    },
+    {
+      "entityId": "DetailsElementsModule",
+      "type": "MODULE",
+      "reference": "modules/common_modules/chart_elements/ChartSummaryModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'bar-details')]/div[div]"
+      }
+    },
+    {
+      "entityId": "EmptyDetails",
+      "type": "ELEMENT",
+      "testData": "EmptyDetails",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'bar-details')]/div[p]"
+      }
+    },
+    {
+      "entityId": "TransactionsButton",
+      "testData": "TransactionsButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a"
+      }
+    }
+  ]
+}

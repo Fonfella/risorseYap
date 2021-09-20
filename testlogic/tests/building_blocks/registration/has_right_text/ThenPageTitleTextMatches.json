@@ -1,0 +1,9 @@
+{
+  "name": "Page Title text matches",
+  "description": "Registration flow",
+  "aliases":"Then Page title matches",
+  "type": "TestCase",
+  "children": [
+    "Then PageTitle data matches ${title}"
+  ]
+}

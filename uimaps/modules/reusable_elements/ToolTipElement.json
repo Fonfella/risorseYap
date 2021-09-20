@@ -1,0 +1,29 @@
+{
+  "children": [
+    {
+      "entityId": "ToolTipButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./button"
+      }
+    },
+    {
+      "entityId": "ToolTipImg",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./button/*/*[@role='img']"
+      }
+    },
+    {
+      "entityId": "ToolTipContent",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'tooltip-content')]/span"
+      }
+    }
+  ]
+}

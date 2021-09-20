@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']"
+      }
+    },
+    {
+      "entityId": "SalesPointsModule",
+      "reference": "modules/common_modules/SalesPointsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='banner'])[1]"
+      }
+    }
+  ]
+}

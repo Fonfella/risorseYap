@@ -1,0 +1,61 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'heading')]/span"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../.."
+      }
+    },
+    {
+      "entityId": "CardHeaderComment",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'heading')]/div/span"
+      }
+    },
+    {
+      "entityId": "ResultsIntValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[@class='integer-value']"
+      }
+    },
+    {
+      "entityId": "ResultsRemainedValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'remainder-value')]"
+      }
+    },
+//    {
+//      "entityId": "MeterProgressElement",
+//      "type": "MODULE",
+//      "reference": "module/reusable_elements/CardMeterProgressModule.json",
+//      "locator": {
+//        "type": "XPATH",
+//        "value": ".//li"
+//      }
+//    },
+    {
+      "entityId": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    }
+  ]
+}

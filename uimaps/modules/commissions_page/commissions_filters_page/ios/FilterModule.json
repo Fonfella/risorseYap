@@ -1,0 +1,84 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "testData": "ColseButton",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Close']"
+      }
+    },
+    {
+      "entityId": "FilterTitle",
+      "testData": "FilterTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Seleziona i filtri']"
+      }
+    },
+    {
+      "entityId": "OptionsLabel",
+      "testData": "OptionsLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[4]/XCUIElementTypeOther/*"
+      }
+    },
+    {
+      "entityId": "MonthPicker",
+      "testData": "MonthPicker",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='box'][1]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "MonthDropDownSelector",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[6]/XCUIElementTypeOther/*"
+      }
+    },
+    {
+      "entityId": "YearPicker",
+      "testData": "YearPicker",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='box'][2]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "YearDropDownSelector",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[7]/XCUIElementTypeOther/*"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther//XCUIElementTypeStaticText[@name='CANCELLA']"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "type": "ELEMENT",
+       "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther//XCUIElementTypeStaticText[@name='APPLICA']"
+       }
+    }
+  ]
+}

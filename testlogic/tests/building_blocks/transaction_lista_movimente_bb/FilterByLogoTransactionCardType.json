@@ -1,0 +1,16 @@
+{
+    "name": "FilterByLogoTransactionCardType",
+    "description": "Validate filters by logo with first sorted transaction",
+    "aliases": "Then I validate filter by logo and transaction card type",
+    "type": "TestCase",
+    "children": [
+      "When I open filters page",
+      "When I select filter with [filterName=Circuito]",
+      "When I click on element TransactionsFiltersModule.FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='${cardIndex}']",
+      "When I apply filters selection",
+      "When I click on transaction",
+      "Then TransactionDetailsModule.TransactionDetailsSectionModule.ExpandedDetails[byChild='DetailsElementsList',filterType='text',filterValue='Tipo Carta'].DetailsElementsValuesList data matches TransactionsData.Circuito.CardBrands.${cardType}",
+      "Then TransactionDetailsModule.TransactionsListModule.TransactionCommission.CardLogo is displayed",
+      "When I click on element TransactionDetailsModule.CloseButton"
+   ]
+  }

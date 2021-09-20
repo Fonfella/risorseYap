@@ -1,0 +1,79 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0001",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test login long with OTP recover +393486896752",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Yaplogin.Valid.3486896752",
+    "Given Start Page is open",
+    //pagina start non accessibilità proprietà oggetti
+ //   "Then Title_label is displayed",
+    "Then Accedi_link is displayed",
+    "Then Accedi_link data matches Yaplogin.Valid.3486896752",
+  //  "Then CLessButton is displayed",
+  //  "Then GpayButton is displayed",
+  //  "Then MastercardButton is displayed",
+
+
+
+//    "When I click on element Page2",
+//    "Given I wait 1 seconds",
+//    "When I click on element Page3",
+//    "Given I wait 1 seconds",
+//    "When I click on element Page4",
+//    "Given I wait 1 seconds",
+//    "When I click on element Page1",
+//    "Given I wait 1 seconds",
+    "When I click on element Accedi_link",
+    "Then Inserisci_Numero_label is displayed",
+    "Then Inserisci_Numero_label data matches Yaplogin.Valid.3486896752",
+    "Given I wait 1 seconds",
+    "When I click on element Phone_input",
+    "Given I wait 1 seconds",
+    "When I input data into Phone_input",
+    "When I click on element Phone_input",
+    "When I click on element Continua_button",
+  //  "Given I wait 10 seconds",
+    "Given I click on ContinuaDevice_button if present",
+ //   "Given I wait 10 seconds",
+
+    "Then Inserisci_Password_label is displayed",
+    "Then Inserisci_Password_label data matches Yaplogin.Valid.3511669952",
+    "When I input data into PIN_input",
+    "Given I wait 3 seconds",
+    "When I click on element Continua_button",
+    "Given I wait 3 seconds",
+    "Given I click on AnnullaButton if present",
+
+    //step recupero otp con web page
+    //"When I send REST request [OtpYapTak/OtpService.json][<otpYapFinder>=3486896752]",
+    //"Then I validate REST Http Status Code is [OK]",
+    //"Given I save Rest response parameter field [$.infoNumber] as variable OTP_input",
+    "Given I click on AnnullaGeneralButton if present",
+    "Then Inserisci_Codice_label is displayed",
+    "Then Inserisci_Codice_label data matches Yaplogin.Valid.3511669952",
+    "When I input data into OTP_input",
+    "Given I wait 3 seconds",
+    "Given I click on Annullabutton if present",
+    "Given I click on ContinuaDevice_button if present",
+    "Given Home Page_Yap is open",
+    //"Given I click on PermissionAllow_Button if present",
+    "Given I click on ConsentiRubricaButton if present",
+
+    "When I click on element Yap_Card",
+    "Given I wait 2 seconds",
+    "Then I Click on Back Button",
+    "Given I wait 2 seconds",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "When I click on element Bottone_Principale",
+    "Given I click on PermissionAllowButtonContatti if present",
+    "Then Yap_Card is displayed"
+  ]
+}

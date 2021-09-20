@@ -1,0 +1,20 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0037",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "unblock and use skin",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+
+    "Given Home Page_Yap is open"
+  ]
+}

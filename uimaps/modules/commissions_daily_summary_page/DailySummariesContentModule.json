@@ -1,0 +1,29 @@
+{
+  "children": [
+    {
+      "entityId": "FilterButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'mobile-filter-icon')]"
+      }
+    },
+    {
+      "entityId": "MonthAndYearOfSummary",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/div//span[contains(@class,'color-brand')]/span"
+      }
+    },
+    {
+      "entityId": "SummaryListModule",
+      "reference": "modules/commissions_daily_summary_page/SummariesListModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/div/div[contains(@class,'direction-column')]"
+      }
+    }
+  ]
+}

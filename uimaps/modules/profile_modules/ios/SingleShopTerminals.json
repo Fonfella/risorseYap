@@ -1,0 +1,34 @@
+{
+  "children": [
+    {
+      "entityId": "TerminalsTitle",
+      "testData": "TerminalsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Terminali']"
+      }
+    },
+    {
+      "entityId": "TerminalGenericDetails",
+      "type": "MODULE",
+      "reference": "modules/profile_modules/TerminalGenericDetails.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name,'terminal-code') or (contains(@name,'terminal-model')) or (contains(@name,'terminal-manual'))]"
+      }
+    },
+    {
+      "entityId": "EditInfoLink",
+      "testData": "EditInfoLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='MODIFICA INFORMAZIONI']"
+      }
+    }
+  ]
+}
+
+
+

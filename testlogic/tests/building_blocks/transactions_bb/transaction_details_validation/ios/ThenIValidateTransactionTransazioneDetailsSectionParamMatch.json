@@ -1,0 +1,9 @@
+{
+  "name": "ThenIValidateTransactionTransazioneDetailsSectionParamMatch",
+  "description": "Validate that transaction client details tile in transaction details match input data",
+  "type": "TestCase",
+  "aliases": "Then I validate transaction details transazione section parameter",
+  "children": [
+    "Then TransactionDetailsModule.TransactionDetailsSectionModule.ExpandedDetailsTransazione[byChild='DetailsElementsList',filterType='text',filterValue='${parameterName}'] data matches ${data}"
+  ]
+}

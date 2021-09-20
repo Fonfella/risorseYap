@@ -1,0 +1,9 @@
+{
+  "name": "WhenSelectChartView",
+  "description": "Select transato view",
+  "aliases": "When chart view is selected",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerComparisonContentModule.PeerComparisonContainer.ChartLayer.OptionSelectorList[byChild='ButtonLabel',filterType='text',filterValue='${viewName}']"
+  ]
+}

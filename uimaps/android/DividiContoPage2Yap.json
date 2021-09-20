@@ -1,0 +1,84 @@
+{
+  "children": [
+    {
+      "entityId": "DividiLabel",
+      "testData":"DividiLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_text_title']"
+      }
+    },
+
+    {
+      "entityId": "CosaStateDividendoLabel",
+      "testData":"CosaStateDividendoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "ComeVoleteDividereLabel",
+      "testData":"ComeVoleteDividereLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "Bottone_AllaRomana",
+      "testData":"AllaRomana",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Alla romana']"
+      }
+    },
+    {
+      "entityId": "Bottone_OgnunoPerSe",
+      "testData":"OgnunoPerSe",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Ognuno per sè']"
+      }
+    },
+    {
+      "entityId": "Bottone_Cena",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_name' and @text='Cena']"
+      }
+    },
+    {
+      "entityId": "Bottone_Pizza",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_name' and @text='Pizza']"
+      }
+    },
+
+    {
+      "entityId": "Bottone_Continua",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_continue']"
+      }
+    },
+
+    {
+      "entityId": "CTA_X",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ImageView"
+      }
+    }
+  ]
+}

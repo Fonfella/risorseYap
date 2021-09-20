@@ -1,0 +1,10 @@
+{
+  "name": "ThenFilterSlidersAreDisplayed",
+  "description": "Validate that amount filter sliders are displayed",
+  "type": "TestCase",
+  "aliases": "Then filter sliders are displayed",
+  "children": [
+    "Then TransactionsFiltersModule.FilterDetailsModule.FilterAmountWithSliderModule[byChild='RangeSpecification',filterType='text',filterValue='Da'].Slider is displayed",
+    "Then TransactionsFiltersModule.FilterDetailsModule.FilterAmountWithSliderModule[byChild='RangeSpecification',filterType='text',filterValue='A'].Slider is displayed"
+  ]
+}

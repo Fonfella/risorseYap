@@ -1,0 +1,41 @@
+{
+  "children": [
+    {
+      "entityId": "CodiceFiscaleInput",
+      "type": "ELEMENT",
+      "testData": "CodiceFiscaleTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout"
+      }
+    },
+    {
+      "entityId": "CF_ErrorMessage",
+      "type": "ELEMENT",
+      "testData": "CF_Error_Message",
+      "locator": {
+        "type": "XPATH",
+        "optional":true,
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.TextView[2]"
+      }
+    },
+
+    {
+      "entityId": "ContinuaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "PrimaCosa_Message",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "optional":true,
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView"
+      }
+    }
+  ]
+}

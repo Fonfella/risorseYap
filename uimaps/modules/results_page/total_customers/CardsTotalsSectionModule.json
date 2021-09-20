@@ -1,0 +1,85 @@
+{
+  "children": [
+    {
+      "entityId": "ValueField",
+      "testData": "ValueField",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'annotated')]"
+      }
+    },
+    {
+      "entityId": "ValueLabel",
+      "testData": "ValueLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/span"
+      }
+    },
+    {
+      "entityId": "CollapseButton",
+      "testData": "SelectedDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./following-sibling::ul[1]//li[contains(@class, 'accordion-heading')]/button//h3//span[contains(@class, 'accordion-title')]"
+      }
+    },
+    {
+      "entityId": "BulletIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./following-sibling::ul//li[contains(@class, 'accordion-heading')]//header/h3/span[contains(@class, 'bullet-icon')]/*"
+      }
+    },
+    {
+      "entityId": "DatePeriodTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./following-sibling::ul//li[contains(@class, 'accordion-heading')]//header/h3/span[contains(@class, 'title')]/label"
+      }
+    },
+    {
+      "entityId": "DropDownIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./following-sibling::ul//li[contains(@class, 'accordion-heading')]//header/h3/span[contains(@class, 'down-icon')]/*"
+      }
+    },
+    {
+      "entityId": "CardsTotalsDetails",
+      "reference": "modules/results_page/total_customers/CardsTotalsDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./following-sibling::ul[1]//div[contains(@class, 'accordion-list-wrapper')]"
+      }
+    },
+    {
+      "entityId": "CardCollapseEmptyData",
+      "reference": "modules/results_page/total_customers/CardsTotalsDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./following-sibling::ul//div[contains(@class, 'grommetux-collapsible')]"
+      }
+    },
+    {
+      "entityId": "CardCollapseCircuitsEmptyData",
+      "reference": "modules/results_page/total_customers/CardsTotalsDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'grommetux-collapsible')]"
+      }
+    }
+  ]
+}

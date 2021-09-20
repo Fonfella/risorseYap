@@ -1,0 +1,9 @@
+{
+  "name": "Remove registered merchants",
+  "description": "Remove all registered merchants from D",
+  "aliases": "Then I remove registered user entry from DB",
+  "type": "TestCase",
+  "children": [
+    "When I execute DB script [registration/unregisterUsers.sql]"
+  ]
+}

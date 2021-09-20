@@ -1,0 +1,10 @@
+{
+  "name": "SelectPeriodTwoCalendar",
+  "description": "Select a fix period in calendar picker",
+  "aliases": "When I select period two",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ChartLayerModule.FromDate",
+    "When I set period in calendar"
+  ]
+}

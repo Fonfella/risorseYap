@@ -1,0 +1,12 @@
+{
+  "name": "ThenVerifyCompanyCodeOnPages",
+  "description": "Verify that company code is displayed on pos piker on any page",
+  "type": "TestCase",
+  "aliases": "Then I verify company code on POS piker on page",
+  "children": [
+    "When I navigate to ${page} via sandwich menu",
+    "When I open POS picker",
+    "Then POS picker company data matches",
+    "When I cancel POS picker selection"
+  ]
+}

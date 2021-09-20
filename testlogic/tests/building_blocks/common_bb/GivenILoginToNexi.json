@@ -1,0 +1,11 @@
+{
+    "name": "GivenILoginToNexi",
+    "description": "Authentication Flow",
+    "aliases": "Given I login to Nexi",
+    "type": "TestCase",
+    "children": [
+      "When I open Login Page",
+      "When I try to login",
+     "Then Home Page is open"
+   ]
+  }

@@ -1,0 +1,10 @@
+{
+  "name": "ThenShopDIsDisplayedOnPuntoVendita",
+  "description": "Then  shop type D is displayed on punto vendita Anagrafica 1",
+  "aliases":"Then Shop type D is displayed on punto vendita",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SelectShopForm.SelectShopDropdown",
+    "Then SelectShopForm.DropdownValues[filterType='text',filterValue='${shopD}'] is displayed"
+  ]
+}

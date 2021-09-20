@@ -1,0 +1,12 @@
+{
+  "name": "ThenIValidateDownloadedExcelDocumentOneTransaction",
+  "description": "Validate download document name",
+  "aliases": "Then I validate downloaded excel document containing one transaction",
+  "type": "TestCase",
+  "children": [
+    "When I click on element TransactionDetailsModule.DownloadToExcelButton",
+    "Then ${fileName} was downloaded to default directory",
+    "Then I activate the application",
+    "When I click on element TransactionDetailsModule.CloseButton"
+  ]
+}

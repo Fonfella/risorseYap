@@ -1,0 +1,60 @@
+{
+  "children": [
+    {
+      "entityId": "SummaryDateStampModule",
+      "type": "MODULE",
+      "reference": "modules/commissions_daily_summary_page/SummaryDateStampModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./li/div[1]/div[1]/div[1]"
+
+      }
+    },
+    {
+      "entityId": "TotalCommissionsModule",
+      "reference": "modules/commissions_daily_summary_page/TotalCommissionsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'d grommetux-box--pad-n')]/.."
+      }
+    },
+    {
+      "entityId": "NumberOfMovimenti",
+      "testData": "NumberOfMovimenti",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'d grommetux-box--pad-n')]/../../../div[1]/div[2]"
+      }
+    },
+    {
+      "entityId": "GrossAmount",
+      "reference": "modules/commissions_daily_summary_page/GrossNetAmountModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Lordo calcolato']/../.."
+      }
+    },
+    {
+      "entityId": "NetAmount",
+      "testData": "NetAmount",
+      "reference": "modules/commissions_daily_summary_page/GrossNetAmountModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Netto calcolato']/../.."
+      }
+    },
+    {
+      "entityId": "SeeDetailsLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a"
+      }
+    }
+  ]
+}

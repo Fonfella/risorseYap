@@ -1,0 +1,9 @@
+{
+  "name": "WhenIApplyInputData",
+  "description": "Click apply button related to input field",
+  "type": "TestCase",
+  "aliases": "When I apply input data",
+  "children": [
+    "When I click on element FilterDetailsModule.ApplyButton"
+  ]
+}

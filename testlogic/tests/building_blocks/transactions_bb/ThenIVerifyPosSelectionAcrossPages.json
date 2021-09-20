@@ -1,0 +1,16 @@
+{
+  "name": "ThenIVerifyPosSelectionAcrossPages",
+  "description": "Click on any sales points configuration label, based on filters, specific for cluster 2,3",
+  "aliases": "Then I verify POS selection across pages",
+  "type": "TestCase",
+  "children": [
+    "When I navigate to documents page via sandwich menu",
+    "Then POS module data match",
+    "When I navigate to home page via sandwich menu",
+    "Then POS module data match",
+    "When I navigate to results page via sandwich menu",
+    "Then POS module data match",
+    "When I navigate to transactions page via sandwich menu",
+    "Then POS module data match"
+  ]
+}

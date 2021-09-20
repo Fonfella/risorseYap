@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "ProgrammaProtectionPlus",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='PROGRAMMA PROTECTION PLUS']"
+      }
+    },
+    {
+      "entityId": "PCIDSS",
+      "type": "MODULE",
+      "reference": "modules/faq_modules/DropdownBoxModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='STANDARD PCI - DSS']"
+      }
+    },
+    {
+      "entityId": "QuestionaireSimplicato",
+      "type": "MODULE",
+      "reference": "modules/faq_modules/DropdownBoxModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='STANDARD PCI - DSS']"
+      }
+    }
+  ]
+}

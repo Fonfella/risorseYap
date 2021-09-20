@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "ELEMENT",
+      "testData": "AreaTitle",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/div/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'filter-anchor')]/span"
+      }
+    },
+    {
+      "entityId": "ProductCategoryInfoSectionModule",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/information_section/ProductCategoryInfoSectionModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/a"
+      }
+    }
+  ]
+}

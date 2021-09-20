@@ -1,0 +1,10 @@
+{
+  "name": "WhenICancelPeerComparisonFiltersSelection",
+  "description": "Click on cancella button on peer comparison filters page",
+  "aliases": "When I cancel peer comparison filters selection",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.FiltersLayoutModule.FooterButtons.ElementLabel[filterType='text',filterValue='CANCELLA']",
+    "Then Peer Comparison Page is open"
+  ]
+}

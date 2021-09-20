@@ -1,0 +1,14 @@
+{
+  "name": "GivenIAmOnXPayOnlyConfirmaionPage",
+  "description": "Successfully pass Anagrafica1,Anagrafica2,Opzioni1,Opzioni2 and Opzioni3 pages",
+  "aliases": "Given I am on XPay Confirmation page",
+  "type": "TestCase",
+  "children": [
+    "Given I am on XPay Opzioni3 page",
+    "When I click on element SelectServicesForm.Checkbox[filterType='index',filterValue='0']",
+    "When I click on element SelectServicesForm.Checkbox[filterType='index',filterValue='1']",
+    "When I click on element SelectServicesForm.Checkbox[filterType='index',filterValue='2']",
+    "When I click on element SubmitButton",
+    "Then XPay Confirmation Page is open"
+  ]
+}

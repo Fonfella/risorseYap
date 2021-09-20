@@ -1,0 +1,18 @@
+{
+  "name": "ThenAnagrafica2ElementsMatcTestData",
+  "description": "Check Elements labels to match with testData",
+  "aliases":"Then Page Anagrafica2 Elements match test data",
+  "type": "TestCase",
+  "children": [
+    "Then PageTitle data matches XpayOnlyData.AndroidAnagrafica2PageTitle",
+    "Then Anagrafica2Form.SelectedShopName data matches XpayOnlyData.Anagrafica2.SelectedShopName",
+    "Then Anagrafica2Form.EmailInputBox.InputLabel data matches XpayOnlyData.Anagrafica2.EmailInputField",
+    "Then Anagrafica2Form.PhoneInputBox.InputLabel data matches XpayOnlyData.Anagrafica2.PhoneInputField",
+    "Then Anagrafica2Form.FaxInputBox.InputLabel data matches XpayOnlyData.Anagrafica2.FaxInputField",
+    "Then Anagrafica2Form.YourSocietyLabel data matches XpayOnlyData.Anagrafica2.SocietyHeader",
+    // can't extract data from div step 14
+    //    "Then Anagrafica2Form.CompanyInfoLabels data matches XpayOnlyData.Anagrafica2.CompanyInfoLabels",
+    "Then Anagrafica2Form.ConsentsModule data matches XpayOnlyData.Anagrafica2.ConsentsModule",
+    "Then SubmitButton.InputSpan data matches XpayOnlyData.Anagrafica2.SubmitButton"
+  ]
+}

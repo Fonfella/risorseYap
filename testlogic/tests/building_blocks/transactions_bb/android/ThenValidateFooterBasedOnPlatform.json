@@ -1,0 +1,11 @@
+{
+  "name": "ThenValidateFooterBasedOnPlatform",
+  "description": "Is displayed for WEB",
+  "type": "TestCase",
+  "aliases": "Then validate footer based on platform",
+  "children": [
+    "Then NexiFooter.FooterLinks is not displayed",
+    "Then NexiFooter.CopyRight is not displayed",
+    "Then NexiFooter.NexiLogo is not displayed"
+  ]
+}

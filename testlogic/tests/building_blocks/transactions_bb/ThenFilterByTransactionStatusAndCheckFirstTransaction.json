@@ -1,0 +1,16 @@
+{
+    "name": "ThenFilterByTransactionStatusAndCheckFirstTransaction",
+    "description": "Set on filters page input transaction status as filter, validate first transaction status and applied filters",
+    "aliases": "Then filter by transaction status and check first transaction",
+    "type": "TestCase",
+    "children": [
+      "When I open filters page",
+      "When I select filter with [filterName=Stato transazione]",
+      "When I select predefined filter value",
+      "When I apply filters selection",
+      "Then FiltersAppliedModule data matches TransactionsFilterData.StatoTransazioneFiltersApplied.${filterValue}",
+      "When I click on transaction with [transactionIndex=0]",
+      "Then I validate transaction details transazione section parameter with [parameterName=Stato][data=TransactionsData.TransactionDetailsData.DetailsElements.TransactionStatusTypes.${filterValue}]",
+      "When I click on element TransactionDetailsModule.CloseButton"
+   ]
+  }

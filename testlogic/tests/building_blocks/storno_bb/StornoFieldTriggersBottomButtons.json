@@ -1,0 +1,16 @@
+{
+  "name": "StornoFieldTriggersBottomButtons",
+  "description": "Check if when click on an input field from storno card bottom buttons are displayed",
+  "type": "TestCase",
+  "aliases": "Then Storno Card field triggers bottom buttons to appear",
+  "children": [
+    "When I click on element ${field}",
+    "When I set period in calendar with [fromDate=[today-1years]][toDate=[today-2days]]",
+    "When I click on element DatePicker.SaveButton",
+    "Then HomePageContentModule.CommonCardSet.StornoCard.InputForm.CancelButton is displayed",
+    "Then HomePageContentModule.CommonCardSet.StornoCard.InputForm.SearchButton is displayed",
+    "When I click on element HomePageContentModule.CommonCardSet.StornoCard.InputForm.CancelButton",
+    "Then HomePageContentModule.CommonCardSet.StornoCard.InputForm.CancelButton is not displayed",
+    "Then HomePageContentModule.CommonCardSet.StornoCard.InputForm.SearchButton is not displayed"
+  ]
+}

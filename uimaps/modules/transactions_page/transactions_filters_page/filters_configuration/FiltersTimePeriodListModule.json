@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "TimePeriod",
+      "testData": "TimePeriod",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span"
+      }
+    },
+    {
+      "entityId": "DateStamp",
+      "testData": "DateStamp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span/span"
+      }
+    }
+  ]
+}

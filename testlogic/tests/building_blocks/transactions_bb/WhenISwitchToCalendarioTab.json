@@ -1,0 +1,9 @@
+{
+  "name": "WhenISwitchToCalendarioTab",
+  "description": "Switch to calendario tab in Data filter",
+  "type": "TestCase",
+  "aliases": "When I switch to calendario tab",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FilterDetailsModule.FilterDetailsTabsModule.NotSelectedTabs.ButtonLabel"
+  ]
+}

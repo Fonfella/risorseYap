@@ -1,0 +1,12 @@
+{
+  "name": "ChangeEmailFeature",
+  "description": "Change Email Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/ChangeEmail/changemail01.json",
+    "testlogic/tests/native/Yap/ChangeEmail/changemail02.json",
+    "testlogic/tests/native/Yap/ChangeEmail/changemail03.json",
+    "testlogic/tests/native/Yap/ChangeEmail/changemail04.json"
+  ]
+}

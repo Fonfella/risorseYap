@@ -1,0 +1,10 @@
+{
+  "name": "WhenIClickFilteredByAmountTransaction",
+  "description": "Validate transaction by input parameters",
+  "type": "TestCase",
+  "aliases": "When I click filtered by amount transaction",
+  "children": [
+    "When I scroll to TransactionsContentWrappedModule.TransactionsListModule[byChild='TransactionAmount',filterType='${filterType}',filterValue='${amountFilter}'][filterType='index',filterValue='${transactionIndex}']",
+    "When I click on element TransactionsContentWrappedModule.TransactionsListModule[byChild='TransactionAmount',filterType='${filterType}',filterValue='${amountFilter}'][filterType='index',filterValue='${transactionIndex}']"
+  ]
+}

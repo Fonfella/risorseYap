@@ -1,0 +1,9 @@
+{
+  "name": "ThenTransactionIsDisplayed",
+  "description": "Validate that transaction is displayed",
+  "type": "TestCase",
+  "aliases": "Then transaction is displayed",
+  "children": [
+    "Then TransactionsContentWrappedModule.TransactionsListModule[filterType='index',filterValue='${transactionIndex}'] is displayed"
+  ]
+}

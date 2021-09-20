@@ -1,0 +1,11 @@
+{
+  "name": "GivenILogIntoAndroidApp",
+  "description": "Registration Flow",
+  "aliases": "Given I login to Android app",
+  "type": "TestCase",
+  "children": [
+    "Given I open Login Page",
+    "When I input data[${credentials}] into LoginForm",
+    "When I click on element LoginForm.SubmitButton"
+  ]
+}

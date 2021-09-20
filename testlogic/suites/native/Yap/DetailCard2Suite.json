@@ -1,0 +1,9 @@
+{
+  "id": "777",
+  "name": "DetailCard2Suite",
+  "description": "DetailCard2Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/DetailCard2Feature.json", "type": ["ANDROID"] }
+  ]
+}

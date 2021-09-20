@@ -1,0 +1,9 @@
+{
+  "name": "ValidateDataMatchingProvenanceOfForeignCard.json",
+  "description": "Validate card Provenienza carte estere",
+  "aliases": "Then provenance of foreign card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.ProvenanceOfForeignCards data matches ResultsTestData.Cards.ProvenanceOfForeignCard.${cardData}"
+  ]
+}

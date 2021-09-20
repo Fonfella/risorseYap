@@ -1,0 +1,9 @@
+{
+  "name": "WhenIClickOnElementFromSearchList",
+  "description": "Click on search list element by input text",
+  "type": "TestCase",
+  "aliases": "When I click on element from search list",
+  "children": [
+    "When I click on element FilterDetailsModule.SearchedList[filterType='text',filterValue='${elementText}']"
+  ]
+}

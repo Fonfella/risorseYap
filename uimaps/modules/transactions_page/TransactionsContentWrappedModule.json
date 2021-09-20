@@ -1,0 +1,33 @@
+{
+  "children": [
+    {
+      "entityId": "DownloadButton",
+      "type": "ELEMENT",
+//      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[.//span[contains(text(), 'Download')] or text()='DOWNLOAD'] "
+      }
+    },
+    {
+      "entityId": "MonthAndYearOfTransaction",
+      "testData": "MonthAndYearOfTransaction",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1[contains(@class,'transactions-heading')]"
+      }
+    },
+    {
+      "entityId": "TransactionsListModule",
+//      "optional": true,
+      "reference": "modules/transactions_page/TransactionsListModule.json",
+      "childCount": "2",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'transaction-header-list')]"
+      }
+    }
+  ]
+}

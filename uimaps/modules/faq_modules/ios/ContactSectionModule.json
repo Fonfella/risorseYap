@@ -1,0 +1,36 @@
+{
+  "children": [
+    {
+      "entityId": "ContactTile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Contatti']"
+      }
+    },
+    {
+      "entityId": "ContactInfoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Servizio 24 ore su 24, 7 giorni su 7.']"
+      }
+    },
+    {
+      "entityId": "CallUsArea",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='CHIAMACI prossimo']"
+      }
+    },
+    {
+      "entityId": "WriteUsArea",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='SCRIVICI prossimo'"
+      }
+    }
+  ]
+}

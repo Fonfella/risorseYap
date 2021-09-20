@@ -1,0 +1,66 @@
+{
+  "children": [
+    {
+      "entityId": "ChartXAxisElementsList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'xAxis xAxis')]"
+      }
+    },
+    {
+      "entityId": "ChartYAxisElements",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'swipeable-labels')]"
+      }
+    },
+    {
+      "entityId": "ClickableBarsOtherPVList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, '0 clickable')]"
+      }
+    },
+    {
+      "entityId": "NotClickableBarsOtherPVList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'color-0')]"
+      }
+    },
+    {
+      "entityId": "ClickableBarsYourPVList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, '1 clickable')]"
+      }
+    },
+    {
+      "entityId": "NotClickableBarsYourPVList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, '1 opacity')]"
+      }
+    },
+    {
+      "entityId": "ClickableBarsList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[name()='rect'][contains(@class, 'clickable')]"
+      }
+    }
+  ]
+}

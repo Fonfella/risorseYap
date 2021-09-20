@@ -1,0 +1,9 @@
+{
+  "name": "WhenICheckTerminalToolTip",
+  "description": "Check Terminal's Tool Tip",
+  "aliases": "When I check Terminal ToolTip",
+  "type": "TestCase",
+  "children": [
+    "When I hover on ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.TerminalInfoButtonReference.ToolTipButton"
+  ]
+}

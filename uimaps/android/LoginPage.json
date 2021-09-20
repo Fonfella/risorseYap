@@ -1,0 +1,66 @@
+{
+  "children": [
+//    {
+//      "entityId": "NexiHeader",
+//      "reference": "modules/common_modules/NexiHeader.json",
+//      "type": "MODULE",
+//      "locator": {
+//        "type": "XPATH",
+//        "value": "//header"
+//      }
+//    },
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'top-small')]/div/*[name()='svg'][contains(@class,'logo-icon')]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//h2[contains(@class,'login-heading')]/span"
+      }
+    },
+    {
+      "entityId": "LoginForm",
+      "reference": "modules/login_page/LoginForm.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//form"
+      }
+    },
+    {
+      "entityId": "RegistrationLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//h3/a"
+      }
+    },
+    {
+      "entityId": "WrongCredentialsPopUp",
+      "type": "MODULE",
+      "optional":true,
+      "reference": "modules/login_page/android/LoginError.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'error-section')]"
+      }
+    },
+    {
+      "entityId": "UserLockedPopUp",
+      "type": "ELEMENT",
+      "optional":true,
+      "reference": "modules/login_page/android/Locked.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'error-section')]"
+      }
+    }
+  ]
+}

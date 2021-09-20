@@ -1,0 +1,33 @@
+{
+  "children": [
+    {
+      "entityId": "PickerLabel",
+      "type": "ELEMENT",
+      "testData": "PickerLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/label/span"
+      }
+    },
+    {
+      "entityId": "MonthPickerInput",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'dropdown-input-control')]"
+      }
+    },
+    {
+      "entityId": "MonthsDropDownList",
+      "optional": true,
+      "testData": "MonthsDropDownList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ol/li"
+      }
+    }
+  ]
+}

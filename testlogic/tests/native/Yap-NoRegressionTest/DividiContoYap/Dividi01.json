@@ -1,0 +1,27 @@
+{
+  "ids": [
+    {
+      "id":"YP-0021",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Accesso alla sezione Dividi_Conto",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_DividiConto",
+    "Given DividiConto Page_Yap is open",
+    "Then DividiLabel is displayed",
+    "Given DividiLabel data matches Provayap.Labels",
+    "Given I wait 2 seconds"
+  ]
+}

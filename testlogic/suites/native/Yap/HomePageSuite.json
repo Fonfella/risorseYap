@@ -1,0 +1,9 @@
+{
+  "id": "01004",
+  "name": "HomePageSuite",
+  "description": "Home Page Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/HomePageFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

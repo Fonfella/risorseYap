@@ -1,0 +1,10 @@
+{
+  "name": "Check in DB if registration step is set up correctly",
+  "description": "Registration Flow",
+  "aliases": "Then DB Registration Step is set",
+  "type": "TestCase",
+  "children": [
+    //TODO: Change following after SQL To TestData Match will be implemented
+    "Then ${regStep} data matches [RegStep.sql][${email}] on [test2]"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "WhenISetPOSPickerOnPage",
+  "description": "Set input POS picker shop on input page",
+  "aliases": "When I set POS picker on page",
+  "type": "TestCase",
+  "children": [
+    "When I navigate to ${pageName} page via sandwich menu",
+    "When I open POS picker",
+    "When I select a shop from POS picker",
+    "When I apply POS picker selection"
+  ]
+}

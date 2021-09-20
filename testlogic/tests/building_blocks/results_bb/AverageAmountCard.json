@@ -1,0 +1,10 @@
+{
+  "name": "AverageAmountCard",
+  "description": "Validate card Importo medio",
+  "aliases": "Then average amount card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.AverageAmountCard data matches ResultsTestData.Cards.AverageAmountCard.${cardData}"
+
+  ]
+}

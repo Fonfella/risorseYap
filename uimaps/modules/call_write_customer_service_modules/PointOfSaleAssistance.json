@@ -1,0 +1,67 @@
+{
+  "children": [
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "SelectMerchantLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label[contains(@class,'text-size-large')]"
+      }
+    },
+
+    {
+      "entityId": "SelectMerchantDropDownArrow",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]/.//a"
+      }
+    },
+
+    {
+      "entityId": "SelectMerchantDropDown",
+      "reference": "modules/profile_modules/ComboBoxContainer.json",
+      "optional" : true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'dropdown-wrapper')]"
+      }
+    },
+    {
+      "entityId": "ButtonCancel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/.//a"
+      }
+    },
+    {
+      "entityId": "ButtonSave",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    }
+
+  ]
+}
+
+
+
+
+
+
+
+
+
+

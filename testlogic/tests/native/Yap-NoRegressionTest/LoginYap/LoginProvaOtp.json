@@ -1,0 +1,37 @@
+{
+  "ids": [
+    {
+      "id":"MP-1747",
+      "platform": "Android"
+    }
+  ],
+  "name": "Corretta Login",
+  "description": "PIN Corretto",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Start Page is open",
+   // "When I click on element Accedi_Login",
+   // "Given Login Page_Yap is open",
+    //"Given I click on Annulla_Impronta_Digitale if present",
+   // "Given I wait 2 seconds",
+   // "When I input data into Edit_Phone",
+   // "Given I wait 5 seconds",
+   // "When I click on element Button_Continue",
+    //"Given I wait 5 seconds",
+    "When I background the application",
+    "Given I wait 5 seconds",
+    "Given I activate the application",
+   // "Given I wait 5 seconds",
+    "When I receive the latest email with subject Generazione OTP",
+    "When I receive the latest email with subject [Generazione OTP]",
+    "When I input data into OTPInput",
+    "Given I wait 2 seconds",
+    "When I input data into InputPassword",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "Given I wait 2 seconds"
+
+  ]
+}

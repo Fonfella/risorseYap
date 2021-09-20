@@ -1,0 +1,65 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[./XCUIElementTypeOther[contains(@name,'Chiudi')]]"
+      }
+    },
+    {
+      "entityId": "PopupTitle",
+      "testData":"PopupTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[not(@name)][1]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "PopupSubject",
+      "testData":"PopupSubject",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[not(@name)][2]/XCUIElementTypeStaticText"
+      }
+    },
+
+    {
+      "entityId": "PopupItemDescription",
+      "testData":"PopupItemDescription",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[not(@name)][3]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "PopupNavigationPoints",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[count(XCUIElementTypeButton)>3]/XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "NextArrow",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'prossimo')]"
+      }
+    },
+    {
+      "entityId": "PreviousArrow",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'previous')]"
+      }
+    }
+  ]
+}

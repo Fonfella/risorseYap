@@ -1,0 +1,69 @@
+{
+  "children": [
+    {
+      "entityId": "ImproveServiceLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Per migliorare il servizio']"
+      }
+    },
+    {
+      "entityId": "ExplicationImproveServiceLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Per migliorare il servizio']/following::XCUIElementTypeStaticText[1]"
+      }
+    },
+
+    {
+      "entityId": "ComercialPromotionLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Per attività di promozione commerciale']"
+      }
+    },
+    {
+      "entityId": "ExplicationComercialPromotionLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Per attività di promozione commerciale']/following::XCUIElementTypeStaticText[1]"
+      }
+    },
+    {
+      "entityId": "ReadPrivacyLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Leggi']"
+      }
+    },
+    {
+      "entityId": "PrivacyLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='l’informativa privacy']"
+      }
+    },
+    {
+      "entityId": "AcceptPrivacy",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='DO IL CONSENSO']"
+      }
+    },
+    {
+      "entityId": "DeclinePrivacy",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='NEGO IL CONSENSO']"
+      }
+    }
+  ]
+}

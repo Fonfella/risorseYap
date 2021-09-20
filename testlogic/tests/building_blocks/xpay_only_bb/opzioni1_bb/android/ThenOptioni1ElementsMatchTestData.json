@@ -1,0 +1,10 @@
+{
+  "name": "ThenOptioni1ElementsMatchTestData.json",
+  "description": "Check Elements labels to match with testData",
+  "aliases":"Then Page Optioni1 Elements match test data",
+  "type": "TestCase",
+  "children": [
+    "Then BackButton.BackButtonLabel data matches XpayOnlyData.AndroidBackButtonLabel",
+    "Then PageTitle data matches XpayOnlyData.AndroidOpzioni1.PageTitle"
+  ]
+}

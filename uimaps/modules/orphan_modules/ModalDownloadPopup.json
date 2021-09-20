@@ -1,0 +1,77 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/a[1]"
+      }
+    },
+    {
+      "entityId": "Heading",
+      "testData": "Heading",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/div[1]/div/span"
+//        /div[2]//span[contains(@class,'color-brand')]/span|/div[2]/h2/span
+      }
+    },
+    {
+      "entityId": "NrOfTransactions",
+      "testData": "NrOfTransactions",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class,'modal-content')]/div/div/div[1]/span[1]"
+//        /div[2]/div/div/div[1]//span[contains(text(),'transazioni')]|/div[2]//p//span[contains(text(),'transazioni')]
+      }
+    },
+    {
+      "entityId": "FromToDateStamp",
+      "testData": "FromToDateStamp",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//div[1]//div[1]//span[contains(@class,'uppercase')]/.."
+//        /div[2]//div[1]//div[1]//span[contains(@class,'uppercase')]/..|/div[2]//p[contains(@class,'wordwrap')]
+      }
+    },
+    {
+      "entityId": "TransactionsDownloadLimitMessage",
+      "testData": "TransactionsDownloadLimitMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//div[1]//div[2]"
+//        /div[2]//div[1]//div[2]|/div[2]/div[2]
+      }
+    },
+    {
+      "entityId": "DownloadExcelButton",
+      "testData": "DownloadExcelButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//div[1]//div[3]/a[1]"
+//        /div[2]//div[1]//div[3]/a[1]|//footer/div[1]/a
+      }
+    },
+    {
+      "entityId": "DownloadCsvButton",
+      "testData": "DownloadCsvButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//div[1]//div[3]/a[2]"
+//        /div[2]//div[1]//div[3]/a[2]|//footer/div[2]/a
+      }
+    }
+  ]
+}

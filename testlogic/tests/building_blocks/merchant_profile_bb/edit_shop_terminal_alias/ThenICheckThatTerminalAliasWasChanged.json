@@ -1,0 +1,10 @@
+{
+  "name": "ThenICheckThatTerminalAliasWasChanged",
+  "description": "TerminalsDetailsComponentValidation",
+  "aliases": "Then terminal alias has changed",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem${shop}",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails.TerminalAlias data matches EditShopsAndTerminalsData.LessThan32Chars"
+  ]
+}

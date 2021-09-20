@@ -1,0 +1,24 @@
+{
+  "children": [
+    {
+      "entityId": "FeeLabelItem",
+      "testData": "FeeLabelItem",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[1]/span"
+      }
+    },
+    {
+      "entityId": "FeeAmountItem",
+      "testData": "FeeAmountItem",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[2]/span"
+      }
+    }
+  ]
+}

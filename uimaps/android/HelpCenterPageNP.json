@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "entityId": "AssistenzaLabel",
+      "testData":"AssistenzaLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ASSISTENZA']"
+      }
+    },
+
+    {
+      "entityId": "Contattaci",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CONTATTACI']"
+      }
+    },
+    {
+      "entityId": "PopUp_TapHelp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_end']"
+      }
+    },
+    {
+      "entityId": "Categorie_Correlate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.support.v4.view.ViewPager[@scrollable='true']"
+      }
+    },
+
+    {
+      "entityId": "CTA_Back",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[1]"
+      }
+    }
+  ]
+}

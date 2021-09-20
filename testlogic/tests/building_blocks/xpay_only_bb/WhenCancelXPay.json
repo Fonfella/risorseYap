@@ -1,0 +1,12 @@
+{
+  "name": "WhenCancelXPay",
+  "description": "Cancel XPay activation",
+  "aliases": "When I cancel XPay",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PageHeader.ChiudiButton",
+    "Then XPayCancelModalPopup is displayed",
+    "When I click on element XPayCancelModalPopup.LeaveButton",
+    "Then Home Page is open"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "children":
+  [
+    {
+      "entityId":"ContoCorrenteTabButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//li[@id='tab-0']/button"
+      }
+    },
+    {
+      "entityId":"ContoCorrenteTabLabel",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//li[@id='tab-0']/button/label"
+      }
+    },
+    {
+      "entityId":"CodLineaDirettaTab",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//li[@id='tab-2']/button"
+      }
+    },
+    {
+      "entityId":"CodLineaDirettaTabLabel",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//li[@id='tab-2']/button/label"
+      }
+    },
+    {
+      "entityId":"ContoCorrenteTab",
+      "optional":true,
+      "reference": "modules/registration/step4/ContoCorrenteModule.json",
+      "type": "MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[@role='tabpanel']"
+      }
+    },
+    {
+      "entityId":"CodLineaDirettaTab",
+      "optional":true,
+      "reference": "modules/registration/step4/LineaDirettaTabModule.json",
+      "type": "MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[@role='tabpanel']"
+      }
+    }
+  ]
+}

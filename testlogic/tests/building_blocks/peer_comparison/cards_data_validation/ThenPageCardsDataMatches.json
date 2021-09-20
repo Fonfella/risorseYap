@@ -1,0 +1,13 @@
+{
+  "name": "ThenPageCardsDataMatches",
+  "description": "Validate cards content with input data",
+  "type": "TestCase",
+  "aliases": "Then page cards data matches",
+  "children": [
+    "Then PeerComparisonContentModule.PeerComparisonContainer.PeerComparisonCardsModule[byChild='CardHeader',filterType='text',filterValue='Transato'] data matches ${cardsData}.TransatoCard",
+    "Then PeerComparisonContentModule.PeerComparisonContainer.PeerComparisonCardsModule[byChild='CardHeader',filterType='text',filterValue='Transazioni'] data matches ${cardsData}.TransazioniCard",
+    "Then PeerComparisonContentModule.PeerComparisonContainer.PeerComparisonCardsModule[byChild='CardHeader',filterType='text',filterValue='Importo medio'] data matches ${cardsData}.ImportoMedioCard",
+    "Then PeerComparisonContentModule.PeerComparisonContainer.PeerComparisonCardsModule[byChild='CardHeader',filterType='text',filterValue='Provenienza carte estere'] data matches ${cardsData}.ProvenienzaCarteEstereCard",
+    "Then PeerComparisonContentModule.PeerComparisonContainer.PeerComparisonCardsModule[byChild='CardHeader',filterType='text',filterValue='Distribuzione per importo delle transazioni'] data matches ${cardsData}.DistribuzionePerImportoDelleTransazioniCard"
+  ]
+}

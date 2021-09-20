@@ -1,0 +1,98 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header//span[contains(@class,'heading')]"
+      }
+    },
+    {
+      "entityId": "PageTitleLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header//span[contains(@class,'heading')]/span"
+      }
+    },
+    {
+      "entityId": "NewsMessageButtonModule",
+      "reference": "modules/communication/NewsMessageButtonModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header//div[contains(@class,'margin-top-medium')]"
+      }
+    },
+    {
+      "entityId": "TopMessageModule",
+      "reference": "/modules/communication/messages/TopMessageModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'communication-header-message')]"
+      }
+    },
+    {
+      "entityId": "MessagesCountLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-subheader-content')]/div[1]/span"
+      }
+    },
+    {
+      "entityId": "MessagesMarkAllReadButton",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-subheader-content')]/div[2]"
+      }
+    },
+    {
+      "entityId": "MessagesMarkAllReadButtonLabel",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-subheader-content')]/div[2]/span"
+      }
+    },
+    {
+      "entityId": "MessagesModule",
+      "reference": "modules/communication/messages/MessagesModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'masonry-column')]/div/div[a]"
+      }
+    },
+    {
+      "entityId": "PageFooter",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer[div]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'helpButton')]"
+      }
+    }
+  ]
+}

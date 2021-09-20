@@ -1,0 +1,10 @@
+{
+  "name": "WhenISearchAndSelectCategory",
+  "description": "Input keyword into search textbox and click on input categorySelect",
+  "aliases": "When I search and select category",
+  "type": "TestCase",
+  "children": [
+    "When I input data[${keyword}] into PeerFiltersElementsModule.ProductCategoryFilterDetailsModule.ProductCategoryInfoSectionModule.SearchInput",
+    "When I click on element PeerFiltersElementsModule.ProductCategoryFilterDetailsModule.ProductCategoryInfoSectionModule.SearchResults[filterType='text',filterValue='${categorySelect}']"
+  ]
+}

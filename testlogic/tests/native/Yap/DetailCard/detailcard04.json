@@ -1,0 +1,68 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0014",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "open detail card and assistance",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element Tail_card",
+    "Given DetailCard Page_Yap is open",
+    "Given I wait 3 seconds",
+    "Then CardHolder is displayed",
+    "Then CardHolder data matches Provayap.Valid.User4",
+    "Then IbanValue is displayed",
+    "Then IbanValue data matches Provayap.Valid.User4",
+
+    "Then Label_Info_Iban is displayed",
+    "Then Label_Info_Iban data matches Provayap.Valid.User4",
+
+    "When I click on element Question_icon",
+    "Given I wait 2 seconds",
+    "Given HelpCenter Page_Yap is open",
+    "Then HelpCenterLabel is displayed",
+
+    "Then Label_La_tua_YAP is displayed",
+    "Then Label_La_tua_YAP data matches Provayap.Valid.User4",
+
+    "Then Info_La_tua_YAP is displayed",
+    "Then Info_La_tua_YAP data matches Provayap.Valid.User4",
+
+    "Then La_carta_item is displayed",
+    "Then La_carta_item data matches Provayap.Valid.User4",
+
+    "Then YAP_Apple_Pay_item is displayed",
+    "Then YAP_Apple_Pay_item data matches Provayap.Valid.User4",
+
+    "Then YAP_Google_Pay_item is displayed",
+    "Then YAP_Google_Pay_item data matches Provayap.Valid.User4",
+
+    "Then YAP_Samsung_Pay_item is displayed",
+    "Then YAP_Samsung_Pay_item data matches Provayap.Valid.User4",
+
+    "When I scroll to YAP_Huawei_Pay_item",
+    "Then YAP_Huawei_Pay_item is displayed",
+    "Then YAP_Huawei_Pay_item data matches Provayap.Valid.User4",
+
+    "When I click on element La_carta_item",
+    "Given I wait 2 seconds",
+    "Then Differenza_item is displayed",
+
+    "When I click on element CTA_Back",
+    "Given I wait 2 seconds",
+    "When I click on element CTA_Back",
+    "Given I wait 2 seconds",
+    "Given DetailCard Page_Yap is open",
+    "When I click on element CTA_Previous",
+    "Given Home Page_Yap is open"
+  ]
+}

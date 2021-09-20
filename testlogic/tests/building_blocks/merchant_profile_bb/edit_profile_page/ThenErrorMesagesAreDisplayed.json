@@ -1,0 +1,10 @@
+{
+  "name": "ThenErrorMessagesAreDispleyed",
+  "description": "Change Name/Surname User",
+  "aliases": "Then error messages are displayed",
+  "type": "TestCase",
+  "children": [
+    "Then EditUserInfo.ErrorMessage[filterType='text',filterValue='Inserisci il tuo nome.'] is displayed",
+    "Then EditUserInfo.ErrorMessage[filterType='text',filterValue='Inserisci il tuo cognome.'] is displayed"
+  ]
+}

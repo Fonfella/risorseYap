@@ -1,0 +1,10 @@
+{
+  "name": "WhenIGoBackToLoginFromFrogotPassPage",
+  "description": "go back to login page from forgot password page",
+  "aliases": "When I go back to forgot password page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element RegistrationLayout.BackButton",
+    "Then Forgot Password Page is open"
+  ]
+}

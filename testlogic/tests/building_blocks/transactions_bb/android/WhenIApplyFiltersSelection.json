@@ -1,0 +1,11 @@
+{
+  "name": "WhenIApplyFiltersSelection",
+  "description": "Click on applica button",
+  "aliases": "When I apply filters selection",
+  "type": "TestCase",
+  "children": [
+    "When I click on FilterDetailsModule.ApplyButton if present",
+    "When I click on element FiltersLayoutModule.FooterButtons.ElementLabel[filterType='text',filterValue='APPLICA']",
+    "Then Transactions Page is open"
+  ]
+}

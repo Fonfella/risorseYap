@@ -1,0 +1,13 @@
+{
+  "name": "Input4DigitsAndSubmit",
+  "description": "Input Valid Last 4 digits and Submit",
+  "aliases":"When 4 digits are populated and Submit",
+  "type": "TestCase",
+  "children": [
+    "When I input data into ContoCorrente1",
+    "When I input data into ContoCorrente2",
+    "When I input data into ContoCorrente3",
+    "When I input data into ContoCorrente4",
+    "When I click on element SubmitButton"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ThenValidateFilteredByAmountTransaction",
+  "description": "Validate transaction by input parameters",
+  "type": "TestCase",
+  "aliases": "Then validate filtered by amount transaction",
+  "children": [
+    "Then TransactionsContentWrappedModule.TransactionsListModule[byChild='TransactionAmount',filterType='${filterType}',filterValue='${amountFilter}'][filterType='index',filterValue='{transactionIndex}'] ${validateAction}"
+  ]
+}

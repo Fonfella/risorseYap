@@ -1,0 +1,29 @@
+{
+  "children": [
+    {
+      "entityId": "QuestionnaireCard",
+        "type": "ELEMENT",
+        "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'pci_protection-plus__summary-card')][1]"
+      }
+    },
+    {
+      "entityId": "QuestionnairePopupFirstTimeAccess",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'pci_attention-card--sticky') and not(contains(@class,'title')) and not(contains(@class,'footer')) and not (contains(@class,'close'))]"
+      }
+    },
+    {
+      "entityId": "ScopriDiPiuLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[text()='Scopri di più']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "children": [
+
+
+
+    {
+      "entityId": "AssistenzaLabel",
+      "testData":"AssistenzaLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='ASSISTENZA']"
+      }
+    },
+
+    {
+      "entityId": "Contattaci",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@name='CONTATTACI']"
+      }
+    },
+    {
+      "entityId": "PopUp_TapHelp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.intg:id/toolbar_button_end']"
+      }
+    },
+    {
+      "entityId": "CTA_Back",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Indietro']"
+      }
+    }
+  ]
+}

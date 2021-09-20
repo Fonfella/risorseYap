@@ -1,0 +1,860 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "Versione",
+          "children": [
+            {
+              "entityId": "VersionControll",
+              "value": "Versione 1.12.15"
+            },
+            {
+              "entityId": "alias",
+              "value": "MBSTR WR PSH A1"
+            },
+            {
+              "entityId": "easyModBusStatus",
+              "value": "READY"
+            },
+            {
+              "entityId": "pathReceipt",
+              "value": "scontrino.jpg"
+            },
+            {
+              "entityId": "receiptCommand",
+              "value": "check"
+            },
+            {
+              "entityId": "receiptValue",
+              "value": "PARTITA TVA 03788550238,D45-8004124, COPERTO 4,10"
+            },
+            {
+              "entityId": "info",
+              "value": "Good Check, Receipt Good"
+            }
+          ]
+        },
+        {
+          "tag": "Messaggi",
+          "children": [
+            {
+              "entityId": "MessageTextBox",
+              "value": "Test per Dividi Conto Cena"
+            }
+          ]
+        },
+        {
+          "tag": "Utenti",
+          "children": [
+            {
+              "entityId": "UtentePrincipale",
+              "value": "Tu"
+            },
+            {
+              "entityId": "Utente_Lettieri",
+              "value": "Diego Lettieri"
+            },
+            {
+              "entityId": "Utente_1",
+              "value": "XMAS DUEANDROID"
+            },
+            {
+              "entityId": "Utente_2",
+              "value": "TestCartaYap"
+            }
+          ]
+        },
+        {
+          "tag": "Utenti_2",
+          "children": [
+            {
+              "entityId": "UtentePrincipale",
+              "value": "Tu"
+            },
+            {
+              "entityId": "Utente_1",
+              "value": "XMAS PROMO"
+            },
+            {
+              "entityId": "Utente_2",
+              "value": "TestCartaYap"
+            },
+            {
+              "entityId": "Utente_Bosch",
+              "value": "Boschiroli"
+            },
+            {
+              "entityId": "Utente_DelGiu",
+              "value": "Luca Del Giudice GFT"
+            },
+            {
+              "entityId": "Utente_Lettieri",
+              "value": "Diego Lettieri"
+            }
+            ,
+            {
+              "entityId": "Utente_Biancaneve",
+              "value": "Nana Biancaneve"
+            }
+            ,
+            {
+              "entityId": "Utente_Coscarelli",
+              "value": "Marialuigia"
+            }
+            ,
+            {
+              "entityId": "Utente_Bonardi",
+              "value": "Matteo Bonardi"
+            }
+            ,
+            {
+              "entityId": "Utente_Bonardi",
+              "value": "Matteo Bonardi"
+            }
+          ,
+            {
+              "entityId": "EliminaButton",
+              "value": "//*[@text='ELIMINA']"
+            }
+          ,
+            {
+              "entityId": "WarningEventoCancellato",
+              "value": "//*[@resource-id='it.nexi.yap.stg:id/snackbar_text']"
+            }
+          ]
+        },
+        {
+          "tag": "Utenti_3",
+          "children": [
+            {
+              "entityId": "UtentePrincipale",
+              "value": "Tu"
+            },
+            {
+              "entityId": "Utente_1",
+              "value": "XMAS DUEANDROID"
+            },
+            {
+              "entityId": "Utente_2",
+              "value": "Diego Lettieri"
+            }
+          ]
+        },
+        {
+          "tag": "Importi",
+          "children": [
+            {
+              "entityId": "Importo_1a",
+              "value": "+1€"
+            },
+            {
+              "entityId": "Importo_1b",
+              "value": "+1,00€"
+            },
+            {
+              "entityId": "ImportTextBox",
+              "value": "20"
+            },
+            {
+              "entityId": "EditAmount",
+              "value": "20"
+            },
+            {
+              "entityId": "OPS_EditAmount",
+              "value": "15"
+            },
+            {
+              "entityId": "OPS_EditAmount_2",
+              "value": "5"
+            },
+            {
+              "entityId": "OPS_EditAmount_3",
+              "value": "2"
+            },
+            {
+              "entityId": "OPS_EditAmount_4",
+              "value": "6"
+            },
+            {
+              "entityId": "OPS_LeftAmount",
+              "value": "3"
+            },
+            {
+              "entityId": "OPS_TextAmountExceeded",
+              "value": "6"
+            },
+            {
+              "entityId": "ImportDaVerificare1",
+              "value": "20€"
+            },
+            {
+              "entityId": "ImportoUtenteallaromana",
+              "value": "10,00€"
+            },
+            {
+              "entityId": "VerificaImportOperazione",
+              "value": "+10€ / 20€"
+            },
+            {
+              "entityId": "Amount_label",
+              "value": "-0,01€"
+            }
+
+          ]
+        },
+        {
+          "tag": "Importi_OgnunoPerSe",
+          "children": [
+            {  "entityId": "OPS_VerificaImportOperazione",
+              "value": "+5€ / 20€"
+            },
+            {
+              "entityId": "ImportoUtenteOgnunoPerSe_1",
+              "value": "15,00€"
+            },
+            {
+              "entityId": "ImportoUtenteOgnunoPerSe_2",
+              "value": "5,00€"
+            }
+          ]
+        },
+        {
+          "tag": "Stato",
+          "children": [
+            {
+              "entityId": "Stato_1",
+              "value": "HAI CHIESTO"
+            },
+            {
+              "entityId": "Stato_2",
+              "value": "IN ATTESA"
+            },
+            {
+              "entityId": "Stato_3",
+              "value": "TI CHIEDE"
+            }
+          ]
+        },
+        {
+          "tag": "User1",
+          "children": [
+            {
+              "entityId": "Email",
+              "value":"provamail065@gmail.com"
+            },
+            {
+              "entityId": "UsernameTextBox",
+              "value":"xmas.dueandroid@yopmail.com"
+            },
+            {
+              "entityId": "Richiesta_Inviata",
+              "value":"Richiesta inviata"
+            },
+            {
+              "entityId": "Importo_Richiesta",
+              "value":"+1€"
+            },
+            {
+              "entityId": "Importo_Richiesta_3",
+              "value":"+3€"
+            },
+            {
+              "entityId": "Importo_Richiesta_0_95",
+              "value":"+0,95€"
+            },
+            {
+              "entityId": "Importo_Richiesta_0_02",
+              "value": "-0,02€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_2_50",
+              "value":"+2,50€"
+            },
+            {
+              "entityId": "Info_RS_Mix",
+              "value":"Richieste inviate!"
+            },
+            {
+              "entityId": "Msg_Ricarica_Ok",
+              "value":"Ricarica effettuata!"
+            },
+            {
+              "entityId":"EmailPass",
+              "value": "Testmerchant123"
+            }
+            ,
+            {
+              "entityId": "NomeUtente",
+              "value": "XMAS DUEANDROID"
+            },
+            {
+              "entityId":"PhoneNumberTextBox",
+              "value": "3401234506"
+            },
+            {
+              "entityId": "mailConfirmCode",
+              "value": "${EMAIL_CONFIRM_CODE}"
+            },
+            {
+              "entityId": "Oggetto_2",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId": "Oggetto_3",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId":"PasswordTextBox",
+              "value": "147258"
+            }
+          ]
+        },
+        {
+          "tag": "User2",
+          "children": [
+            {
+              "entityId":"PasswordTextBox",
+              "value": "147251"
+            }
+          ]
+        },
+        {
+          "tag": "User3",
+          "children": [
+            {
+              "entityId":"PasswordTextBox",
+              "value": "111111"
+            }
+          ]
+        },
+        {
+          "tag": "User4",
+          "children": [
+            {
+              "entityId": "Email",
+              "value":"provamail065@gmail.com"
+            },
+            {
+              "entityId": "UsernameTextBox",
+              "value":"xmas.promo@yopmail.com"
+            },
+            {
+              "entityId": "Richiesta_Inviata",
+              "value":"Richiesta inviata"
+            },
+            {
+              "entityId": "Importo_Richiesta",
+              "value":"+1€"
+            },
+            {
+              "entityId":"EmailPass",
+              "value": "Testmerchant123"
+            },
+            //dato corretto XMAS DUEANDROID
+            {
+              "entityId": "NomeUtente",
+              "value": "XMAS PROMO"
+            },
+            {
+              "entityId":"PhoneNumberTextBox",
+              "value": "3401234500"
+            },
+            {
+              "entityId": "mailConfirmCode",
+              "value": "${EMAIL_CONFIRM_CODE}"
+            },
+            {
+              "entityId": "Oggetto_2",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId": "Oggetto_3",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId":"PasswordTextBox",
+              "value": "334455"
+            },
+            {
+              "entityId":"CardHolder",
+              "value": "NANA BIANCANEVE"
+            }
+            ,
+            {
+              "entityId":"IbanValue",
+              "value": "IT86D3287501600N00013590015"
+            }
+            ,
+            {
+              "entityId":"Label_Info_Iban",
+              "value": "YAP è dotata di un codice IBAN, usalo per ricaricarla o farti pagare da tutta europa."
+            }
+            ,
+            {
+              "entityId":"Button_Copia_Iban",
+              "value": "COPIA IBAN"
+            }
+            ,
+            {
+              "entityId":"Title_Differenza_section",
+              "value": "Come richiedere la carta fisica"
+            }
+            ,
+            {
+              "entityId":"Button_Copia_N_Carta",
+              "value": "COPIA N° CARTA"
+            }
+            ,
+            {
+              "entityId": "DescrizioneLabel",
+              "value": "Inserisci il pin per autorizzare l'operazione."
+            },
+            {
+              "entityId": "AutorizzaOperazioneLabel",
+              "value": "Autorizza l'operazione"
+            },
+            {
+              "entityId":"Warning_Numero_Copiato",
+              "value": "#128077;#127995; Numero copiato"
+            }
+            ,
+            {
+              "entityId":"Warning_Iban_Copiato",
+              "value": "#128077;#127995; IBAN copiato"
+            }
+            ,
+            {
+              "entityId":"La_carta_item",
+              "value": "La carta"
+            }
+            ,
+            {
+              "entityId":"Label_La_tua_YAP",
+              "value": "La tua YAP"
+            }
+            ,
+            {
+              "entityId":"Info_La_tua_YAP",
+              "value": "Scopri tutto ciò che puoi fare con la tua carta YAP!"
+            }
+            ,
+            {
+              "entityId":"YAP_Apple_Pay_item",
+              "value": "YAP ed Apple Pay"
+            }
+            ,
+            {
+              "entityId":"YAP_Google_Pay_item",
+              "value": "YAP e Google Pay"
+            }
+            ,
+            {
+              "entityId":"YAP_Samsung_Pay_item",
+              "value": "YAP e Samsung Pay"
+            }
+          ,
+            {
+              "entityId":"YAP_Huawei_Pay_item",
+              "value": "YAP e Huawei Pay"
+            }
+          ,
+
+            {
+              "entityId":"BM_profile_label",
+              "value": "Nana Biancaneve"
+            }
+            ,
+            {
+              "entityId":"BM_My_YAP_label",
+              "value": "Carta"
+            }
+            ,
+            {
+              "entityId":"BM_Boost_label",
+              "value": "Boost"
+            }
+            ,
+            {
+              "entityId":"Skin_label",
+              "value": "SKIN"
+            }
+            ,
+            {
+              "entityId":"BM_Assistenza_label",
+              "value": "Assistenza"
+            }
+            ,
+            {
+              "entityId":"BM_Segnalaci_problema_label",
+              "value": "Segnalaci un problema"
+            }
+            ,
+            {
+              "entityId":"Tail_card",
+              "value": "9672"
+            }
+            ,
+            {
+              "entityId":"CopiaNCarta",
+              "value": "it.nexi.yap.stg:id/button_copy_pan"
+            }
+            ,
+            {
+              "entityId":"WarningToCheckNumero",
+              "value": "it.nexi.yap.stg:id/snackbar_text"
+            }
+             ,
+            {
+              "entityId":"WarningToCheckIban",
+              "value": "it.nexi.yap.stg:id/button_copy_iban"
+            }
+          ,
+
+            {
+              "entityId":"Soldi_Disponibili_label",
+              "value": "SOLDI DISPONIBILI"
+            }
+          ]
+        }
+        ,
+        {
+          "tag": "UserMinore01",
+          "children": [
+            {
+              "entityId": "Email",
+              "value":"provamail065@gmail.com"
+            },
+            {
+              "entityId": "UsernameTextBox",
+              "value":"xmas.promo@yopmail.com"
+            },
+            {
+              "entityId": "Richiesta_Inviata",
+              "value":"Richiesta inviata"
+            },
+            {
+              "entityId": "Importo_Richiesta",
+              "value":"+1€"
+            },
+            {
+              "entityId":"EmailPass",
+              "value": "Testmerchant123"
+            },
+            //dato corretto XMAS DUEANDROID
+            {
+              "entityId": "NomeUtente",
+              "value": "XMAS PROMO"
+            },
+            {
+              "entityId":"PhoneNumberTextBox",
+              "value": "3401234500"
+            },
+            {
+              "entityId": "mailConfirmCode",
+              "value": "${EMAIL_CONFIRM_CODE}"
+            },
+            {
+              "entityId": "Oggetto_2",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId": "Oggetto_3",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId":"PasswordTextBox",
+              "value": "223344"
+            }
+          ]
+        }
+        ,
+        {
+          "tag": "UserMinore02",
+          "children": [
+            {
+              "entityId": "UtentePrincipale",
+              "value": "Tu"
+            },
+            {
+              "entityId": "Utente_1",
+              "value": "XMAS PROMO"
+            },
+            {
+              "entityId": "Utente_2",
+              "value": "TestCartaYap"
+            },
+            {
+              "entityId": "Utente_Bosch",
+              "value": "Boschiroli"
+            },
+            {
+              "entityId": "Message_Parent",
+              "value": "Hi dad. Please give me money for an espresso"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Invalid",
+      "children": [
+        {
+          "entityId":"Pin_non_corretto_error_message",
+          "value": "Password sbagliata"
+        },
+        {
+          "entityId": "PasswordTextBox",
+          "value": "111222"
+        },
+        {
+          "entityId":"InputEmailField",
+          "value":"user9@gmail.com"
+        }
+      ]
+    },
+
+    {
+      "tag": "Invalid_CF",
+      "children": [
+        {
+          "entityId": "CodiceFiscaleTextBox",
+          "value": "123123123123123123123"
+        },
+        {
+          "entityId": "CF_Error_Message",
+          "value": "Codice fiscale non valido"
+        }
+      ]
+    },
+
+    {
+      "tag": "Valid_CF",
+      "children": [
+        {
+          "entityId": "CodiceFiscaleTextBox",
+          "value": "LMBRYN41T62E606J"
+        },
+        {
+          "entityId": "UsernameTextBox",
+          "value": "asdasdasd@gmail.com"
+        },
+        {
+          "entityId": "PasswordTextBox",
+          "value": "Asdfgh12@"
+        },
+        {
+          "entityId": "RispostaTextBox",
+          "value": "Pina"
+        }
+      ]
+    },
+
+    {
+      "tag": "Credential",
+      "children": [
+        {
+          "entityId": "Username",
+          "value": "hceblack002@yopmail.com"
+        },
+        {
+          "entityId": "Password",
+          "value": "Cartasi03"
+        }
+      ]
+    },
+
+    {
+      "tag": "Credenziali_Invalide",
+      "children": [
+        {
+          "entityId": "UsernameTextBox",
+          "value": "asdasdasd@gmail.com"
+        },
+        {
+          "entityId": "PasswordTextBox",
+          "value": "Carta9090"
+        },
+        {
+          "entityId": "Formato_email_non_corretto_error_message",
+          "value": "Dati inseriti non corretti"
+        }
+      ]
+    },
+
+    {
+      "tag": "Valid_Credential",
+      "children": [
+        {
+          "entityId": "UsernameTextBox",
+          "value": "stefano.mineo@yopmail.com"
+        },
+        {
+          "entityId": "PasswordTextBox",
+          "value": "Cartasi01"
+        }
+      ]
+    },
+    {
+      "tag": "Labels",
+      "children": [
+        {
+          "entityId": "InviaSoldiLabel",
+          "value": "INVIA SOLDI"
+        },
+        {
+          "entityId": "RichiediSoldiLabel",
+          "value": "RICHIEDI SOLDI"
+        },
+        {
+          "entityId": "DividiLabel",
+          "value": "DIVIDI"
+        },
+        {
+          "entityId": "RicaricaLabel",
+          "value": "RICARICA"
+        },
+        {
+          "entityId": "ProfiloLabel",
+          "value": "PROFILO"
+        },
+        {
+          "entityId": "HelpCenterLabel",
+          "value": "HELP CENTER"
+        },
+        {
+          "entityId": "CosaStateDividendoLabel",
+          "value": "Cosa state dividendo?"
+        },
+        {
+          "entityId": "ComeVoleteDividereLabel",
+          "value": "Come volete dividere?"
+        },
+        {
+          "entityId": "AllaRomana",
+          "value": "Alla romana"
+        },
+        {
+          "entityId": "OgnunoPerSe",
+          "value": "Ognuno per sè"
+        },
+        {
+          "entityId": "ImportoDaDividereLabel",
+          "value": "IMPORTO DA DIVIDERE"
+        },
+        {
+          "entityId": "InserisciMessaggioLabel",
+          "value": "Inserisci un messaggio"
+        },
+        {
+          "entityId": "CategoriaCosaDivedereLabel",
+          "value": "Cena"
+        },
+        {
+          "entityId": "ContoDivisoRichiestaLabel",
+          "value": "Conto diviso!"
+        },
+        {
+          "entityId": "ContoDivisoLabel",
+          "value": "Conto diviso!"
+        },
+        {
+          "entityId": "ContoDivisoSubTitleLabel", //noYapper
+          "value": "TestCartaYap riceverà un SMS con il link per mandarti i soldi."
+        },
+        {
+          "entityId": "ContoDivisoSubTitleLabelYapper", //Yapper
+          "value": "Richiesta inviata."
+        },
+
+        {
+          "entityId": "NonLaRicordiLabel",
+          "value": "HAI DIMENTICATO LA PASSWORD?"
+        },
+        {
+          "entityId": "RecuperaPasswordLabel",
+          "value": "RECUPERA PASSWORD"
+        },
+        {
+          "entityId": "NumeroDaVerificareLabel",
+          "value": "06 4559 4069"
+        },
+        {
+          "entityId": "YapInfoLabel",
+          "value": "YAP INFO"
+        },
+        {
+          "entityId": "TimeLinelabel",
+          "value": "TIMELINE"
+        },
+        {
+          "entityId": "VerificaOperazionelabel",
+          "value": "TestCartaYap \u2022 Cena"
+        },
+        {
+          "entityId": "OPS_TotaleImportoSuperatolabel",
+          "value": "Cifra superiore al totale inserito"
+        },
+        {
+          "entityId": "PasswordCambiataLabel",
+          "value": "La tua password è stata cambiata"
+        },
+        {
+          "entityId": "InserisciLaPasswordCheStaiUsandoLabel",
+          "value": "Inserisci la password che stai usando"
+        },
+        {
+          "entityId": "InserisciLaTuaNuovaPasswordLabel",
+          "value": "Inserisci la tua nuova password"
+        },
+        {
+          "entityId": "RipetiLaPasswordSceltaLabel",
+          "value": "Ripeti la password scelta"
+        },
+        {
+          "entityId": "ImportoSuperaLimitiSpesaLabel",
+          "value": "Ops, l'importo supera i limiti massimi di spesa"
+        },
+        {
+          "entityId": "OPS_TextAmountExceeded",
+          "value": "Cifra superiore al totale inserito"
+        },
+
+        {
+          "entityId": "DescrizioneLabel",
+          "value": "Inserisci il pin per autorizzare l'operazione."
+        },
+        {
+          "entityId": "AutorizzaOperazioneLabel",
+          "value": "Autorizza l'operazione"
+        },
+
+
+        //errore gestito: Password troppo semplice, riprova
+        {
+          "entityId": "PasswordSempliceLabel",
+          "value": "Password troppo semplice"
+        }
+      ]
+    },
+    {
+      "tag": "Invalid_Credential",
+      "children": [
+        {
+          "entityId": "UsernameTextBox",
+          "value": "hceblack123yopmail.com"
+        },
+        {
+          "entityId": "PasswordTextBox",
+          "value": "Cartasi99"
+        },
+        {
+          "entityId": "email_error_message",
+          "value": "Formato email non corretto"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenIVerifyPOSModuleOnTransactionsPage",
+  "description": "Verify POS module data on transactions page based on input posModuleData",
+  "aliases": "Then I verify POS module on transactions page",
+  "type": "TestCase",
+  "children": [
+    "When I navigate to transactions page via sandwich menu",
+    "Then POS module data match"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "ValidateSelectedCardBrand",
+    "description": "Validate selected card brand on filters page",
+    "aliases": "Then I validate selected card brand",
+    "type": "TestCase",
+    "children": [
+//      TODO: Uncomment after fix of TESTAUTO-1035
+//      "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='${cardIndex}']",
+      "When I click on element FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='${cardIndex}']",
+      "When I click on element FilterDetailsModule.ApplyButton",
+      "Then FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterName',filterType='text',filterValue='Circuito'] data matches TransactionsData.Circuito.CardBrands.${cardType}",
+      "When I select filter with [filterName=Circuito]"
+    ]
+  }

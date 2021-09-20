@@ -1,0 +1,9 @@
+{
+  "name": "ThenAmountFilterConfigurationDataMatch",
+  "description": "Data match amount filter based on input data",
+  "type": "TestCase",
+  "aliases": "Then amount filter configuration data match",
+  "children": [
+    "Then FilterDetailsModule.FilterAmountWithSliderModule[byChild='RangeSpecification',filterType='text',filterValue='${filterName}'] data matches ${filterData}"
+  ]
+}

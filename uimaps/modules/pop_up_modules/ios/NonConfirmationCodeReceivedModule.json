@@ -1,0 +1,70 @@
+{
+  "children":
+  [
+    {
+      "entityId":"XButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[@name='CHIUDI']"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Non hai ricevuto il codice di conferma?']"
+      }
+    },
+    {
+      "entityId":"RequestNewCodeToPhoneNumber",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Puoi richiedere un nuovo invio al numero:']"
+      }
+    },
+    {
+      "entityId":"PhoneNumberEncoded",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']/XCUIElementTypeOther[15]"
+      }
+    },
+    {
+      "entityId":"GetNewCodeButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='INVIA IL NUOVO CODICE']"
+      }
+    },
+    {
+      "entityId":"NeedToModifyPhoneNumber",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[contains(@name,'modificare il numero')]"
+      }
+    },
+    {
+      "entityId":"ModifyPhoneNumberButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='MODIFICA']"
+      }
+    },
+    {
+      "entityId":"ContactCustomerServiceLabel",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[contains(@name,'secondo codice')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "children": [
+
+    {
+      "entityId": "ShopAliasModule",
+      "type": "MODULE",
+      "reference": "modules/pos_merchant_edit_modules/ShopTerminalAliasElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "ShopGenericDetail",
+      "reference": "modules/pos_merchant_edit_modules/ShopGenericDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[3]"
+      }
+    },
+    {
+      "entityId": "TerminalTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "TerminalsAliasModule",
+      "type": "MODULE",
+      "reference": "modules/pos_merchant_edit_modules/ShopTerminalAliasElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@id,'terminal')]/.."
+      }
+    },
+    {
+      "entityId": "ShopErrorMessage",
+      "testData": "ShopErrorMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1][contains(@class,'input-error')]/../div[2]"
+      }
+    }
+  ]
+}

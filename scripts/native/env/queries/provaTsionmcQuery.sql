@@ -1,0 +1,1 @@
+select * from LB01SV.TBLB_CODICE_CONFERMA order by 4 desc

@@ -1,0 +1,9 @@
+{
+  "id": "01014",
+  "name": "ChangeEmailSuite",
+  "description": "Change Email Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/ChangeEmailFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

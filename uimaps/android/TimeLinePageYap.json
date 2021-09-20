@@ -1,0 +1,430 @@
+{
+  "children": [
+    {
+      "entityId": "TimeLinelabel",
+      "testData":"TimeLinelabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "Label_Operazione",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Oggi')]"
+      }
+    },
+    {
+      "entityId": "Label_Spesa_Mac",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Mc Donalds')]"
+      }
+    },
+    {
+      "entityId": "Label_First",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]/android.view.ViewGroup/android.widget.TextView[1]"
+      }
+    },
+
+    {
+      "entityId": "Label_Operazione_First",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[2]/android.view.ViewGroup"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_Bonardi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Matteo Bonardi')]"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_Lettieri",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Diego Lettieri')]"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_Lettiero",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Diego Lettiero')]"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_Nana_STG",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Nana Biancaneve STG')]"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_Nana",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Nana Biancaneve')]"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_DelGiu_GFT",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Luca Del Giudice GFT')]"
+      }
+    },
+    {
+      "entityId": "Label_Operazione_mac_DelGiudice",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Luca Del Giudice')]"
+      }
+    },
+    {
+      "entityId": "Operazione_da_Cancellare",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_type' and @text='ANNULLATA']"
+      }
+    }
+    ,
+    {
+      "entityId": "ParentsMessageCheck",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_message']"
+      }
+    }
+  ,
+    {
+      "entityId": "Utente_Carta",
+      "type": "ELEMENT",
+      "testData":"Utente_1",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[7]"
+      }
+    },
+    {
+      "entityId": "Utente_Verifica_1",
+      "testData":"Utente_2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]"
+      }
+    },
+    {
+      "entityId": "VerificaOperazionelabel",
+      "testData":"VerificaOperazionelabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[1]"
+      }
+    },
+    //valutare se verificare importi vari con singolo TD
+    {
+      "entityId": "VerificaImportOperazione",
+      "testData":"VerificaImportOperazione",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[3]"
+      }
+    },
+    {
+      "entityId": "OPS_VerificaImportOperazione",
+      "testData":"OPS_VerificaImportOperazione",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[3]"
+      }
+    },
+    {
+      "entityId": "VerificaMessaggio",
+      "testData":"MessageTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[5]"
+      }
+    }
+    ,
+    {
+      "entityId": "Stato_Verifica_1",
+      "testData":"Stato_1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[2]"
+      }
+    },
+    {
+      "entityId": "Importo_Verifica_1",
+      "testData":"Importo_1b",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[3]"
+      }
+    },
+    {
+      "entityId": "Ricorda_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.Button[2]"
+      }
+    },
+    {
+      "entityId": "Annulla_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.Button[1]"
+      }
+    },
+    {
+      "entityId": "Ricarica_Yap",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[3]"
+      }
+    },
+    {
+      "entityId": "Profilo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[4]"
+      }
+    },
+    {
+      "entityId": "Bottone_Principale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout[2]/android.widget.FrameLayout"
+      }
+    },
+    {
+      "entityId": "Bottone_Help",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "NomeUtente_Carta",
+      "testData":"NomeUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[7]"
+      }
+    },
+    {
+      "entityId": "Bottone_Elimina",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tl_swipe_delete']"
+      }
+    },
+    {
+      "entityId": "Scroll_Element",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_date' and @text='13 Mar • 14:55']"
+      }
+    },
+    {
+      "entityId": "Scroll_Element_Orizzontale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_type' and @text='HAI CHIESTO']"
+      }
+    },
+    {
+      "entityId": "ProvaCercaLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_date' and @text='14 Feb • 17:53']"
+      }
+    },
+    {
+      "entityId": "Annulla",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ANNULLA']"
+      }
+    }
+    ,
+    {
+      "entityId": "Annulla02",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tl_swipe_cancel_invite']"
+      }
+    }
+    ,
+    {
+      "entityId": "Elimina",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tl_swipe_delete']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invita_Amici",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[5]"
+      }
+    }
+    ,
+    {
+      "entityId": "Richiedi_Soldi_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tl_swipe_request']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invia_Soldi_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tl_swipe_send']"
+      }
+    }
+  ,
+    {
+      "entityId": "Close_Timeline",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/view_close']"
+      }
+    }
+    ,
+    {
+      "entityId": "Extra_Bonus_Invita_Amici_label",
+      "testData":"TimeLinelabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_title' and @text='Extra Bonus Invita Amici']"
+      }
+    }
+    ,
+    {
+      "entityId": "Extra_Bonus_Invita_Amici_detail_label",
+      "testData":"Extra_Bonus_Invita_Amici_detail_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_title']"
+      }
+    }
+    ,
+    {
+      "entityId": "Extra_Bonus_Info_detail_label",
+      "testData":"Extra_Bonus_Info_detail_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_message']"
+      }
+    }
+    ,
+    {
+      "entityId": "Extra_Bonus_Amount_label",
+      "testData":"Extra_Bonus_Amount_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_amount']"
+      }
+    }
+    ,
+    {
+      "entityId": "Operazione_Coscarelli_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Marialuigia Coscarelli')]"
+      }
+    }
+    ,
+    {
+      "entityId": "Operazione_Nana_Biancaneve_STG_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'Nana Biancaneve STG')]"
+      }
+    }
+    ,
+    {
+      "entityId": "Annulla_Invio_Soldi_NY_button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/tl_swipe_cancel_invite']"
+      }
+    }
+    ,
+    {
+      "entityId": "Timeline_panel_closer",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/view_close']"
+      }
+    }
+    ,
+    {
+      "entityId": "Label_Operazione_0_02",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@text,'yta-a-invia06')]"
+      }
+    }
+  ]
+}

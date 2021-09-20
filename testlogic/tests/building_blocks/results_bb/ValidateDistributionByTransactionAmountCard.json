@@ -1,0 +1,9 @@
+{
+  "name": "ValidateDistributionByTransactionAmountCard",
+  "description": "Validate card Giornate da record",
+  "aliases": "Then distribution by transaction amount card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.DistributionByTransactionAmountCard data matches ResultsTestData.Cards.DistributionByTransactionAmount.${cardData}"
+  ]
+}

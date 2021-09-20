@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButtonModule",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "type": "MODULE",
+      "childCount": "2",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'close')]//a"
+      }
+    },
+    {
+      "entityId": "PuntiVenditaSelection",
+      "testData": "PuntiVenditaSelection",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "PeriodHeader",
+      "testData": "PeriodHeader",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'heading')]/span"
+      }
+    },
+    {
+      "entityId": "ShopLabel",
+      "testData": "ShopLabel",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'heading')]/following-sibling::div"
+      }
+    },
+    {
+      "entityId": "ChartGroupDetailsModule",
+      "reference": "modules/peer_comparison_page/DetailsPerType.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'chart-group-details')]"
+      }
+    }
+  ]
+}

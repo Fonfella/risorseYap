@@ -1,0 +1,9 @@
+{
+  "name": "ThenTerminalModelModelIsDisplayed",
+  "description": "Then Terminal Model Module IsDisplayed",
+  "aliases": "Then Terminal Manual Module is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails.ManualisticaModule is displayed"
+  ]
+}

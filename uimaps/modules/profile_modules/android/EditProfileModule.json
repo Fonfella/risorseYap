@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "ItuoidatiButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    },
+    {
+      "entityId": "Summary",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3/span"
+      }
+    },
+    {
+      "entityId": "HomePuntiVendita",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[@href='#/dashboard'][contains(@class,'hover')]"
+      }
+    }
+  ]
+}

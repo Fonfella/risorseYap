@@ -1,0 +1,124 @@
+{
+  "children": [
+
+    //altri oggetti contenuti nel BM
+
+    //icona A R ciao alberto (click)
+    //*[@text='A R' and @instance='12']
+
+//icona tasto notifiche
+    //*[@text='Notifiche']
+
+
+//icona iosi
+    //*[@text='iosi']
+
+    {
+      "entityId": "Servizi_Pagamento",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Servizi di pagamento']"
+      }
+    },
+    {
+      "entityId": "Ricevi_Assistenza",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='RICEVI ASSISTENZA']"
+      }
+    },
+
+    {
+      "entityId": "Home",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Home']"
+      }
+    },
+
+    {
+      "entityId": "Notifiche",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Notifiche']"
+      }
+    },
+
+    {
+      "entityId": "NonSonoPresentiNotifiche",
+      "testData":"NonSonoPresentiNotifiche",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[contains(@text,'Non')]"
+      }
+    },
+    {
+      "entityId": "paginaBurgerMenu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView"
+      }
+    },
+
+    {
+      "entityId": "Carte",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Carte']"
+      }
+    },
+
+    {
+      "entityId": "Movimenti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Movimenti']"
+      }
+    },
+
+    {
+      "entityId": "MovimentiLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='MOVIMENTI']"
+      }
+    },
+
+    {
+      "entityId": "MeseCorrenteLabel",
+      "testData":"MeseCorrenteLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Mese corrente']"
+      }
+    },
+    {
+      "entityId": "NonHaiEffettuatoMovimenti",
+      "testData":"NonHaiEffettuatoMovimentiAnd",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout/android.widget.TextView"
+      }
+    },
+
+    {
+      "entityId": "Esci_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='ESCI']"
+      }
+    }
+  ]
+}

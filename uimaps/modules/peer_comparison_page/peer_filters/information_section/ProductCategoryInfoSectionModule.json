@@ -1,0 +1,57 @@
+{
+  "children": [
+    {
+      "entityId": "ProductCategoryTitleLabel",
+      "testData": "ProductCategoryTitleLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3[contains(@class, 'product-category-title')]/span"
+      }
+    },
+    {
+      "entityId": "MCC description",
+      "testData": "MCC description",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3[contains(@class, 'product-category-title')]/strong"
+      }
+    },
+    {
+      "entityId": "ProductFilterCategoryContainer",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/information_section/filter_info_container/ProductFilterCategoryContainer.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'filters-category')]/div/div[not(contains(@class, 'animate-input'))]"
+      }
+    },
+    {
+      "entityId": "OtherCategoryLabel",
+      "testData": "OtherCategoryLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'filters-category')]/div[last()]/label/span"
+      }
+    },
+    {
+      "entityId": "SearchInput",
+      "type": "MODULE",
+      "reference": "modules/labeled_input_elements/LabeledInput.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'category-input')]/div"
+      }
+    },
+    {
+      "entityId": "SearchResults",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li"
+      }
+    }
+  ]
+}

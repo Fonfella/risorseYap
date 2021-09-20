@@ -1,0 +1,10 @@
+{
+  "name": "WhenIInsertDataIntoAmountInput",
+  "description": "Input data into input name using input data",
+  "type": "TestCase",
+  "aliases": "When I insert data into amount input",
+  "children": [
+    "When I input data[${inputValue}] into FilterDetailsModule.FilterAmountWithSliderModule[byChild='RangeSpecification',filterType='text',filterValue='${inputName}'].AmountInput",
+    "When I click on element FilterDetailsModule.FilterAmountWithSliderModule[byChild='RangeSpecification',filterType='text',filterValue='${inputName}'].MaxRangeSliderAmount"
+  ]
+}

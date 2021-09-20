@@ -1,0 +1,9 @@
+{
+  "id": "01007",
+  "name": "RichiediSoldiSuite2",
+  "description": "Richiedi Soldi Suite 2",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/RichiediSoldi2Feature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

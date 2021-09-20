@@ -1,0 +1,253 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "Labels",
+          "children": [
+            {
+              "entityId": "InviaSoldiLabel",
+              "value": "INVIA SOLDI"
+            },
+            {
+              "entityId": "RichiediSoldiLabel",
+              "value": "RICHIEDI SOLDI"
+            },
+            {
+              "entityId": "DividiLabel",
+              "value": "DIVIDI"
+            },
+            {
+              "entityId": "RicaricaLabel",
+              "value": "RICARICA"
+            },
+            {
+              "entityId": "ProfiloLabel",
+              "value": "PROFILO"
+            },
+            {
+              "entityId": "HelpCenterLabel",
+              "value": "HELP CENTER"
+            },
+            {
+              "entityId": "CosaStateDividendoLabel",
+              "value": "Cosa state dividendo?"
+            },
+            {
+              "entityId": "ComeVoleteDividereLabel",
+              "value": "Come volete dividere?"
+            },
+            {
+              "entityId": "AllaRomana",
+              "value": "Alla romana"
+            },
+            {
+              "entityId": "OgnunoPerSe",
+              "value": "Ognuno per sè"
+            },
+            {
+              "entityId": "ImportoDaDividereLabel",
+              "value": "IMPORTO DA DIVIDERE"
+            },
+            {
+              "entityId": "InserisciMessaggioLabel",
+              "value": "Inserisci un messaggio"
+            },
+            {
+              "entityId": "CategoriaCosaDivedereLabel",
+              "value": "Cena"
+            },
+            {
+              "entityId": "ContoDivisoRichiestaLabel",
+              "value": "Conto diviso!"
+            },
+            {
+              "entityId": "ContoDivisoLabel",
+              "value": "Conto diviso!"
+            },
+            {
+              "entityId": "NonLaRicordiLabel",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId": "RecuperaPasswordLabel",
+              "value": "RECUPERA PASSWORD"
+            },
+            {
+              "entityId": "NumeroDaVerificareLabel",
+              "value": "06 4559 4069"
+            },
+            {
+              "entityId": "YapInfoLabel",
+              "value": "YAP INFO"
+            },
+            {
+              "entityId": "TimeLinelabel",
+              "value": "TIMELINE"
+            },
+            {
+              "entityId": "VerificaOperazionelabel",
+              "value": "TestCartaYap \u2022 Cena"
+            },
+            {
+              "entityId": "OPS_TotaleImportoSuperatolabel",
+              "value": "Cifra superiore al totale inserito"
+            },
+            {
+              "entityId": "PasswordCambiataLabel",
+              "value": "La tua password è stata cambiata"
+            },
+            {
+              "entityId": "InserisciLaPasswordCheStaiUsandoLabel",
+              "value": "Inserisci la password che stai usando"
+            },
+            {
+              "entityId": "InserisciLaTuaNuovaPasswordLabel",
+              "value": "Inserisci la tua nuova password"
+            },
+            {
+              "entityId": "RipetiLaPasswordSceltaLabel",
+              "value": "Ripeti la password scelta"
+            },
+            {
+              "entityId": "ImportoSuperaLimitiSpesaLabel",
+              "value": "Ops, l'importo supera i limiti massimi di spesa"
+            },
+            {
+              "entityId": "ImportoSuperaLimitiRicaricaLabel",
+              "value": "L'importo supera il massimo ricaricabile"
+            },
+            //errore gestito: Password troppo semplice, riprova
+            {
+              "entityId": "PasswordSempliceLabel",
+              "value": "Password troppo semplice"
+            }
+          ]
+        },
+        {
+          "tag": "Labels2",
+          "children": [
+            {
+              "entityId": "InviaSoldiLabel",
+              "value": "INVIA SOLDI"
+            },
+            {
+              "entityId": "RichiediSoldiLabel",
+              "value": "RICHIEDI SOLDI"
+            },
+            {
+              "entityId": "DividiLabel",
+              "value": "DIVIDI"
+            },
+            {
+              "entityId": "RicaricaLabel",
+              "value": "RICARICA"
+            },
+            {
+              "entityId": "ProfiloLabel",
+              "value": "PROFILO"
+            },
+            {
+              "entityId": "HelpCenterLabel",
+              "value": "HELP CENTER"
+            },
+            {
+              "entityId": "CosaStateDividendoLabel",
+              "value": "Cosa state dividendo?"
+            },
+            {
+              "entityId": "ComeVoleteDividereLabel",
+              "value": "Come volete dividere?"
+            },
+            {
+              "entityId": "AllaRomana",
+              "value": "Alla romana"
+            },
+            {
+              "entityId": "OgnunoPerSe",
+              "value": "Ognuno per sè"
+            },
+            {
+              "entityId": "ImportoDaDividereLabel",
+              "value": "IMPORTO DA DIVIDERE"
+            },
+            {
+              "entityId": "InserisciMessaggioLabel",
+              "value": "Inserisci un messaggio"
+            },
+            {
+              "entityId": "CategoriaCosaDivedereLabel",
+              "value": "Cena"
+            },
+            {
+              "entityId": "ContoDivisoRichiestaLabel",
+              "value": "Conto diviso!\nRichiesta inviata."
+            },
+            {
+              "entityId": "ContoDivisoLabel",
+              "value": "Conto diviso!"
+            },
+            {
+              "entityId": "NonLaRicordiLabel",
+              "value": "NON LA RICORDI?"
+            },
+            {
+              "entityId": "RecuperaPasswordLabel",
+              "value": "RECUPERA PASSWORD"
+            },
+            {
+              "entityId": "NumeroDaVerificareLabel",
+              "value": "06 4559 4069"
+            },
+            {
+              "entityId": "YapInfoLabel",
+              "value": "YAP INFO"
+            },
+            {
+              "entityId": "TimeLinelabel",
+              "value": "TIMELINE"
+            },
+            {
+              "entityId": "VerificaOperazionelabel",
+              "value": "TestCartaYap \u2022 Cena"
+            },
+            {
+              "entityId": "OPS_TotaleImportoSuperatolabel",
+              "value": "Cifra superiore al totale inserito"
+            },
+            {
+              "entityId": "PasswordCambiataLabel",
+              "value": "La tua password è stata cambiata"
+            },
+            {
+              "entityId": "InserisciLaPasswordCheStaiUsandoLabel",
+              "value": "Inserisci la password che stai usando"
+            },
+            {
+              "entityId": "InserisciLaTuaNuovaPasswordLabel",
+              "value": "Inserisci la tua nuova password"
+            },
+            {
+              "entityId": "RipetiLaPasswordSceltaLabel",
+              "value": "Ripeti la password scelta"
+            },
+            {
+              "entityId": "ImportoSuperaLimitiSpesaLabel",
+              "value": "Ops, l'importo supera i limiti massimi di spesa"
+            },
+            {
+              "entityId": "ImportoSuperaLimitiRicaricaLabel",
+              "value": "L'importo supera il massimo ricaricabile"
+            },
+            //errore gestito: Password troppo semplice, riprova
+            {
+              "entityId": "PasswordSempliceLabel",
+              "value": "Password troppo semplice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

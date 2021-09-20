@@ -1,0 +1,82 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1[contains(@class, 'heading')]/span"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../.."
+      }
+    },
+    {
+      "entityId": "CardHeaderComment",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'heading')]/div/span"
+      }
+    },
+    {
+      "entityId": "ResultsIntValue",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[contains(@class, 'amount-value')]/span"
+      }
+    },
+    {
+      "entityId": "MeterProgressText",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li/div/descendant::span[not(@class)]"
+      }
+    },
+    {
+      "entityId": "MeterProgressIcon",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li/div/descendant::*[contains(@role, 'img')]"
+      }
+    },
+    {
+      "entityId": "MeterProgressValue",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li/div//*[contains(@class, 'value__annotated')]/div/span"
+      }
+    },
+    {
+      "entityId": "CardWithNoContent",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'no-data')]/span"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    }
+  ]
+}

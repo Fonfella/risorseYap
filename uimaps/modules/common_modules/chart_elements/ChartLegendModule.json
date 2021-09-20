@@ -1,0 +1,22 @@
+{
+  "children":[
+    {
+      "entityId": "OtherPV",
+      "type": "MODULE",
+      "reference": "modules/common_modules/chart_elements/PVModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div[1]/div"
+      }
+    },
+    {
+      "entityId": "YourPV",
+      "type": "MODULE",
+      "reference": "modules/common_modules/chart_elements/PVModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div[2]/div"
+      }
+    }
+  ]
+}

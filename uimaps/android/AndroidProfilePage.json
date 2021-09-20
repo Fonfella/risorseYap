@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": " ",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header"
+      }
+    },
+    {
+      "entityId": "ProfileSection",
+      "reference": "mobile/android/modules/profile/EditProfileModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[@href='#/profile/edit']"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "/NeedHelp.json",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'help helpButton')]"
+      }
+    },
+    {
+      "entityId": "SandwichMenu",
+      "reference": "modules/common_modules/SandwichMenu.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'icbpi_sidebar')]"
+      }
+    }
+  ]
+}

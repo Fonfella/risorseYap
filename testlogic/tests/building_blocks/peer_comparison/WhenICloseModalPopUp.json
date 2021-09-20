@@ -1,0 +1,9 @@
+{
+  "name": "WhenICloseModalPopUp",
+  "description": "Click on close icon to close modal popup",
+  "aliases": "When I close modal popup",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ChartBarDetailsContainerModule.CloseButtonModule.ElementImage"
+  ]
+}

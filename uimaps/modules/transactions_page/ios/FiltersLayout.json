@@ -1,0 +1,43 @@
+{
+  "children": [
+
+    {
+      "entityId": "FilterSectionSelectableList",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FiltersSectionList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[contains(@name, 'box')]"
+      }
+    },
+    {
+      "entityId": "SoloContactlessFilterName",
+      "testData": "SoloContactlessFilterName",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[not(@name) and not(./XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name,'CANCELLA')])]/XCUIElementTypeOther/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "SoloContactlessFilterValue",
+      "testData": "SoloContactlessFilterValue",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[not(@name)]/XCUIElementTypeSwitch"
+      }
+    },
+    {
+      "entityId": "FooterButtons",
+      "type": "MODULE",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeStaticText[contains(@name,'CANCELLA')]]"
+      }
+    }
+  ]
+}

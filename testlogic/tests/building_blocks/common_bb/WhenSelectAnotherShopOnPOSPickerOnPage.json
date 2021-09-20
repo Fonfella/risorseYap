@@ -1,0 +1,13 @@
+{
+  "name": "WhenSelectAnotherShopOnPOSPickerOnPage",
+  "description": "Select another shop on page",
+  "type": "TestCase",
+  "aliases": "When I select another shop on page",
+  "children": [
+    "When I navigate to ${page} via sandwich menu",
+    "When I click on element SalesPointsModule.SalesPointIcon",
+    "When I select a shop from POS picker with [shopName=${selectedShop}]",
+    "When I select a shop from POS picker with [shopName=${shopToSelect}]",
+    "When I apply POS picker selection"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ValidateTotalCustomersCard",
+  "description": "Validate card total customers",
+  "aliases": "Then total customers card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.TotalCustomersCard data matches ResultsTestData.Cards.TotalCustomersCard.${cardData}"
+  ]
+}

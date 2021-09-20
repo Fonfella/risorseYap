@@ -1,0 +1,9 @@
+{
+  "name": "ThenTransactionDataMatch",
+  "description": "Input based data match for transaction filtered by input index",
+  "type": "TestCase",
+  "aliases": "Then transaction data match",
+  "children": [
+    "Then TransactionsContentWrappedModule.TransactionsListModule[filterType='index',filterValue='${transactionIndex}'] data matches ${transactionData}"
+  ]
+}

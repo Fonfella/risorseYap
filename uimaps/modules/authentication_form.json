@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "LoginInput",
+      "type": "ELEMENT",
+      "testData": "UsernameTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "PassInput",
+      "type": "ELEMENT",
+      "testData":"PasswordTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "SubmitButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[2]/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "HelpLinkButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView"
+      }
+    }
+  ]
+}

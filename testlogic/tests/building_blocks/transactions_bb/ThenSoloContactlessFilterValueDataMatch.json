@@ -1,0 +1,9 @@
+{
+  "name": "ThenSoloContactlessFilterValueDataMatch",
+  "description": "Data match solo contactless filter",
+  "type": "TestCase",
+  "aliases": "Then solo contactless filter value data match",
+  "children": [
+    "Then TransactionsFiltersModule.FiltersLayoutModule.SoloContactlessFilterValue data matches ${filterValue}"
+  ]
+}

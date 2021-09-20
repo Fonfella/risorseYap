@@ -1,0 +1,21 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0000",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Verifica Versione Applicativa",
+  "description": "HappyFlow",
+  "priority": "MEDIUM",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.Versione",
+    "Then I background the application",
+    "When I send REST request [RobotTak/RobotService.json][<robotCommand>=${alias}]",
+    "Then I validate REST Http Status Code is [OK]",
+    "Then I validate REST response field [$.easyModBusStatus] has value \"${easyModBusStatus}\"",
+    "When I send REST request [ScontrinoTak/RobotService.json][<pathReceipt>=${pathReceipt},<receiptCommand>=${receiptCommand},<receiptValue>=${receiptValue}]",
+    "Then I validate REST response field [$.info] has value \"${info}\""
+  ]
+}

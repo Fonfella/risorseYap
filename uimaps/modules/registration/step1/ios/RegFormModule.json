@@ -1,0 +1,175 @@
+{
+  "children":
+  [
+    {
+      "entityId":"PIVA_CF",
+      "testData":"pa",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":"PIVA_CF_Label",
+      "type":"ELEMENT",
+      "testData":"PivaLabelText",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='P. IVA / Codice Fiscale Azienda']"
+      }
+    },
+    {
+      "entityId": "PIVA_CF_Error",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='II formato digitato risulta non valido.']"
+      }
+    },
+    {
+      "entityId": "PIVA_Not_recognised_1",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='La tua partita non è presente nei nostri archivi. Controlla']"
+      }
+    },
+    {
+      "entityId": "PIVA_Not_recognised_2",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='di averla inserita correttamente oppure']"
+      }
+    },
+    {
+      "entityId": "PIVA_Not_recognised_link_CustomerService",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='contattaci']"
+      }
+    },
+    {
+      "entityId":"PIVA_CF_ToolTip",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']/XCUIElementTypeButton[1]"
+      }
+    },
+    {
+      "entityId":"ToolTipLabel",
+      "testData":"PivaTooltipText",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Se inserisci il Codice Fiscale, indica quello societario per aziende, quello personale in caso di lavoratori autonomi o B&B.']"
+      }
+    },
+    {
+      "entityId":"AcosaServeLink",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='A cosa serve?']"
+      }
+    },
+    {
+      "entityId":"AcosaServeLabel",
+      "type":"ELEMENT",
+      "testData":"AcosaServeLinkText",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='A cosa serve?']"
+      }
+    },
+    {
+      "entityId":"Email",
+      "testData":"Email",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='box'])[2]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":"EmailError",
+      "testData":"EmailErrorText",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeStaticText[@name='Inserisci un indirizzo email valido.'])[1]"
+      }
+    },
+    {
+      "entityId":"EmailLabel",
+      "testData":"EmailLabelText",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Email']"
+      }
+    },
+    {
+      "entityId":"ConfirmationEmail",
+      "testData":"ConfirmationEmail",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='box'])[3]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId":"ConfirmationEmailLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Conferma email']"
+      }
+    },
+    {
+      "entityId":"InvalidEmailError",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Inserisci un indirizzo email valido.']"
+      }
+    },
+    {
+      "entityId":"ConfirmationEmailError",
+      "testData":"ConfirmEmailErrorText",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeStaticText[@name='Inserisci un indirizzo email valido.'])[1]"
+      }
+    },
+    {
+      "entityId":"HavePromo",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Hai un codice promozionale?']"
+      }
+    },
+    {
+      "entityId":"HavePromoLabel",
+      "type":"ELEMENT",
+      "testData":"HavePromotext",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Hai un codice promozionale?']"
+      }
+    }
+  ]
+}

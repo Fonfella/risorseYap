@@ -1,0 +1,10 @@
+{
+  "name": "ThenNoDocsOnLastDocuemtnsCardAreDispalyed",
+  "description": "No documents are displayed on Last Documents Card on Home Page",
+  "type": "TestCase",
+  "aliases": "Then no documents are displayed on Last Documents Card",
+  "children": [
+    "Then LatestDocumentsCard is displayed",
+    "Then LatestDocumentsCard data matches DocumentsData1.NoDocumentsMessageCard"
+  ]
+}

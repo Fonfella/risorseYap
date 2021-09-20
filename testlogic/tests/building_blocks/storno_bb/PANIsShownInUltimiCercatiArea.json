@@ -1,0 +1,10 @@
+{
+  "name": "PANIsShownInUltimiCercatiArea",
+  "description": "Check if PAN is displayed on filters page after search",
+  "type": "TestCase",
+  "aliases": "Then PAN is shown in ultimi cercati area",
+  "children": [
+    "Then TransactionsFiltersModule.FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterValue',filterType='index',filterValue='5'] data matches ${pan}",
+    "When I click on element TransactionsFiltersModule.FiltersLayoutModule.FooterButtons.ElementLink[filterType='index',filterValue='0']"
+  ]
+}

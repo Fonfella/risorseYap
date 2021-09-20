@@ -1,0 +1,9 @@
+{
+  "id": "01013",
+  "name": "SkinSuite",
+  "description": "Skin Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/SkinFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

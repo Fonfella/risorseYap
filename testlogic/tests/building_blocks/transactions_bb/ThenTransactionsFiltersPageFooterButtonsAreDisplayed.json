@@ -1,0 +1,10 @@
+{
+  "name": "ThenTransactionsFiltersPageFooterButtonsAreDisplayed",
+  "description": "Check transaction filters page footer buttons with is displayed",
+  "type": "TestCase",
+  "aliases": "Then transactions filters page footer buttons are displayed",
+  "children": [
+    "Then TransactionsFiltersModule.FiltersLayoutModule.FooterButtons.ElementLabel[filterType='text',filterValue='CANCELLA'] is displayed",
+    "Then TransactionsFiltersModule.FiltersLayoutModule.FooterButtons.ElementLabel[filterType='text',filterValue='APPLICA'] is displayed"
+  ]
+}

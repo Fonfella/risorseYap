@@ -1,0 +1,11 @@
+{
+  "name": "User Accepts Terms and Conditions and Privacy",
+  "description": "Registration Flow",
+  "aliases": "When I accept Terms and Conditions and Privacy and Submit the form",
+  "type": "TestCase",
+  "children": [
+    "Then I click on element RegistrationForm.PrivacyConditionsLabel",
+    "Then I click on element RegistrationForm.TermsAndConditionsLabel",
+    "When I click on element SubmitButton"
+  ]
+}

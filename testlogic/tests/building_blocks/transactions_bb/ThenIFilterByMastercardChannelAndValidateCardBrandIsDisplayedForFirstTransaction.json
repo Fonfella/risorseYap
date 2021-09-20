@@ -1,0 +1,16 @@
+{
+  "name": "ThenIFilterByChannelAndValidateIconIsDisplayedForTransaction",
+  "description": "Set input channel filter and validate icon is displayed in transaction module and transactions details module",
+  "aliases": "Then I filter by channel and validate card brand is displayed for transaction",
+  "type": "TestCase",
+  "children": [
+    "When I open filters page",
+    "When I select filter with [filterName=Circuito]",
+    "When I select ${cardBrand} circuit",
+    "When I apply filters selection",
+    "Then transaction icons are displayed",
+    "When I click on transaction",
+    "Then transaction tile icons are displayed",
+    "When I click on element TransactionDetailsModule.CloseButton"
+  ]
+}

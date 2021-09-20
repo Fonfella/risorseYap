@@ -1,0 +1,11 @@
+{
+  "id": 123,
+  "name": "WhenIGoBackToLoginFromResetPassPage",
+  "description": "go back to login page from forgot password reset page",
+  "aliases": "When I go back to Login page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ForgotPageElementsContainer.BackButtonIcon",
+    "Then Login Page is open"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "children": [
+    {
+      "entityId": "AccediButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":"//XCUIElementTypeButton[@name='ACCEDI']"
+      }
+    },
+    //todo modificare file in uso nel test demo aggiungendo xpath ios.
+    {
+      "entityId": "Accedi_Login",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "RegisterButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='REGISTRATI']"
+      }
+    },
+    {
+      "entityId": "HelpLinkButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.icbpi.mobile:id/' and @instance='3' and @NAF='true']"
+      }
+    },
+    {
+      "entityId": "ArrivederciLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[contains(@name,'ARRIVEDERCI')]"
+      }
+    },
+
+    {
+      "entityId": "Oggetto_2",
+      "type": "ELEMENT",
+      "testData":"Oggetto_2",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.intg:id/text_forgot_pin']"
+      }
+    },
+    {
+      "entityId": "Oggetto_3",
+      "type": "ELEMENT",
+      "testData":"Oggetto_3",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[99]"
+      }
+    },
+    {
+      "entityId": "DefaultRadioButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.RadioGroup/android.widget.RadioButton[1]"
+      }
+    },
+    {
+      "entityId": "EnviromentSelection",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.Spinner"
+        ////hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.Spinner/android.widget.TextView
+      }
+    },
+    {
+      "entityId": "StagingSelection",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[3]"
+      }
+    },
+    {
+      "entityId": "NewStagingSelection",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[4]"
+      }
+    },
+    {
+      "entityId": "IntegrationSelection",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[2]"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button[2]"
+      }
+    },
+    {
+      "entityId": "LoginMessageError",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.view.ViewGroup/android.widget.RelativeLayout"
+      }
+    }
+  ]
+}

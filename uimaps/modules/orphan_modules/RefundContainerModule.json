@@ -1,0 +1,110 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'close-button')]"
+      }
+    },
+    {
+      "entityId": "Heading",
+      "testData": "Heading",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1[contains(@class, 'refund-heading')]/span"
+      }
+    },
+    {
+      "entityId": "ValueInfo",
+      "testData": "ValueInfo",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1[contains(@class, 'refund-info')]/span"
+      }
+    },
+    {
+      "entityId": "ConfirmMessage",
+      "testData": "ConfirmMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[contains(@class, 'refund')]/span"
+      }
+    },
+    {
+      "entityId": "RefundLabel",
+      "type": "ELEMENT",
+      "testData": "RefundLabel",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form/span[span]"
+      }
+    },
+    {
+      "entityId": "RefundInput",
+      "testData": "Value",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form/div/input"
+      }
+    },
+    {
+      "entityId": "RefundInputError",
+      "testData": "RefundInputError",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form/div[contains(@class, 'error-message')]"
+      }
+    },
+    {
+      "entityId": "ConfirmButton",
+      "testData": "ConfirmButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    },
+    {
+      "entityId": "ModifyButton",
+      "testData": "ModifyButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[not(contains(@class, 'close'))]"
+      }
+    },
+    {
+      "entityId": "RefundSuccessIcon",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'refund-footer-success')]/*"
+      }
+    },
+    {
+      "entityId": "RefundFailureMessage",
+      "testData": "FailureMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'refund-container-failure')]/*"
+      }
+    }
+  ]
+}

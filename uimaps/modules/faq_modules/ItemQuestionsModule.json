@@ -1,0 +1,37 @@
+{
+  "children": [
+    {
+      "entityId": "QuestionIterator",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[li]"
+      }
+    },
+    {
+      "entityId": "QuestionTitle",
+      "testData": "QuestionTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li//h3//span//span"
+      }
+    },
+    {
+      "entityId": "QuestionArrow",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li//*[contains(@class,'n grommetux-control-icon--r')]"
+      }
+    },
+    {
+      "entityId": "QuestionContent",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@aria-label,'Operazione')]//p"
+      }
+    }
+  ]
+}

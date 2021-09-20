@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "StaticCardSectionHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span"
+      }
+    },
+    {
+      "entityId": "StaticCardsNamesList",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/StaticCardsElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//following-sibling::div//*[@role='img']/.."
+      }
+    }
+  ]
+}

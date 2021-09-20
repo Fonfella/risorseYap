@@ -1,0 +1,54 @@
+{
+  "children":
+  [
+    {
+      "entityId": "ProfileIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='Flag'])[1]"
+      }
+    },
+    {
+      "entityId": "ProfileIconLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='PROFILO']"
+      }
+    },
+    {
+      "entityId": "SecurityIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='Flag'])[2] "
+      }
+    },
+    {
+      "entityId": "SecurityIconLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='SICUREZZA']"
+      }
+    },
+    {
+      "entityId": "WelcomeIcon",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Registration']/XCUIElementTypeOther[15]"
+      }
+    },
+    {
+      "entityId": "WelcomeIconLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='BENVENUTO']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Using Valid data I go to page 3",
+  "description": "Registration Flow",
+  "aliases": "Given I go to Step3 of registration flow",
+  "type": "TestCase",
+  "children": [
+    "Given I go to Step2 of registration flow",
+    "When I wait 4 seconds",
+    "When I input data[MerchantProfilePersonalData.Valid] into RegistrationForm",
+    "When I accept Terms and Conditions and Privacy and Submit the form",
+    "When I receive and input OTP code",
+    "Then Registration Step3 is open",
+    "Then I wait 2 seconds"
+  ]
+}
+

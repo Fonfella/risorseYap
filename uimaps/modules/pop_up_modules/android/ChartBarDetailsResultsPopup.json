@@ -1,0 +1,62 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'icon')]"
+      }
+    },
+    {
+      "entityId": "PuntiVenditaSelection",
+      "testData": "PuntiVenditaSelection",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div[1]//span[contains(@class, 'text--c')]/span"
+      }
+    },
+    {
+      "entityId": "PeriodHeader",
+      "testData": "PeriodHeader",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'x-box--j')]//span[contains(@class, 'e-x-m')]"
+      }
+    },
+    {
+      "entityId": "TransactionAmount",
+      "testData": "TransactionAmount",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'pad-between-large')]/div[1]/div//span[contains(@class,'color-accent-1')] | .//div[contains(@class,'pad-between-large')]/div[1]/div///span[contains(@class, 'color-brand')]"
+      }
+    },
+    {
+      "entityId": "TransactionCounterText",
+      "testData": "TransactionCounterText",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'pad-between-large')]/div[1]/div//span[contains(@class,'x-small')] "
+      }
+    },
+    {
+      "entityId": "TransactionButton",
+      "testData": "TransactionButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'grommetux-button__label')] "
+      }
+    }
+  ]
+}

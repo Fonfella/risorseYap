@@ -1,0 +1,9 @@
+{
+  "name": "ThenIValidateTransactionStornoDetailsSectionParamMatch",
+  "description": "Validate that transaction client details tile in transaction details match input data",
+  "type": "TestCase",
+  "aliases": "Then I validate transaction details storno section parameter",
+  "children": [
+    "Then TransactionDetailsModule.TransactionDetailsSectionModule.ExpandedDetailsStorno[byChild='DetailsElementsList',filterType='text',filterValue='${parameterName}'] data matches ${data}"
+  ]
+}

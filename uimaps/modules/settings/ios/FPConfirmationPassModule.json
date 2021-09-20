@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "XButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeImage[@name='Chiudi']"
+      }
+    },
+    {
+      "entityId": "PopUpTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Inserisci la password']"
+      }
+    },
+    {
+      "entityId": "PopUpSummary",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='grommetux-modal']/XCUIElementTypeOther[3]"
+      }
+    },
+    {
+      "entityId": "ConfirmationPassword",
+      "testData":"PasswordTextBox",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeSecureTextField"
+      }
+    },
+    {
+      "entityId": "AnnulaButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='ANNULLA']"
+      }
+    },
+    {
+      "entityId": "ConfirmationButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='CONFERMA']"
+      }
+    }
+  ]
+}

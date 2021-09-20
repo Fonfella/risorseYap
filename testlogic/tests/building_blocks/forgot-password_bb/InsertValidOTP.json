@@ -1,0 +1,12 @@
+{
+  "id": 12345,
+  "name": "InsertValidOTP",
+  "description": "Insert an valid OTP from email",
+  "aliases": "When I insert an valid confirmation code",
+  "type": "TestCase",
+  "children": [
+    "When I input data into RegistrationLayout",
+    "When I receive and input OTP code",
+    "When I input data[InvalidCredentials.InvalidBoth] into RegistrationLayout"
+  ]
+}

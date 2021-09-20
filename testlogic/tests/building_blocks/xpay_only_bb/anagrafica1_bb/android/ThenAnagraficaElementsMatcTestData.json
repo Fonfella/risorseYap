@@ -1,0 +1,12 @@
+{
+  "name": "ThenAnagraficaElementsMatcTestData",
+  "description": "Check Elements labels to match with testData",
+  "aliases":"Then Page Anagrafica1 Elements match test data",
+  "type": "TestCase",
+  "children": [
+     "Then BackButton.BackButtonIcon is displayed",
+     "Then BackButton.BackButtonLabel data matches XpayOnlyData.AndroidBackButtonLabel",
+     "Then PageHeader.ChiudiButton is displayed",
+     "Then PageTitle data matches XpayOnlyData.AndroidAnagrafica1PageTitle"
+  ]
+}

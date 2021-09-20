@@ -1,0 +1,12 @@
+{
+    "name": "ThenIDownloadAndValidateFile",
+    "description": "Set on filters page input transaction status as filter, validate first transaction status and applied filters",
+    "aliases": "Then I download and validate file",
+    "type": "TestCase",
+    "children": [
+      "When I click on element TransactionsContentWrappedModule.DownloadButton",
+      "When I click on element DownloadContainerModule.DownloadExcelButton",
+//      "Then transaction_reports_[today-1years]_[today-1days].xlsx was downloaded to default directory",
+      "When I click on element DownloadContainerModule.CloseButton"
+   ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "GoToRegistrationPage2",
+  "description": "Using Merchant data I go to Registration Page 2",
+  "aliases": "Given I go to Step2 of registration flow",
+  "type": "TestCase",
+  "children": [
+    "As a ${merchant}",
+    "Given I start Registration flow",
+    "When I input data into RegistrationForm",
+    "When I click on element SubmitButton",
+    "When I wait 4 seconds",
+    "Then Registration Step2 is open"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "GetToResultsPage",
+  "description": "Path to results page",
+  "aliases": "Given I open results page",
+  "type": "TestCase",
+  "children": [
+    "Given I login to Nexi",
+    "When I navigate to results page via sandwich menu"
+
+  ]
+}

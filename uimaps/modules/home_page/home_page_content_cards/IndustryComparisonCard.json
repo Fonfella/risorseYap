@@ -1,0 +1,37 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeaderName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1[contains(@class, 'heading')]/div/span"
+      }
+    },
+    {
+      "entityId": "CardToolTip",
+      "type": "MODULE",
+      "reference": "modules/reusable_elements/ToolTipElement",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'card-tooltip')]/div"
+      }
+    },
+    {
+      "entityId": "CardInnerText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/li/p/span"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    }
+  ]
+}

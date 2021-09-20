@@ -1,0 +1,39 @@
+{
+  "children": [
+    {
+      "entityId": "SalePointsLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'sale-link')]"
+      }
+    },
+    {
+      "entityId": "SalePointsLabel",
+      "type": "ELEMENT",
+      "testData": "HeadingLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'sale-link')]/span"
+      }
+    },
+    {
+      "entityId": "SalesPointIcon",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'control-icon')]"
+      }
+    },
+    {
+      "entityId": "SelectedShopTitle",
+      "type": "ELEMENT",
+      "testData": "ShopLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'option-title')]/*/span"
+      }
+    }
+  ]
+}

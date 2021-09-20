@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "ElementLink",
+      "testData": "Link",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./a"
+      }
+    },
+    {
+      "entityId": "ElementImage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[@role = 'img']"
+      }
+    },
+    {
+      "entityId": "ElementTitle",
+      "type": "ELEMENT",
+      "testData": "ElementTitle",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./a//*[@role='img']/*[not(*)]"
+      }
+    },
+    {
+      "entityId": "ElementLabel",
+      "type": "ELEMENT",
+      "testData": "ElementLabel",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a//span"
+      }
+    },
+    {
+      "entityId": "ElementText",
+      "type": "ELEMENT",
+      "testData": "ElementLabel",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/span"
+      }
+    }
+  ]
+}

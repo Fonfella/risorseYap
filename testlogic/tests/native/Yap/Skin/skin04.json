@@ -1,0 +1,44 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0040",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "select a detail skin used",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "When I click on element Burger_Menu_Open",
+    "Given I wait 2 seconds",
+    "Then BM_profile_label is displayed",
+    "Then BM_profile_label data matches Provayap.Valid.User4",
+    "Then I Click on Back Button",
+    "When I click on element Skin_Button",
+    "Then Skin_label is displayed",
+    "Then Skin_label data matches Provayap.Valid.User4",
+    "Given Skin Page_Yap is open",
+    "Then Skin_title is displayed",
+    "Then Tutte_button is displayed",
+    "Then Sbloccate_button is displayed",
+    "Then Da_Sbloccare_button is displayed",
+    "When I click on element Sbloccate_button",
+    "Given I wait 2 seconds",
+    "Then ParrotRainbow is displayed",
+    "When I click on element ParrotRainbow",
+    "Given I wait 2 seconds",
+    "Then ParrotRainbow_title is displayed",
+    "Then Usa_Questa_Skin_label is displayed",
+    "Then Parrot_Description is displayed",
+    "When I click on element Back_button",
+    "Given I wait 5 seconds",
+    "Given Home Page_Yap is open"
+
+  ]
+}
+

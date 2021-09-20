@@ -1,0 +1,46 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0034",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Test richiedi soldi da minore con scelta rapida genitore",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.UserMinore01",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.UserMinore02",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_Ricarica",
+    "Given I wait 2 seconds",
+    "When I click on element Parent01Carlos",
+    "Given I wait 2 seconds",
+    "Given RichiediSoldi Page_Yap is open",
+    "Given I wait 2 seconds",
+    "When I click on element Input_0",
+    "When I click on element Input_Comma",
+    "When I click on element Input_9",
+    "When I click on element Input_5",
+    "When I click on element Avanti_Button",
+    "Given I wait 2 seconds",
+    "When I click on element Messagge_text_rm",
+    "Given I wait 2 seconds",
+    "When I input data into Messagge_input_rm",
+    "Given I wait 2 seconds",
+    "When I click on element Inserisci_Button",
+    "Given I wait 2 seconds",
+    "Given I scroll Slider_Yap towards _UP",
+    "When Importo_Richiesta_0_95 is displayed",
+    "Then Importo_Richiesta_0_95 data matches Provayap.Valid.User1",
+    "As a Yaptimeline.Valid.3511669952",
+    "Then I Check timeLine Event: \"${Utente_Pancioni}\", \"${Importo_Richiesta_0,95}\", \"${Text_Espresso}\", \"${Type_HaiChiesto}\"",
+    "Given I wait 2 seconds"
+  ]
+}

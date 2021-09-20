@@ -1,0 +1,10 @@
+{
+  "name": "WhenISelectACompanyFromDropDown",
+  "description": "When I select a company from dropdown",
+  "aliases":"When I select a company",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='0']",
+    "When I click on element SelectShopForm.DropdownList.ListElement[filterType='text',filterValue='${company}']"
+  ]
+}

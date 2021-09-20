@@ -1,0 +1,11 @@
+{
+  "name": "NavigateToTotalCardsPage",
+  "description": "Get to total cards page ",
+  "aliases": "When I navigate to total customers page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ResultsPageContent.TotalCustomersCard.FindOutMoreLink",
+    "Then Total Customers Page is open"
+
+  ]
+}

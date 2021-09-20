@@ -1,0 +1,12 @@
+{
+  "name": "ThenTerminalsListIsDisplayedForSpecificShop",
+  "description": "List of terminals for specific shop is displayed",
+  "aliases": "Then Terminals list is displayed for specific shop",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem${shopFilter}",
+    "Given I wait 3 seconds",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails.TerminalName data matches DB [TerminalSection.sql][<UsernameTextBox>=ProfileData.MoreThanOneCompany.User,<shopCode>=${shopCode}]"
+  ]
+}
+

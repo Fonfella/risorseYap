@@ -1,0 +1,34 @@
+{
+  "children": [
+    {
+      "entityId": "ProductCategoryFilterDetailsModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/peer_comparison_page/peer_filters/ProductCategoryFilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class,'box--full')]"
+      }
+    },
+    {
+      "entityId": "GeoAreaFilterDetailsModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/peer_comparison_page/peer_filters/GeoAreaFilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class,'box--full')]"
+      }
+    },
+    {
+      "entityId": "CompareDateFilterDetailsModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/peer_comparison_page/peer_filters/CompareDateFilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section[contains(@class,'box--full')]"
+      }
+    }
+  ]
+}

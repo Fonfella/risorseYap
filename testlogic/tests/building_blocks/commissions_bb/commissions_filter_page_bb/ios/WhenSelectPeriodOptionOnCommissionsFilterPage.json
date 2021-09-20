@@ -1,0 +1,9 @@
+{
+  "name": "WhenSelectPeriodOptionOnCommissionsFilterPage",
+  "description": "Select last 12 months or current month options on commissions filters page",
+  "type": "TestCase",
+  "aliases": "When I select last months option period;When I select current month option period",
+  "children": [
+    "When I click on element CommissionsFiltersModule.OptionsLabel[filterType='text',filterValue='${optionLabel}']"
+  ]
+}

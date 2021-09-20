@@ -1,0 +1,307 @@
+{
+  "children": [
+    {
+      "entityId": "HomeButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@content-desc='Home']"
+      }
+    },
+    {
+      "entityId": "OtherOptionsButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.ImageButton[@content-desc='Altre opzioni']"
+      }
+    },
+    {
+      "entityId": "LastTransactionButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Apri ultima transazione']"
+      }
+    },
+
+    {
+      "entityId": "NumPad1",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@content-desc='1']"
+      }
+    },
+    {
+      "entityId": "NumPad2",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@content-desc='2']"
+      }
+    },
+     {
+      "entityId": "NumPad5",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@content-desc='5']"
+      }
+    },
+    {
+      "entityId": "NumPadClear",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.terminal:id/clear']"
+      }
+    },
+    {
+      "entityId": "NumPad0",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@content-desc='0']"
+      }
+    },
+    {
+      "entityId": "ConfermaPagamento",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@text='CONFERMA']"
+      }
+    },
+    {
+      "entityId": "Pagamento_ComboBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/show_payment_option_button']"
+      }
+    },
+    {
+      "entityId": "Button_ContiSeparati",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CONTI SEPARATI']"
+      }
+    },
+    {
+      "entityId": "Button_AggiungiConto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='+ AGGIUNGI']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Conferma1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Conferma2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView"
+      }
+    },
+    
+    {
+      "entityId": "ContiSeparati_NoScontrino",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/no_receipt_button_single_row' or @text='FATTO']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Pagamento1_Ok",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/processTenderBtn' and @enabled='false']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Pagamento2_Ok",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/processTenderBtn' and @enabled='false']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_ButtonFatto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/rightButton']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_ConfermaChiusura",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/left_button']"
+      }
+    },
+
+    {
+      "entityId": "Button_Chiudi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CHIUDI']"
+      }
+    },
+
+    {
+      "entityId": "ContiSeparati_CancellaUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/trash']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Utente2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='2']"
+      }
+    },
+
+    {
+      "entityId": "ContiSeparati_Utente2_Chiudi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.TextView"
+      }
+    },
+
+    {
+      "entityId": "InsertImporto_BackButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.terminal:id/delete_last_item']"
+      }
+    },
+    {
+      "entityId": "Label_PagamentoAnnullato",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Pagamento annullato']"
+      }
+    },
+    {
+      "entityId": "Label_PagamentoEseguito",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Pagamento Eseguito']"
+      }
+    },
+    {
+      "entityId": "Label_InserireImporto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Inserire importo']"
+      }
+    },
+
+    {
+      "entityId": "ContiSeparati_ButtonAnnulla",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ANNULLA']"
+      }
+    },
+    {
+      "entityId": "Payment_Timeout_Alert",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Fuori tempo massimo per inserire la carta']"
+      }
+    },
+    {
+      "entityId": "Amount_Text",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.terminal:id/amount']"
+      }
+    },
+    {
+      "entityId": "EnableCless",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/nfc_button']"
+      }
+    },
+    {
+      "entityId": "PaymentDropDown",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.terminal:id/terminal_drop_down_action']"
+      }
+    },
+    {
+      "entityId": "SelectPreAut",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.terminal:id/action_auth_only']"
+      }
+    },
+    {
+      "entityId": "LabelInserisciOAvvicinaCarta",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Inserisci o avvicina la carta']"
+      }
+    },
+    {
+      "entityId": "WarningContiSeparati",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/simple_message' and @text='Sei sicuro di voler chiudere?']"
+      }
+    },
+    {
+      "entityId": "PrimoContoSeparato",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[1]"
+      }
+    },
+    {
+      "entityId": "DeleteItemButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/delete_item']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WhenIClickOnContabilizattoTransaction",
+  "description": "Click on not refunded transaction by input index",
+  "type": "TestCase",
+  "aliases": "When I click on contabilizatto transaction",
+  "children": [
+    "When I click on element TransactionsContentWrappedModule.TransactionsListModule[byChild='TransactionStatus',filterType='text',filterValue='CONTABILIZZATO'][filterType='index',filterValue='${transactionIndex}']"
+  ]
+}

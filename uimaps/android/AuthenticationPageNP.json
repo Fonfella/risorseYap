@@ -1,0 +1,169 @@
+{
+  "children": [
+    {
+      "entityId": "LoginInput",
+      "type": "ELEMENT",
+      "testData": "UsernameTextBox",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.EditText[@resource-id='it.icbpi.mobile:id/' and @text='Email']"
+      }
+    },
+    {
+      "entityId": "PassInput",
+      "type": "ELEMENT",
+      "testData":"PasswordTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.EditText[@password='true']"
+      }
+    },
+    {
+      "entityId": "Edit_Phone",
+      "type": "ELEMENT",
+      "testData":"PhoneNumberTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "PassInput_2",
+      "type": "ELEMENT",
+      "testData":"PasswordTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "input_password",
+      "type": "ELEMENT",
+      "testData":"PasswordTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "DisabilitaImprontaDigitale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Non mostrare più']"
+      }
+    },
+    {
+      "entityId": "Entra_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@text='ENTRA']"
+      }
+    },
+    {
+      "entityId": "Button_Continue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "OTPInput",
+      "type": "ELEMENT",
+      "testData":"mailConfirmCode",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "HelpButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "RegisterButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "RegisterButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "NonSeiTuLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='NON SEI TU?']"
+      }
+    },
+    {
+      "entityId": "LeggiButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.icbpi.mobile:id/' and @text='LEGGI']"
+      }
+    },
+    {
+      "entityId": "AccettaCondizioniButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button"
+      }
+    },
+    {
+      "entityId": "GPayClose",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ImageView"
+      }
+    },
+
+    {
+      "entityId": "Versione",
+      "type": "ELEMENT",
+      "testData":"Versione_Android",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='VERSIONE 5.1.0 BUILD 7']"
+      }
+    },
+
+    {
+      //Cambiare xpath e rendere univoco oggetto con riconoscimento testo
+      "entityId": "Formato_email_non_corretto_error_message",
+      "testData":"email_error_message",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.TextView"
+      }
+    }
+  ]
+}

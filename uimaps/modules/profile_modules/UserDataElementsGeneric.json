@@ -1,0 +1,20 @@
+{
+  "children": [
+    {
+      "entityId": "LabelText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label[contains(@class,'key-content')]"
+      }
+    },
+    {
+      "entityId": "LabelInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label[contains(@class,'value-content')]"
+      }
+    }
+  ]
+}

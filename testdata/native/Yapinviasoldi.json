@@ -1,0 +1,115 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "Error_Message_Importo_Over_Max_label",
+              "value": "Il tuo saldo YAP non è sufficiente"
+            }
+            ,
+            {
+              "entityId": "Utente_2",
+              "value": "TestCartaYap"
+            },
+            {
+              "entityId": "Utente_Biancaneve",
+              "value": "Nana Biancaneve"
+            }
+            ,
+            {
+              "entityId": "Input_Message_test",
+              "value": "${mac}"
+            }
+            ,
+
+            {
+              "entityId": "Utente_Coscarelli",
+              "value": "Marialuigia Coscarelli"
+            }
+            ,
+            {
+              "entityId": "Utente_Bosch",
+              "value": "Francesca Boschiroli"
+            }
+            ,
+            {
+              "entityId": "Soldi_Inviati_label",
+              "value": "Soldi inviati"
+            }
+          ,
+            {
+              "entityId": "OK_Coscarelli_label",
+              "value": "OK, adesso tocca a Marialuigia Coscarelli"
+            }
+            ,
+            {
+              "entityId": "Amount_label",
+              "value": "-1\u20AC"
+            }
+            ,
+
+            {
+              "entityId": "Info_No_Yapper_label",
+              "value": "Quando Marialuigia Coscarelli si registrerà ed entrerà in YAP, ti avviseremo.\n\n⚠️ Dovrai confermare o annullare l’invio. Nel frattempo, i soldi che stai inviando resteranno sul tuo YAP."
+            }
+            ,
+            {
+              "entityId": "Importo_Richiesta_0_02",
+              "value": "-0,02€"
+            }
+            ,
+            {
+              "entityId": "Importo_Richiesta_0_01",
+              "value": "-0,01€"
+            }
+            ,
+            {
+              "entityId": "Importo_Richiesta_10_20",
+              "value": "+10€/20€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_1",
+              "value": "+1,00€"
+            }
+          ,
+            {
+              "entityId": "Importo_Richiesta_Meno1",
+              "value": "-1,00€"
+            }
+          ,
+
+            {
+              "entityId": "Utente_Bonardi",
+              "value": "Matteo Bonardi"
+            },
+            {
+              "entityId": "Vuoto",
+              "value": "Null"
+            },
+            {
+              "entityId": "Type",
+              "value": "IN ATTESA"
+            },
+            {
+              "entityId": "Prova2",
+              "value": "Fabio Fabio"
+            },
+            {
+              "entityId": "Utente_Lettieri",
+              "value": "Diego Lettieri"
+            },
+            {
+              "entityId": "Utente_Bianco",
+              "value": "Giulia Bianco"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

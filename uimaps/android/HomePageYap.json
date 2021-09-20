@@ -1,0 +1,340 @@
+{
+  "children": [
+    {
+      "entityId": "Yap_Card",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/yap_card_view']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Open",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_start']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Close",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_close']"
+      }
+    },
+    {
+      "entityId": "Invia_Soldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_send_money']"
+      }
+    },
+    {
+      "entityId": "TimeLine",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/view_close']"
+      }
+    },
+    {
+      "entityId": "TimeLineRail",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/content_home_root_view']"
+      }
+    },
+    {
+      "entityId": "Richiedi_Soldi",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_request_money']"
+      }
+    },
+
+    {
+      "entityId": "Utente_Carta",
+      "type": "ELEMENT",
+      "testData":"Utente_1",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_holder']"
+      }
+    },
+
+    {
+      "entityId": "Ricarica_Yap",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_top_up_pay_x']"
+      }
+    },
+    {
+      "entityId": "Profilo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_profile']"
+      }
+    },
+    {
+      "entityId": "Bottone_Principale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/expandable_main_button']"
+      }
+    },
+    {
+      "entityId": "AmountStart",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_balance']"
+      }
+    },
+    {
+      "entityId": "PermissionAllowButtonContatti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']"
+      }
+    },
+
+    {
+      "entityId": "PermissionDenyButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.android.packageinstaller:id/permission_deny_button']"
+      }
+    },
+
+    {
+      "entityId": "Airplane_button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_end']"
+      }
+    },
+    {
+      "entityId": "NomeUtente_Carta",
+      "testData":"NomeUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_holder']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invita_Amici",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_mgm']"
+      }
+    }
+    ,
+    {
+      "entityId": "Tail_card",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_pan_3']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Close_Empty_Space",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_end']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Item_Profile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_profile']"
+      }
+    },
+
+    {
+      "entityId": "Burger_Menu_Item_Info",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_info']"
+      }
+    },
+
+    {
+      "entityId": "Burger_Menu_Item_Family",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_family']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Item_Skin",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_skin']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Item_Help",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_help']"
+      }
+    },
+    {
+      "entityId": "Burger_Menu_Item_Issue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_issue']"
+      }
+    }
+    ,
+    {
+      "entityId": "Burger_Menu_Item_MGM",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_mgm']"
+      }
+    }
+  ,
+
+    {
+      "entityId": "NomeUtente_Carta",
+      "testData":"NomeUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_holder']"
+      }
+    }
+    ,
+    {
+      "entityId": "BM_profile_label",
+      "testData":"BM_profile_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_profile']"
+      }
+    }
+    ,
+    {
+      "entityId": "BM_My_YAP_label",
+      "testData":"BM_My_YAP_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_info']"
+      }
+    }
+    ,
+    {
+      "entityId": "Skin_label",
+      "testData":"Skin_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='SKIN']"
+      }
+    }
+  ,
+    {
+      "entityId": "Skin_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/menu_item_skin']"
+      }
+    }
+  ,
+    {
+      "entityId": "BM_Assistenza_label",
+      "testData":"BM_Assistenza_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_help']"
+      }
+    }
+    ,
+    {
+      "entityId": "BM_Boost_label",
+      "testData":"BM_Boost_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_boost']"
+      }
+    }
+  ,
+    {
+      "entityId": "BM_Segnalaci_problema_label",
+      "testData":"BM_Segnalaci_problema_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_issue']"
+      }
+    }
+    ,
+    {
+      "entityId": "Soldi_Disponibili_label",
+      "testData":"Soldi_Disponibili_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_balance_label']"
+      }
+    }
+    ,
+    {
+      "entityId": "PermissionAllow_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']"
+      }
+    }
+  ,
+    {
+      "entityId": "ButtonFastTopup",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_fast_top_up']"
+      }
+    },
+    {
+      "entityId": "Timeline_panel_closer",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/view_close']"
+      }
+    }
+  ]
+}

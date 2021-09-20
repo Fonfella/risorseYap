@@ -1,0 +1,10 @@
+{
+  "name": "InformationRelatedToSelectedIsDisplayed",
+  "description": "Verify that info related to PCI is displayed on FAQ page",
+  "type": "TestCase",
+  "aliases": "Then information related to selected topic is displayed",
+  "children": [
+    "Then FAQSectionModule.FAQListItemsModule.ItemModule.ItemTitle data matches PCIData.${selectedTopic}",
+    "Then FAQSectionModule.FAQListItemsModule.ItemModule.ItemQuestionsModule data matches PCIData.${selectedTopic}"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "children": [
+    {
+      "entityId": "LastTransactionsCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/LastTransactionsCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Ultime transazioni']/../parent::div[contains(@class,'brick-inside')]"
+      }
+    },
+    {
+      "entityId": "LatestDocumentsCard",
+      "optional": true,
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/LatestDocumentsCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Ultimi documenti']/../parent::div"
+      }
+    },
+    {
+      "entityId": "XPayCard",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/GenericCardModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@href, 'xpay')]/div"
+      }
+    },
+
+    {
+      "entityId": "BusinessCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/GenericCardModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@href, 'nexi')]/div"
+      }
+    },
+
+    {
+      "entityId": "PciSummaryCard",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/PCISummaryCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@class='pci_summary-card']"
+      }
+    },
+    {
+      "entityId": "StornoCard",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/StornoCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/div[h1[span[text()='Storno']]][contains(@class,'brick-inside')]"
+      }
+    }
+
+  ]
+}

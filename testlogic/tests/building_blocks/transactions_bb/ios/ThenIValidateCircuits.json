@@ -1,0 +1,27 @@
+{
+  "name": "ThenIValidateCircuits",
+  "description": "Validate 12 circuits one by one",
+  "type": "TestCase",
+  "aliases": "Then I validate circuits",
+  "children": [
+    "Then I validate selected card brand with [cardIndex=0][cardType=Mastercard]",
+    "Then I validate selected card brand with [cardIndex=1][cardType=Visa]",
+    "Then I validate selected card brand with [cardIndex=2][cardType=Maestro]",
+    "Then I validate selected card brand with [cardIndex=3][cardType=PagoBancomat]",
+    "Then I validate selected card brand with [cardIndex=4][cardType=PayPal]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='4']",
+    "Then I validate selected card brand with [cardIndex=5][cardType=Amex]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='5']",
+    "Then I validate selected card brand with [cardIndex=6][cardType=MyBank]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='6']",
+    "Then I validate selected card brand with [cardIndex=7][cardType=JCBCluster1And2]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='7']",
+    "Then I validate selected card brand with [cardIndex=8][cardType=UPI]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='8']",
+    "Then I validate selected card brand with [cardIndex=9][cardType=Aura]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='9']",
+    "Then I validate selected card brand with [cardIndex=10][cardType=Diners]",
+    "When I scroll to FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='10']",
+    "Then I validate selected card brand with [cardIndex=11][cardType=Agos]"
+  ]
+}

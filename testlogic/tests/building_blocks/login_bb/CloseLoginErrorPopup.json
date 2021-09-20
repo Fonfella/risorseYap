@@ -1,0 +1,9 @@
+{
+  "name": "CloseLoginErrorPopup",
+  "description": "Login page incorrect credentials popup",
+  "aliases": "When I close invalid credentials error message popup",
+  "type": "TestCase",
+  "children": [
+    "When I click on element LoginInvalidCredentialsErrorPopup.CloseButton"
+  ]
+}

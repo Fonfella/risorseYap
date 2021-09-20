@@ -1,0 +1,11 @@
+{
+  "name": "INVIA SOLDI",
+  "description": "Invia Soldi suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/InviaSoldiYap/AccessoDaMenu.json",
+    //"testlogic/tests/native/Yap-NoRegressionTest/InviaSoldiYap/AccessoDaBurgerMenu.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/InviaSoldiYap/InviaSoldiImportoSuperiore.json"
+  ]
+}

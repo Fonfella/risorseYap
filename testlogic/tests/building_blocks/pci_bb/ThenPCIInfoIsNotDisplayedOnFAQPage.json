@@ -1,0 +1,12 @@
+{
+  "name": "ThenPCIInfoIsNotDisplayedOnFAQPage",
+  "description": "Verify that info related to PCI is not displayed on FAQ page",
+  "type": "TestCase",
+  "aliases": "Then verify that information related to PCI is not displayed on FAQ page",
+  "children": [
+    "When I click on element FAQSectionModule.TopicsDropdownModule",
+    "Then FAQSectionModule.TopicsDropdownModule.DropdownBoxModule.DropdownContentBox.ListElement[filterType='text',filterValue='PROGRAMMA PROTECTION PLUS'] is not displayed",
+    "Then FAQSectionModule.TopicsDropdownModule.DropdownBoxModule.DropdownContentBox.ListElement[filterType='text',filterValue='STANDARD PCI - DSS'] is not displayed",
+    "Then FAQSectionModule.TopicsDropdownModule.DropdownBoxModule.DropdownContentBox.ListElement[filterType='text',filterValue='QUESTIONARIO SEMPLIFICATO'] is not displayed"
+  ]
+}

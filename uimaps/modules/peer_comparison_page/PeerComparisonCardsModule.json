@@ -1,0 +1,62 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "type": "ELEMENT",
+      "testData": "CardHeader",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h1/span"
+      }
+    },
+    {
+      "entityId": "CardDataListModule",
+      "optional": true,
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_comparison_cards/CardDataListModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li"
+      }
+    },
+    {
+      "entityId": "ProvenienzaCarteEstereTotalPercentageValue",
+      "testData": "ProvenienzaCarteEstereTotalPercentageValue",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'origin-per-country-heading')]/./div/div[1]"
+      }
+    },
+    {
+      "entityId": "ProvenienzaCarteEstereTotalPercentageLabel",
+      "optional": true,
+      "testData": "ProvenienzaCarteEstereTotalPercentageLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'origin-per-country-heading')]/.//div/div[2]/span"
+      }
+    },
+    {
+      "entityId": "CardEmptyContent",
+      "optional": true,
+      "type": "ELEMENT",
+      "testData": "CardEmptyContent",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/p"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a"
+      }
+    }
+  ]
+}

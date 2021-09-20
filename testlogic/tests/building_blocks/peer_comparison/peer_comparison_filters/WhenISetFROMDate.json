@@ -1,0 +1,10 @@
+{
+  "name": "WhenISetFROMDate",
+  "description": "Click on input date criteria",
+  "aliases": "When I set FROM date",
+  "type": "TestCase",
+  "children": [
+    "When I open FROM month dropdown",
+    "When I click on element PeerFiltersElementsModule.CompareDateFilterDetailsModule.DatePickersSectionModule.MonthsDropDownList[filterType='text',filterValue='${date}']"
+  ]
+}

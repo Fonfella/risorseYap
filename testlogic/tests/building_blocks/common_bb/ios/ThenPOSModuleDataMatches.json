@@ -1,0 +1,9 @@
+{
+  "name": "ThenPOSModuleDataMatches",
+  "description": "Validate that input data displayed in the sales points module",
+  "aliases": "Then POS module data match",
+  "type": "TestCase",
+  "children": [
+    "Then SalesPointsModule data matches ${salePointsData}"
+  ]
+}

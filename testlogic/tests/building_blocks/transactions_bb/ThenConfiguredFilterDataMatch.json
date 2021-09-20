@@ -1,0 +1,9 @@
+{
+  "name": "ThenConfiguredFilterDataMatch",
+  "description": "Data match for configured filter based on input",
+  "aliases": "Then configured filter data match",
+  "type": "TestCase",
+  "children": [
+    "Then TransactionsFiltersModule.FiltersLayoutModule.FilterSectionSelectedOption[byChild='FilterName',filterType='text',filterValue='${filterName}'] data matches ${data}"
+  ]
+}

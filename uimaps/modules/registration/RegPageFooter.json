@@ -1,0 +1,53 @@
+{
+  "children":
+  [
+    {
+      "entityId": "ProfileIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "ProfileIconLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[1]/p"
+      }
+    },
+    {
+      "entityId": "SecurityIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]"
+      }
+    },
+    {
+      "entityId": "SecurityIconLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[2]/p"
+      }
+    },
+    {
+      "entityId": "WelcomeIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[3]"
+      }
+    },
+    {
+      "entityId": "WelcomeIconLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[3]/p"
+      }
+    }
+  ]
+}

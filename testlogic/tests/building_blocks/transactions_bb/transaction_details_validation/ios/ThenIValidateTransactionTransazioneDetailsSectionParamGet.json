@@ -1,0 +1,10 @@
+{
+  "name": "ThenIValidateTransactionTransazioneDetailsSectionParamGet",
+  "description": "Get transaction client details tile in transaction details match input data",
+  "type": "TestCase",
+  "aliases": "Then I get transaction details transazione section parameter",
+  "children": [
+    "When I scroll to TransactionDetailsModule.TransactionDetailsSectionModule.ExpandedDetailsTransazione[byChild='DetailsElementsList',filterType='text',filterValue='${parameterName}']",
+    "Then I get data from TransactionDetailsModule.TransactionDetailsSectionModule.ExpandedDetailsTransazione[byChild='DetailsElementsList',filterType='text',filterValue='${parameterName}'] as ${valueParameter}"
+  ]
+}

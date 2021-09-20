@@ -1,0 +1,24 @@
+{
+  "children": [
+
+    {
+      "entityId": "FiltersLayoutModule", //left
+      "type": "MODULE",
+      "reference": "modules/transactions_page/FiltersLayout.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//section[contains(@class, 'filters-layout')]"
+      }
+    },
+    {
+      "entityId": "FilterDetailsModule", //right
+      "optional": true,
+      "type": "MODULE",
+      "reference": "modules/transactions_page/FilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'transactions_filter-modal')]"
+      }
+    }
+  ]
+}

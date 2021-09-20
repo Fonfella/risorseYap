@@ -1,0 +1,87 @@
+{
+  "properties": {
+    "esito": {
+      "type": "string"
+    },
+    "idOperazione": {
+      "type": "string"
+    },
+    "timeStamp": {
+      "type": "string"
+    },
+    "mac": {
+      "type": "string"
+    },
+    "report": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "codiceTransazione": {
+              "type": "string"
+            },
+            "numeroMerchant": {
+              "type": "string"
+            },
+            "importo": {
+              "type": "string"
+            },
+            "divisa": {
+              "type": "string"
+            },
+            "codiceAutorizzazione": {
+              "type": "string"
+            },
+            "brand": {
+              "type": "string"
+            },
+            "tipoPagamento": {
+              "type": "string"
+            },
+            "tipoTransazione": {
+              "type": "string"
+            },
+            "nazione": {
+              "type": "string"
+            },
+            "tipoProdotto": {
+              "type": "string"
+            },
+            "pan": {
+              "type": "string"
+            },
+            "parametri": {
+              "type": "string"
+            },
+            "stato": {
+              "type": "string"
+            },
+            "dataTransazione": {
+              "type": "string"
+            },
+            "mail": {
+              "type": ["null","string"]
+            }
+          },
+          "required": [
+            "codiceTransazione",
+            "numeroMerchant",
+            "importo",
+            "divisa",
+            "codiceAutorizzazione",
+            "brand",
+            "tipoPagamento"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "esito",
+    "idOperazione",
+    "timeStamp",
+    "mac",
+    "report"
+  ]
+}

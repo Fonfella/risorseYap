@@ -1,0 +1,9 @@
+{
+  "id": "01008",
+  "name": "VerificaVersioneSuite",
+  "description": "Verifica Versione Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/VerificaVersioneFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

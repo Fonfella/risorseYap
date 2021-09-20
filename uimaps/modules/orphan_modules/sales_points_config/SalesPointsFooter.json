@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId": "FooterLinkIterator",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sales_points_config/FooterLinkIterator.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "/div/div//span"
+      }
+    }
+  ]
+}

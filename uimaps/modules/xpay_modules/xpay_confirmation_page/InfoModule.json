@@ -1,0 +1,29 @@
+{
+  "children": [
+    {
+      "entityId": "ParagraphsText",
+      "testData": "ParagraphsText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./p"
+      }
+    },
+    {
+      "entityId": "UserName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./p[1]//span[contains(@class,'karbon')]"
+      }
+    },
+    {
+      "entityId": "Email",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./p[4]//span[contains(@class,'karbon')]"
+      }
+    }
+  ]
+}

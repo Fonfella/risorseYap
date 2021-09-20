@@ -1,0 +1,12 @@
+{
+  "name": "ThenOptioni2ElementsMatchTestData.json",
+  "description": "Check Elements labels to match with testData",
+  "aliases":"Then Page Optioni2 Elements match test data",
+  "type": "TestCase",
+  "children": [
+    "Then PageTitle data matches XpayOnlyData.Opzioni2.PageTitle",
+    "Then BackButton.BackButtonLabel data matches XpayOnlyData.BackButtonLabel",
+    "Then SelectPaymentForm.InfoMessage data matches XpayOnlyData.Opzioni2.InfoMessage",
+    "Then SelectPaymentForm.PaymentMethodList.PaymentMethodTitle data matches XpayOnlyData.Opzioni2.PaymentMethodTitle"
+  ]
+}

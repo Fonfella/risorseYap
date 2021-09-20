@@ -1,0 +1,10 @@
+{
+  "name": "ValidateNumberOfTransactionsCard",
+  "description": "Validate card Numero transazioni",
+  "aliases": "Then number of transactions card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.NumberOfTransactionsCard data matches ResultsTestData.Cards.NumberOfTransactionsCard.${cardData}"
+
+  ]
+}

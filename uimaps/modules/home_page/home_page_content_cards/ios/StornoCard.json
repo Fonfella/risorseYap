@@ -1,0 +1,113 @@
+{
+  "children": [
+    {
+      "entityId": "Title",
+      "testData":"Title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[@name='Storno'][1]"
+      }
+    },
+    {
+      "entityId": "OverlayContainer",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/ios/StornoOverlayContainer.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "*/.."
+      }
+    },
+    {
+      "entityId": "CardDescription",
+      "testData": "CardDescription",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[contains(@name,'Ricerca la transazione per effettuare')]"
+      }
+    },
+    {
+      "entityId": "DatePickerInput",
+      "testData": "DatePickerInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Da' or @name='A']//preceding::XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "DatePickerInputLabel",
+      "testData": "DatePickerInputLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Da' or @name='A']"
+      }
+    },
+    {
+      "entityId": "CalendarIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Calendar']"
+      }
+    },
+    {
+      "entityId": "PANInput",
+      "testData": "PANInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeTextField[3]"
+      }
+    },
+    {
+      "entityId": "PANInputLabel",
+      "testData": "PANInputLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Ultime 4 cifre carta']"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='ANNULLA']"
+      }
+    },
+    {
+      "entityId": "SearchButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton[@name='CERCA']"
+      }
+    },
+    {
+      "entityId":"WrongPANErrorMessage",
+      "testData":"WrongPANErrorMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Inserisci le ultime 4 cifre della numero carta.' or @name='Inserisci solo valori numerici.']"
+      }
+    },
+    {
+      "entityId": "DateNotSpecifiedErrorMessage",
+      "testData": "DateNotSpecifiedErrorMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Il campo data è obbligatorio.']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "OpenFiltri",
+    "description": "Open Filtri page",
+    "aliases": "When I open filters page",
+    "type": "TestCase",
+    "children": [
+      "Given I wait 16 seconds",
+      "When I click on element FiltersButton",
+      "Then Transactions Filters Page is open"
+   ]
+  }

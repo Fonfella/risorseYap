@@ -1,0 +1,9 @@
+{
+  "name": "WhenISwitchToScegliImportoTab",
+  "description": "Switch to Scegli Importo Tab",
+  "type": "TestCase",
+  "aliases": "When I switch to scegli importo tab",
+  "children": [
+    "When I click on element FilterDetailsModule.FilterDetailsTabsModule.NotSelectedTabs.ButtonLabel"
+  ]
+}

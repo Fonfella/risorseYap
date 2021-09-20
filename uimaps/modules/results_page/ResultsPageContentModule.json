@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "entityId": "TransactedCardModule",
+      "reference": "resultsPage/results_page_cards/GenericCard",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[*[contains(@class, 'heading')][span[not(text()='Distribuzione per importo delle transazioni') and not(text()='I circuiti più utilizzati') and not(text()='Provenienza carte estere') and not(text()='Giornate da record')]]]"
+      }
+    },
+    {
+      "entityId": "ProvenanceForeignCardModule",
+      "reference": "modules/peer_comparison_page/peerComparisionCards/ProvenanceForeignCardModule",
+      "childCount": "3",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[*[span[text()='Provenienza carte estere']]]"
+      }
+    },
+    {
+      "entityId": "DistributionTransactAmountCardModule",
+      "reference": "modules/peer_comparison_page/peerComparisionCards/DistributionTransactAmountCardModule",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[*[span[contains(text(),'Distribuzione per')]]]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "children": [
+    {
+      "entityId": "InputField",
+      "type": "ELEMENT",
+      "testData": "InputField",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input"
+      }
+    },
+    {
+      "entityId": "InputLabel",
+      "testData": "InputLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./label/span"
+      }
+    }
+  ]
+}

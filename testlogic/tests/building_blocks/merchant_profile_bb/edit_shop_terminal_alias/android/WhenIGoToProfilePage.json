@@ -1,0 +1,10 @@
+{
+  "name": "WhenIGoToProfilePage",
+  "description": "Go to profile Page",
+  "aliases": "When I go to Profile Page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element NexiHeader.QuickActionsModule.SandwichButton",
+    "When I click on element SandwichMenuModule.MenuTopSideModule.ProfilePageLink"
+  ]
+}

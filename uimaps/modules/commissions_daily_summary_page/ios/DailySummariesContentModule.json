@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "FilterButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Filter']"
+      }
+    },
+    {
+      "entityId": "MonthAndYearOfSummary",
+      "testData": "MonthAndYearOfSummary",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[not(@name='box')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "SummaryListModule",
+      "reference": "modules/commissions_daily_summary_page/SummariesListModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[@name='box']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "children": [
+//    {
+//      "entityId": "BusinessCard",
+//      "type": "MODULE",
+//      "reference": "modules/home_page/home_page_content_cards/GenericCardModule",
+//      "locator": {
+//        "type": "XPATH",
+//        "value": "./div"
+//      }
+//    },
+    {
+      "entityId": "PciSummaryCard",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/PCISummaryCard",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ancestor::div[@id='cards-wrapper']/.//*[@class='pci_summary-card']"
+      }
+    }
+    //TO DO : DELETE COMENTS AFTER CLARIFY THE UI MAP
+//    {
+//      "entityId": "XPayCard",
+//     "type": "MODULE",
+//     "optional": true,
+//      "reference": "modules/home_page/home_page_content_cards/GenericCardModule",
+//      "locator": {
+//        "type": "XPATH",
+//        "value": ".//*[contains(@href, 'xpay')]"
+//      }
+//   }
+  ]
+}

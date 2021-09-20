@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId":"YearMonthLabel",
+      "testData":"YearMonthLabel",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./XCUIElementTypeOther[3]/*|(//XCUIElementTypeOther[@name='Costi e Condizioni'])[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/*"
+      }
+    },
+    {
+      "entityId":"FilterButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Filter']"
+      }
+    },
+    {
+      "entityId": "CommissionsCard",
+      "reference": "modules/home_page/home_page_content_cards/CommissionsCard.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeLink[@name='Commissioni']/.."
+      }
+    }
+  ]
+}

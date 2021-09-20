@@ -1,0 +1,79 @@
+{
+  "children": [
+    {
+      "entityId": "PageHeaderText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "MessageUnderTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "InputEmailField",
+      "testData":"Email",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input"
+      }
+    },
+    {
+      "entityId": "InputEmailSpan",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    },
+    {
+      "entityId": "EmptyEmailError",
+      "testData":"EmptyEmailError",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class, 'grommetux-form-field__error')]"
+      }
+    },
+    {
+      "entityId": "BackButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'back-button')]/./span"
+      }
+    },
+    {
+      "entityId": "BackButtonIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'back-button')]/./*[contains(@class, 'icon')]"
+      }
+    },
+    {
+      "entityId": "SubmitButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    },
+    {
+      "entityId": "SubmitButtonSpan",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button/.//span"
+      }
+    }
+  ]
+}

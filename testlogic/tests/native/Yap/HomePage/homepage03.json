@@ -1,0 +1,35 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0020",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test open-close central menu from home page",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "As a Yapmenu.Valid.3511669952",
+    "Then Invita_Amici_link is displayed",
+    "Then Invita_Amici_link data matches Yapmenu.Valid.3511669952",
+    "Then Bottone_Dividi_Conto_link is displayed",
+    "Then Bottone_Dividi_Conto_link data matches Yapmenu.Valid.3511669952",
+    "Then Bottone_Ricarica is displayed",
+    "Then Bottone_Invia is displayed",
+    "Then Bottone_Richiedi is displayed",
+    "Then Bottone_PagaOnLine is displayed",
+    "Then CTA_X is displayed",
+    "Then Pay_Wallet_button is displayed",
+    "When I click on element CTA_X",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open"
+  ]
+}

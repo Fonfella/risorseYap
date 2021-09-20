@@ -1,0 +1,33 @@
+{
+  "children": [
+    {
+      "entityId": "DownloadButton",
+      "type": "ELEMENT",
+      //      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='Download'])[1]"
+      }
+    },
+    {
+      "entityId": "MonthAndYearOfTransaction",
+      "testData": "MonthAndYearOfTransaction",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[not(@name='box')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionsListModule",
+      "optional": true,
+      "reference": "modules/transactions_page/TransactionsListModule.json",
+      "childCount": "2",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name,'box')]"
+      }
+    }
+  ]
+}

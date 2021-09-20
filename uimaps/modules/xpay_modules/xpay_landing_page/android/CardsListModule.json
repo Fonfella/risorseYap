@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId": "CardDetailsModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/CardDetailsModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/li[contains(@class,'accordion-heading')]"
+      }
+    }
+  ]
+}

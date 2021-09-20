@@ -1,0 +1,11 @@
+{
+  "id": 12345,
+  "name": "ResendConfirmationCodePopup",
+  "description": "Open the resend confirmation code popup and validate it",
+  "aliases": "When I open Resend confirmation code Popup",
+  "type": "TestCase",
+  "children": [
+    "When I click on element  RegistrationLayout.ResetPassForm.ResendCodeLink",
+    "Then ResendCodePopup is displayed"
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "children": [
+    {
+      "entityId": "ApplicazioniButton",
+      "type": "ELEMENT",
+      //"testData": "UsernameTextBox",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.LinearLayout[@content-desc='com.poynt.store']/android.widget.LinearLayout"
+      }
+    },
+    {
+      "entityId": "HomeButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@content-desc='Home']"
+      }
+    },
+    {
+      "entityId": "ScrollHomePage",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//*[@resource-id='co.poynt.launcher:id/view_pager_fl']"
+      }
+    },
+    {
+      "entityId": "CalcolatriceButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.LinearLayout[@content-desc='com.android.calculator2']/android.widget.LinearLayout"
+      }
+    },
+    {
+      "entityId": "Digit_1_Button",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.view.ViewGroup[1]/android.widget.Button[7]"
+      }
+    },
+    {
+      "entityId": "Digit_Add_Button",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@content-desc='più']"
+      }
+    },
+    {
+      "entityId": "Digit_EQ_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@content-desc='uguale']"
+      }
+    },
+
+    {
+      "entityId": "ResultSpace",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.EditText[@resource-id='com.android.calculator2:id/formula']"
+      }
+    },
+    {
+      "entityId": "NexiMerchantButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[@content-desc='it.nexi.merchant']"
+      }
+    },
+
+    {
+      "entityId": "EmailInput",
+      "type": "ELEMENT",
+      "testData": "UsernameTextBox",
+      "locator": {
+      "type": "XPATH",
+      "value": "(//android.view.View[@content-desc='box'])[1]/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "PassInput",
+      "type": "ELEMENT",
+      "testData": "PasswordTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//android.view.View[@content-desc='box'])[2]/android.widget.EditText"
+      }
+    },
+
+    {
+      "entityId": "ScriviQui",
+      "type": "ELEMENT",
+      "testData": "ScriviTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/edit_search']"
+      }
+    },
+    {
+      "entityId": "ScriviQui2",
+      "type": "ELEMENT",
+      "testData": "ScriviTextBox_2",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/edit_search']"
+      }
+    },
+    {
+      "entityId": "HeaderText",
+      "testData": "ScriviTextBox_2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/header_text']"
+      }
+    },
+
+    {
+      "entityId": "ErrorMessage",
+      "type": "ELEMENT",
+      "testData": "ErrorMessage",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Per proseguire inserisci la tua password.']"
+      }
+    },
+
+    {
+      "entityId": "AccediButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@content-desc='ACCEDI']"
+      }
+    },
+    {
+      "entityId": "RegistratiButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Registrati']"
+      }
+    },
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Registration']/android.widget.Image[1]"
+      }
+    },
+    {
+      "entityId": "ChiudiButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "AbbandonaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@content-desc='OK, ABBANDONA']"
+      }
+    },
+
+    {
+      "entityId": "SupportoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": " //android.widget.LinearLayout[@content-desc='co.poynt.help']/android.widget.LinearLayout"
+      }
+    },
+    {
+      "entityId": "ContattiButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Contatti']"
+      }
+    },
+
+    {
+      "entityId": "DiagnosticaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Diagnostica']"
+      }
+    },
+
+    {
+      "entityId": "Diagnosticapage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout"
+      }
+    },
+
+    {
+      "entityId": "BatteriaLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Batteria']"
+      }
+    },
+
+    {
+      "entityId": "DettagliLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Ulteriori dettagli...']"
+      }
+    },
+
+    {
+      "entityId": "BuildLabel",
+      "testData": "BuildLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.TextView[2]"
+      }
+    },
+
+
+
+    {
+      "entityId": "TutorialsButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Tutorials']"
+      }
+    },
+
+	{
+      "entityId": "TransazioniButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Transazioni']"
+      }
+    },
+    {
+      "entityId": "PagamentiButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Pagamenti']"
+      }
+    },
+    {
+      "entityId": "Pagamento_ComboBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/show_payment_option_button']"
+      }
+    },
+    {
+      "entityId": "Button_ContiSeparati",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CONTI SEPARATI']"
+      }
+    },
+    {
+      "entityId": "Button_AggiungiConto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='+ AGGIUNGI']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Conferma1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Conferma2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.TextView"
+      }
+    },
+    
+    {
+      "entityId": "ContiSeparati_NoScontrino",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/no_receipt_button_single_row']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Pagamento1_Ok",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/processTenderBtn' and @enabled='false']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_ButtonFatto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/rightButton']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_ConfermaChiusura",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/left_button']"
+      }
+    },
+    
+    {
+      "entityId": "ContiSeparati_CancellaUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/delete_item']"
+      }
+    },
+    {
+      "entityId": "ContiSeparati_Utente2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.ListView/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.TextView[2]"
+      }
+    },
+    {
+      "entityId": "Formato_email_non_corretto_error_message",
+      "testData":"email_error_message",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.TextView"
+      }
+    },
+    {
+      "entityId": "GestionePreAutButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Gestione Pre-aut.']"
+      }
+    },
+    {
+      "entityId": "SessioniTotaliButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Sessioni e Totali']"
+      }
+    }
+  ]
+}

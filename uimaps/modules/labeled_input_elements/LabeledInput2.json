@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "Button",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./button"
+      }
+    },
+    {
+      "entityId": "NonEditableField",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./button//span[contains(@class, 'button__label')]/span"
+      }
+    }
+  ]
+}

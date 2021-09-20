@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "RangeSpecification",
+      "testData": "RangeSpecification",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[@name]/XCUIElementTypeStaticText[contains(@name, 'Da') or contains(@name,'A')]"
+      }
+    },
+    {
+      "entityId": "AmountInput",
+      "testData": "AmountInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeTextField"
+    }
+    },
+    {
+      "entityId": "Slider",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeSlider]"
+      }
+    },
+    {
+      "entityId": "MinRangeSliderAmount",
+      "testData": "MinRangeSliderAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[last() - 1]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "MaxRangeSliderAmount",
+      "testData": "MaxRangeSliderAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[last()]/XCUIElementTypeStaticText"
+      }
+    }
+  ]
+}

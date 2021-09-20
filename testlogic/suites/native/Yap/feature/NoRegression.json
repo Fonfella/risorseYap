@@ -1,0 +1,14 @@
+{
+  "name": "NoRegression",
+  "description": "No Regression Test",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/Login/login04.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/RecuperaPassword/Accesso.json",
+    "testlogic/tests/native/Yap/RichiediSoldi/richiedi00.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/RicaricaYap/RicaricaFastHome.json",
+    "testlogic/tests/native/Yap/InviaSoldi/invia01.json"
+    //"testlogic/tests/native/Yap-NoRegressionTest/InviaSoldiYap/AccessoDaMenu.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "DetailCard2Feature",
+  "description": "DetailCard2Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    
+  ]
+}

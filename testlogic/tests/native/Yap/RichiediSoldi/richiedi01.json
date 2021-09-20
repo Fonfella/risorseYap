@@ -1,0 +1,105 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0031",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Test Richiedi soldi sia Yapper e NON yapper 4  : procedere al dividi conto scegliendo 4 persone yapper e NON",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+
+
+    //copia richiedi00 non modificato essendo copia del vecchio
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.Utenti_2",
+    "When I click on element TimeLine",
+    "Given TimeLine Page_Yap is open",
+
+    "Then I Close Applications",
+
+    "When Label_Spesa_Mac is displayed",
+    "Then I click on element Label_Spesa_Mac",
+    "Given I wait 2 seconds",
+    "When I click on element Richiedi_Soldi_Button",
+    "Given I wait 2 seconds",
+    "Given RichiediSoldi Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then RichiediSoldiLabel is displayed",
+
+    "When I input data into CercaContattiBonardi",
+    "When I click on element Contatto_Utente_Bonardi",
+    "When I click on element ButtonCancelX",
+
+    "When I input data into CercaContattiLettieri",
+    "When I click on element Contatto_Utente_Lettieri",
+    "When I click on element ButtonCancelX",
+
+    "When I input data into CercaContattiDelGiu",
+    "When I click on element Contatto_Utente_DelGiu",
+    "When I click on element ButtonCancelX",
+
+    "When I input data into CercaContattiBiancaneve",
+    "When I click on element Contatto_Utente_Biancaneve",
+
+    "Then I Hide KeyBoard",
+
+    "When I click on element Avanti_Button",
+    "When I click on element Input_2",
+    "When I click on element Input_Comma",
+    "When I click on element Input_5",
+    "When I click on element Avanti_Button",
+
+    "Given I wait 2 seconds",
+    "When I click on element Messagge_text_rm",
+    "Given I wait 2 seconds",
+
+    "When I input data into Messagge_input_mac",
+    "Given I wait 2 seconds",
+    "When I click on element Inserisci_Button",
+    "Given I wait 2 seconds",
+    "Given I scroll Slider_Yap towards _UP",
+
+    "When Importo_Richiesta_2_50 is displayed",
+    "Then Importo_Richiesta_2_50 data matches Provayap.Valid.User1",
+    "Then Info_RS_Mix data matches Provayap.Valid.User1",
+
+    "When I click on element Home_Button",
+    "Given Home Page_Yap is open",
+    "When I click on element TimeLine",
+    "Given TimeLine Page_Yap is open",
+    "When Label_Operazione is displayed",
+
+    // cancello bonardi
+    "Then I click on element Label_Operazione_mac_Bonardi",
+    "When I click on element Annulla02",
+    "Given I wait 2 seconds",
+
+    // cancello lettieri
+    "Then I click on element Label_Operazione_mac_Lettieri",
+    "When I click on element Annulla",
+    //"Then I click on element Operazione_da_Cancellare",
+    "Then I click on element Label_Operazione_mac_Lettiero",
+
+
+    // cancello biancaneve
+    "Then I click on element Label_Operazione_mac_Nana_STG",
+    "When I click on element Annulla",
+    "Then I click on element Label_Operazione_mac_Nana",
+
+
+    // cancello luca
+    "Then I click on element Label_Operazione_mac_DelGiu_GFT",
+    "When I click on element Annulla",
+    "Then I click on element Label_Operazione_mac_DelGiudice",
+
+
+    "Then I click on element Close_Timeline",
+    "Given Home Page_Yap is open"
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "children": [
+    {
+      "entityId": "StornaButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='STORNA']"
+      }
+    },
+    {
+      "entityId": "AddebitaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@text='ADDEBITA']"
+      }
+    },
+    {
+      "entityId": "LabelIncreaseValues",
+      "testData":"LabelIncreaseValues",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/amountView']"
+      }
+    },
+    {
+      "entityId": "IDTransazione",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[contains(@text,'TRANSAZIONE #')]"
+      }
+    },
+    {
+      "entityId": "LabelTransazioneEseguita",
+      "testData":"LabelTransazioneEseguita",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/instruction']"
+      }
+    },
+    {
+      "entityId": "LabelTransazioneAutorizzato",
+      "testData":"LabelTransazioneAutorizzato",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/instruction']"
+      }
+    },
+    {
+      "entityId": "LabelTransazioneStornata",
+      "testData":"LabelTransazioneStornata",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/instruction']"
+      }
+    },
+
+    {
+      "entityId": "StoricoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='STORICO']"
+      }
+    },
+
+    {
+      "entityId": "LabelStorna",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Storna']"
+      }
+    },
+    {
+      "entityId": "YesStornoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@text='SI']"
+      }
+    },
+
+    {
+      "entityId": "NoStornoButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='NO']"
+      }
+    },
+    {
+      "entityId": "StornoRectangle",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@text='STORNO']"
+      }
+    },
+    {
+      "entityId": "InputCardNo",
+      "type": "ELEMENT",
+      "testData": "CardNumber",
+      "locator": {
+      "type": "XPATH",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout[2]/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "Label_PagamentoEseguito",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Pagamento Eseguito']"
+      }
+    },
+    {
+      "entityId": "InputCardDate",
+      "type": "ELEMENT",
+      "testData": "CardDate",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@text='MM / AA']"
+      }
+    },
+    {
+      "entityId": "ConfermaButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='CONFERMA']"
+      }
+    },
+    {
+      "entityId": "ConfirmedStornato",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@text='Stornato' and @resource-id='co.poynt.services:id/instruction']"
+      }
+    },
+    {
+      "entityId": "ImportoErrato",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Importo errato' and @resource-id='co.poynt.services:id/instruction']"
+      }
+    },
+    {
+      "entityId": "Label_TimeExceeded",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Fuori tempo massimo per inserire la carta']"
+      }
+    },
+    {
+      "entityId": "CancelStorno",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ANNULLA']"
+      }
+    },
+    {
+      "entityId": "Label_WrongCard",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Wrong card']"
+      }
+    },
+    {
+      "entityId": "CloseStorno",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "AcquistoRectangle",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@text='ACQUISTO']"
+      }
+    },
+    {
+      "entityId": "Firma",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[contains(@text,'Accetto di pagare')]"
+      }
+    },
+    {
+      "entityId": "ConfirmFirma",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='FATTO'][@enabled='true']"
+      }
+    },
+    {
+      "entityId": "AcceptFirma",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='ACCETTA']"
+      }
+    },
+
+    {
+      "entityId": "ChiediFirmaSuScontrinoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CHIEDI FIRMA SU SCONTRINO']"
+      }
+    },
+    {
+      "entityId": "RifiutaFirma",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//*[@resource-id='co.poynt.services:id/retryBtn']"
+      }
+    },
+    {
+      "entityId": "NoReceiptButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//*[@resource-id='co.poynt.services:id/no_receipt_button_single_row' or @text='FATTO']"
+      }
+    },
+    {
+      "entityId": "EmailButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/email_receipt_button_single_row']"
+      }
+    },
+    {
+      "entityId": "EmailAddress",
+      "testData": "Mail_Input_Data",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.LinearLayout[@resource-id='co.poynt.services:id/emailAddress']"
+      }
+    },
+    {
+      "entityId": "ElementPadAT",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='@']"
+      }
+    },
+    {
+      "entityId": "ElementPadA",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='A']"
+      }
+    },
+    {
+      "entityId": "CancellaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CANCELLA']"
+      }
+    },
+
+    {
+      "entityId": "InviaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='INVIA']"
+      }
+    },
+    {
+      "entityId": "GmailButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='gmail.com']"
+      }
+    },
+
+    {
+      "entityId": "LabelMailWith_GMail",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/emailAddress' and @text='A@GMAIL.COM']"
+      }
+    },
+    {
+      "entityId": "LabelScontrinoSpeditoViaMail",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Scontrino spedito via email']"
+      }
+    },
+
+    {
+      "entityId": "BackHome",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@content-desc='Home']"
+      }
+    },
+    {
+      "entityId": "AddebitaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@text='ADDEBITA']"
+      }
+    },
+    {
+      "entityId": "IncrementaImportoButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/update_button']"
+      }
+    },
+    {
+      "entityId": "ImportoDaAggiungere",
+      "testData": "ImportoDaAggiungere",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/tenderAmount']"
+      }
+    },
+    {
+      "entityId": "LabelCreatedDate",
+      "testData": "LabelCreatedDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": " //*[@resource-id='co.poynt.services:id/created_date']"
+      }
+    },
+    {
+      "entityId": "IncrementaImportoInput",
+      "testData": "IncrementaImportoInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": " //*[@resource-id='co.poynt.services:id/tenderAmount']"
+      }
+    },
+    {
+      "entityId": "ChooseCircuit_Maestro",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Maestro' or @text='MAESTRO']"
+      }
+    },
+    {
+      "entityId": "ChooseCircuit_Bancomat",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='PagoBANCOMAT']"
+      }
+    },
+    {
+      "entityId": "PINPad0",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/zero']"
+      }
+    },
+    {
+      "entityId": "PINPad1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/one']"
+      }
+    },
+    {
+      "entityId": "PINPad2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/two']"
+      }
+    },
+    {
+      "entityId": "PINPad3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/three']"
+      }
+    },
+    {
+      "entityId": "PINPad4",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/four']"
+      }
+    },
+    {
+      "entityId": "PINPad5",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/five']"
+      }
+    },
+    {
+      "entityId": "PINPad6",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/six']"
+      }
+    },
+    {
+      "entityId": "PINPad7",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/seven']"
+      }
+    },
+    {
+      "entityId": "PINPad8",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/eight']"
+      }
+    },
+    {
+      "entityId": "PINPad9",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/nine']"
+      }
+    },
+    {
+      "entityId": "PINPadConferma",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/enter']"
+      }
+    },
+    {
+      "entityId": "PINPadAnnulla",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/cancel']"
+      }
+    },
+    {
+      "entityId": "CloseContainer",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/close_container']"
+      }
+    },
+    {
+      "entityId": "ClessNonSupportato",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Contactless non supportato per Cattura']"
+      }
+    }
+  ]
+}

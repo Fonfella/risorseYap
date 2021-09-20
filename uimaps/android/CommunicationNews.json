@@ -1,0 +1,68 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "testData":"ComunicationsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header//span[contains(@class,'heading')]/span"
+      }
+    },
+    {
+      "entityId": "NewsMessageButtonModule",
+      "reference": "modules/communication/NewsMessageButtonModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header//div[contains(@class,'margin-top-medium')]"
+      }
+    },
+    {
+      "entityId": "TopNewsModule",
+      "reference": "modules/communication/News/TopNewsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-subheader')]/a[contains(@href,'news/')]"
+      }
+    },
+    {
+      "entityId": "NewsModule",
+      "reference": "modules/communication/News/NewsModule.json",
+      "optional":true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'masonry-column')]/div/div[a]"
+      }
+    },
+    {
+      "entityId": "NewsCountLabel",
+      "optional": "true",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-subheader-content')]/div/span"
+      }
+    },
+    {
+      "entityId": "PageFooter",
+      "reference": "modules/common_modules/NexiFooter.json",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer[div]"
+      }
+    }
+  ]
+}

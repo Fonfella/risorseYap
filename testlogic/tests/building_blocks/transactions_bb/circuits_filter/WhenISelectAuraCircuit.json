@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectAuraCircuit",
+  "description": "Select aura circuit by index",
+  "type": "TestCase",
+  "aliases": "When I select aura circuit",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='7']"
+  ]
+}

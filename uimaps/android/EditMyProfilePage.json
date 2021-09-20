@@ -1,0 +1,39 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": " ",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header"
+      }
+    },
+    {
+      "entityId": "FingerPrintAccessButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[input[@id='enableBiometric']]/label"
+      }
+    },
+    {
+      "entityId": "SalvaButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@class,'save')]/span"
+      }
+    },
+    {
+      "entityId": "BackButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@class,'rofile-back')]/span"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "SelectedTab",
+      "type": "MODULE",
+      "reference": "modules/reusable_elements/LabeledElements2.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./li[contains(@class, 'active')]"
+      }
+    },
+    {
+      "entityId": "NotSelectedTabs",
+      "type": "MODULE",
+      "reference": "modules/reusable_elements/LabeledElements2.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./li[not(contains(@class, 'active'))]"
+      }
+    }
+  ]
+}

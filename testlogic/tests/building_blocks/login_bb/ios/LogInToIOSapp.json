@@ -1,0 +1,15 @@
+{
+  "name": "I_Log_Into_IOS_App",
+  "description": "Registration Flow",
+  "aliases": "Given I login to IOS app",
+  "type": "TestCase",
+  "children": [
+    "As a ${credentials}",
+    "Given I open Login Page",
+    "Given I logout using logout button:[SandwichMenuButton,SandwichMenuModule.LogOutButton] if login form:LoginForm was skipped",
+    "When I input data into LoginForm.Email",
+    "When I input data into LoginForm.Password",
+    "When I click on element LoginForm.SubmitButton",
+    "Then Home Page is open"
+  ]
+}

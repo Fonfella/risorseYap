@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "XButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a/span/*"
+      }
+    },
+    {
+      "entityId": "PopUpTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "PopUpSummary",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/span/span"
+      }
+    },
+    {
+      "entityId": "ConfirmationPassword",
+      "testData":"PasswordTextBox",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form//input"
+      }
+    },
+    {
+      "entityId": "AnnulaButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form/div[a]/a"
+      }
+    },
+    {
+      "entityId": "ConfirmationButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form/div/button"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "entityId": "MenuTopSideModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/TopSideModuleElements",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//nav/../div"
+      }
+    },
+    {
+      "entityId": "NavigationLinks",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//nav/.//a[span]"
+      }
+    },
+    {
+      "entityId": "Profile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'-anchor')]/span[contains(text(),'Profilo')]"
+      }
+    },
+    {
+      "entityId": "Settings",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'-anchor')]/span[contains(text(),'Impostazioni')]"
+      }
+    },
+    {
+      "entityId": "MenuFooter",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/MenuFooterModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'nav-sidebar-footer-top')]"
+      }
+    }
+  ]
+}

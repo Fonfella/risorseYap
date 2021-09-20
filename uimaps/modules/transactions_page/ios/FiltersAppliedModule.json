@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "AppliedFiltersList",
+      "testData": "AppliedFiltersList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "FilterCloseIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Close']"
+      }
+    }
+  ]
+}

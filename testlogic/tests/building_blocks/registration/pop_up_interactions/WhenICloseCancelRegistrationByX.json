@@ -1,0 +1,11 @@
+{
+  "name": "Cancel registration Pop up By 'X' button",
+  "description": "Registration Flow",
+  "aliases": "When I close CancelRegistrationModule",
+  "type": "TestCase",
+  "children": [
+    "When I click on element CancelRegistrationModule.XButton"
+  ]
+}
+
+

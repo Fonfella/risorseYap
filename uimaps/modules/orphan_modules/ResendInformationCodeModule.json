@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId": "ResendInfoCodeElementsModule",
+      "reference": "ResendInfoCodeElementsModule",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'closeable')]/div[contains(@class,'layer__container')]"
+      }
+    }
+  ]
+}

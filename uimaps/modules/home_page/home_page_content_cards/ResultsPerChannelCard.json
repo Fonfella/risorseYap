@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./h1/span"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../.."
+      }
+    },
+    {
+      "entityId": "ResultsPerChannelDataList",
+      "optional": true,
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/ResultsPerChannelDataList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li"
+      }
+    },
+    {
+      "entityId": "CardWithNoContent",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'no-data')]/span"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./label/span"
+      }
+    }
+  ]
+}

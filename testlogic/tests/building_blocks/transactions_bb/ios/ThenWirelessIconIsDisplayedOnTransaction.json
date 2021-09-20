@@ -1,0 +1,9 @@
+{
+  "name": "ThenWirelessIconIsDisplayedOnTransaction",
+  "description": "DIs displayed for wireless icon",
+  "type": "TestCase",
+  "aliases": "Then wireless icon is displayed on transaction",
+  "children": [
+    "Then TransactionsContentWrappedModule.TransactionsListModule[filterType='index',filterValue='${transactionIndex}'].TransactionWirelessIcon is displayed"
+  ]
+}

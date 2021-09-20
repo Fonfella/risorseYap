@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "ErrorHeader",
+      "type": "ELEMENT",
+      "testData": "ErrorText",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Errore']"
+      }
+    },
+    {
+      "entityId": "ErrorReason",
+      "type": "ELEMENT",
+      "testData": "ErrorReason",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Dati inseriti non corretti.']"
+      }
+    },
+    {
+      "entityId": "ExplanationMessage",
+      "type": "ELEMENT",
+      "testData": "ExplanationMessage",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business - Login']/XCUIElementTypeOther[14] | //XCUIElementTypeOther[@name='Nexi Business - Login']/XCUIElementTypeOther[12]"
+      }
+    },
+    {
+      "entityId": "RecoverPasswordButton",
+      "type": "ELEMENT",
+      "testData": "BlankPassError",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Recupera password']"
+      }
+    },
+    {
+      "entityId": "Xbutton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeImage[@name='Close'] | //XCUIElementTypeOther[@name='Close']"
+      }
+    }
+  ]
+}

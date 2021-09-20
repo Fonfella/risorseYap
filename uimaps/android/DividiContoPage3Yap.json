@@ -1,0 +1,113 @@
+{
+  "children": [
+    {
+      "entityId": "DividiLabel",
+      "testData":"DividiLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_text_title']"
+      }
+    },
+    {
+      "entityId": "EditAmount",
+      "testData":"EditAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/edit_amount']"
+      }
+    },
+
+
+    {
+      "entityId": "ImportoDaDividereLabel",
+      "testData":"ImportoDaDividereLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_contacts_names']"
+      }
+    },
+    {
+      "entityId": "SelezionaImporto",
+      "testData":"ImportTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.EditText"
+      }
+    },
+    {
+      "entityId": "Input_2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_2' and @index='2']"
+      }
+    },
+    {
+      "entityId": "Input_0",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/custom_keyboard_0' and @index='20']"
+      }
+    },
+
+    {
+      "entityId": "Bottone_InserisciMessaggio",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_message']"
+      }
+    },
+
+    {
+      "entityId": "InserisciMessaggioLabel",
+      "testData":"InserisciMessaggioLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Inserisci un messaggio']"
+      }
+    },
+
+    {
+      "entityId": "Input_Messaggio",
+      "testData":"MessageTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/etMesssage']"
+      }
+    },
+    {
+      "entityId": "Bottone_Inserisci",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button"
+      }
+    },
+
+    {
+      "entityId": "Bottone_Continua",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_continue']"
+      }
+    },
+
+    {
+      "entityId": "CTA_X",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.ImageView"
+      }
+    }
+  ]
+}

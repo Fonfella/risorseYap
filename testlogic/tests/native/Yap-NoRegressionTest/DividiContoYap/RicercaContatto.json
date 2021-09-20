@@ -1,0 +1,36 @@
+{
+  "ids": [
+    {
+      "id":"YP-0022",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Ricerca contatto ",
+  "description": "HappyFlow",
+  "priority": "LOW",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+    //  "Given I click on Annulla_Impronta_Digitale if present",
+    "When I click on element Input_1",
+    "When I click on element Input_4",
+    "When I click on element Input_7",
+    "When I click on element Input_2",
+    "When I click on element Input_5",
+    "When I click on element Input_8",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_DividiConto",
+    "Given DividiConto Page_Yap is open",
+    "Then DividiLabel is displayed",
+    "Given DividiLabel data matches Provayap.Labels",
+    "As a Provayap.Valid.Utenti",
+    "When I input data into CercaContatti",
+    "Given ContattoCercato data matches Provayap.Valid.Utenti"
+
+  ]
+}

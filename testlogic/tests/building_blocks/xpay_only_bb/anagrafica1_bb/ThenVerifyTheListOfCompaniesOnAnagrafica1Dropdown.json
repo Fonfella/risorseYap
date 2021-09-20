@@ -1,0 +1,11 @@
+{
+  "name": "ThenVerifyTheListOfCompaniesOnAnagrafica1Dropdown",
+  "description": "Then verify the list of companies on Anagrafica1 dropdown",
+  "aliases": "Then verify the list of companies displayed on dropdown box",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='0']",
+    "Then SelectShopForm.DropdownList[filterType='index',filterValue='0'] data matches ${companiesList}",
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='0']"
+  ]
+}

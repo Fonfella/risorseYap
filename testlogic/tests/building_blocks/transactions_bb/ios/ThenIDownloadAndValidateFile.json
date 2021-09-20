@@ -1,0 +1,10 @@
+{
+    "name": "ThenIDownloadAndValidateFile",
+    "description": "Set on filters page input transaction status as filter, validate first transaction status and applied filters",
+    "aliases": "Then I download and validate file",
+    "type": "TestCase",
+    "children": [
+      "When I click on element TransactionsContentWrappedModule.DownloadButton",
+      "When I click on element DownloadContainerModule.CloseButton"
+   ]
+}

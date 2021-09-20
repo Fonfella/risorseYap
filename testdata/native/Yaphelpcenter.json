@@ -1,0 +1,58 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "HelpCenterLabel",
+              "value": "HELP CENTER"
+            }
+            ,
+            {
+              "entityId": "Invia_Richiedi_title",
+              "value": "Invio e Richiesta soldi"
+            }
+            ,
+            {
+              "entityId": "Invio_Richiesta_Soldi_title",
+              "value": "Invio e Richiesta soldi"
+            }
+            ,
+            {
+              "entityId": "Invia_Soldi_item",
+              "value": "Invia soldi"
+            }
+            ,
+            {
+              "entityId": "Invia_Soldi_title",
+              "value": "Invia soldi"
+            }
+            ,
+            {
+              "entityId": "Come_Inviare_Soldi_item",
+              "value": "Come inviare soldi"
+            }
+            ,
+            {
+              "entityId": "Come_Inviare_Soldi_title",
+              "value": "Come inviare soldi"
+            }
+            ,
+            {
+              "entityId": "Invio_Denaro_Non_Effettuato_item",
+              "value": "Invio denaro non effettuato"
+            }
+            ,
+            {
+              "entityId": "Invio_Denaro_Non_Effettuato_title",
+              "value": "Invio denaro non effettuato"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

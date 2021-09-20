@@ -1,0 +1,10 @@
+{
+  "name": "CheckStornoCardOnPage",
+  "description": "Check if all elements from storno card are displayed",
+  "type": "TestCase",
+  "aliases": "Then I check Storno Card on Page",
+  "children": [
+    "When I click on element HomePageContentModule.CommonCardSet.StornoCard.OverlayContainer.ScopriButton",
+    "Then HomePageContentModule.CommonCardSet.StornoCard is displayed"
+  ]
+}

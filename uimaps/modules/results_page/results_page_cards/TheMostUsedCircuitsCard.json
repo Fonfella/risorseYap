@@ -1,0 +1,93 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData":"CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "TransactionTextGeneric",
+      "testData":"TransactionTextGeneric",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[1]/.//p/.//span"
+      }
+    },
+    {
+      "entityId": "TransactionTextGeneric2",
+      "testData":"TransactionTextGeneric2",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[2]/.//p/./span"
+      }
+    },
+    {
+      "entityId": "TransactionTextGeneric3",
+      "testData":"TransactionTextGeneric3",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[3]/.//p/./span"
+      }
+    },
+    {
+      "entityId": "CounterSpanGeneric",
+      "testData":"CounterSpanGeneric",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li/.//p[contains(@class,'transactions-count')]"
+      }
+    },
+    {
+      "entityId": "CreditCardsIconsGeneric",
+      "testData":"CreditCardsIconsGeneric",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li[2]/.//p/./span"
+      }
+    },
+    {
+      "entityId": "FindOutMoreLink",
+      "testData":"FindOutMoreLink",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label"
+      }
+    },
+    {
+      "entityId": "NoTransactionsForFirstPeriodMessage",
+      "testData":"NoTransactionsForPeriodMessage",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]/.//p"
+      }
+    },
+    {
+      "entityId": "NoTransactionsForSecondPeriodMessage",
+      "testData":"NoTransactionsForSecondPeriodMessage",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div//p[contains(@class,'text-blue')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ThenSetAndValidatePOSFilterSelection",
+  "description": "Validate selected POS value based on input",
+  "aliases": "Then set and validate selected POS filter value",
+  "type": "TestCase",
+  "children": [
+    "When I click on element FilterDetailsModule.FiltersParametersList[byChild='InputLabel',filterType='text',filterValue='${filterValue}']",
+    "When I click on element FilterDetailsModule.ApplyButton",
+    "Then FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterName',filterType='text',filterValue='POS'] data matches TransactionsData.POS.${filterData}"
+  ]
+}

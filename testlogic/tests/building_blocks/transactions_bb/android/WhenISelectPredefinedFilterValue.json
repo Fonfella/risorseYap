@@ -1,0 +1,10 @@
+{
+  "name": "WhenISelectPredefinedFilterValue",
+  "description": "Select predefined value for filter",
+  "type": "TestCase",
+  "aliases": "When I select predefined filter value",
+  "children": [
+    "When I click on element FilterDetailsModule.FiltersParametersList[byChild='InputLabel',filterType='text',filterValue='${filterValue}']",
+    "When I click on FilterDetailsModule.ApplyButton if present"
+  ]
+}

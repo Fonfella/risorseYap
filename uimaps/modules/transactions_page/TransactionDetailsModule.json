@@ -1,0 +1,60 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/a"
+      }
+    },
+    {
+      "entityId": "TransactionsListModule",
+      "reference": "modules/transactions_page/TransactionsListModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'transaction-header-list')]"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsSectionModule",
+      "reference": "modules/transactions_page/transaction_details/TransactionDetailsSectionModule.json",
+      "optional": true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul[contains(@class,'transition-accordion')]/div"
+      }
+    },
+    {
+      "entityId": "FooterMessage",
+      "testData": "FooterMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[div[contains(@class, 'download')]]/preceding-sibling::div"
+      }
+    },
+    {
+      "entityId": "DownloadToExcelButton",
+      "testData": "DownloadToExcelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//a[contains(text(),'Excel')]"
+      }
+    },
+    {
+      "entityId": "RefundButton",
+      "testData": "RefundButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button[contains(@class, 'primary')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "children": [
+    //prova
+    {
+      "entityId": "ConfermaPagamento",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class=' react-spinner']"
+      }
+    },
+    {
+      "entityId": "AutorizzaOperazioneLabel",
+      "testData":"AutorizzaOperazioneLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_title']"
+      }
+    },
+    {
+      "entityId": "DescrizioneLabel",
+      "testData":"DescrizioneLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_description']"
+      }
+    },
+    {
+      "entityId": "TimeLine",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/view_close']"
+      }
+    },
+    {
+      "entityId": "InputOtp",
+      "testData":"PasswordTextBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/input_otp']"
+      }
+    },
+
+    {
+      "entityId": "ConsentiRubricaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CONSENTI']"
+      }
+    },
+    {
+      "entityId": "AnnullaGeneralButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ANNULLA']"
+      }
+    },
+
+    {
+      "entityId": "AmountEnd",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/text_amount']"
+      }
+    },
+    {
+      "entityId": "ProvaScroll",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='android:id/list']"
+      }
+    },
+//FINE PROVA
+    {
+      "entityId": "LoadingSpinner",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class=' react-spinner']"
+      }
+    },
+    {
+      "entityId": "LoginInvalidCredentialsErrorPopup",
+      "reference":"modules/pop_up_modules/android/LoginInvalidCredentialsErrorPopup.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'error-section')]"
+      }
+    },
+    {
+      "entityId": "DownloadContainerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/DownloadContainerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'downloads-modal')]"
+      }
+    },
+    {
+      "entityId": "RefundContainerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/RefundContainerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'refund-wrapper')]"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsModule",
+      "reference": "modules/transactions_page/TransactionDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'new-content') or contains(@class, 'layer__container') and div[div]]"
+      }
+    },
+    {
+      "entityId": "TutorialPopup",
+      "reference": "modules/pop_up_modules/TutorialPopup.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'tutorial-slider-layer')]"
+      }
+    },
+    {
+      "entityId": "NewsPopUpModule",
+      "reference": "modules/home_page/NewsPopUpModule.json",
+      "type": "MODULE",
+      "locator":{
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "SalesPointsPickerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sales_points_config/SalesPointsPickerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class='newId']"
+      }
+    },
+    {
+      "entityId": "SandwichButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//button[contains(@class,'header-menu-button')]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class = 'newId']/./div[contains(@class, 'icbpi_sidebar')]"
+      }
+    },
+    {
+      "entityId": "DatePicker",
+      "reference": "modules/daypicker_modules/DatePickerModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'newId') or contains(@class, 'filter-calendar')]"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsModule",
+      "reference": "modules/orphan_modules/TransactionDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'new-content') or contains(@class, 'layer__container') and div[div]]"
+      }
+    },
+    {
+      "entityId": "ModalDownloadPopup",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/ModalDownloadPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'closeable icbpi_downloads-modal')]/div|//div[contains(@class,'e grommetux-box--w')]"
+        //div[contains(@class,'closer-outside')]//div[contains(@class,'grommetux-layer__container')] -> OLD path"
+      }
+    },
+    {
+      "entityId": "LoginPageInvalidDataPopup",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/orphan_modules/LoginPageInvalidDataElementsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'error-section')]"
+      }
+    },
+    {
+      "entityId": "ChangePhoneResendOTPCodePopup",
+      "type": "MODULE",
+      "reference": "modules/pop_up_modules/ChangePhoneResendOTPCodePopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "ErrorMessage",
+      "testData": "ErrorMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class, 'error-message')]//span"
+      }
+    },
+    {
+      "entityId": "SelectShopsWindow",
+      "reference": "modules/results_page/SelectShopWindow.json",
+      "optional":true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'newId')]"
+      }
+    },
+    {
+      "entityId": "EngagementMessagePopup",
+      "optional": true,
+      "reference": "/modules/orphan_modules/android/EngagementMessagePopup.json",
+        "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//article"
+      }
+    },
+    {
+      "entityId": "EngagementMessageConfirmPopup",
+      "optional": true,
+      "reference": "/modules/orphan_modules/android/EngagementMessageConfirmPopup.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//article"
+      }
+    },
+    {
+      "entityId": "XPayCancelModalPopup",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/XPayCancelModalPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal--full')]/.//div[contains(@class,'grommetux-modal-dialog')]"
+      }
+    },
+    {
+      "entityId": "UnregisteredUserErrorPopup",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/pop_up_modules/UnregisteredUserErrorPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'error-modal-forgot')]"
+      }
+    },
+    {
+      "entityId": "ResendCodePopup",
+      "type": "MODULE",
+      "reference": "modules/forgot_password_page/ResendCodePopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "ChartBarDetailsResultsPopup",
+      "reference": "modules/pop_up_modules/ChartBarDetailsResultsPopup.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'ne grommetux-m')]"
+      }
+    },
+    {
+      "entityId": "NeedHelpOptionsContainer",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/NeedHelpOptionsContainer.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'helpMenu')]"
+      }
+    },
+    {
+      "entityId": "WhatIsPhoneNumberForModule",
+      "reference": "modules/pop_up_modules/WhatIsPhoneNumberForModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal--')]"
+      }
+    },
+    // SMARTPOS SECTION
+    {
+      "entityId": "PoyntHomeButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.terminal:id/poynt_home' or @resource-id='co.poynt.airlauncher:id/home_launcher_imageview']"
+      }
+    },
+    {
+      "entityId": "InserimentoManuale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@text='Inserimento manuale']"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "SwitchUserButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/switchUser']"
+      }
+    },
+    {
+      "entityId": "NoReceiptButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.services:id/no_receipt_button_single_row' or @text='FATTO']"
+      }
+    },
+    {
+      "entityId": "Firma",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[contains(@text,'Accetto di pagare')]"
+      }
+    },
+    {
+      "entityId": "FirmaP61",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CHIEDI FIRMA SU SCONTRINO']"
+      }
+    },
+
+    {
+      "entityId": "ImpostazioniButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/settings_button']"
+      }
+    }
+  ]
+}
+

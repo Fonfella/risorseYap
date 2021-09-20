@@ -1,0 +1,290 @@
+{
+  "children": [
+    {
+      "entityId": "StornaButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//*[@text='STORNA']"
+      }
+    },
+    {
+      "entityId": "RichiediTotaliButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Richiedi totali']"
+      }
+    },
+    {
+      "entityId": "CalcoloTotaliAlert",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Calcolo totali in corso']"
+      }
+    },
+    {
+      "entityId": "TotaliEseguiti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_title' and @text='Totali eseguiti']"
+      }
+    },
+    {
+      "entityId": "ChiusuraAvvenuta",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_title' and @text='Chiusura avvenuta']"
+      }
+    },
+
+    {
+      "entityId": "ChiudiTotaliEseguiti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/session_dialog_close_btn']"
+      }
+    },
+    {
+      "entityId": "StampaDailyButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@resource-id='co.nexi:id/print_daily_totals_button']"
+      }
+    },
+    {
+      "entityId": "StampaTotaliButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@resource-id='co.nexi:id/print_session_totals_button']"
+      }
+    },
+    {
+      "entityId": "StampaInCorsoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Stampa in corso']"
+      }
+    },
+    {
+      "entityId": "ChiudiSessioneButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Chiudi sessione']"
+      }
+    },
+    {
+      "entityId": "MenuItemButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/menu_item_technician']"
+      }
+    },
+    {
+      "entityId": "ModificaOrarioButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.TextView[2]"
+      }
+    },
+
+    {
+      "entityId": "ModificaOrario_HH",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TimePicker/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.NumberPicker[1]"
+      }
+    },
+
+    {
+      "entityId": "ModificaOrario_mm",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TimePicker/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.NumberPicker[2]"
+      }
+    },
+    {
+      "entityId": "GoHomeButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/go_home']"
+      }
+    },
+    {
+      "entityId": "AnnullaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Annulla']"
+      }
+    },
+    {
+      "entityId": "OKButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='OK']"
+      }
+    },
+    {
+      "entityId": "Hour18",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.TimePicker/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.NumberPicker[1]/android.widget.Button[2] and //*[@text='18']"
+
+      }
+    },
+
+
+    {
+      "entityId": "PinPAD3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@resource-id='co.nexi:id/passcode3']"
+      }
+    },
+    {
+      "entityId": "PinPAD0",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@resource-id='co.nexi:id/passcode0']"
+      }
+    },
+    {
+      "entityId": "PinPAD6",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@resource-id='co.nexi:id/passcode6']"
+      }
+    },
+    {
+      "entityId": "PinPAD9",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@resource-id='co.nexi:id/passcode9']"
+      }
+    },
+    {
+      "entityId": "PinPADEnter",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/enter']"
+      }
+    },
+    {
+      "entityId": "SessionTotalZero",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/session_total_header_amount' and contains(@text,'0,00')]"
+      }
+    },
+    {
+      "entityId": "PrimoDLLButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/first_dll_button']"
+      }
+    },
+    {
+      "entityId": "DLLSuccessMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and @text='Success in first DLL']"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage1",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'All keys')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage2",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'All configs')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage3",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'Mutual authentication')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage4",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'Kser')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage5",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'KPOS')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage6",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'KAP')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage7",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'KIP')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage8",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'public key')]"
+      }
+    },
+    {
+      "entityId": "DLLStatusUpdateMessage9",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.nexi:id/text_message' and contains(@text,'Business parameters')]"
+      }
+    }
+  ]
+}

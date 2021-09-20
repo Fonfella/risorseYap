@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "InfoMessage",
+      "testData": "InfoMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/span"
+      }
+    },
+    {
+      "entityId": "PaymentMethodList",
+      "type": "MODULE",
+      "reference": "modules/xpay_modules/xpay_opzioni2_page/PaymentMethodList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//label"
+      }
+    }
+  ]
+}

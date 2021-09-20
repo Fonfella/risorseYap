@@ -1,0 +1,14 @@
+{
+  "name": "HomePageFeature",
+  "description": "Home Page Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/HomePage/homepage01.json",
+    "testlogic/tests/native/Yap/HomePage/homepage02.json",
+    "testlogic/tests/native/Yap/HomePage/homepage03.json",
+    "testlogic/tests/native/Yap/HomePage/homepage04.json",
+    "testlogic/tests/native/Yap/HomePage/homepage05.json",
+    "testlogic/tests/native/Yap/HomePage/homepage06.json"
+  ]
+}

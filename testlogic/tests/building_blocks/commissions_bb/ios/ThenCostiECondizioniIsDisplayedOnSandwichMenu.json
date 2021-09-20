@@ -1,0 +1,11 @@
+{
+  "name": "ThenCostiECondizioniIsDisplayedOnSandwichMenu",
+  "description": "Check that Costi e Condizioni is displayed on Sandwich Menu",
+  "type": "TestCase",
+  "aliases": "Then Costi e Condizioni hyperlink is displayed in SandwichMenu",
+  "children": [
+    "When I click on element NexiHeader.SandwichMenuButton",
+    "Then SandwichMenuModule.NavigationLinks[filterType='text',filterValue='Costi e Condizioni'] is displayed",
+    "Then I click on element SandwichMenuModule.CloseButtonLink"
+  ]
+}

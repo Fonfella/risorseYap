@@ -1,0 +1,39 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0036",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "DA RIVEDERE TITOLO",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.Utenti_2",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_Richiedi",
+    "Given I wait 2 seconds",
+    "Given RichiediSoldi Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then RichiediSoldiLabel is displayed",
+    "When I input data into CercaContattiLettieri",
+    "When I click on element Contatto_Utente_Lettieri",
+    "When I click on element Avanti_Button",
+    "When I click on element Input_1",
+    "When I click on element Avanti_Button",
+    "Given I wait 2 seconds",
+    "Given I scroll Slider_Yap towards _UP",
+    "When Importo_Richiesta is displayed",
+    "Then Importo_Richiesta data matches Provayap.Valid.User1",
+    "As a Yaptimeline.Valid.3511669952",
+    "Then I Check timeLine Event: \"${Utente_Lettieri}\", \"${Importo_Richiesta_1}\", \"${Vuoto}\", \"${Type_HaiChiesto}\"",
+    "Given I wait 2 seconds"
+  ]
+}

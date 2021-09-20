@@ -1,0 +1,70 @@
+{
+  "children":[
+    {
+      "entityId": "OptionSelectorList",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/reusable_elements/LabeledElements2.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li"
+      }
+    },
+    {
+      "entityId": "CapitalizeInterval",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class, 'capitalize')]"
+      }
+    },
+    {
+      "entityId": "ChartsSurfaceModule",
+      "reference": "modules/common_modules/chart_elements/ChartsSurfaceModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'swipeable-chart') or (contains(@class,'chart-content'))]"
+      }
+    },
+    {
+      "entityId": "ChartSummaryModule",
+      "reference": "modules/common_modules/chart_elements/ChartSummaryModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'chart-summary')]"
+      }
+    },
+    {
+      "entityId": "FromDate",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[last() and count(div) = 2 and not(contains(@class, 'chart-content dashboard'))]/./div[1]/.//*[contains(@class, 'grommetux-box--pad-none')]"
+      }
+    },
+    {
+      "entityId": "ToDate",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[last() and count(div) = 2 and not(contains(@class, 'chart-content dashboard'))]/./div[2]/.//*[contains(@class, 'grommetux-box--pad-none')]"
+      }
+    },
+    {
+      "entityId": "ChartLegend",
+      "reference": "modules/common_modules/chart_elements/ChartLegendModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[last() and div[div[div[div[count(div) = 1]]]] and not(contains(@class, 'dashboard'))]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenProtectionPlusIsDisplayedOnSandwichMenu",
+  "description": "Check Protection Plus is displayed on Sandowch Menu",
+  "type": "TestCase",
+  "aliases": "Then Protection Plus hyperlink is displayed in SandwichMenu",
+  "children": [
+    "When I click on element NexiHeader.QuickActionsModule.SandwichButton",
+    "Then SandwichMenuModule.NavigationLinks[filterType='text',filterValue='Protection Plus'] is displayed"
+  ]
+}

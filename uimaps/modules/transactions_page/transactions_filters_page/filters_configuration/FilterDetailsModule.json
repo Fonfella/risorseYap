@@ -1,0 +1,163 @@
+{
+  "children": [
+    {
+      "entityId": "AreaTitle",
+      "testData": "AreaTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h1/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "testData": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h1/following-sibling::a"
+      }
+    },
+    {
+      "entityId": "InformationSection",
+      "testData": "InformationSection",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3[contains(@class, 'filter-into')]/span"
+      }
+    },
+    {
+      "entityId": "LastSearchedPANsLabel",
+      "testData": "LastSearchedPANsLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3[not(contains(@class, 'filter-into'))]/span"
+      }
+    },
+    {
+      "entityId": "FilterDetailsTabsModule",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FilterDetailsTabsModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul[contains(@class, 'filter-date-tabs') or contains(@class, 'filter-amount-tabs')]"
+      }
+    },
+    {
+      "entityId": "FiltersTimePeriodListModule",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FiltersTimePeriodListModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul[contains(@class, 'filter-date-list')]/li/label/span[contains(@class, 'label')]"
+      }
+    },
+    {
+      "entityId": "FiltersParametersList",
+      "testData": "FiltersParametersList",
+      "type": "MODULE",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "childCount": "1",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/li[contains(@class,'list-item') and not(.//label[contains(@for,'all')])]"
+      }
+    },
+    {
+      "entityId": "FilterCalendarModule",
+      "type": "MODULE",
+      "reference": "modules/daypicker_modules/DatePickerModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'filter-calendar')]"
+      }
+    },
+    {
+      "entityId": "AllOption",
+      "testData": "AllOption",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label[contains(@for, 'all')]"
+      }
+    },
+    {
+      "entityId": "FilterAmountWithSliderModule",
+      "type": "MODULE",
+      "reference": "modules/transactions_page/transactions_filters_page/filters_configuration/FilterAmountWithSliderModule.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[label[contains(@for, 'start')] or label[contains(@for, 'end')]]"
+      }
+    },
+    {
+      "entityId": "FilterCircuitLogosList",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'circuits-logos')]/div/div/label"
+      }
+    },
+    {
+      "entityId": "ErrorMSGLabel",
+      "testData": "ErrorMSGLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class, 'text--color-black')]//span"
+      }
+    },
+    {
+      "entityId": "DigitsInputError",
+      "testData": "DigitsInputError",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'text-error')]"
+      }
+    },
+    {
+      "entityId": "DigitsInputField",
+      "type": "MODULE",
+      "reference": "modules/labeled_input_elements/LabeledInput.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'animate-input')]"
+      }
+    },
+    {
+      "entityId": "SearchedList",
+      "type": "MODULE",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[div[div[div[contains(@class, 'animate-input')]]]]/following-sibling::div/ul/li"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "testData": "ApplyButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'animate-input')]/../following-sibling::a"
+      }
+    }
+  ]
+}

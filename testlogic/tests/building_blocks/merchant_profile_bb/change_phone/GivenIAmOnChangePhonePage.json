@@ -1,0 +1,11 @@
+{
+  "name": "GivenIAmOnChangePhonePage",
+  "description": "Change Name/Surname User",
+  "aliases": "Given I am on Change Phone Page",
+  "type": "TestCase",
+  "children": [
+    "Given I am on Edit Profile Page",
+    "When I click on element EditUserInfo.ModifyPhoneNumberLink",
+    "Then ChangePhoneNumber1 Page is open"
+  ]
+}

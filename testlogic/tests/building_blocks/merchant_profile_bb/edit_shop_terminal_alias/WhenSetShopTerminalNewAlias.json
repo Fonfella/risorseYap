@@ -1,0 +1,10 @@
+{
+  "name": "WhenSetShopTerminalNewAlias",
+  "description": "Change Shop and Terminals alias",
+  "aliases": "When I set new alias for shop and terminal",
+  "type": "TestCase",
+  "children": [
+    "When I input data[${newShopAlias}] into EditShopTerminalAliasForm.ShopAliasModule.AliasInput",
+    "When I input data[${newTerminalAlias}] into EditShopTerminalAliasForm.TerminalsAliasModule.AliasInput"
+  ]
+}

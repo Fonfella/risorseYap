@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "SummayCommissionAmount",
+      "testData": "SummayCommissionAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='totale commissioni giorno']/preceding::XCUIElementTypeOther[position()<3]"
+      }
+    },
+    {
+      "entityId": "SummayCommissionLabel",
+      "testData": "SummayCommissionLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='totale commissioni giorno']"
+      }
+    }
+  ]
+}

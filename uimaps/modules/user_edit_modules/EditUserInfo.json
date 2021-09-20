@@ -1,0 +1,124 @@
+{
+  "children": [
+    {
+      "entityId": "BacktoProfileButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'font-family-regular')]"
+      }
+    },
+
+    {
+      "entityId": "UserNameLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[1]/.//label"
+      }
+    },
+    {
+      "entityId": "UserNameInput",
+      "testData": "UserNameInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[contains(@name, 'firstName')]"
+      }
+    },
+    {
+      "entityId": "SurnameLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[2]/.//label"
+      }
+    },
+    {
+      "entityId": "SurnameInput",
+      "testData": "SurnameInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input[contains(@name, 'lastName')]"
+      }
+    },
+
+    {
+      "entityId": "ErrorMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class, 'error-message')]/span"
+      }
+    },
+    {
+      "entityId": "UserGenericDetail",
+      "reference": "modules/user_edit_modules/UserGenericDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/./div[2]"
+      }
+    },
+    {
+      "entityId": "ModifyPasswordLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/./div[2]/./div[2]/.//a"
+      }
+    },
+    {
+      "entityId": "ModifyPhoneNumberLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/./div[2]/./div[3]/.//a"
+      }
+    },
+    {
+      "entityId": "PrivacyButtonTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li/button/.//h3"
+      }
+    },
+    {
+      "entityId": "PrivacyButtonList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul"
+      }
+    },
+    {
+      "entityId": "PrivacyListContainer",
+      "type": "MODULE",
+      "reference": "modules/user_edit_modules/Privacy.json",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@aria-label,'Operazione')]"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer//a[contains(@href,'/profile')]/span"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'grommetux-button__label')]//span"
+      }
+    }
+  ]
+}

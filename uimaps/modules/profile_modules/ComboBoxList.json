@@ -1,0 +1,17 @@
+{
+  "children": [
+    {
+      "entityId": "ComboBoxListIterator",
+      "testData": "ComboBoxListIterator",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li"
+      }
+    }
+  ]
+}
+
+
+

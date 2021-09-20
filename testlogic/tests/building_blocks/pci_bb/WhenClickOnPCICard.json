@@ -1,0 +1,9 @@
+{
+  "name": "WhenClickOnPCICard",
+  "description": "Click on PCI card from HomePage",
+  "type": "TestCase",
+  "aliases": "When I click on PCI Card from HomePage||When I click on PCI Card from PCI Page",
+  "children": [
+    "When I click on element ${pageCard}"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "WhenIClickOnTransaction",
+  "description": "Click on first transaction by input index",
+  "type": "TestCase",
+  "aliases": "When I click on transaction",
+  "children": [
+    "Given I wait 7 seconds",
+    "When I click on element TransactionsContentWrappedModule.TransactionsListModule[filterType='index',filterValue='${transactionIndex}'].TransactionElementsModule.CardNumber"
+  ]
+}

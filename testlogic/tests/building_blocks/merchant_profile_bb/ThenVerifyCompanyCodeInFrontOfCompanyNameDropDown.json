@@ -1,0 +1,10 @@
+{
+  "name": "ThenVerifyCompanyCodeInFrontOfCompanyNameDropDown",
+  "description": "Company code displayed in front of company name on profile page company drop down",
+  "aliases": "Then I verify that company code is displayed in front of company name on drop down",
+  "type": "TestCase",
+  "children": [
+    "When I click on element CompanyInfo.CompanyDropDownBox",
+    "Then CompanyInfo.CompanyDropDownBox.ComboBoxList.ComboBoxListIterator data matches DB [${script}][<UsernameTextBox>=${username}]"
+  ]
+}

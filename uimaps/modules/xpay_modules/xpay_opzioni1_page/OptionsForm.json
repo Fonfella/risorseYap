@@ -1,0 +1,69 @@
+{
+  "children": [
+//    {
+//      "entityId":"CheckedCheckbox",
+//      "optional": true,
+//      "type":"ELEMENT",
+//      "locator":{
+//        "type":"XPATH",
+//        "value":".//span[input[@value='true']]"
+//      }
+//    },
+    {
+      "entityId": "CheckBox",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'grommetux-check-box__control')]"
+      }
+    },
+    {
+      "entityId": "OptionLabel",
+      "testData": "OptionLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'grommetux-check-box__label')]/*/span"
+      }
+    },
+    {
+      "entityId": "ECommerceInput",
+      "type": "MODULE",
+      "optional": true,
+      "reference":"modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'box--basis-medium')]/div[1]/div/div"
+      }
+    },
+    {
+      "entityId": "ECommerceToolTip",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/common_modules/InfoButton.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'tooltip')]/div"
+      }
+    },
+    {
+      "entityId": "ECommerceToolTipContent",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'icbpi_tooltip active')]/div/div"
+      }
+    },
+    {
+      "entityId": "AppInput",
+      "type": "MODULE",
+      "optional": true,
+      "reference":"modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'box--basis-medium')]/div[2]/div/div"
+      }
+    }
+  ]
+}

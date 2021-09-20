@@ -1,0 +1,44 @@
+{
+  "children": [
+    {
+      "entityId": "MessageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "MessageText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]//p"
+      }
+    },
+    {
+      "entityId": "SendingDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[3]/span"
+      }
+    },
+    {
+      "entityId": "OKButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[4]//button"
+      }
+    },
+    {
+      "entityId": "OKButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[4]//button/span"
+      }
+    }
+  ]
+}

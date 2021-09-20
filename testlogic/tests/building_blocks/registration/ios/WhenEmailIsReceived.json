@@ -1,0 +1,11 @@
+{
+  "name": "WhenEmailIsReceived",
+  "aliases": "When I receive and input OTP code",
+  "description": "Email extraction flow",
+  "type": "TestCase",
+  "children": [
+    "When I receive the latest email with subject Generazione OTP",
+    "When I input data[MerchantProfilePersonalData.Valid] into OTPPopUp",
+    "When I click on element OTPPopUp.SubmitButton"
+  ]
+}

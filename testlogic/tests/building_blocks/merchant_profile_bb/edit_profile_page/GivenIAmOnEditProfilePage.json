@@ -1,0 +1,11 @@
+{
+  "name": "GivenIAmOnEditProfilePage",
+  "description": "MP130_TC02_01-Profile/Name, Surname, Terms and conditions/ Edit Settings",
+  "aliases": "Given I am on Edit Profile Page",
+  "type": "TestCase",
+  "children": [
+    "Given I am on Profile Page",
+    "When I click on element UserInfo.UserInformationLink",
+    "Then UserEdit Page is open"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WhenIClickOnSoloContactlessFilter",
+  "description": "Click on solo contactless filter on transactions filters page",
+  "type": "TestCase",
+  "aliases": "When I click on solo contactless filter",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FiltersLayoutModule.SoloContactlessFilterName"
+  ]
+}

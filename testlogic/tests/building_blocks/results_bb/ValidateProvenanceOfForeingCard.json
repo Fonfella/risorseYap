@@ -1,0 +1,11 @@
+{
+  "name": "ValidateProvenanceOfForeingCard",
+  "description": "Validate card Provenienza carte estere",
+  "aliases": "Then provenance of foreign card elements matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.ProvenanceOfForeignCards is displayed",
+    "Then ResultsPageContent.ProvenanceOfForeignCards data matches ResultsTestData.Cards.ProvenanceOfForeignCard.${cardData}"
+
+  ]
+}

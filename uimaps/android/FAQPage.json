@@ -1,0 +1,56 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'mall wrapper-conten')]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'heading')]//h1/span"
+      }
+    },
+    {
+      "entityId": "PageSubTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'heading')]//h3/span"
+      }
+    },
+    {
+      "entityId":"ContactSectionModule",
+      "reference":"modules/faq_modules/android/ContactSectionModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//div[div[contains(@class,'contact-box')]]"
+      }
+    },
+    {
+      "entityId":"FAQSectionModule",
+      "reference":"modules/faq_modules/android/FAQSectionModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//div[contains(@class,'basis-2-3')]"
+      }
+    },
+    {
+      "entityId": "NexiFooter",
+      "reference": "modules/common_modules/NexiFooter.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer"
+      }
+    }
+  ]
+}

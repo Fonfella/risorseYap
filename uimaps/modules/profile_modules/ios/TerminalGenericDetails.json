@@ -1,0 +1,79 @@
+{
+  "children": [
+    {
+      "entityId": "TerminalIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='POSTerminal']"
+      }
+    },
+    {
+      "entityId": "TerminalName",
+      "testData": "TerminalName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-code']/XCUIElementTypeOther[2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TerminalAlias",
+      "testData": "TerminalAlias",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-code']/XCUIElementTypeOther[3]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TerminalInfoButtonReference",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-code']/XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "ToolTipContent",
+      "testData": "ToolTipContent",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-code']//XCUIElementTypeOther[@name='box']/XCUIElementTypeOther/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ModelloLabel",
+      "testData": "ModelloLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":"./..//XCUIElementTypeOther[@name='terminal-model']//XCUIElementTypeOther[@name='Modello']/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TerminalModel",
+      "testData": "TerminalModel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-model']//XCUIElementTypeOther[2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "ManualisticaModule",
+      "reference": "modules/profile_modules/ManualisticaModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='terminal-manual']"
+      }
+    }
+  ]
+}
+
+

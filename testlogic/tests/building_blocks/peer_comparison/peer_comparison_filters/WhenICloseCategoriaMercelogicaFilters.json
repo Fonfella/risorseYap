@@ -1,0 +1,10 @@
+{
+  "name": "WhenICloseCategoriaMercelogicaFilters",
+  "description": "Click on chiudi on Categoria merceologica filters settings",
+  "aliases": "When I close categoria mercelogica filters",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.ProductCategoryFilterDetailsModule.CloseButton",
+    "Then Peer Comparison Page is open"
+  ]
+}

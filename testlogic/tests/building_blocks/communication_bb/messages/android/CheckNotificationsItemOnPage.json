@@ -1,0 +1,11 @@
+{
+  "name": "CheckNotificationsItemOnPage",
+  "description": "Check Notifications Item on page",
+  "type": "TestCase",
+  "aliases": "Then Notifications Item is Accessible from page",
+  "children": [
+    "When I navigate to ${page} via sandwich menu",
+    "When I click on element NexiHeader.QuickActionsModule.NewsMessagesLink",
+    "Then Communication News Page is open"
+  ]
+}

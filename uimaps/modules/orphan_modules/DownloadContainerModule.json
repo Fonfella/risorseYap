@@ -1,0 +1,71 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class, 'close-button')]"
+      }
+    },
+    {
+      "entityId": "Heading",
+      "testData": "Heading",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2[span]"
+      }
+    },
+    {
+      "entityId": "TransactionsNumber",
+      "testData": "TransactionsNumber",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2[span]/following-sibling::div/p[1]"
+      }
+    },
+    {
+      "entityId": "FromToDateStamp",
+      "testData": "FromToDateStamp",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2[span]/following-sibling::div/p[2]"
+      }
+    },
+    {
+      "entityId": "TransactionsDownloadLimitMessage",
+      "testData": "TransactionsDownloadLimitMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/preceding-sibling::div/span"
+      }
+    },
+    {
+      "entityId": "DownloadExcelButton",
+      "testData": "DownloadExcelButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/div[1]/a"
+      }
+    },
+    {
+      "entityId": "DownloadCsvButton",
+      "testData": "DownloadCsvButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/div[2]/a"
+      }
+    }
+  ]
+}

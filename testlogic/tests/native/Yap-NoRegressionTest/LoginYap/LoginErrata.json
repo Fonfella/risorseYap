@@ -1,0 +1,23 @@
+{
+  "ids": [
+    {
+      "id":"YP-0005",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "PIN errato",
+  "description": "NegativeFlow",
+  "priority": "LOW",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Invalid",
+    "Given Login Page_Yap is open",
+  //  "Given I click on Annulla_Impronta_Digitale if present",
+   // "Given I wait 2 seconds",
+    "When I input data into Input_Password",
+    "Given I wait 2 seconds",
+    "Then Pin_non_corretto_error_message is displayed",
+    "Then Pin_non_corretto_error_message data matches Provayap.Invalid"
+
+  ]
+}

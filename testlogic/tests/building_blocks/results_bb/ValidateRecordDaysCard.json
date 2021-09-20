@@ -1,0 +1,9 @@
+{
+  "name": "ValidateRecordDaysCard",
+  "description": "Validate card Giornate da record",
+  "aliases": "Then record days card data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ResultsPageContent.RecordDaysCard data matches ResultsTestData.Cards.RecordDaysCard.${cardData}"
+  ]
+}

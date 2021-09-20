@@ -1,0 +1,17 @@
+{
+  "children": [
+    {
+      "entityId": "ComboBoxList",
+      "type": "MODULE",
+      "optional":true,
+      "reference": "modules/profile_modules/ComboBoxList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../following::XCUIElementTypeOther[1]"
+      }
+    }
+  ]
+}
+
+
+

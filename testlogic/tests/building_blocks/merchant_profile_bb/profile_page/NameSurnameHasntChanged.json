@@ -1,0 +1,10 @@
+{
+  "name": "NameSurnameHasntChanged",
+  "description": "Check Name And Surname on Profile Page",
+  "aliases": "Then Name And Surname Hasn't Changed",
+  "type": "TestCase",
+  "children": [
+    "Then UserInfo.MerchantNameSurnameLabel data matches ${initialNameSurname}"
+  ]
+}
+

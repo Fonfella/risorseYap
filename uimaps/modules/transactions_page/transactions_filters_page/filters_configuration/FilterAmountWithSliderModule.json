@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "RangeSpecification",
+      "testData": "RangeSpecification",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./label"
+      }
+    },
+    {
+      "entityId": "AmountInput",
+      "testData": "AmountInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//input"
+    }
+    },
+    {
+      "entityId": "Slider",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[@class='input-range']"
+      }
+    },
+    {
+      "entityId": "MinRangeSliderAmount",
+      "testData": "MinRangeSliderAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div[1][label]"
+      }
+    },
+    {
+      "entityId": "MaxRangeSliderAmount",
+      "testData": "MaxRangeSliderAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div[2][label]"
+      }
+    }
+  ]
+}

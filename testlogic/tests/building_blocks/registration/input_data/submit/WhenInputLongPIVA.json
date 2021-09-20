@@ -1,0 +1,11 @@
+{
+  "name": "Input Long PIVA CF",
+  "description": "Registration Flow",
+  "aliases": "When I input Long P.IVA Codice Fiscale Azienda and submit",
+  "type": "TestCase",
+  "children": [
+    "When I input data[MerchantEmailProfile.Valid.ProfileEmailData] into RegistrationForm",
+    "When I input data[MerchantEmailProfile.Invalid.PIVA_CF.Length.Long] into RegistrationForm.PIVA_CF",
+    "When I click on element SubmitButton"
+  ]
+}

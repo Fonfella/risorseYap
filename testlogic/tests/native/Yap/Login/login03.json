@@ -1,0 +1,24 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0005",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "execution login",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "Given I click on Permission_Button2 if present",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.Utenti_2",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open",
+    "Given I wait 5 seconds",
+    "Then Bottone_Principale is displayed"
+  ]
+}

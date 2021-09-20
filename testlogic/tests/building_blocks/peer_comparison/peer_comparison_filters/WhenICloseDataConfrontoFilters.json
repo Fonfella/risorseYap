@@ -1,0 +1,10 @@
+{
+  "name": "WhenICloseDataConfrontoFilters",
+  "description": "Click on chiudi on data confronto filters settings",
+  "aliases": "When I close data confronto filters",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.CompareDateFilterDetailsModule.CloseButton",
+    "Then Peer Comparison Page is open"
+  ]
+}

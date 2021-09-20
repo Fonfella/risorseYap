@@ -1,0 +1,13 @@
+{
+  "name": "WhenISetPeriodInCalendar",
+  "description": "Select a fix period in calendar picker",
+  "aliases": "When I set period in calendar",
+  "type": "TestCase",
+  "children": [
+    "When I select month and year from DatePicker.FromMonthTitle[filterType='index',filterValue='0'] using DatePicker.PreviousMonthButton and DatePicker.NextMonthButton for ${fromDate}",
+    "When I select day from DatePicker.SelectDateList[filterType='index',filterValue='0'].Days for ${fromDate}",
+    "When I select month and year from DatePicker.FromMonthTitle[filterType='index',filterValue='0'] using DatePicker.PreviousMonthButton and DatePicker.NextMonthButton for ${toDate}",
+    "When I select day from DatePicker.SelectDateList[filterType='index',filterValue='0'].Days for ${toDate}"
+
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ThenCompanySectionGTUserIsDisplayed",
+  "description": "Company Labels and Info are displayed",
+  "aliases": "Then Company section for GT User is displayed;Then Company section for ACQ User is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then CompanyInfo.CompanyLabel data matches ${companyLabel}",
+    "Then CompanyInfo.CompanyInfo data matches DB [${script}][<UsernameTextBox>=${username}]"
+  ]
+}
+

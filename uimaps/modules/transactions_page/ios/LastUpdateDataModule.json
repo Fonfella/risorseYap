@@ -1,0 +1,54 @@
+{
+  "children":
+  [
+    {
+      "entityId": "TimeRangeFilter",
+      "testData": "TimeRangeFilter",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./XCUIElementTypeStaticText[1][contains(@name, 'Ultime')]"
+      }
+    },
+    {
+      "entityId": "TransactionsNumber",
+      "testData": "TransactionsNumber",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[contains(@name,'trovate')]"
+      }
+    },
+    {
+      "entityId": "LastSyncLabel",
+      "testData": "LastSyncLabel",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./XCUIElementTypeStaticText[2]"
+      }
+    },
+    {
+      "entityId": "SyncButton",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "ViewTodayData",
+      "testData": "ViewTodayData",
+      "type":"ELEMENT",
+      "optional": true,
+      "locator":{
+        "type":"XPATH",
+        "value": "./XCUIElementTypeStaticText[contains(@name,'oggi')]"
+      }
+    }
+  ]
+}

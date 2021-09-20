@@ -1,0 +1,10 @@
+{
+  "name": "NameSurnameMatches",
+  "description": "Check Name And Surname on Profile Page",
+  "aliases": "Then Name And Surname Has Changed",
+  "type": "TestCase",
+  "children": [
+    "Then MerchantNameSurnameLabel data matches ${changedNameSurname}"
+  ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "name": "ThenVerifyScrollForShopsListDropdown",
+  "description": "Then verify scroll for shops list on drop down Anagrafica1 page",
+  "aliases": "Then verify scroll for shops list",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='0']",
+    "When I click on element SelectShopForm.DropdownList.ListElement[filterType='text',filterValue='001549864 - MEDIAMARKET SPA']",
+    "When I click on element SelectShopForm.DropdownInput[filterType='index',filterValue='1']",
+    "Then I scroll to SelectShopForm.DropdownList.ListElement[filterType='text',filterValue='6058002 - MEDIAWORLD']"
+  ]
+}

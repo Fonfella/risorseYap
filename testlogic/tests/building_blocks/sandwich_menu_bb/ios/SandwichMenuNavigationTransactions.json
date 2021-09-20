@@ -1,0 +1,11 @@
+{
+  "name": "SandwichMenuNavigationTransactions",
+  "description": "Navigate via sandwich menu using link text as input parameter",
+  "type": "TestCase",
+  "aliases": "When I navigate to transactions page via sandwich menu",
+  "children": [
+    "When I click on element NexiHeader[filterType='index',filterValue='0'].SandwichMenuButton",
+    "When I click on element SandwichMenuModule.NavigationLinks[filterType='text',filterValue='Transazioni']",
+    "Then Transactions Page is open"
+  ]
+}

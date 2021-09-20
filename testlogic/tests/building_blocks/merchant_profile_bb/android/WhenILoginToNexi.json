@@ -1,0 +1,10 @@
+{
+  "name": "WhenILoginToNexi",
+  "description": "Authentication flow",
+  "aliases": "When I login to Nexi",
+  "type": "TestCase",
+  "children": [
+    "When I input data into LoginForm",
+    "When I click on element LoginForm.SubmitButton"
+  ]
+}

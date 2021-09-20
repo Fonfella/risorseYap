@@ -1,0 +1,237 @@
+{
+  "children": [
+        {
+      "entityId": "CancelRegistrationModule",
+      "reference": "modules/pop_up_modules/CancelRegistrationModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='grommetux-modal']"
+      }
+    },
+    {
+      "entityId":"PromoCodeModule",
+      "reference":"modules/registration/step1/PromoModule.json",
+      "type":"MODULE",
+      "optional": true,
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId": "AcosaServeModule",
+      "optional":true,
+      "reference": "modules/pop_up_modules/WhatIsEmailForModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId": "DatePicker",
+      "type": "MODULE",
+      "reference": "modules/daypicker_modules/DatePickerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[contains(@name, 'tab panel')]"
+      }
+    },
+    {
+      "entityId": "ContactCustomerServicePopUp",
+      "reference": "modules/pop_up_modules/PIVANotRecognisedModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='grommetux-modal']"
+      }
+    },
+    {
+      "entityId": "WhatIsPhoneNumberForModule",
+      "reference": "modules/pop_up_modules/WhatIsPhoneNumberForModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId": "PhoneConfirmationModule",
+      "reference": "modules/pop_up_modules/PhoneConfirmationModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId": "NonConfirmationCodeReceivedModule",
+      "reference": "modules/pop_up_modules/NonConfirmationCodeReceivedModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId": "CloseNonCodeReceivedButton",
+      "reference": "modules/pop_up_modules/NonConfirmationCodeReceivedModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId": "AcosaServeModule",
+      "reference": "modules/pop_up_modules/WhatIsEmailForModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='grommetux-modal']"
+      }
+    },
+    {
+      "entityId": "SalesPointsPickerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/SalesPointsPickerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther/XCUIElementTypeStaticText[@name='CHIUDI']]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeWindow[1]/./XCUIElementTypeOther/./XCUIElementTypeOther[2]"
+      }
+    },
+    {
+      "entityId": "ModalDownloadPopup",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/ModalDownloadPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther[contains(@name,'download')]]"
+      }
+    },
+    {
+      "entityId": "DownloadContainerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/DownloadContainerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther[contains(@name,'download')]]"
+      }
+    },
+    {
+      "entityId": "RefundContainerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/RefundContainerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[contains(@name, 'Transazioni')]/XCUIElementTypeOther[2][not(.//XCUIElementTypeOther[contains(@name, 'panel')])]"
+      }
+    },
+    {
+      "entityId": "TutorialPopup",
+      "reference": "modules/pop_up_modules/TutorialPopup.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[contains(@name, 'Punti Vendita')]"
+      }
+    },
+    {
+      "entityId": "LoadingSpinner",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[contains(@name, 'banner')]/following-sibling::XCUIElementTypeOther[not(./XCUIElementTypeStaticText) and not(@name or @value)][1]"
+      }
+    },
+    {
+      "entityId": "CancelXpayPopUp",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/XPayCancelModalPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId": "ShopsDetailsModule",
+      "childCount":2,
+      "reference": "modules/profile_modules/ShopsDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='company-container']/following-sibling::XCUIElementTypeOther[position()<3]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']/XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "NOOTPReceivedPopUp",
+      "reference":"modules/pop_up_modules/ForgotPassNoOTP.json",
+      "optional":true,
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value": "//*[@name='Recupera password - Nuova password']"
+      }
+    },    {
+      "entityId": "WrongCredentialsPopUp",
+      "type": "MODULE",
+      "optional":true,
+      "reference":"modules/login_page/BadLogin.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business - Login']"
+      }
+    },
+    {
+      "entityId": "UserLockedPopUp",
+      "type": "MODULE",
+      "optional":true,
+      "reference":"modules/login_page/Locked.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business - Login']"
+      }
+    },
+    {
+      "entityId": "FingerPrint",
+      "optional": true,
+      "reference": "modules/home_page/ActivateFP.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business - Login']"
+      }
+    }
+//    TODO FINISH UI MAP FOR ERROR MESSGE PHONE NUMBER PAGE
+//    {
+//      "entityId": "PhoneErrorMessage",
+//      "testData": "PhoneErrorMessage",
+//      "optional": true,
+//      "type": "ELEMENT",
+//      "locator": {
+//        "type": "XPATH",
+//        "value": ".//span[contains(@class, 'error')]//span"
+//      }
+//    }
+  ]
+}
+

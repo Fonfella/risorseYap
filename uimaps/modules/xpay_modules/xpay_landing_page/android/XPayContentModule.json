@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "AreaTitle",
+      "testData": "AreaTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1[contains(@class,'align-center')]/span/span"
+      }
+    },
+    {
+      "entityId": "AreaSubTitle",
+      "testData": "AreaSubTitle",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[1][contains(@class,'text-align-center')]/div/span/span"
+      }
+    },
+    {
+      "entityId": "CardsListModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/CardsListModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'xpay-accordion')]"
+      }
+    },
+    {
+      "entityId": "FeeCardModule",
+      "reference": "modules/xpay_modules/xpay_landing_page/FeeCardModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[3]/div"
+      }
+    }
+  ]
+}

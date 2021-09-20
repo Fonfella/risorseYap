@@ -1,0 +1,37 @@
+{
+  "children":
+  [
+    {
+      "entityId":"XButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//*[@name='Chiudi'])[1]"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Vuoi abbandonare il processo?']"
+      }
+    },
+    {
+      "entityId":"OkButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='OK, ABBANDONA']"
+      }
+    },
+    {
+      "entityId":"CancelButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='AVANTI']"
+      }
+    }
+  ]
+}

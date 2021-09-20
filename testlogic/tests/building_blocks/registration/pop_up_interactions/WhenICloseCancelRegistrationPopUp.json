@@ -1,0 +1,11 @@
+{
+  "name": "Cancel registration Pop up is dismissed",
+  "description": "Registration Flow",
+  "aliases": "When I close CancelRegistrationModule by Avanti button",
+  "type": "TestCase",
+  "children": [
+    "When I click on element CancelRegistrationModule.CancelButton"
+  ]
+}
+
+

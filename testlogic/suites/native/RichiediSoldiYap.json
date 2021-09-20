@@ -1,0 +1,11 @@
+{
+  "name": "RICHIEDI SOLDI",
+  "description": "Richiedi Soldi suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/RichiediSoldiYap/AccessoDaMenu.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/RichiediSoldiYap/AccessoDaBurgerMenu.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/RichiediSoldiYap/RichiediSoldiImportoSuperiore.json"
+  ]
+}

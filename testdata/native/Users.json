@@ -1,0 +1,495 @@
+{
+  "children" : [
+    {
+      "tag": "Valid",
+      "children":[
+        {
+          "tag": "GT",
+          "children":[
+            {
+              "tag": "User1",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user1@gmail.com"
+
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                },
+                {
+                  "entityId":"InputEmailField",
+                  "value":"user1@gmail.com"
+                }
+              ]
+            },
+            {
+              "tag": "User9",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user9@gmail.com"
+
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                },
+                {
+                  "entityId":"InputEmailField",
+                  "value":"user9@gmail.com"
+                }
+              ]
+            },
+            {
+              "tag": "NewPasswordUser",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "usernexi1234567@gmail.com"
+
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "12345678aB"
+                }
+              ]
+            },
+            {
+              "tag": "User12",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user12@gmail.com"
+
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "User2",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user2@gmail.com"
+                },
+                {
+                  "entityId": "Email",
+                  "value":"provamail065@gmail.com"
+                },
+
+                {
+                  "entityId":"EmailPass",
+                  "value": "Testmerchant123"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                },
+                {
+                  "entityId": "ScriviTextBox",
+                  "value": "Stringa_${today}"
+                },
+                {
+                  "entityId": "ScriviTextBox_2",
+                  "value": "${pippo}_${today}"
+                }
+              ]
+            },
+            {
+              "tag": "User4",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user4@gmail.com"
+
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "Testmerchant123"
+                }
+              ]
+            },
+            {
+              "tag": "PassToUser1",
+              "children": [
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "User5",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "zzas433s3h@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "User6",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user6@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ACQ",
+          "children":[
+            {
+              "tag": "User99",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user99@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Dtrans3",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "dtrans3@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Dtrans6",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "dtrans6@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Mtrans",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "mtrans@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Mtrans2",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "mtrans2@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Ntrans",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "ntrans@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Ntrans22",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "ntrans22@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Dtrans",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "dtrans@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "IfPlusPlus",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "if3@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "IfPlus",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "if@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "IfPlusNoCondizioni",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "if2@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "StrandardNexi",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "standardNexi@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "IF",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "if@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "User213",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user213@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "User215",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user215@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "CTV16",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "ctv16@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ACQGT",
+          "children":[
+            {
+              "tag": "UserEN",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "en@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Doc2",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "doc2@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag": "Ben",
+              "children": [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "ben@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag" : "BlackAbi",
+              "children" : [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "black_abi@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag" : "User201",
+              "children" : [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user201@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "tag" : "User214",
+              "children" : [
+                {
+                  "entityId": "UsernameTextBox",
+                  "value": "user214@gmail.com"
+                },
+                {
+                  "entityId": "PasswordTextBox",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Invalid",
+      "children":[
+        {
+          "tag":"Locked",
+          "children":[
+            {
+              "entityId":"UsernameTextBox",
+              "value":"user3@gmail.com"
+            },
+            {
+              "entityId": "PasswordTextBox",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "tag":"Unregistered",
+          "children":[
+            {
+              "entityId":"UsernameTextBox",
+              "value":"unregistered@gmail.com"
+            },
+            {
+              "entityId": "PasswordTextBox",
+              "value": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Mismatch",
+      "children":[
+        {
+          "entityId": "PasswordTextBox",
+          "value": "9"
+        }
+      ]
+    }
+  ]
+}
+
+

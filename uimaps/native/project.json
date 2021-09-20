@@ -1,0 +1,353 @@
+{
+  "entityId": "NexiPay",
+  "children": [
+    {
+      "entityId": "Login Page",
+      "reference": "AuthenticationPage.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Login Page_NP",
+      "reference": "AuthenticationPageNP.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Start Page",
+      "reference": "StartPage.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Start Page_NP",
+      "reference": "StartPageNP.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Registrazione Page",
+      "reference": "RegistrazionePage.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Assistenza Page",
+      "reference": "AssistenzaPage.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Home Page_Yap",
+      "reference": "HomePageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Home Page_NP",
+      "reference": "HomePageNP.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "BurgerMenu Page_NP",
+      "reference": "BurgerMenuPageNP.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "GestioneCarte Page_NP",
+      "reference": "GestioneCarteNP.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+
+
+    {
+      "entityId": "TimeLine Page_Yap",
+      "reference": "TimeLinePageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+
+    {
+      "entityId": "Login Page_Yap",
+      "reference": "AuthenticationPage_Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Recupera Password Page_Yap",
+      "reference": "RecuperaPasswordPage_Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Yap Info Page_Yap",
+      "reference": "YapInfoPage_Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "InviaSoldi Page_Yap",
+      "reference": "InviaSoldiPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "InviaSoldi2 Page_Yap",
+      "reference": "InviaSoldiPageYap2.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "RichiediSoldi Page_Yap",
+      "reference": "RichiediSoldiPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "RichiediSoldi2 Page_Yap",
+      "reference": "RichiediSoldiPageYap2.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Ricarica Page_Yap",
+      "reference": "RicaricaPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Menu Page_Yap",
+      "reference": "MenuPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "PagaOnLine Page_Yap",
+      "reference": "PagaOnLinePageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "HelpCenter Page_Yap",
+      "reference": "HelpCenterPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+
+    {
+      "entityId": "HelpCenter Page_NexiPay",
+      "reference": "HelpCenterPageNP.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Profilo Page_Yap",
+      "reference": "ProfiloPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "DividiConto Page_Yap",
+      "reference": "DividiContoPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "DividiConto2 Page_Yap",
+      "reference": "DividiContoPage2Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "DividiConto3 Page_Yap",
+      "reference": "DividiContoPage3Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "DividiConto4 Page_Yap",
+      "reference": "DividiContoPage4Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "DividiConto5 Page_Yap",
+      "reference": "DividiContoPage5Yap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "CodiceFiscale Page",
+      "reference": "CodiceFiscalePage.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+
+    {
+      "entityId": "Home Page_SP",
+      "reference": "HomePageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+
+    {
+      "entityId": "Login Page",
+      "reference": "LoginPage.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Applicazioni Page_SP",
+      "reference": "ApplicazioniPageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Transazioni Page_SP",
+      "reference": "TransazioniPageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "TransazioneInnerPage_SP",
+      "reference": "TransazioneInnerPageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Attivazione_SP",
+      "reference": "Attivazione_SmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Pagamento_SP",
+      "reference": "PagamentoPageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "SessioniETotali_SP",
+      "reference": "SessioniETotaliSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "UltimaTransazione_SP",
+      "reference": "UltimaTransazionePageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "GestionePreAut_SP",
+      "reference": "GestionePreAutSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "SelezionaProfilo_SP",
+      "reference": "SelezionaProfiloSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    }
+    ,
+
+    {
+      "entityId": "Applicazioni_SP",
+      "reference": "ApplicazioniPageSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    }
+  ,
+    {
+      "entityId": "DetailCard Page_Yap",
+      "reference": "DetailCardPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    }
+    ,
+    {
+      "entityId": "Notifiche Page_Yap",
+      "reference": "NotifichePageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    }
+    ,
+    {
+      "entityId": "Skin Page_Yap",
+      "reference": "SkinPageYap.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    }
+    ,
+    {
+      "entityId": "Impostazioni_SP",
+      "reference": "ImpostazioniSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "Ricarica Fast_Home",
+      "reference": "RicaricaFastHome.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    },
+    {
+      "entityId": "PoyntButtonMenu_SP",
+      "reference": "PoyntButtonMenuSmartPos.json",
+      "url": "",
+      "title": "",
+      "type": "PAGE"
+    }
+  ]
+}

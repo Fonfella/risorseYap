@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "PreviousMonthButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button[contains(@class, 'DayPickerNavigation_button')][1]"
+      }
+    },
+    {
+      "entityId": "NextMonthButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button[contains(@class, 'DayPickerNavigation_button')][2]"
+      }
+    },
+    {
+      "entityId": "FromMonthTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'CalendarMonth')]/.//strong"
+      }
+    },
+    {
+      "entityId": "SelectDateList",
+      "type": "MODULE",
+      "reference":"modules/date_picker_module/Days.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'l_1')]/.//table"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer[contains(@class, 'p g')]/./div[1]/./div[1]/.//a"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer[contains(@class, 'p g')]/./div[1]/./div[2]/.//a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "children": [
+    {
+      "entityId":"PageHeader",
+      "reference":"modules/registration/RegHeaderModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type":"XPATH",
+        "value":"//div[contains(@class,'registration-header')]"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "type":"ELEMENT",
+      "testData":"Title",
+      "locator":{
+        "type":"XPATH",
+        "value":"//p[contains(@class,'registration-page--title')]/span"
+      }
+    },
+    {
+      "entityId":"IndietroButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[contains(@class,'registration-back-button')]"
+      }
+    },
+    {
+      "entityId":"IndietroButtonLabel",
+      "testData":"IndietroButtonText",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[contains(@class,'registration-back-button')]/span"
+      }
+    },
+    {
+      "entityId":"RegistrationForm",
+      "reference":"modules/registration/step1/RegFormModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//form"
+      }
+    },
+    {
+      "entityId":"PromoCodeModule",
+      "reference":"modules/registration/step1/PromoModule.json",
+      "type":"MODULE",
+      "optional": true,
+      "locator":{
+        "type":"XPATH",
+        "value":"(//div[form/div])[2]/form"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//button[span[contains(@class, 'button__label')]] | //button[span[contains(@class,'button__label')]]"
+      }
+    },
+    {
+      "entityId":"SubmitButtonLabel",
+      "testData":"SubmitButtonText",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//button[span[contains(@class, 'button__label')]]/span/span"
+      }
+    },
+    {
+      "entityId":"PageFooter",
+      "reference":"modules/registration/RegPageFooter.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":" "
+      }
+    },
+    {
+      "entityId":"NeedHelp",
+      "optional": true,
+      "reference":"modules/orphan_modules/NeedHelpOptionsContainer.json",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//div[contains(@class,'helpButton')]"
+      }
+    }
+  ]
+}

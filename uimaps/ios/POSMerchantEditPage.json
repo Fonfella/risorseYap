@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "BacktoProfileButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Il tuoi dati']"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='SALVA']"
+      }
+    },
+    {
+      "entityId": "EditShopTerminalAliasForm",
+      "reference": "modules/pos_merchant_edit_modules/EditShopTerminalAliasForm.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Profilo']/XCUIElementTypeOther[position()=3 or position()=4]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "CloseUnregisteredUserPopup",
+  "description": "Close unregistered user error popup",
+  "aliases": "When I close unregistered user error popup",
+  "type": "TestCase",
+  "children": [
+    "When I click on element UnregisteredUserErrorPopup.CloseButton"
+  ]
+}
+

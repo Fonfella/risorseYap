@@ -1,0 +1,36 @@
+{
+  "children": [
+    {
+      "entityId": "NewsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "NewsSummary",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "NewsCategoryLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/label[1]"
+      }
+    },
+    {
+      "entityId": "NewsPublishDateLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/label[2]/span"
+      }
+    }
+  ]
+}

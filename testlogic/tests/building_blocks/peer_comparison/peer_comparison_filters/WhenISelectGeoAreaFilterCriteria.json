@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectGeoAreaFilterCriteria",
+  "description": "Click on input geo area criteria",
+  "aliases": "When I select geographic area filter criteria",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.GeoAreaFilterDetailsModule.GeoAreaInfoSectionModule.ScrollableFilterList[byChild='InputLabel',filterType='text',filterValue='${category}']"
+  ]
+}

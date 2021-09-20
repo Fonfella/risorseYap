@@ -1,0 +1,142 @@
+{
+  "children": [
+    {
+      "entityId": "BurgerMenu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeNavigationBar[@name='NexiPay.HomeView']/XCUIElementTypeButton[1]"
+      }
+    },
+    {
+      "entityId": "Carta_Label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[contains(@label,'CARTA *')]"
+      }
+    },
+
+    {
+      "entityId": "NonHaiEffettuatoMovimenti_Label",
+      "testData":"NonHaiEffettuatoMovimenti_Label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Non hai effettuato movimenti.']"
+      }
+    },
+
+    {
+      "entityId": "MeseCorrenteLabel",
+      "testData":"MeseCorrenteLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Mese corrente']"
+      }
+    },
+
+
+    {
+      "entityId": "Icon_Menu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/it.icbpi.mobile.widget.BlockedCustomDrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout[3]/android.widget.RelativeLayout[1]/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "CTA_AttivazioneCartaClose",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.ImageView"
+      }
+    },
+    {
+      "entityId": "CTA_AppStoreNonOra",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Non ora']"
+      }
+    },
+
+    {
+      "entityId": "GestisciCartaSlider",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeCell[XCUIElementTypeButton[@name='GESTISCI CARTA']]"
+      }
+    },
+    {
+      "entityId": "CTA_NonMostrarePiu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Non mostrare più']"
+      }
+    },
+
+    {
+      "entityId": "CTA_ClosePopUpValutazione",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Non ora']"
+      }
+    },
+    {
+      "entityId": "Carta_Principale",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeImage"
+      }
+    },
+
+    {
+      "entityId": "UtilizzatoLabel",
+      "testData":"UtilizzatoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeStaticText[@name='0,00 €'])[1]"
+      }
+    },
+
+
+    {
+      "entityId": "UltimoAggiornamentoLabel",
+      "testData":"UltimoAggiornamentoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Ultimo aggiornamento 23 set, 15:04']"
+      }
+    },
+
+
+
+
+    {
+      "entityId": "GestisciCartaBtn",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='GESTISCI CARTA']"
+      }
+    },
+
+    {
+      "entityId": "Help_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeNavigationBar[@name='NexiPay.HomeView']/XCUIElementTypeButton)[2]"
+      }
+    }
+  ]
+}

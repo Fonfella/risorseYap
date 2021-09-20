@@ -1,0 +1,62 @@
+{
+  "children": [
+    {
+      "entityId": "DetailsElementsList",
+      "testData": "DetailsElementsList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[1]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "DetailsElementsValuesList",
+      "testData": "DetailsElementsValuesList",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "RefundListSectionHeader",
+      "testData": "RefundListSectionHeader",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "RefundListSectionDateTime",
+      "testData": "RefundListSectionDateTime",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name]/following-sibling::XCUIElementTypeOther[position()<3]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "RefundStatus",
+      "testData": "RefundStatus",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name]/following-sibling::XCUIElementTypeOther[position()=3]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "RefundHistoryCost",
+      "testData": "RefundHistoryCost",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[last()]/XCUIElementTypeStaticText"
+      }
+    }
+  ]
+}

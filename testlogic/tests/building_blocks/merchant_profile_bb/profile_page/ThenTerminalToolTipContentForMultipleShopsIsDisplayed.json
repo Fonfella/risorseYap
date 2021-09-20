@@ -1,0 +1,10 @@
+{
+  "name": "ThenTerminalToolTipContentForMultipleShopsIsDisplayed",
+  "description": "Then Terminal Tool Tip Content Is Displayed",
+  "aliases": "Then terminal tool tip content for multiple shops is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails${terminalFilter}.TerminalInfoButtonReference.ToolTipContent is displayed",
+    "Then ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails${terminalFilter}.TerminalInfoButtonReference.ToolTipContent data matches ProfileData.ToolTipContentTerminal"
+  ]
+}

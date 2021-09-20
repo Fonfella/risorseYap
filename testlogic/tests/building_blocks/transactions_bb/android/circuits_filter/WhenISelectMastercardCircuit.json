@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectMastercardCircuit",
+  "description": "Select mastercard circuit by index",
+  "type": "TestCase",
+  "aliases": "When I select mastercard circuit",
+  "children": [
+    "When I click on element FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='0']"
+  ]
+}

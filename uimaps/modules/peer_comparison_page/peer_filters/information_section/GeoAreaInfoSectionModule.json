@@ -1,0 +1,53 @@
+{
+  "children": [
+    {
+      "entityId": "MessagesAreaHeader",
+      "testData": "MessagesAreaHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'area-messages')]/div/p[1]"
+      }
+    },
+    {
+      "entityId": "MessagesAreaSubject",
+      "testData": "MessagesAreaSubject",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'area-messages')]/div/p[last()]"
+      }
+    },
+    {
+      "entityId": "ScrollableDisabledFilterList",
+      "type": "MODULE",
+      "optional": true,
+      "childCount": "3",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'disabled') and not(input[@name='country'])]"
+      }
+    },
+    {
+      "entityId": "ScrollableFilterList",
+      "type": "MODULE",
+      "childCount": "3",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'custom-checkbox reverse') and not(contains(@class, 'disabled')) and not(input[@name='country'])]"
+      }
+    },
+    {
+      "entityId": "CountryOptionModule",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'custom-checkbox reverse') and input[@name='country']]"
+      }
+    }
+  ]
+}

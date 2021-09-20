@@ -1,0 +1,27 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0022",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test open-close airplane from home page",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Then Airplane_button is displayed",
+    "When I click on element Airplane_button",
+    "Given I wait 2 seconds",
+    "Given Notifiche Page_Yap is open",
+    "As a Yaptimeline.Valid.3511669952",
+    "Then Notifiche_Yap_Label is displayed",
+    "Then No_notification_image is displayed",
+    "Then No_notification_label is displayed",
+    "Given Home Page_Yap is open"
+  ]
+}

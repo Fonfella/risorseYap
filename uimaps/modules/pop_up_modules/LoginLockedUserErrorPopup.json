@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    },
+    {
+      "entityId": "ErrorTitle",
+      "testData":"ErrorTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3[1]"
+      }
+    },
+    {
+      "entityId": "ErrorSubject",
+      "testData":"ErrorSubject",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3[2]"
+      }
+    },
+
+    {
+      "entityId": "ErrorMessage",
+      "testData":"ErrorMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "ForgotPasswordLink",
+      "testData":"ForgotPasswordLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[1]"
+      }
+    }
+  ]
+}

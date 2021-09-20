@@ -1,0 +1,11 @@
+{
+  "name": "TerminalNameInFilterMatchesData",
+  "description": "Check Terminals alias in Filter",
+  "aliases": "Then Terminal Name in Filter details matches",
+  "type": "TestCase",
+  "children": [
+    "Then FilterDetailsModule.FiltersParametersList.InputLabel data matches ${data}",
+    "Then I click on element FilterDetailsModule.Header.ElementLink",
+    "Then I click on element FiltersLayoutModule.FooterButtons.ElementLink[filterType='index', filterValue='1']"
+  ]
+}

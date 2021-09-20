@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "Title",
+      "testData": "ItemTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Personalizzazione Punto Vendita']"
+      }
+    },
+    {
+      "entityId": "QuestionTitle",
+      "testData": "QuestionTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeButton[@name='[object Object]'])"
+      }
+    }
+  ]
+}

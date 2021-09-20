@@ -1,0 +1,12 @@
+{
+  "name": "WhenSelectOneMoreShopWithoutBlackABI",
+  "description": "Select a second shop from POS Piker with terminal's ABI not in Black list",
+  "type": "TestCase",
+  "aliases": "When I select one more shop without ABI from Black List",
+  "children": [
+    "When I open POS picker",
+    "When I select a shop from POS picker with [shopName=1.SHOP NO BLACK ABI]",
+    "When I click on element SelectShopsWindow.SaveButton",
+    "Given I wait 5 seconds"
+  ]
+}

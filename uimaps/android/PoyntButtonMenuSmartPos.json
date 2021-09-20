@@ -1,0 +1,101 @@
+{
+  "children": [
+
+    {
+      "entityId": "HomeLauncher",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//*[@resource-id='co.poynt.airlauncher:id/home_launcher_imageview']"
+      }
+    },
+    {
+      "entityId": "SearchLauncher",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/search_launcher_imageview']"
+      }
+    },
+    {
+      "entityId": "BootLauncher",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/boot_launcher_imageview']"
+      }
+    },
+    {
+      "entityId": "RecentsButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/recents_button']"
+      }
+    },
+    {
+      "entityId": "SettingsButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/settings_button']"
+      }
+    },
+    {
+      "entityId": "AppApplicazioni",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/app_name_text_view' and @text='Applicazioni']"
+      }
+    },
+    {
+      "entityId": "AppPagamenti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/app_name_text_view' and @text='Pagamenti']"
+      }
+    },
+    {
+      "entityId": "AppSupporto",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.airlauncher:id/app_name_text_view' and @text='Supporto']"
+      }
+    },
+    {
+      "entityId": "EditSearch",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/edit_search']"
+      }
+    },
+    {
+      "entityId": "AppConsigliate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/heading' and @text='App consigliate']"
+      }
+    },
+    {
+      "entityId": "ArgomentiConsigliati",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='co.poynt.launcher:id/heading' and @text='Argomenti consigliati']"
+      }
+    },
+    {
+      "entityId": "AppThumbnail",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='com.android.systemui:id/task_view_thumbnail']"
+      }
+    }
+  ]
+}

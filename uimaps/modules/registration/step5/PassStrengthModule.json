@@ -1,0 +1,23 @@
+{
+  "children":
+  [
+    {
+      "entityId":"PassInputModule",
+      "reference":"modules/registration/step5/PassInputModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[label[//input[@type='password']]]"
+      }
+    },
+    {
+      "entityId":"PasswordStrengthScore",
+      "reference":"modules/registration/step5/PasswordStrengthScoreModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[contains(@class,'password-strength')][span]"
+      }
+    }
+  ]
+}

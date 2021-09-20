@@ -1,0 +1,11 @@
+{
+  "name": "GivenILogoutAndLoginAgain",
+  "description": "Logout from Nexi and login with another user",
+  "type": "TestCase",
+  "aliases": "Given I logout from Nexi and login",
+  "children": [
+    "Then I logout from Nexi",
+    "When I try to login",
+    "Then Home Page is open"
+  ]
+}

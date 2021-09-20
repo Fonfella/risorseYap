@@ -1,0 +1,72 @@
+{
+  "children": [
+    {
+      "entityId": "BackButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-return')]/a"
+      }
+    },
+    {
+      "entityId": "BackButtonLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'message-return')]/a/span"
+      }
+    },
+    {
+      "entityId": "NewsImage",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//img[contains(@class,'news-image-container')]"
+      }
+    },
+    {
+      "entityId": "NewsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[p]/span[contains(@class,'heading--')]"
+      }
+    },
+    {
+      "entityId": "NewsType",
+      "type": "ELEMENT",
+      "testData":"NewsType",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[p]/span[contains(@class,'heading')][1]"
+      }
+    },
+    {
+      "entityId": "NewsContent",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//p[contains(@class,'news-paragraph')]/p"
+      }
+    },
+    {
+      "entityId": "NewsPublishDate",
+      "testData": "NewsPublishDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//span[contains(@class,'wordwrap')]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'helpButton')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "TransactionsListModule",
+      "reference": "modules/transactions_page/TransactionsListModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[2]"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsSectionModule",
+      "reference": "modules/transactions_page/transaction_details/TransactionDetailsSectionModule.json",
+      "optional": true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[3]"
+      }
+    },
+    {
+      "entityId": "FooterMessage",
+      "testData": "FooterMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[4]"
+      }
+    },
+    {
+      "entityId": "DownloadToExcelButton",
+      "testData": "DownloadToExcelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[5]"
+      }
+    },
+    {
+      "entityId": "RefundButton",
+      "testData": "RefundButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeButton"
+      }
+    }
+  ]
+}

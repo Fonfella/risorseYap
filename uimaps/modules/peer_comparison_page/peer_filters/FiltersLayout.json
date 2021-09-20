@@ -1,0 +1,41 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "ELEMENT",
+      "testData": "AreaTitle",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h1/span"
+      }
+    },
+    {
+      "entityId": "FilterSectionSelectedOption",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/FiltersSectionList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'scrollarea-content')]/ul/li[contains(@class, 'selected') and not(.//input)]"
+      }
+    },
+    {
+      "entityId": "FilterSectionSelectableList",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/FiltersSectionList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'scrollarea-content')]/ul/li[not(contains(@class, 'selected')) and not(.//input)]"
+      }
+    },
+    {
+      "entityId": "FooterButtons",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/reusable_elements/LabeledElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer"
+      }
+    }
+  ]
+}

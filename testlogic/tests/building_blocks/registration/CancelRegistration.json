@@ -1,0 +1,12 @@
+{
+  "name": "Cancel Registration process from any step",
+  "description": "Registration Flow",
+  "aliases": "When I Cancel Registration Flow",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PageHeader.ChiudiButton",
+    "Then CancelRegistrationModule is displayed",
+    "When I click on element CancelRegistrationModule.OkButton",
+    "Then Login Page is open"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "WhenSelectATopicFromDropdown",
+  "description": "When select a topic from dropdown with specific parameter",
+  "aliases": "When I select a topic from dropdown",
+  "children": [
+    "When I click on element FAQSectionModule.TopicsDropdownModule.DropdownBoxModule.DropdownContentBox.ListElement[filterType='text',filterValue='${topic}']"
+  ]
+}

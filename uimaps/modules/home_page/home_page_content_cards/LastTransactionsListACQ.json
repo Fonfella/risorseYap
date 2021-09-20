@@ -1,0 +1,28 @@
+{
+  "children": [
+    {
+      "entityId": "TransactionDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]"
+      }
+    },
+    {
+      "entityId": "TransactionTime",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[2]/label"
+      }
+    },
+    {
+      "entityId": "TransactionAmountValue",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[last()]/p/span"
+      }
+    }
+  ]
+}

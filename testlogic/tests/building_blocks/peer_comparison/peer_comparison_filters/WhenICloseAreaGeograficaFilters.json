@@ -1,0 +1,10 @@
+{
+  "name": "WhenICloseAreaGeograficaFilters",
+  "description": "Click on chiudi on Area geografica filters settings",
+  "aliases": "When I close area geografica filters",
+  "type": "TestCase",
+  "children": [
+    "When I click on element PeerFiltersElementsModule.GeoAreaFilterDetailsModule.CloseButton",
+    "Then Peer Comparison Page is open"
+  ]
+}

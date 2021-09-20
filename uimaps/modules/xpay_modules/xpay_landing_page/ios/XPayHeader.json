@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "testData": "ColseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "XPayLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='BankStatement']"
+      }
+    },
+    {
+      "entityId": "TextLabel",
+      "testData": "TextLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='XPay']/XCUIElementTypeOther/XCUIElementTypeStaticText/..)[3]"
+      }
+    },
+    {
+      "entityId": "SubTextLabel",
+      "testData": "SubTextLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[contains(@name,'offerta dedicata')]"
+      }
+    },
+    {
+      "entityId": "ActivateNowButton",
+      "testData": "ActivateNowButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='ATTIVA ORA'])[1]"
+      }
+    }
+  ]
+}

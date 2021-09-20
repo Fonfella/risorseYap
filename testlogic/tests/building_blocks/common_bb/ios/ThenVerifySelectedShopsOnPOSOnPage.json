@@ -1,0 +1,10 @@
+{
+  "name": "ThenVerifySelectedShopsOnPOSOnPage",
+  "description": "Verify selected shops on page",
+  "type": "TestCase",
+  "aliases": "Then I verify selected shop on POS piker on page",
+  "children": [
+    "When I navigate to ${page} via sandwich menu",
+    "Then SalesPointsModule.SelectedShopTitle data matches ${selectedShop}"
+  ]
+}

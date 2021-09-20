@@ -1,0 +1,11 @@
+{
+  "name": "WhenIOpenPrivacySection",
+  "description": "Change Name/Surname User",
+  "aliases": "When I open Privacy section",
+  "type": "TestCase",
+  "children": [
+    "When I click on element EditUserInfo.PrivacyButtonTitle",
+    "Given I wait 2 seconds",
+    "Then EditUserInfo.PrivacyListContainer is displayed"
+  ]
+}

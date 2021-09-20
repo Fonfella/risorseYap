@@ -1,0 +1,15 @@
+{
+  "name": "DIVIDI CONTO",
+  "description": "Dividi Conto test suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/Accesso.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/RicercaContatto.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/SelezioneContatto.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/DividiAllaRomana.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/DividiOgnunoPerSe.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/DividiOgnunoPerSeImportoSuperiore.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/DividiContoYap/DividiOgnunoPerSeImportoinferiore.json"
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "children": [
+    {
+      "entityId": "HelpCenterLabel",
+      "testData":"HelpCenterLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_text_title']"
+      }
+    },
+    {
+      "entityId": "PopUp_TapHelp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_end']"
+      }
+    }
+    ,
+    {
+      "entityId": "CTA_Back",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_start']"
+      }
+    }
+    ,
+    {
+      "entityId": "La_carta_item",
+      "testData":"La_carta_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='La carta']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "YAP_Apple_Pay_item",
+      "testData":"YAP_Apple_Pay_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='YAP ed Apple Pay']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "Label_La_tua_YAP",
+      "testData":"Label_La_tua_YAP",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]"
+      }
+    }
+    ,
+    {
+      "entityId": "Info_La_tua_YAP",
+      "testData":"Info_La_tua_YAP",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]"
+      }
+    }
+    ,
+    {
+      "entityId": "YAP_Google_Pay_item",
+      "testData":"YAP_Google_Pay_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='YAP e Google Pay']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "YAP_Samsung_Pay_item",
+      "testData":"YAP_Samsung_Pay_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='YAP e Samsung Pay']/android.widget.TextView"
+      }
+    }
+  ,
+
+    {
+      "entityId": "YAP_Huawei_Pay_item",
+      "testData":"YAP_Huawei_Pay_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='YAP e Huawei Pay']/android.widget.TextView"
+      }
+    }
+  ,
+    {
+      "entityId": "Differenza_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[3]/android.view.View[1]"
+      }
+    }
+    ,
+    {
+      "entityId": "Title_Differenza_section",
+      "testData":"Title_Differenza_section",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View"
+      }
+    }
+    ,
+    {
+      "entityId": "CTA_Previous",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_button_back']"
+      }
+    }
+    ,
+    {
+      "entityId": "Cosa_Sono_Le_Skin_label",
+      "testData":"Cosa_Sono_Le_Skin_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Cosa sono le Skin']"
+      }
+    }
+    ,
+    {
+      "entityId": "Le_Skin_link",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Le Skin']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "Come_Si_Sbloccano_Le_Skin_label",
+      "testData":"Come_Si_Sbloccano_Le_Skin_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Come si sbloccano le Skin']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "Come_Si_Sbloccano_Le_Skin_title",
+      "testData":"Come_Si_Sbloccano_Le_Skin_title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Come si sbloccano le Skin']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invia_Richiedi_title",
+      "testData":"Invia_Richiedi_title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]"
+      }
+    }
+    ,
+    {
+      "entityId": "Invia_Soldi_item",
+      "testData":"Invia_Soldi_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Invia soldi']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "Invia_Soldi_title",
+      "testData":"Invia_Soldi_title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View/android.view.View"
+      }
+    }
+    ,
+    {
+      "entityId": "Come_Inviare_Soldi_item",
+      "testData":"Come_Inviare_Soldi_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Come inviare soldi']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "Come_Inviare_Soldi_title",
+      "testData":"Come_Inviare_Soldi_title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Come inviare soldi']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invio_Denaro_Non_Effettuato_item",
+      "testData":"Invio_Denaro_Non_Effettuato_item",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.view.View[@content-desc='Invio denaro non effettuato']/android.widget.TextView"
+      }
+    }
+    ,
+    {
+      "entityId": "Invio_Denaro_Non_Effettuato_title",
+      "testData":"Invio_Denaro_Non_Effettuato_title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Invio denaro non effettuato']"
+      }
+    }
+    ,
+    {
+      "entityId": "Invio_Richiesta_Soldi_title",
+      "testData":"Invio_Richiesta_Soldi_title",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[1]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "StornoFieldTriggersBottomButtons",
+  "description": "Check if when click on an input field from storno card bottom buttons are displayed",
+  "type": "TestCase",
+  "aliases": "Then Storno Card field triggers bottom buttons to appear",
+  "children": [
+    "When I click on element ${field}",
+    "When I set a date in calendar with [Date=[today-1days]]",
+    "When I click on element DatePicker.SaveButton",
+    "Then StornoCard.CancelButton is displayed",
+    "Then StornoCard.SearchButton is displayed",
+    "When I click on element StornoCard.CancelButton",
+    "Then StornoCard.CancelButton is not displayed",
+    "Then StornoCard.SearchButton is not displayed"
+  ]
+}

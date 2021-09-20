@@ -1,0 +1,14 @@
+{
+  "name": "GoToMessagesPage",
+  "description": "Go to Messages Page",
+  "type": "TestCase",
+  "aliases": "Given I go to Messages Page",
+  "children": [
+    "Given I login to Nexi",
+    "When I click on NewsPopUpModule.CloseButton if present",
+    "When I click on element NexiHeader.QuickActionsModule.NewsMessagesLink",
+    "Then Communication News Page is open",
+    "When I click on element NewsMessageButtonModule.MessagesButton",
+    "Then CommunicationMessages is open"
+  ]
+}

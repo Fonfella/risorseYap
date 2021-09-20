@@ -1,0 +1,14 @@
+{
+  "name": "InviaSoldiFeature",
+  "description": "Invia Soldi Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/InviaSoldi/invia01.json",
+    "testlogic/tests/native/Yap/InviaSoldi/invia02.json",
+    "testlogic/tests/native/Yap/InviaSoldi/invia03.json",
+    "testlogic/tests/native/Yap/InviaSoldi/invia04.json",
+    "testlogic/tests/native/Yap/InviaSoldi/invia05.json",
+    "testlogic/tests/native/Yap/InviaSoldi/invia06.json"
+  ]
+}

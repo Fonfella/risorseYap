@@ -1,0 +1,42 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeStaticText[@name='Ultimi documenti'])[1]"
+      }
+    },
+    {
+      "entityId": "DocumentsList",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/DocumentsList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[1]/XCUIElementTypeLink[2]/XCUIElementTypeLink"
+      }
+    },
+
+    {
+      "entityId": "CardWithNoContent",
+      "testData": "CardWithNoContent",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Qui potrai consultare i tuoi documenti in un unico archivio, ovunque tu sia.']"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='VEDI TUTTI']/XCUIElementTypeStaticText)[1]"
+      }
+    }
+  ]
+}

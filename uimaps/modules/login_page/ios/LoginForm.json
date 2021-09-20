@@ -1,0 +1,58 @@
+{
+  "children": [
+    {
+      "entityId": "Email",
+      "type": "ELEMENT",
+      "testData": "UsernameTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "BlankEmailError",
+      "type": "ELEMENT",
+      "optional":true,
+      "testData": "BlankEmailError",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Per proseguire inserisci la tua email.']"
+      }
+    },
+    {
+      "entityId": "Password",
+      "type": "ELEMENT",
+      "testData": "PasswordTextBox",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='box']/XCUIElementTypeSecureTextField"
+      }
+    },
+    {
+      "entityId": "BlankPassError",
+      "type": "ELEMENT",
+      "optional":true,
+      "testData": "BlankPassError",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Per proseguire inserisci la tua password.']"
+      }
+    },
+    {
+      "entityId": "ShowPassword",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Eye'] | //XCUIElementTypeImage[@name='Eye']"
+      }
+    },
+    {
+      "entityId": "SubmitButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='ACCEDI']"
+      }
+    }
+  ]
+}

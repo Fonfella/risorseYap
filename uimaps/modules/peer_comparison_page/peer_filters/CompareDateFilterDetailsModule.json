@@ -1,0 +1,31 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "ELEMENT",
+      "testData": "AreaTitle",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/h1/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "testData": "ButtonLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a/span[not(@class)]"
+      }
+    },
+    {
+      "entityId": "DatePickersSectionModule",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/information_section/DatePickersSectionModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'scrollarea-content')]/div"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "WhenISetTODate",
+  "description": "Click on input date criteria",
+  "aliases": "When I set TO date",
+  "type": "TestCase",
+  "children": [
+    "When I open TO month dropdown",
+    "When I click on element PeerFiltersElementsModule.CompareDateFilterDetailsModule.DatePickersSectionModule.MonthsDropDownList[filterType='text',filterValue='${date}']"
+  ]
+}

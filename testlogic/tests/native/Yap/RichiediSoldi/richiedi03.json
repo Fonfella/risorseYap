@@ -1,0 +1,36 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0033",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Test back richiedi soldi",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "As a Provayap.Valid.Utenti_2",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_Richiedi",
+    "Given I wait 2 seconds",
+    "Given RichiediSoldi Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then RichiediSoldiLabel is displayed",
+    "When I input data into CercaContatti",
+    "When I click on element Contatto_Utente",
+    "When I click on element Avanti_Button",
+    "When I click on element Input_2",
+    "When I click on element CTA_Back_Importo",
+    "Given I wait 2 seconds",
+    "When I click on element CTA_Back_RichSoldi",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open"
+  ]
+}

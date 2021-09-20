@@ -1,0 +1,9 @@
+{
+  "name": "ThenTransactionTileInTransactionDetailsDataMatch",
+  "description": "Validate transaction tile in transaction details",
+  "type": "TestCase",
+  "aliases": "Then transaction tile in transaction details data match",
+  "children": [
+    "Then TransactionDetailsModule.TransactionsListModule.TransactionElementsModule data matches ${tileData}"
+  ]
+}

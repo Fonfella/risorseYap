@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "entityId": "UserManualLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Manualistica']"
+      }
+    },
+    {
+      "entityId": "UserManualPDF",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a//*[@role]"
+      }
+    },
+    {
+      "entityId": "UserManualLink",
+      "testData":"UserManualLink",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a"
+      }
+    }
+  ]
+}

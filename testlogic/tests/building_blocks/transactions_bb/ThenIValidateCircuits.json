@@ -1,0 +1,20 @@
+{
+  "name": "ThenIValidateCircuits",
+  "description": "Validate 12 circuits one by one",
+  "type": "TestCase",
+  "aliases": "Then I validate circuits",
+  "children": [
+    "Then I validate selected card brand with [cardIndex=0][cardType=Mastercard]",
+    "Then I validate selected card brand with [cardIndex=1][cardType=MyBank]",
+    "Then I validate selected card brand with [cardIndex=2][cardType=Visa]",
+    "Then I validate selected card brand with [cardIndex=3][cardType=JCBCluster1And2]",
+    "Then I validate selected card brand with [cardIndex=4][cardType=Maestro]",
+    "Then I validate selected card brand with [cardIndex=5][cardType=UPI]",
+    "Then I validate selected card brand with [cardIndex=6][cardType=PagoBancomat]",
+    "Then I validate selected card brand with [cardIndex=7][cardType=Aura]",
+    "Then I validate selected card brand with [cardIndex=8][cardType=PayPal]",
+    "Then I validate selected card brand with [cardIndex=9][cardType=Diners]",
+    "Then I validate selected card brand with [cardIndex=10][cardType=Amex]",
+    "Then I validate selected card brand with [cardIndex=11][cardType=Agos]"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "entityId": "ResultsCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/ResultsCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Risultati']/../parent::div"
+      }
+    },
+    {
+      "entityId": "IndustryComparisonCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/IndustryComparisonCard",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Confronto di settore']/ancestor::a/div"
+      }
+    },
+    {
+      "entityId": "ResultsPerChannelCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/ResultsPerChannelCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Risultati per canale']/../parent::div"
+      }
+    },
+    {
+      "entityId": "TotalsCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/TotalsCard",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Totale carte']/../parent::div"
+      }
+    },
+    {
+      "entityId": "TransactionSearchCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/TransactionSearchCard",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//form/parent::div"
+      }
+    },
+    {
+      "entityId": "CommissionsCard",
+      "testData": "CommissionsCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/CommissionsCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[text()='Commissioni']/../parent::div"
+      }
+    }
+  ]
+}

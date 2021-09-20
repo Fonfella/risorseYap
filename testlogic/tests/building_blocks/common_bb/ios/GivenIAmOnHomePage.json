@@ -1,0 +1,10 @@
+{
+  "name": "GivenIAmOnHomePagePage",
+  "description": "Given I am on Home Page",
+  "aliases": "Given I am on HomePage",
+  "type": "TestCase",
+  "children": [
+    "Given I login to Nexi",
+    "Then Home Page is open"
+  ]
+}

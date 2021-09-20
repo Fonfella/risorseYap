@@ -1,0 +1,50 @@
+{
+  "children": [
+    {
+      "entityId": "NameLabel",
+      "testData": "NameLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeOther[not(@name='Terminali')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "AliasInput",
+      "testData": "AliasInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeTextField"
+      }
+    },
+    {
+      "entityId": "TerminalInfoButtonReference",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "ToolTipContent",
+      "testData": "ToolTipContent",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeOther[@name='box']//XCUIElementTypeStaticText[1]"
+      }
+    },
+    {
+      "entityId": "TerminalErrorMessage",//works for shop too
+      "testData": "TerminalErrorMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./../XCUIElementTypeButton/following::XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]"
+      }
+    }
+  ]
+}

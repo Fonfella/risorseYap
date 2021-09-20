@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "Notifiche_Yap_Label",
+              "value": "NOTIFICHE YAP"
+            }
+            ,
+            {
+              "entityId": "No_notification_label",
+              "value": "Al momento non ci sono messaggi per te. Resta con noi, presto ci saranno novità."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

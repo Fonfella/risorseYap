@@ -1,0 +1,181 @@
+{
+  "children":
+  [
+    {
+      "entityId":"IndietroButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeLink[@name='Previous'])[1]"
+      }
+    },
+    {
+      "entityId":"PageHeader",
+      "reference":"modules/registration/RegHeaderModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId":"PageTitle1",
+      "testData":"Title1",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Esprimi i tuoi consensi al']"
+      }
+    },
+    {
+      "entityId":"PageTitle2",
+      "testData":"Title1",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='trattamento dei dati personali']"
+      }
+    },
+    {
+      "entityId":"ImproveServiceTitle",
+      "testData":"ImproveServiceTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Per migliorare il servizio']"
+      }
+    },
+    {
+      "entityId":"ImproveServiceSummary",
+      "type":"ELEMENT",
+      "testData":"ImproveServiceSummary",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Affinchè Nexi utilizzi i miei dati personali per inviare informazioni e promozioni su prodotti e servizi erogati da Nexi, fare ricerche di mercato, oltre che per produrre confronti sui dati del settore merceologico di appartenenza impiegando tecniche statistiche.']"
+      }
+    },
+    {
+      "entityId":"AgreeImproveService",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='DO IL CONSENSO'])[1]"
+      }
+    },
+    {
+      "entityId":"AgreeImproveServiceLabel",
+      "type":"ELEMENT",
+      "testData":"AgreeRadioButton",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeStaticText[@name='DO IL CONSENSO'])[1]"
+      }
+    },
+    {
+      "entityId":"RejectImproveService",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='NEGO IL CONSENSO'])[1]"
+      }
+    },
+    {
+      "entityId":"RejectImproveServiceLabel",
+      "type":"ELEMENT",
+      "testData":"DisagreeRadioButton",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeStaticText[@name='NEGO IL CONSENSO'])[1]"
+      }
+    },
+    {
+      "entityId":"PromoActivitiesTitle",
+      "type":"ELEMENT",
+      "testData":"PromoUseTitle",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Per attività di promozione commerciale']"
+      }
+    },
+    {
+      "entityId":"PromoActivitiesSummary",
+      "type":"ELEMENT",
+      "testData":"PromoActivitiesSummary",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Affinchè Nexi utilizzi i miei dati personali per comunicazioni via telefono o posta elettronica al fine di promuovere prodotti e servizi propri, inviarmi comunicazioni commerciali personalizzate, svolgere ricerche di mercato.']"
+      }
+    },
+    {
+      "entityId":"AgreePromoActivities",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='DO IL CONSENSO'])[2]"
+      }
+    },
+    {
+      "entityId":"AgreePromoActivitiesLabel",
+      "type":"ELEMENT",
+      "testData":"AgreeRadioButton",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeStaticText[@name='DO IL CONSENSO'])[2]"
+      }
+    },
+    {
+      "entityId":"RejectPromoActivities",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='NEGO IL CONSENSO'])[2]"
+      }
+    },
+    {
+      "entityId":"RejectPromoActivitiesLabel",
+      "type":"ELEMENT",
+      "testData":"DisagreeRadioButton",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeStaticText[@name='NEGO IL CONSENSO'])[2]"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='AVANTI']"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId":"NeedHelp",
+      "optional": true,
+      "reference":"modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//div[contains(@class,'helpButton')]"
+      }
+    },
+    {
+      "entityId":"PageFooter",
+      "reference":"modules/registration/RegPageFooter.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    }
+  ]
+}

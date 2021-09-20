@@ -1,0 +1,37 @@
+{
+  "children": [
+    {
+      "entityId": "MessageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "MessageSummary",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "MessageReadStatus",
+      "testData":"MessageStatus",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/label[1]/span"
+      }
+    },
+    {
+      "entityId": "MessagePublishDateLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/label[2]/span"
+      }
+    }
+  ]
+}

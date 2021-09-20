@@ -1,0 +1,23 @@
+{
+  "children":[
+    {
+      "entityId": "ButtonLabel",
+      "type": "ELEMENT",
+      "testData": "ButtonLabel",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./button/label"
+      }
+    },
+    {
+      "entityId": "Button",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./button"
+      }
+    }
+  ]
+}

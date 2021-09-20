@@ -1,0 +1,43 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeaderLabel",
+      "testData": "CardHeaderLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'panel-heading')]/div/div[1]/span"
+      }
+    },
+    {
+      "entityId": "ImportsHeaderLabel",
+      "testData": "ImportsHeaderLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'panel-heading')]/div/div[2]/span"
+      }
+    },
+    {
+      "entityId": "CardCollapseMessage",
+      "testData": "CardCollapseMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsList",
+      "reference": "modules/results_page/circuits/TransactionDetailsListModule.json",
+      "optional": true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li"
+      }
+    }
+  ]
+}
+

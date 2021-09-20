@@ -1,0 +1,28 @@
+{
+  "children": [
+    {
+      "entityId": "StaticCardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span[1]/span"
+      }
+    },
+    {
+      "entityId": "StaticCardIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[@role='img']"
+      }
+    },
+    {
+      "entityId": "StaticCardText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span[3]"
+      }
+    }
+  ]
+}

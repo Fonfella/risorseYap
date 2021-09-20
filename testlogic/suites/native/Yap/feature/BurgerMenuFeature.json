@@ -1,0 +1,9 @@
+{
+  "name": "BurgerMenuFeature",
+  "description": "Burger menu feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/BurgerMenu/yta-a-bmenu01.json"
+  ]
+}

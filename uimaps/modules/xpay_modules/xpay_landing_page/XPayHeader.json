@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "testData": "ColseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a/span/span[text()='Chiudi']"
+      }
+    },
+    {
+      "entityId": "XPayLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div//*[text()='BankStatement']/../.."
+      }
+    },
+    {
+      "entityId": "TextLabel",
+      "testData": "TextLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "SubTextLabel",
+      "testData": "SubTextLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2"
+      }
+    },
+    {
+      "entityId": "ActivateNowButton",
+      "testData": "ActivateNowButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[contains(@class,'button-large')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "children": [
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Nexi Business Logo']"
+      }
+    },
+    {
+      "entityId": "IndietroButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='Previous'])[1]"
+      }
+    },
+    {
+      "entityId": "CancelButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "NewsMessagesLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "((//*[@name='Alert'])[1] | //XCUIElementTypeImage[@name='Alert'] | //XCUIElementTypeLink[@name='Alert']| //XCUIElementTypeOther[@name='Alert'])[1]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='banner']/XCUIElementTypeButton)|( //XCUIElementTypeOther[@name='banner']/XCUIElementTypeButton)"
+      }
+    }
+  ]
+}

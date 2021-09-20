@@ -1,0 +1,138 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "Title_label",
+              "value": "La carta giusta, nel tuo telefono. In pochi minuti hai una carta prepagata Mastercard. Paghi ovunque, invii e chiedi soldi, compri online. Niente code agli sportelli!, La carta giusta, nel tuo telefono. In pochi minuti hai una carta prepagata Mastercard. Paghi ovunque, invii e chiedi soldi, compri online. Niente code agli sportelli!"
+            }
+            ,
+            {
+              "entityId": "Subtitle_label",
+              "value": "YAP funziona in milioni di negozi in Italia e nel mondo, anche online, gratis per te."
+            }
+            ,
+            {
+              "entityId": "Scopri_Yap_button",
+              "value": "SCOPRI YAP"
+            }
+            ,
+            {
+              "entityId": "Accedi_link",
+              "value": "Sei già cliente? ACCEDI"
+            }
+            ,
+            {
+              "entityId": "Inserisci_Numero_label",
+              "value": "Inserisci il tuo numero"
+            }
+            ,
+            {
+              "entityId": "Inserisci_Codice_label",
+              "value": "Inserisci codice di verifica"
+            }
+            ,
+            {
+              "entityId": "Phone_input",
+              "value": "+39 351 166 9952"
+            }
+            ,
+            {
+              "entityId": "Phone_number",
+              "value": "3511669952"
+            }
+          ,
+            {
+              "entityId":"PhoneNumberTextBox",
+              "value": "3511669952"
+            }
+            ,
+            {
+              "entityId": "OTP_input",
+              "value": "000000"
+            }
+            ,
+            {
+              "entityId": "PIN_input",
+              "value": "334455"
+            }
+            ,
+            {
+              "entityId": "Inserisci_Password_label",
+              "value": "Inserisci la tua password"
+            }
+            ,
+            {
+              "entityId": "Accedi_Con_La_Password_label",
+              "value": "Accedi con la password"
+            }
+          ]
+        }
+        ,
+        {
+          "tag": "3486896752",
+          "children": [
+            {
+              "entityId": "Title_label",
+              "value": "Paga in tutti i negozi con il tuo smartphone."
+            }
+          ,
+            {
+              "entityId": "Subtitle_label",
+              "value": "YAP funziona in milioni di negozi in Italia e nel mondo, anche online, gratis per te."
+            }
+          ,
+            {
+              "entityId": "Scopri_Yap_button",
+              "value": "SCOPRI YAP"
+            }
+          ,
+            {
+              "entityId": "Accedi_link",
+              "value": "Sei già cliente? ACCEDI"
+            }
+          ,
+            {
+              "entityId": "Inserisci_Numero_label",
+              "value": "Inserisci il tuo numero"
+            }
+          ,
+            {
+              "entityId": "Inserisci_Codice_label",
+              "value": "Inserisci codice di verifica"
+            }
+          ,
+            {
+              "entityId": "Phone_input",
+              "value": "+39 348 689 6752"
+            }
+          ,
+            {
+              "entityId":"PhoneNumberTextBox",
+              "value": "3486896752"
+            }
+          ,
+            {
+              "entityId": "OTP_input",
+              "value": "000000"
+            }
+          ,
+            {
+              "entityId": "PIN_input",
+              "value": "334455"
+            }
+          ,
+            {
+              "entityId": "Inserisci_Password_label",
+              "value": "Inserisci la tua password"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

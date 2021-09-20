@@ -1,0 +1,9 @@
+{
+  "name": "WhenOTPIsReceived",
+  "aliases": "When I receive the OTP code",
+  "description": "OTP extract from e-mail",
+  "type": "TestCase",
+  "children": [
+    "When I receive the latest email with subject Generazione OTP"
+  ]
+}

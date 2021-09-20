@@ -1,0 +1,49 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0017",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "apertura Help Center da carta e chiusura",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+
+    "When I click on element Tail_card",
+    "Given DetailCard Page_Yap is open",
+    "Given I wait 4 seconds",
+    "Then CardHolder is displayed",
+    "Then CardHolder data matches Provayap.Valid.User4",
+    "Then IbanValue is displayed",
+    "Then IbanValue data matches Provayap.Valid.User4",
+    "When I click on element Question_icon",
+    "Given I wait 2 seconds",
+    "Given HelpCenter Page_Yap is open",
+    "Then HelpCenterLabel is displayed",
+    "Then La_carta_item is displayed",
+    "When I click on element La_carta_item",
+    "Given I wait 2 seconds",
+    "Then Differenza_item is displayed",
+    "When I click on element Differenza_item",
+    "Given I wait 2 seconds",
+    "Then Title_Differenza_section is displayed",
+    "Then Title_Differenza_section data matches Provayap.Valid.User4",
+    "When I click on element Title_Differenza_section",
+    "When I click on element CTA_Previous",
+    "Given I wait 2 seconds",
+    "When I click on element CTA_Previous",
+    "Given I wait 2 seconds",
+    "When I click on element CTA_Back",
+    "Given I wait 2 seconds",
+    "Given DetailCard Page_Yap is open",
+    "When I click on element CTA_Previous",
+    "Given Home Page_Yap is open"
+  ]
+}

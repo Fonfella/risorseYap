@@ -1,0 +1,10 @@
+{
+  "name": "WhenILoginRememberLogin",
+  "description": " Login with remember me option",
+  "aliases": "When I login to Nexi with remember me option",
+  "type": "TestCase",
+  "children": [
+    "When I click on element LoginModule.LoginForm.RememberPasswordCheckbox",
+    "When I try to login"
+  ]
+}

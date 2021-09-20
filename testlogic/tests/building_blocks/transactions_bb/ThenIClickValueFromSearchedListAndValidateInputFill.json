@@ -1,0 +1,10 @@
+{
+  "name": "ThenIClickValueFromSearchedListAndValidateInputFill",
+  "description": "Validate that after click on last 3 searches input field fills with relevant data",
+  "aliases": "Then I click value from searched list and validate input fill",
+  "type": "TestCase",
+  "children": [
+    "When I click on element from search list",
+    "Then input data match"
+  ]
+}

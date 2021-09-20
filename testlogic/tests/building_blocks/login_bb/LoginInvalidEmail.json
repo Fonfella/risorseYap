@@ -1,0 +1,9 @@
+{
+  "name": "LoginInvalidEmail",
+  "description": "Login with valid email and invalid password",
+  "aliases": "When I fail login",
+  "type": "TestCase",
+  "children": [
+    "When I try to login with [userCredentials=InvalidCredentials.ValidEmailInvalidPass]"
+  ]
+}

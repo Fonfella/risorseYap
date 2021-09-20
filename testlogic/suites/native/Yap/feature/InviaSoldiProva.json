@@ -1,0 +1,9 @@
+{
+  "name": "InviaSoldiProva",
+  "description": "Invia Soldi Prova",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/InviaSoldi/invia01.json"
+  ]
+}

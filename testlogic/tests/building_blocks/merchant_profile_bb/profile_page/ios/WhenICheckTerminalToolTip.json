@@ -1,0 +1,10 @@
+{
+  "name": "WhenICheckTerminalToolTip",
+  "description": "Check Terminal's Tool Tip",
+  "aliases": "When I check Terminal ToolTip",
+  "type": "TestCase",
+  "children": [
+    "When I scroll to ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.TerminalInfoButtonReference",
+    "When I click on element ShopsDetailsModule.SingleShopTerminalsModule.TerminalGenericDetails.TerminalInfoButtonReference"
+  ]
+}

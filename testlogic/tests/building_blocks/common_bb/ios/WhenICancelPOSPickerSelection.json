@@ -1,0 +1,9 @@
+{
+  "name": "WhenICancelPOSPickerSelection",
+  "description": "Click on cancel button from SalesPointsPicker module",
+  "type": "TestCase",
+  "aliases": "When I cancel POS picker selection",
+  "children": [
+    "When I click on element SalesPointsPickerModule.CloseButton"
+  ]
+}

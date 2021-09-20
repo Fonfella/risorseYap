@@ -1,0 +1,11 @@
+{
+  "name": "User starts Registration flow from Login screen",
+  "description": "Registration Flow",
+  "aliases": "Given I start Registration flow",
+  "type": "TestCase",
+  "children": [
+    "Given I open Login Page",
+    "When I click on element RegistrationLink",
+    "Then Registration Step1 is open"
+  ]
+}

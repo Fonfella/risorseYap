@@ -1,0 +1,52 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0001",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test login long with OTP recover +393511669952",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Yaplogin.Valid.3511669952",
+    "Given Start Page is open",
+ //   "Then Girl_image is displayed", eliminato non esiste nessuna girl sulla pagina di atterraggio
+    //"Then Title_label is displayed",
+    //stringa differente
+ //   "Then Title_label data matches Yaplogin.Valid.3511669952",
+ //   "Then Subtitle_label is displayed",
+//    "Then Subtitle_label data matches Yaplogin.Valid.3511669952",
+  //  "Then Mastercard_image is displayed",
+  //  "Then Contactless_image is displayed",
+  //  "Then Scopri_Yap_button is displayed",
+ //   "Then Scopri_Yap_button data matches Yaplogin.Valid.3511669952",
+    "Then Accedi_link is displayed",
+ //   "Then Accedi_link data matches Yaplogin.Valid.3511669952",
+    "When I click on element Accedi_link",
+    "Then Inserisci_Numero_label is displayed",
+  //  "Then Inserisci_Numero_label data matches Yaplogin.Valid.3511669952",
+    "Given I wait 3 seconds",
+    "When I click on element Phone_input",
+    "Given I wait 3 seconds",
+    "When I input data into Phone_input",
+    "When I click on element Phone_input",
+    "When I click on element Continua_button",
+    "Given I wait 4 seconds",
+    "Then Inserisci_Password_label is displayed",
+    "Then Inserisci_Password_label data matches Yaplogin.Valid.3511669952",
+    "When I input data into PIN_input",
+    "When I click on element Continua_button",
+    "Given I wait 8 seconds",
+    "Given I click on AnnullaButton if present",
+    "Then Inserisci_Codice_label is displayed",
+    "Then Inserisci_Codice_label data matches Yaplogin.Valid.3511669952",
+    "Given I recovery OTP for yap user: \"${Phone_number}\"",
+    //"When I input data into OTP_input",
+    "Given I wait 4 seconds",
+    "Given Home Page_Yap is open",
+    "Given I click on PermissionAllow_Button if present",
+    "Then Yap_Card is displayed"
+  ]
+}

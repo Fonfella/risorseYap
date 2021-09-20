@@ -1,0 +1,54 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData":"CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1/span"
+      }
+    },
+    {
+      "entityId": "CounterGeneric",
+      "testData":"CounterGeneric",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li/./p"
+      }
+    },
+
+    {
+      "entityId": "PeriodsGeneric",
+      "testData":"PeriodsGeneric",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//li/./div/./div/.//span"
+      }
+    },
+    {
+      "entityId": "TransactionAmountGeneric",
+      "testData":"TransactionAmountGeneric",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p[contains(@class,'results-cards--title')]"
+      }
+    },
+    {
+      "entityId": "IncorrectAmountSelectedMessage",
+      "testData":"IncorrectAmountSelectedMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    }
+  ]
+}

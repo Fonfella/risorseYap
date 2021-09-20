@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId": "DocIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@name='PDFDoc']"
+      }
+    },
+    {
+      "entityId": "DocTitle",
+      "testData": "DocTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "DocPublishDate",
+      "testData": "DocPublishDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[2]"
+      }
+    },
+    {
+      "entityId": "DocPrice",
+      "testData": "DocPrice",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeLink[@name='Ultimi documenti VEDI TUTTI']/XCUIElementTypeLink//XCUIElementTypeLink[3]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "DownloadButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='Download'])[1]"
+      }
+    }
+  ]
+}

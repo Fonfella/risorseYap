@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "entityId": "TitleMultipleShops",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/h2/span"
+      }
+    },
+    {
+      "entityId": "MultipleShopsInfoModule",
+      "type": "MODULE",
+      "optional":true,
+      "reference": "modules/profile_modules/MultipleShopsInfo.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[ul[contains(@class,'grommetux-list accordion_list')]]"
+      }
+    },
+    {
+      "entityId": "SingleShopInfoModule",
+      "type": "MODULE",
+      "optional":true,
+      "reference": "modules/profile_modules/SingleShopInfo.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'single-shop')]"
+      }
+    },
+    {
+      "entityId": "SingleShopTerminalsModule",
+      "optional":true,
+      "reference": "modules/profile_modules/SingleShopTerminals.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[h2//span[text()='Terminali']]/.."
+      }
+    }
+  ]
+}
+
+
+
+

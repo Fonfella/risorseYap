@@ -1,0 +1,11 @@
+{
+  "name": "ValidateTuttiOption",
+  "description": "Check if tutti option is displayed and close the shop selector",
+  "aliases": "Then I validate Tutti option",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SalesPointsModule.SalesPointIcon",
+    "ThenSalesPointsPickerModule.SelectAllOption is displayed",
+    "When I click on element SelectShopsWindow.CancelButton"
+  ]
+}

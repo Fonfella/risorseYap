@@ -1,0 +1,9 @@
+{
+  "name": "ThenPuntoVenditaComboboxIsDisplayedOnAnagrafica1Page",
+  "description": "Then Punto Vendita combobox is displayed on Anagrafica1 page",
+  "aliases": "Then Punto Vendita combobox is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then SelectShopForm.DropdownInput[byChild='InputLabel',filterType='text',filterValue='Punto vendita'] is displayed"
+  ]
+}

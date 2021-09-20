@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId": "FirstCardsTotalsSection",
+      "reference": "modules/results_page/circuits/CardsTotalsSectionModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/div[1]"
+      }
+    },
+    {
+      "entityId": "SecondCardsTotalsSection",
+      "reference": "modules/results_page/circuits/CardsTotalsSectionModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/div[2]"
+      }
+    }
+  ]
+}
+

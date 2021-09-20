@@ -1,0 +1,13 @@
+{
+  "name": "GivenILoginToNexi",
+  "description": "Authentication Flow",
+  "aliases": "Given I login to Nexi",
+  "type": "TestCase",
+  "children": [
+    "When I open Login Page",
+    "When I try to login",
+    "Then Home Page is open",
+    "When I click on TutorialPopup.CloseButton if present"
+//    "When I click on NewsPopUpModule.CloseButton if present"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LockedUser",
+  "description": " Lock user for multiple attempts",
+  "aliases": "Then account is locked",
+  "type": "TestCase",
+  "children": [
+    "Given I wait 1 seconds",
+    "Then LoginLockedUserErrorPopup is displayed",
+    "Then LoginLockedUserErrorPopup data matches PopupData.LoginLockedUserErrorPopup"
+  ]
+}

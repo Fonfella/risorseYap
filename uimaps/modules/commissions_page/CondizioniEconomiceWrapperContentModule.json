@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId":"HeaderTableColumns",
+//      "testData":"HeaderTableColumns",
+      "type":"MODULE",
+      "reference": "modules/commissions_page/condizioni_economiche/HeaderTableColumns.json",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[contains(@class,'sticky-table-header') and not (contains(@class,'columns-2'))]"
+      }
+    },
+    {
+      "entityId":"CardBrandListModule",
+      "type":"MODULE",
+      "reference": "modules/commissions_page/condizioni_economiche/CardBrandListModule.json",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[contains(@class,'wrapper-content')]/div[contains(@class,'margin-top-medium')]"
+      }
+    }
+  ]
+}

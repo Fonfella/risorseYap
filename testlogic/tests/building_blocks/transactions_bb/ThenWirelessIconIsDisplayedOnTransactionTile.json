@@ -1,0 +1,9 @@
+{
+  "name": "ThenWirelessIconIsDisplayedOnTransactionTile",
+  "description": "Is displayed for wireless icon",
+  "type": "TestCase",
+  "aliases": "Then wireless icon is displayed on transaction tile",
+  "children": [
+    "Then TransactionDetailsModule.TransactionsListModule.TransactionElementsModule.TransactionWirelessIcon is displayed"
+  ]
+}

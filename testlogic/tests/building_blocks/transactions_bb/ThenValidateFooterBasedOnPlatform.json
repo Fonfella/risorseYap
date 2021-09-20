@@ -1,0 +1,9 @@
+{
+  "name": "ThenValidateFooterBasedOnPlatform",
+  "description": "Is displayed for WEB",
+  "type": "TestCase",
+  "aliases": "Then validate footer based on platform",
+  "children": [
+    "Then NexiFooter is displayed"
+  ]
+}

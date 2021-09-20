@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId":"DataLabels",
+      "testData":"DataLabels",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div/div/span[last()]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ThenVerifyShopsOnPagesPOSPicker",
+  "description": "Verify shops on page",
+  "type": "TestCase",
+  "aliases": "Then I verify shop on POS piker on page",
+  "children": [
+    "When I navigate to ${page} via sandwich menu",
+    "When I open POS picker",
+    "Then POS picker shop data matches",
+    "When I cancel POS picker selection"
+  ]
+}

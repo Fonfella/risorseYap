@@ -1,0 +1,41 @@
+{
+  "children": [
+    {
+      "entityId": "SalesPointsHeader",
+      "type": "ELEMENT",
+      "testData": "HeadingLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'m-medium')]/span"
+      }
+    },
+    {
+      "entityId": "SelectAllOption",
+      "type": "ELEMENT",
+      "testData": "SelectAllOption",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label[contains(@for, 'items_check_all')]/span[contains(@class, 'label')]"
+      }
+    },
+    {
+      "entityId": "SalesPointsScrollList",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sales_points_config/SalesPointsScrollListModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul"
+      }
+    },
+    {
+      "entityId": "SalesPointsFooter",
+      "type": "ELEMENT",
+      "testData": "ButtonLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/div/div"
+      }
+    }
+  ]
+}

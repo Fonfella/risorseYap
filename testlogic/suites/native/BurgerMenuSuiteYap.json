@@ -1,0 +1,13 @@
+{
+  "name": "BURGER MENU",
+  "description": "Burger Menu suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/provaYap/BurgerMenuYap/BurgerMenu_1.json",
+    "testlogic/tests/native/provaYap/BurgerMenuYap/BurgerMenu_2.json",
+    "testlogic/tests/native/provaYap/BurgerMenuYap/BurgerMenu_3.json",
+    "testlogic/tests/native/provaYap/BurgerMenuYap/BurgerMenu_4.json",
+    "testlogic/tests/native/provaYap/BurgerMenuYap/BurgerMenu_5.json"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0019",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test open-close burger menu from home page",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "When I click on element Burger_Menu_Open",
+    "Given I wait 2 seconds",
+    "Then BM_profile_label is displayed",
+    "Then BM_profile_label data matches Provayap.Valid.User4",
+    "Then BM_My_YAP_label is displayed",
+    "Then BM_My_YAP_label data matches Provayap.Valid.User4",
+
+    //NON ESISTE PIU
+//    "Then BM_Boost_label is displayed",
+//    "Then BM_Boost_label data matches Provayap.Valid.User4",
+    //NON ESISTE PIU
+//    "Then BM_Skin_label is displayed",
+//    "Then BM_Skin_label data matches Provayap.Valid.User4",
+    //NON ESISTE PIU
+//    "Then BM_Segnalaci_problema_label is displayed",
+//    "Then BM_Segnalaci_problema_label data matches Provayap.Valid.User4",
+
+    "Then BM_Assistenza_label is displayed",
+    "Then BM_Assistenza_label data matches Provayap.Valid.User4",
+    "When I click on element BM_profile_label",
+    "Given I wait 2 seconds",
+    "Given Profilo Page_Yap is open",
+    "As a Yapprofilo.Valid.3511669952",
+    "Then Profile_Name_label is displayed",
+    "Then Profile_Name_label data matches Yapprofilo.Valid.3511669952",
+    "Then Phone_Number_label is displayed",
+    "When I click on element CTA_Back",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open"
+  ]
+}

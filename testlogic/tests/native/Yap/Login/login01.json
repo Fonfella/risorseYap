@@ -1,0 +1,33 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0003",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "execution login",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "Given I click on Permission_Button2 if present",
+    "When I click on element Input_2",
+    "When I click on element Input_2",
+    "When I click on element Input_3",
+    "When I click on element Input_3",
+    "When I click on element Input_4",
+    "When I click on element Input_4",
+    "Given I wait 5 seconds",
+    "Given I click on Annulla_Impronta_Digitale if present",
+
+    "Given Home Page_Yap is open",
+    "Then Burger_Menu_Open is displayed",
+    "Then Yap_Card is displayed",
+    "Then Bottone_Principale is displayed",
+    "Then Soldi_Disponibili_label is displayed",
+    "Then Soldi_Disponibili_label data matches Provayap.Valid.User4",
+    "Then Timeline_panel_closer is displayed"
+  ]
+}

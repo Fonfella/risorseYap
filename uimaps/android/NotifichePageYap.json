@@ -1,0 +1,32 @@
+{
+  "children": [
+    {
+      "entityId": "No_notification_image",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/no_cc_img']"
+      }
+    }
+    ,
+    {
+      "entityId": "Notifiche_Yap_Label",
+      "testData":"Notifiche_Yap_Label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/toolbar_text_title']"
+      }
+    }
+    ,
+    {
+      "entityId": "No_notification_label",
+      "testData":"No_notification_label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/no_cc_txt']"
+      }
+    }
+  ]
+}

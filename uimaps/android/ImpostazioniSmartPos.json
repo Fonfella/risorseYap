@@ -1,0 +1,188 @@
+{
+  "children": [
+    {
+      "entityId": "GestioneBusinessRow",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Gestione business']"
+      }
+    },
+    {
+      "entityId": "ImpiegatoProfile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//android.view.View[@content-desc='michele1'])[2]"
+      }
+    },
+    {
+      "entityId": "NewProfile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//android.view.View[@content-desc='User Test'])"
+      }
+    },
+    {
+      "entityId": "ChooseProfile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Poynt Settings']/android.widget.EditText[3]"
+      }
+    },
+    {
+      "entityId": "ChooseImpiegato",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@class='android.widget.Spinner']"
+      }
+    },
+
+    {
+      "entityId": "P5_ChooseImpiegato",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Impiegato']"
+      }
+    },
+    {
+      "entityId": "ChooseGestore",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Poynt Settings']/android.widget.CheckBox[3]"
+      }
+    },
+
+    {
+      "entityId": "P5_ChooseGestore",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='Gestore']"
+      }
+    },
+
+    {
+      "entityId": "UserNameForm",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.EditText[@content-desc='User']"
+      }
+    },
+    {
+      "entityId": "EditPIN",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.EditText[@content-desc='123456']"
+      }
+    },
+    {
+      "entityId": "DeleteUser",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@content-desc='Elimina questo dipendente']"
+      }
+    },
+    {
+      "entityId": "ImpostazioniSalvate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='IMPOSTAZIONI SALVATE']"
+      }
+    },
+    {
+      "entityId": "GoBack",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='android:id/up']"
+      }
+    },
+    {
+      "entityId": "CheckGestore",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Spinner[@content-desc='Gestore']"
+      }
+    },
+    {
+      "entityId": "AggiungiProfile",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@content-desc='PROFILO SMARTPOS + AGGIUNGI']"
+      }
+    },
+    {
+      "entityId": "NomeUtente",
+      "type": "ELEMENT",
+      "testData": "NomeUtente",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Poynt Settings']/android.widget.EditText[1]"
+      }
+    },
+    {
+      "entityId": "Nome",
+      "type": "ELEMENT",
+      "testData": "Nome",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Poynt Settings']/android.widget.EditText[2]"
+      }
+    },
+    {
+      "entityId": "Cognome",
+      "type": "ELEMENT",
+      "testData": "Cognome",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Poynt Settings']/android.widget.EditText[3]"
+      }
+    },
+    {
+      "entityId": "PIN",
+      "type": "ELEMENT",
+      "testData": "PIN",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.webkit.WebView[@content-desc='Poynt Settings']/android.widget.EditText[4]"
+      }
+    },
+    {
+      "entityId": "RegoleUtente",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@content-desc='Regole utente']"
+      }
+    },
+    {
+      "entityId": "SalvaButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[@content-desc='SALVA']"
+      }
+    },
+    {
+      "entityId": "HeaderImpostazioni",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='android:id/action_bar_title' and @text='IMPOSTAZIONI SMARTPOS']"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "children": [
+    {
+      "entityId": "LoadingSpinner",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class=' react-spinner']"
+      }
+    },
+    {
+      "entityId": "RefundContainerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/RefundContainerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'refund-wrapper')]"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsModule",
+      "reference": "modules/transactions_page/TransactionDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'modal-content-wrapper') or contains(@class, 'layer__container') and div[div]]"
+      }
+    },
+    {
+      "entityId": "DownloadContainerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/DownloadContainerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'downloads-modal')]"
+      }
+    },
+    {
+      "entityId": "SalesPointsPickerModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sales_points_config/SalesPointsPickerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class='newId']"
+      }
+    },
+    {
+      "entityId": "ChartBarDetailsContainerModule",
+      "reference": "modules/orphan_modules/ChartBarDetailsContainerModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'chart-layer-container')]"
+      }
+    },
+    {
+      "entityId": "ChartBarDetailsResultsPopup",
+      "reference": "modules/pop_up_modules/ChartBarDetailsResultsPopup.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'ne grommetux-m')]"
+      }
+    },
+    {
+      "entityId": "SandwichButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//button[contains(@class,'header-menu-button')]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class = 'newId']/./div[contains(@class, 'icbpi_sidebar')]"
+      }
+    },
+    {
+      "entityId": "CookiesPopup",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[@id='closeCookiePolicy']"
+      }
+    },
+    {
+      "entityId": "ShopsDetailsModule",
+      "reference": "modules/profile_modules/ShopsDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'accordion-main-wrapper')]"
+      }
+    },
+    {
+      "entityId": "ErrorMessage",
+      "testData": "ErrorMessage",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class, 'error')]//span"
+      }
+    },
+
+    {
+      "entityId": "LoginPageInvalidDataPopup",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/orphan_modules/LoginPageInvalidDataElementsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@id='errorBlock']"
+      }},
+
+    {
+      "entityId": "CancelRegistrationModule",
+      "reference": "modules/pop_up_modules/CancelRegistrationModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal--')]"
+      }
+    },
+    {
+      "entityId":"PromoCodeModule",
+      "reference":"modules/registration/step1/PromoModule.json",
+      "type":"MODULE",
+      "optional": true,
+      "locator":{
+        "type":"XPATH",
+        "value":"//div[contains(@class,'vertical')][div/form]"
+      }
+    },
+    {
+      "entityId": "ContactCustomerServicePopUp",
+      "reference": "modules/pop_up_modules/PIVANotRecognisedModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal--')]/div"
+      }
+    },
+    {
+      "entityId": "WhatIsPhoneNumberForModule",
+      "reference": "modules/pop_up_modules/WhatIsPhoneNumberForModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal--')]"
+      }
+    },
+    {
+      "entityId": "PhoneConfirmationModule",
+      "reference": "modules/pop_up_modules/PhoneConfirmationModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal-dialog')]"
+      }
+    },
+    {
+      "entityId": "NonConfirmationCodeReceivedModule",
+      "reference": "modules/pop_up_modules/NonConfirmationCodeReceivedModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal-new-dialog') or contains(@class,'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "CloseNonCodeReceivedButton",
+      "reference": "modules/pop_up_modules/NonConfirmationCodeReceivedModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[contains(@class,'control-icon-close')]"
+      }
+    },
+    {
+      "entityId": "AcosaServeModule",
+      "reference": "modules/pop_up_modules/WhatIsEmailForModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal--')]"
+      }
+    },
+    {
+      "entityId": "NeedHelpOptionsContainer",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/NeedHelpOptionsContainer.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'helpMenu')]"
+      }
+    },
+    {
+      "entityId": "LoginInvalidCredentialsErrorPopup",
+      "type": "MODULE",
+      "reference": "modules/pop_up_modules/LoginInvalidCredentialsErrorPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@id, 'errorBlock')]"
+      }
+    },
+    {
+      "entityId": "LoginLockedUserErrorPopup",
+      "type": "MODULE",
+      "reference": "modules/pop_up_modules/LoginLockedUserErrorPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@id, 'errorBlock')]"
+      }
+    },
+    {
+      "entityId": "UnregisteredUserErrorPopup",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/pop_up_modules/UnregisteredUserErrorPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'error-modal-forgot')]"
+      }
+    },
+    {
+      "entityId": "DatePicker",
+      "reference": "modules/daypicker_modules/DatePickerModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'newId') or contains(@class, 'filter-calendar')]"
+      }
+    },
+    {
+      "entityId": "ResendCodePopup",
+      "type": "MODULE",
+      "reference": "modules/forgot_password_page/ResendCodePopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "ChangePhoneResendOTPCodePopup",
+      "type": "MODULE",
+      "reference": "modules/pop_up_modules/ChangePhoneResendOTPCodePopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "RecoveryPassScreen",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'forgot-container')]"
+      }
+    },
+    {
+      "entityId": "SelectShopsWindow",
+      "reference": "modules/results_page/SelectShopWindow.json",
+      "optional":true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'newId')]"
+      }
+    },
+    {
+      "entityId": "ModalDownloadPopup",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/ModalDownloadPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'closeable icbpi_downloads-modal')]/div|//div[contains(@class,'e grommetux-box--w')]"
+      }
+    },
+    {
+      "entityId": "Annulla_Transazione",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@id='btnAnnulla']"
+      }
+    },
+    {
+      "entityId": "Avanti_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/button_continue']"
+      }
+    },
+    {
+      "entityId": "Annullabutton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='ANNULLA']"
+      }
+    }
+  ,
+    {
+      "entityId": "ContinuaButtonGeneral",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@text='CONTINUA']"
+      }
+    }
+  ,
+    {
+      "entityId": "TimeLine",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[@resource-id='it.nexi.yap.stg:id/view_close']"
+      }
+    }
+  ,
+    {
+      "entityId": "XPayCancelModalPopup",
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/XPayCancelModalPopup.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal-content-wrapper')]"
+      }
+    }
+  ]
+}
+

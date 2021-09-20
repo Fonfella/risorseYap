@@ -1,0 +1,52 @@
+{
+  "children": [
+    {
+      "entityId": "SalesPointsHeader",
+      "testData": "SalesPointsHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[2]"
+      }
+    },
+    {
+      "entityId": "SelectAllOption",
+      "testData": "SelectAllOption",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[count(XCUIElementTypeOther)=2 and .//XCUIElementTypeStaticText[contains(@name,'Tutti')]]"
+      }
+    },
+    {
+      "entityId": "ShopsOptionsIterator",
+      "testData": "InputLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[count(XCUIElementTypeOther)=2 and .//XCUIElementTypeStaticText[not(contains(@name,'Tutti'))]]/XCUIElementTypeOther/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "testData": "CloseButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='CHIUDI']"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "testData": "ApplyButton",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='APPLICA']"
+      }
+    }
+  ]
+}

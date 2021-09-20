@@ -1,0 +1,10 @@
+{
+  "name": "ThenICheckThatTerminalAliasWasntChanged",
+  "description": "TerminalsDetailsComponentValidation",
+  "aliases": "Then no changes to terminal alias where applied",
+  "type": "TestCase",
+  "children": [
+    "When I click on element ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem${shop}",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails.TerminalAlias[filterType='text',filterValue='Terminal new alias not saved'] is not displayed"
+  ]
+}

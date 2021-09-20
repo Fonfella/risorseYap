@@ -1,0 +1,37 @@
+{
+  "id": "01010",
+  "name": "Login2Suite",
+  "description": "Login 2 Suite",
+  "type": "TestSuite",
+  "children": [
+
+    { "path": "testlogic/suites/native/Yap/feature/Login2Feature.json", "type": ["ANDROID"] },
+//   { "path": "testlogic/suites/native/Yap/feature/VerificaVersioneFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/LoginFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/BurgerMenuFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/ChangeEmailFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/DetailCardFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/HelpCenterFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/HomePageFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/InviaSoldiFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/RichiediSoldiFeature.json", "type": ["ANDROID"] },
+    { "path": "testlogic/suites/native/Yap/feature/DividiContoFeature.json", "type": ["ANDROID"] }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

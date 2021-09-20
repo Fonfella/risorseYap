@@ -1,0 +1,26 @@
+{
+  "name": "Prova Test",
+  "description": "Login test suite prova",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+   // "testlogic/tests/native/provaYap/LoginYap/LoginProvaOtp.json"
+    //"testlogic/tests/native/provaYap/ProvaYap/ProvaYap_1.json"
+    "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_2.json"
+  //  "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_3.json",
+  //  "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_4.json",
+  //  "testlogic/tests/native/provaYap/ProvaYap/ProvaYap_5.json"
+  // "testlogic/tests/native/provaYap/ProvaYap/ProvaYapSwipeOrizzontale.json"
+
+
+
+    //"testlogic/tests/native/prova/StartStcreenProva.json"
+    // "testlogic/tests/native/prova/StartScreen.json"
+    //"testlogic/tests/native/prova/CorrectLogin.json"
+    //"testlogic/tests/native/prova/CorrectLogin_2.json",
+    //"testlogic/tests/native/prova/AperturaChiusuraBurgerMenu.json",
+    //"testlogic/tests/native/prova/RegistrazioneProva.json"
+    //"testlogic/tests/native/prova/RegistrazioneProva_2.json"
+    //"testlogic/tests/native/prova/ProvaScroll.json"
+  ]
+}

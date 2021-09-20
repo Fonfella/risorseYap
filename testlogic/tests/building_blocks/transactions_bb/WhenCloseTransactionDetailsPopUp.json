@@ -1,0 +1,9 @@
+{
+  "name": "WhenCloseTransactionDetailsPopUp",
+  "description": "Close Transactions Details PopoUp",
+  "aliases": "When I close Transaction Details PopUp",
+  "type": "TestCase",
+  "children": [
+    "When I click on element TransactionDetailsModule.CloseButton"
+  ]
+}

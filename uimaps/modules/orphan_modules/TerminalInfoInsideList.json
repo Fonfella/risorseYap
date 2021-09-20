@@ -1,0 +1,34 @@
+{
+  "children": [
+    {
+      "entityId": "TerminalsTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h1"
+      }
+    },
+    {
+      "entityId": "UserInformationLink",
+      "type": "ELEMENT",
+      "optional":true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a"
+      }
+    },
+    {
+      "entityId": "GenericInputsContainer",
+      "type": "MODULE",
+      "reference": "modules/secmodules/TerminalGenericDataContainer.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'grommetux-box--pad-between-thirds')]"
+      }
+    }
+
+  ]
+}
+
+
+

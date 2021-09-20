@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectPagoCircuit",
+  "description": "Select page circuit by index",
+  "type": "TestCase",
+  "aliases": "When I select pago circuit",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='6']"
+  ]
+}

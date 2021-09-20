@@ -1,0 +1,12 @@
+{
+  "name": "Prova",
+  "description": "Login test suite prova",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/provaHuawei/StartStcreenProva.json",
+    "testlogic/tests/native/provaHuawei/InputAuthDataProva.json",
+    "testlogic/tests/native/provaHuawei/ProvaButton.json",
+    "testlogic/tests/native/provaHuawei/RegistrazioneProva.json"
+  ]
+}

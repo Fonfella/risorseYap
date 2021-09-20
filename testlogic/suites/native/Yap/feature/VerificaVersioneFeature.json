@@ -1,0 +1,9 @@
+{
+  "name": "VerificaVersioneFeature",
+  "description": "Verifica Versione Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/VerificaVersione/ververs01.json"
+  ]
+}

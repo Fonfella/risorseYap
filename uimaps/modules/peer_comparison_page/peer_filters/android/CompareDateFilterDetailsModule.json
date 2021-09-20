@@ -1,0 +1,38 @@
+{
+  "children": [
+    {
+      "entityId": "Header",
+      "type": "ELEMENT",
+      "testData": "AreaTitle",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//header/div/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[name()='svg'][contains(@class,'previous-icon')]"
+      }
+    },
+    {
+      "entityId": "DatePickersSectionModule",
+      "type": "MODULE",
+      "reference": "modules/peer_comparison_page/peer_filters/information_section/DatePickersSectionModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//section/div"
+      }
+    },
+    {
+      "entityId": "ApplyButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//footer/a"
+      }
+    }
+  ]
+}

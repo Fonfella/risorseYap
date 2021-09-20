@@ -1,0 +1,38 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0021",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test open-close timeline from home page",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given I wait 5 seconds",
+    "Given Home Page_Yap is open",
+    "Then TimeLine is displayed",
+    "When I click on element TimeLine",
+    "Given TimeLine Page_Yap is open",
+//    "As a Yaptimeline.Valid.3511669952",
+//    "When Extra_Bonus_Invita_Amici_label is displayed",
+//    "Then I click on element Extra_Bonus_Invita_Amici_label",
+    "Then Close_Timeline is displayed",
+
+    //NON ESISTE PIU capire cosa rivedere
+//    "Then Extra_Bonus_Invita_Amici_detail_label is displayed",
+//    "Then Extra_Bonus_Invita_Amici_detail_label data matches Yaptimeline.Valid.3511669952",
+//    "Then Extra_Bonus_Info_detail_label is displayed",
+//    "Then Extra_Bonus_Info_detail_label data matches Yaptimeline.Valid.3511669952",
+//    "Then Extra_Bonus_Amount_label is displayed",
+//    "Then Extra_Bonus_Amount_label data matches Yaptimeline.Valid.3511669952",
+
+    "When I click on element Close_Timeline",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open"
+  ]
+}

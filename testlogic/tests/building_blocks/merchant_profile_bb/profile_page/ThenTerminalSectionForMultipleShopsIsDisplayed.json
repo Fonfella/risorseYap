@@ -1,0 +1,10 @@
+{
+  "name": "ThenTerminalSectionForMultipleShopsIsDisplayed",
+  "description": "Then Terminal Section For Multiple Shops Is Displayed",
+  "aliases": "Then terminal section for multiple shops is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals is displayed",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals data matches ProfileData.MultipleShopCluster1User.Shop0TerminalInfo"
+  ]
+}

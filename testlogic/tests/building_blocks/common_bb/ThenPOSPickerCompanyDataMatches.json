@@ -1,0 +1,10 @@
+{
+  "name": "ThenPOSPickerCompanyDataMatches",
+  "description": "Validate that input data displayed in the sales points picker module",
+  "aliases": "Then POS picker company data matches",
+  "type": "TestCase",
+  "children": [
+    "Then SalesPointsPickerModule.SalesPointsScrollList.CompanyOptionsIterator.InputLabel data matches DB [${script}][<UsernameTextBox>=${username}]"
+ ]
+}
+

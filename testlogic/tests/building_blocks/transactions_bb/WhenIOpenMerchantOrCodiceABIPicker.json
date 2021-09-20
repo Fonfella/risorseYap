@@ -1,0 +1,9 @@
+{
+  "name": "WhenIOpenPOSPicker",
+  "description": "Click on any sales points configuration label, based on filters, specific for cluster 2,3",
+  "aliases": "When I open ABI Code picker",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SalesPointsModule[byChild='SalePointsLabel',filterType='text',filterValue='${selectorName}'].SalePointsLink"
+  ]
+}

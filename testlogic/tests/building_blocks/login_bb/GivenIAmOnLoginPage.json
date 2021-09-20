@@ -1,0 +1,9 @@
+{
+  "name": "GivenIAmOnLoginPage",
+  "description": "Open Login Page",
+  "aliases": "Given I am on Login Page",
+  "type": "TestCase",
+  "children": [
+    "When I open Login Page"
+  ]
+}

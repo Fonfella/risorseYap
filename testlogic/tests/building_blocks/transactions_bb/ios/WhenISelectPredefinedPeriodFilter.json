@@ -1,0 +1,10 @@
+{
+  "name": "WhenISelectPredefinedPeriodFilter",
+  "description": "Select predefined date periods filter by input",
+  "type": "TestCase",
+  "aliases": "When I select predefined period filter",
+  "children": [
+    "When I select filter with [filterName=Data]",
+    "When I click on element FilterDetailsModule.FiltersTimePeriodListModule[byChild='TimePeriod',filterType='contains',filterValue='${period}']"
+  ]
+}

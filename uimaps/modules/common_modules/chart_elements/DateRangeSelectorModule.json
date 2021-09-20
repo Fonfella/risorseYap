@@ -1,0 +1,28 @@
+{
+  "children":[
+    {
+      "entityId": "DateTextIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/div/*[@role='img']"
+      }
+    },
+    {
+      "entityId": "DateText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[1]//span[not(@class)]"
+      }
+    },
+    {
+      "entityId": "CalendarIcon",
+      "type": "ELEMENT",
+      "locator":{
+        "type": "XPATH",
+        "value": ".//span[*[contains(@role, 'img')]]"
+      }
+    }
+  ]
+}

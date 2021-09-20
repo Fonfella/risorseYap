@@ -1,0 +1,78 @@
+{
+  "children": [
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='Nexi Business Logo'])[2]"
+      }
+    },
+    {
+      "entityId": "TopCloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='CHIUDI'])[1]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Chiama il Servizio Clienti']"
+      }
+    },
+    {
+      "entityId": "ShopLabel",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeOther/XCUIElementTypeStaticText)[2]"
+      }
+    },
+    {
+      "entityId": "ShopName",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeOther/XCUIElementTypeStaticText)[3]"
+      }
+    },
+    {
+      "entityId": "AssistancePhoneNumber",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeLink)[1]"
+      }
+    },
+    {
+      "entityId": "CallAssistanceButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeLink)[2]"
+      }
+    },
+    {
+      "entityId": "PIVA_CF",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Support']/XCUIElementTypeOther/XCUIElementTypeStaticText)[4]"
+      }
+    },
+    {
+      "entityId": "FooterCloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[@name='CHIUDI'])[2]"
+      }
+    }
+  ]
+}

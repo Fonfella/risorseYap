@@ -1,0 +1,64 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[2]"
+      }
+    },
+    {
+      "entityId": "PopupTitle",
+      "testData":"PopupTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'slider-item_header')]/span"
+      }
+    },
+    {
+      "entityId": "PopupSubject",
+      "testData":"PopupSubject",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'slider-item_title')]/span"
+      }
+    },
+
+    {
+      "entityId": "PopupItemDescription",
+      "testData":"PopupItemDescription",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'slider-item_description')]/span"
+      }
+    },
+    {
+      "entityId": "PopupNavigationPoints",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    },
+    {
+      "entityId": "NextArrow",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@class, 'slider-arrow--next')]"
+      }
+    },
+    {
+      "entityId": "PreviousArrow",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//a[contains(@class, 'slider-arrow--prev')]"
+      }
+    }
+  ]
+}

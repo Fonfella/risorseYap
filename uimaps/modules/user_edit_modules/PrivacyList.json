@@ -1,0 +1,27 @@
+{
+  "children": [
+    {
+      "entityId": "PrivacyElement",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'custom-checkbox')]"
+      }
+    },
+
+
+    {
+      "entityId": "PrivacyLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span/span"
+      }
+    }
+
+
+  ]
+}
+
+//div[contains(@class, 'custom-checkbox')]//input[contains(@id, 'personalDataTrue')] - do il consest 1
+//

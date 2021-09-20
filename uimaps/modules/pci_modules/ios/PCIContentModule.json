@@ -1,0 +1,29 @@
+{
+  "children": [
+    {
+      "entityId": "QuestionnaireCard",
+        "type": "ELEMENT",
+        "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Protection Plus non disponibile']"
+      }
+    },
+    {
+      "entityId": "QuestionnairePopupFirstTimeAccess",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Protection Plus']/XCUIElementTypeOther[89]"
+      }
+    },
+    {
+      "entityId": "ScopriDiPiuLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeStaticText[@name='SCOPRI DI PIÙ'])[1]"
+      }
+    }
+  ]
+}

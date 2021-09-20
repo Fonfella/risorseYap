@@ -1,0 +1,38 @@
+{
+  "url": "https://svil-ecommerce.keyclient.it/ecomm/api/bo/reportOrdini",
+  "method": "POST",
+  "body": "{\"apiKey\": \"<apiKey>\",\"codiceTransazione\": <codiceTransazione>,\"periodo\":\"<periodo>\",\"canale\": \"<canale>\",\"stato\": null,\"timeStamp\":\"<timeStamp>\",\"mac\":\"<mac>\"}",
+  "macFormula": {
+    "mac": "apiKey=<apiKey>codiceTransazione=<codiceTransazioneMac>periodo=<periodo>canale=<canale><timeStamp><secretKey>"
+  },
+  "headers": {
+    "content-type": [
+      "application/json"
+    ]
+  },
+  "expectedStatusCode": "OK",
+  "expectedHeaders": {
+    "Content-Type": [
+      "application/json"
+    ],
+    "Connection": [
+      "Keep-Alive"
+    ],
+    "Access-Control-Allow-Methods": [
+      "GET, POST, PUT, DELETE, OPTIONS, HEAD"
+    ]
+  },
+  "expectedBody": [
+    {
+      "path": {
+        "$.esito": "OK"
+      }
+    },
+    {
+      "path": {
+        "$.report[?(@.codiceTransazione == '1010117_250')]": "[{\"codiceTransazione\":\"1010117_250\",\"numeroMerchant\":\"3444150\",\"importo\":\"15.00000\",\"divisa\":\"EUR\",\"codiceAutorizzazione\":\"TESTOK\",\"brand\":\"VISA\",\"tipoPagamento\":\"3DSECURE\",\"tipoTransazione\":\"NO_3DSECURE\",\"nazione\":\"\",\"tipoProdotto\":\"\",\"pan\":\"411111*****1111\",\"parametri\":\"\",\"stato\":\"Contabilizzato\",\"dataTransazione\":\"2017-10-10 17:33:40.0\",\"mail\":null}]"
+      }
+    }
+  ],
+  "validationSchema": "SampleNexiRequestSchema.json"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Input AlphaNumeric First and Last Name into from",
+  "description": "Registration Flow",
+  "aliases":"When I populate form with invalid First and Last Name",
+  "type": "TestCase",
+  "children": [
+    "When I input data[MerchantProfilePersonalData.Valid] into RegistrationForm",
+    "Then I input data[MerchantProfilePersonalData.Invalid.Name] into RegistrationForm",
+    "Then I input data[MerchantProfilePersonalData.Invalid.LastName] into RegistrationForm"
+  ]
+}

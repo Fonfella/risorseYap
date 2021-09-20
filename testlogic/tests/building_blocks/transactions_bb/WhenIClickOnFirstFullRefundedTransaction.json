@@ -1,0 +1,9 @@
+{
+  "name": "WhenIClickOnFirstFullRefundedTransaction",
+  "description": "Click on first full refunded transaction",
+  "type": "TestCase",
+  "aliases": "When I click on first full refunded transaction",
+  "children": [
+    "When I click on element TransactionsContentWrappedModule.TransactionsListModule.TransactionElementsModule[byChild='TransactionStatus',filterType='text',filterValue='STORNATO'][byChild='TransactionAmount',filterType='lessThan',filterValue='1'][filterType='index',filterValue='0'].CardNumber"
+  ]
+}

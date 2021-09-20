@@ -1,0 +1,9 @@
+{
+  "name": "VERIFICA VERSIONE",
+  "description": "Verifica Versione suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/LoginYap/VerificaVersione.json"
+  ]
+}

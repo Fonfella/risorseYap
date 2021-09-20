@@ -1,0 +1,9 @@
+{
+  "name": "ThenPCICardIsNotDisplayedOnHomePage",
+  "description": "PCI Card is not displayed on HomePage",
+  "type": "TestCase",
+  "aliases": "Then PCI Card is not displayed on HomePage",
+  "children": [
+    "Then HomePageContentModule.CommonCardSet.PciSummaryCard is not displayed"
+  ]
+}

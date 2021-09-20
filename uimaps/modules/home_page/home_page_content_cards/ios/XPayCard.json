@@ -1,0 +1,39 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[contains(@name,'Ti consente')])[2]"
+      }
+    },
+    {
+      "entityId": "CardText",
+      "testData": "CardText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[contains(@name,'Inizia')])[2]"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[contains(@name,'XPay')])[1]"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "testData": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[contains(@name,'XPay')])[1]"
+      }
+    }
+  ]
+}

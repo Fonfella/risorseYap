@@ -1,0 +1,11 @@
+{
+  "name": "Agree Improve Service and Promo Activities radio buttons ",
+  "description": "Registration Flow",
+  "aliases": "When I Agree Improve Service and Promo Activities and Submit form",
+  "type": "TestCase",
+  "children": [
+    "When I click on element AgreeImproveService",
+    "When I click on element AgreePromoActivities",
+    "When I click on element SubmitButton"
+  ]
+}

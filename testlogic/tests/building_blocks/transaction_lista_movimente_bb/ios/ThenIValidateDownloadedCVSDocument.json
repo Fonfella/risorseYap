@@ -1,0 +1,13 @@
+{
+  "name": "ThenIValidateDownloadedCVSDocument",
+  "description": "Validate download document name",
+  "aliases": "Then I validate downloaded CVS document containing all transactions",
+  "type": "TestCase",
+  "children": [
+    "When I click on element TransactionsContentWrappedModule.DownloadButton",
+//    "When I click on element ModalDownloadPopup.DownloadCsvButton",
+//    "Then ${fileName} was downloaded to default directory",
+
+    "When I click on element ModalDownloadPopup.CloseButton"
+  ]
+}

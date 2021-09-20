@@ -1,0 +1,9 @@
+{
+  "name": "ThenChartBarSummaryPopupDataMatches",
+  "description": "Validate chart historgram bars and modal popup is displayed",
+  "aliases": "Then chart bar summary popup data matches",
+  "type": "TestCase",
+  "children": [
+    "Then ChartBarDetailsContainerModule data matches ${popUpData}"
+    ]
+}

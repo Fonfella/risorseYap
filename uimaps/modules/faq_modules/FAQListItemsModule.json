@@ -1,0 +1,13 @@
+{
+  "children": [
+    {
+      "entityId": "ItemModule",
+      "type": "MODULE",
+      "reference": "modules/faq_modules/FAQItemModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div"
+      }
+    }
+  ]
+}

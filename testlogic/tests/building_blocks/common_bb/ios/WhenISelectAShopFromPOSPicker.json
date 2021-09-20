@@ -1,0 +1,10 @@
+{
+  "name": "WhenISelectAShopFromPOSPicker",
+  "description": "Select second shop from punti vendita list IOS",
+  "type": "TestCase",
+  "aliases": "When I select a shop from POS picker",
+  "children": [
+//    "When I scroll to SalesPointsPickerModule.ShopsOptionsIterator[filterType='text',filterValue='${shopName}']",
+    "When I click on element SalesPointsPickerModule.ShopsOptionsIterator[filterType='text',filterValue='${shopName}']"
+  ]
+}

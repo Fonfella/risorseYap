@@ -1,0 +1,10 @@
+{
+  "name": "ThenNoDocsOnLastDocuemtnsCardAreDispalyed",
+  "description": "No documents are displayed on Last Documents Card on Home Page",
+  "type": "TestCase",
+  "aliases": "Then no documents are displayed on Last Documents Card",
+  "children": [
+    "Then HomePageContentModule.CommonCardSet.LatestDocumentsCard[filterType='index',filterValue='0'] is displayed",
+    "Then HomePageContentModule.CommonCardSet.LatestDocumentsCard[filterType='index',filterValue='0'] data matches DocumentsData.NoDocumentsMessageCard"
+  ]
+}

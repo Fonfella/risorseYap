@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "entityId": "UserManualLabel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeStaticText[@name='Manualistica']"
+      }
+    },
+    {
+      "entityId": "UserManualLink",
+      "testData":"UserManualLink",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeLink"
+      }
+    }
+  ]
+}

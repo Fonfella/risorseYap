@@ -1,0 +1,107 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header"
+      }
+    },
+    {
+      "entityId": "SalesPointsModule",
+      "reference": "modules/common_modules/SalesPointsModule.json",
+      "type": "MODULE",
+      "locator": {
+      "type": "XPATH",
+      "value": "//div[contains(@class, 'icbpi_sale-point')]"
+      }
+    },
+    {
+      "entityId": "ChartLayerModule",
+      "reference": "modules/common_modules/ChartLayerModule",
+      "optional": true,
+      "type": "MODULE",
+      "locator": {
+      "type": "XPATH",
+      "value": "//section[contains(@class, 'section')]"
+      }
+    },
+    {
+      "entityId": "HomePageContentModule",
+      "type": "MODULE",
+      "reference": "modules/home_page/HomePageContentModule",
+      "locator":{
+      "type": "XPATH",
+      "value": "//div[@id='cards-wrapper']"
+       }
+    },
+    {
+      "entityId": "NewsPopUpModule",
+      "reference": "modules/home_page/NewsPopUpModule.json",
+      "optional":true,
+      "type": "MODULE",
+      "locator":{
+        "type": "XPATH",
+        "value": "//div[contains(@class,'modal-content-wrapper')]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//div[contains(@class, 'help helpButton')]"
+      }
+    },
+    {
+      "entityId": "NotNowButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[2]"
+      }
+    },
+    {
+      "entityId": "ShowNeverButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[3]"
+      }
+    },
+    {
+      "entityId": "AbilitaButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.Button[1]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class = 'newId']/./div[contains(@class, 'icbpi_sidebar')]"
+      }
+    },
+    {
+    "entityId": "NexiFooter",
+      "optional":true,
+    "reference": "modules/common_modules/NexiFooter",
+    "type": "MODULE",
+    "locator": {
+    "type": "XPATH",
+    "value": "//footer"
+      }
+    }
+  ]
+}

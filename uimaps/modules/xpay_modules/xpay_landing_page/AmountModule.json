@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "AmountValue",
+      "testData": "AmountValue",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span[1]/span"
+      }
+    },
+    {
+      "entityId": "AmountTypeText",
+      "testData": "AmountTypeText",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./span[2]/span"
+      }
+    }
+  ]
+}

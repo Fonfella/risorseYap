@@ -1,0 +1,10 @@
+{
+  "name": "GivenIAmOnPeerComparisonPage",
+  "description": "Log into application and navigate to peer comparison page",
+  "type": "TestCase",
+  "aliases": "Given I am on peer comparison page",
+  "children": [
+    "Given I login to Nexi",
+    "When I navigate to peer comparison page via sandwich menu"
+  ]
+}

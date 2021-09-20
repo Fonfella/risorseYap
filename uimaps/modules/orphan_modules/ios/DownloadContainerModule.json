@@ -1,0 +1,71 @@
+{
+  "children": [
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "Heading",
+      "testData": "Heading",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[2]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionsNumber",
+      "testData": "TransactionsNumber",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[contains(@name, 'count')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "FromToDateStamp",
+      "testData": "FromToDateStamp",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name, 'date')]//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "TransactionsDownloadLimitMessage",
+      "testData": "TransactionsDownloadLimitMessage",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[contains(@name, 'threshold')]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "DownloadExcelButton",
+      "testData": "DownloadExcelButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[./XCUIElementTypeStaticText[@name='EXCEL']]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "DownloadCsvButton",
+      "testData": "DownloadCsvButton",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[./XCUIElementTypeStaticText[@name='CSV']]/XCUIElementTypeStaticText"
+      }
+    }
+  ]
+}

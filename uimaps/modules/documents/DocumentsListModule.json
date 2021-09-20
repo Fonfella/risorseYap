@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "DocListTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[header]/header/span"
+      }
+    },
+    {
+      "entityId": "DocDescription",
+      "testData": "DocDescription",
+      "reference": "modules/documents/DocDescription.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//ul/li"
+      }
+    }
+  ]
+}

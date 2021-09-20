@@ -1,0 +1,14 @@
+{
+  "name": "DetailCardFeature",
+  "description": "Detail Card Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/DetailCard/detailcard01.json",
+    "testlogic/tests/native/Yap/DetailCard/detailcard02.json",
+    "testlogic/tests/native/Yap/DetailCard/detailcard03.json",
+    "testlogic/tests/native/Yap/DetailCard/detailcard04.json",
+    "testlogic/tests/native/Yap/DetailCard/detailcard05.json",
+    "testlogic/tests/native/Yap/DetailCard/detailcard06.json"
+  ]
+}

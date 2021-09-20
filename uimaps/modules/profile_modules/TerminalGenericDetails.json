@@ -1,0 +1,70 @@
+{
+  "children": [
+    {
+      "entityId": "TerminalIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'ne grommetux-box--margin-bottom-s')]"
+      }
+    },
+    {
+      "entityId": "TerminalName",
+      "testData": "TerminalName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label[contains(@class,'uppercase')]"
+      }
+    },
+    {
+      "entityId": "TerminalAlias",
+      "testData": "TerminalAlias",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//span[contains(@class,'karbon')]"
+      }
+    },
+    {
+      "entityId": "TerminalInfoButtonReference",
+      "reference": "modules/common_modules/InfoButton.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'icbpi_tooltip')]/div/.."
+      }
+    },
+    {
+      "entityId": "ModelloLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":"//div[2]//label/span"
+//        "value": ".//span[text()='Modello']"
+      }
+    },
+    {
+      "entityId": "TerminalModel",
+      "testData": "TerminalModel",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p"
+      }
+    },
+    {
+      "entityId": "ManualisticaModule",
+      "reference": "modules/profile_modules/ManualisticaModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[3]"
+      }
+    }
+  ]
+}
+
+

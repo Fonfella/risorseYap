@@ -1,0 +1,10 @@
+{
+    "name": "ValidateSelectedCardBrand",
+    "description": "Validate selected card brand on filters page",
+    "aliases": "Then I validate selected card brand",
+    "type": "TestCase",
+    "children": [
+      "When I click on element TransactionsFiltersModule.FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='${cardIndex}']",
+      "Then TransactionsFiltersModule.FiltersLayoutModule.FilterSectionSelectedOption data matches TransactionsData.Circuito.CardBrands.${cardType}"
+   ]
+  }

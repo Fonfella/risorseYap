@@ -1,0 +1,9 @@
+{
+  "name": "ThenAvailableFiltersDataMatch",
+  "description": "Data match filters left side(filter selection) based on input",
+  "type": "TestCase",
+  "aliases": "Then available filters data match",
+  "children": [
+    "Then TransactionsFiltersModule.FiltersLayoutModule data matches ${availableFilters}"
+  ]
+}

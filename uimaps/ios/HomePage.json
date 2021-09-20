@@ -1,0 +1,127 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//*[@name='banner'])[1]"
+      }
+    },
+    {
+      "entityId": "NotificationIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "((//*[@name='Alert'])[1] | //XCUIElementTypeImage[@name='Alert'] | //XCUIElementTypeLink[@name='Alert']| //XCUIElementTypeOther[@name='Alert'])[1]"
+      }
+    },
+    {
+      "entityId": "NotificationCounter",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='banner']/XCUIElementTypeOther[1]/XCUIElementTypeStaticText)"
+      }
+    },
+    {
+      "entityId": "FingerPrint",
+      "optional": true,
+      "reference": "modules/home_page/ActivateFP.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business - Login']" // because fingerprint pop up is taken into count still on login page
+      }
+    },
+    {
+      "entityId": "SalesPointsModule",
+      "optional":true,
+      "reference": "modules/common_modules/SalesPointsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']"
+      }
+    },
+    {
+      "entityId": "SalesPointsPickerModule",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/orphan_modules/SalesPointsPickerModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='CHIUDI']/../.."
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    },
+    {
+      "entityId": "LatestDocumentsCard",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/LatestDocumentsCard.json",
+      "type": "MODULE",
+      "locator": {
+      "type": "XPATH",
+      "value": "(//*[contains(@name,'VEDI TUTTI')])[1]"
+      }
+    },
+    {
+      "entityId": "CommissionsCard",
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/CommissionsCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeLink[@name='Commissioni']/.."
+      }
+    },
+    {
+      "entityId": "PCICard",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/CommissionsCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Protection Plus la certificazione alla normativa PCI-DSS per i clienti Nexi']"
+      }
+    },
+    {
+      "entityId": "StornoCard",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/ios/StornoCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='box'][descendant::*[@name='Storno']]"
+      }
+    },
+    {
+      "entityId": "LastTransactionsCard",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='box' and ./XCUIElementTypeOther[contains(@name, 'trans')]]"
+      }
+    },
+    {
+      "entityId": "XPayCard",
+      "optional":true,
+      "type": "MODULE",
+      "reference": "modules/home_page/home_page_content_cards/XPayCard.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeLink[contains(@name,'XPay')])[1]"
+      }
+    }
+    // TODO add other elements
+  ]
+}

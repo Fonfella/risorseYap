@@ -1,0 +1,37 @@
+{
+  "children": [
+    {
+      "entityId": "NotNowButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Non ora']"
+      }
+    },
+    {
+      "entityId": "DismissButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Non mostrare più']"
+      }
+    },
+    {
+      "entityId": "AcceptButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='Abilita']"
+      }
+    },
+    {
+      "entityId": "PopUpHeader",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Accesso con impronta digitale o riconoscimento facciale']"
+      }
+    }
+  ]
+}

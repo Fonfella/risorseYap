@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "entityId": "CardHeader",
+      "testData": "CardHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class, 'heading')]/span"
+      }
+    },
+    {
+      "entityId": "CardLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../.."
+      }
+    },
+    {
+      "entityId": "LastTransactionsList",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/LastTransactionsListACQ",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li[count(div) = 3]"
+      }
+    },
+    {
+      "entityId": "LastTransactionsList",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/home_page/home_page_content_cards/LastTransactionsListGT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ul/li[count(div) = 2]"
+      }
+    },
+    {
+      "entityId": "CardWithNoContent",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'no-data')]/span"
+      }
+    },
+    {
+      "entityId": "UnderlineHoverText",
+      "testData": "UnderlineHoverText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./label/span[last()]"
+      }
+    }
+  ]
+}

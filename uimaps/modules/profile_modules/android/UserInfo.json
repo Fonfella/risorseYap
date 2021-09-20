@@ -1,0 +1,29 @@
+{
+  "children": [
+
+    {
+      "entityId": "UserInformationLink",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[name()='svg']"
+      }
+    },
+    {
+      "entityId": "YourDataLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label/span"
+      }
+    },
+    {
+      "entityId": "YourDataText",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h3"
+      }
+    }
+  ]
+}

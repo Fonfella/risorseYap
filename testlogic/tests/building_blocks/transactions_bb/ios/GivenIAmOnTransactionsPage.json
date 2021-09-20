@@ -1,0 +1,11 @@
+{
+  "name": "GivenIAmOnTransactionsPage",
+  "description": "Log into application and navigate to transactions page",
+  "type": "TestCase",
+  "aliases": "Given I am on transactions page",
+  "children": [
+    "Given I login to Nexi",
+    "Then Home Page is open",
+    "When I navigate to transactions page via sandwich menu"
+  ]
+}

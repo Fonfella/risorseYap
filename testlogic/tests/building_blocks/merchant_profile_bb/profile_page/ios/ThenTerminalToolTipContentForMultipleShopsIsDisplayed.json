@@ -1,0 +1,10 @@
+{
+  "name": "ThenTerminalToolTipContentForMultipleShopsIsDisplayed",
+  "description": "Then Terminal Tool Tip Content For Multiple Shops Is Displayed",
+  "aliases": "Then terminal tool tip content for multiple shops is displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails${terminalFilter}.ToolTipContent is displayed",
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals.TerminalGenericDetails${terminalFilter}.ToolTipContent data matches ProfileData.ToolTipContentTerminal"
+  ]
+}

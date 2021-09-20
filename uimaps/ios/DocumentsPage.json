@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='banner']"
+      }
+    },
+    {
+      "entityId": "SalesPointsModule",
+      "reference": "modules/common_modules/SalesPointsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='banner'])[1]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Documenti']"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    },
+    {
+        "entityId": "MissingDocumentsText",
+      "testData": "MissingDocumentsText",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "(//XCUIElementTypeOther[@name='Documenti'])[1]/XCUIElementTypeOther[3]/*"
+      }
+    },
+    {
+      "entityId": "DocumentsList",
+      "testData": "DocumentsList",
+      "reference": "modules/documents/DocumentsListModule.json",
+      "optional":true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='Documenti'])[1]"
+      }
+    }
+  ]
+}

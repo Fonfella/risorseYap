@@ -1,0 +1,84 @@
+{
+  "children":
+  [
+    {
+      "entityId":"PageHeader",
+      "reference":"modules/registration/RegHeaderModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId":"IndietroButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeLink[@name='Previous'])[1]"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "testData":"Title",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Adesso crea la tua password']"
+      }
+    },
+    {
+      "entityId":"UseEmailToLogin1",
+      "testData":"Summary",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Ti servirà per accedere all’area personale']"
+      }
+    },
+    {
+      "entityId":"UseEmailToLogin2",
+      "testData":"Summary",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='insieme alla tua username']"
+      }
+    },
+    {
+      "entityId":"PasswordBox",
+      "testData":"pwd",
+      "type":"ELEMENT",
+      "locator": {
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeSecureTextField"
+      }
+    },
+    {
+      "entityId":"PassStrengthModule",
+      "reference":"modules/registration/PassStrengthModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//*[@name='ENTRA']"
+      }
+    },
+    {
+      "entityId":"PageFooter",
+      "reference":"modules/registration/RegPageFooter.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    }
+  ]
+}

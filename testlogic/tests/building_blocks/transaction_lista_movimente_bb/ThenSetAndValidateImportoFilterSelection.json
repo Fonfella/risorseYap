@@ -1,0 +1,10 @@
+{
+  "name": "ThenSetAndValidateImportoFilterSelection",
+  "description": "Validate selected amount range value based on input",
+  "aliases": "Then set and validate selected amount filter value",
+  "type": "TestCase",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FilterDetailsModule.FiltersParametersList[byChild='InputLabel',filterType='text',filterValue='${filterValue}']",
+    "Then TransactionsFiltersModule.FiltersLayoutModule.FilterSectionSelectedOption data matches TransactionsData.Importo.ImportoSelectionFilterView.${filterData}"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ThenTerminalSectionForMultipleShopsIsNotDisplayed",
+  "description": "Then Terminal Section For Multiple Shops Is Displayed",
+  "aliases": "Then terminal section for multiple shops is not displayed",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.MultipleShopsTerminals is not displayed"
+  ]
+}

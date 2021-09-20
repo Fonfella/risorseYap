@@ -1,0 +1,10 @@
+{
+  "name": "WhenIClickOnLastTransactionsCard",
+  "description": "Click on last transactions card form home page",
+  "aliases": "When I click on last transactions card",
+  "type": "TestCase",
+  "children": [
+    "When I scroll to LastTransactionsCard",
+    "When I click on element LastTransactionsCard"
+  ]
+}

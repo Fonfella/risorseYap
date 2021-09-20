@@ -1,0 +1,42 @@
+{
+  "ids": [
+    {
+      "id":"YP-0028",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Accesso da ricarica fast in home",
+  "description": "CheckFlow",
+  "priority": "MEDIUM",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given I wait 4 seconds",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element ButtonFastTopup",
+    "Given I wait 2 seconds",
+    "Given Ricarica Fast_Home is open",
+    "Then RicaricaConCarta is displayed",
+    //"Given Menu Page_Yap is open",
+    //"When I click on element Bottone_Ricarica",
+    "Given I wait 4 seconds",
+    //"Given Ricarica Page_Yap is open",
+    "When I click on element Button_Decrement",
+    "Given I wait 2 seconds",
+    "When I click on element Button_Decrement",
+    "Given I wait 2 seconds",
+    "When I click on element Button_Decrement",
+    "Given I wait 2 seconds",
+    "When I click on element Button_Decrement",
+    "Given I wait 2 seconds",
+    "When I click on element Button_Ricarica",
+    "Given I wait 15 seconds",
+    //"Then Msg_Ricarica_Ok data matches Provayap.Valid.User1",
+    //"Given I wait 5 seconds",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "CheckStornoCardOnPage",
+  "description": "Check if all elements from storno card are displayed",
+  "type": "TestCase",
+  "aliases": "Then I check Storno Card on Page",
+  "children": [
+    "Then HomePageContentModule.CommonCardSet.StornoCard is displayed"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "children": [
+    {
+      "entityId":"CloseButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Chiudi']"
+      }
+    },
+    {
+      "entityId":"PopupTitle",
+      "testData":"PopupTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Sei sicuro di voler abbandonare il processo?']"
+      }
+    },
+    {
+      "entityId":"PopupSubTitle",
+      "testData":"PopupSubTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='XPay']/XCUIElementTypeOther[19]"
+      }
+    },
+    {
+      "entityId":"LeaveButton",
+      "testData":"LeaveButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeLink[@name='ABBANDONA']"
+      }
+    },
+    {
+      "entityId":"ContinueButton",
+      "testData":"ContinueButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='CONTINUA']"
+      }
+    }
+  ]
+}

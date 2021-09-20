@@ -1,0 +1,31 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0018",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "test open-close detail card from home page",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given Home Page_Yap is open",
+    "Given I wait 4 seconds",
+    "Then Yap_Card is displayed",
+    "When I click on element Tail_card",
+    "Given DetailCard Page_Yap is open",
+    "Given I wait 4 seconds",
+    "Then CardHolder is displayed",
+    "Then CardHolder data matches Provayap.Valid.User4",
+    "Then IbanValue is displayed",
+    "Then IbanValue data matches Provayap.Valid.User4",
+    "Then Label_Info_Iban is displayed",
+    "Then Label_Info_Iban data matches Provayap.Valid.User4",
+    "When I click on element CTA_Previous",
+    "Given Home Page_Yap is open"
+  ]
+}

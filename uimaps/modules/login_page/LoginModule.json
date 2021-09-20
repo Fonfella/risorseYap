@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "LoginHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./ancestor::div[@id='content']/div/div/*[contains(@class, 'title')]"
+      }
+    },
+    {
+      "entityId": "LoginForm",
+      "reference": "modules/login_page/LoginForm.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./form"
+      }
+    }
+  ]
+}

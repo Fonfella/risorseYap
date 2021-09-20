@@ -1,0 +1,11 @@
+{
+  "name": "IOS Error message and link elements displayed",
+  "description": "Registration Flow",
+  "aliases": "Then PIVA Not Reconised error and ContactCustomerservice link is shown",
+  "type": "TestCase",
+  "children": [
+    "Then RegistrationForm.PIVA_Not_recognised_1 is displayed",
+    "Then RegistrationForm.PIVA_Not_recognised_2 is displayed",
+    "Then RegistrationForm.PIVA_Not_recognised_link_CustomerService is displayed"
+  ]
+}

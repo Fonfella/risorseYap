@@ -1,0 +1,12 @@
+{
+  "name": "ThenXpayLandPgMathesTestData.json",
+  "description": "Check Xpay Landing Page text",
+  "aliases": "Then XPay Landing page text matches test data",
+  "type": "TestCase",
+  "children": [
+    "Then XPayHeader data matches XpayOnlyData.AndroidLandingPageHeader",
+    "Then XPayContentModule.AreaTitle data matches XpayOnlyData.AndroidTitleSubtitleArea",
+    "Then XPayContentModule.AreaSubTitle data matches XpayOnlyData.AndroidTitleSubtitleArea",
+    "When I click on element XPayContentModule.CardsListModule.CardDetailsModule[byChild='CardExpandButton',filterType='index',filterValue='1']"
+  ]
+}

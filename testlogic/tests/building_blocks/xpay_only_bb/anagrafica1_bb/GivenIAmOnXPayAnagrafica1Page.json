@@ -1,0 +1,13 @@
+{
+  "name": "GivenIAmOnXPayAnagrafica1Page",
+  "description": "Given I Am On XPay Anagrafica1 Page",
+  "aliases": "Given I am on XPay Anagrafica1 Page",
+  "type": "TestCase",
+  "children": [
+    "Given I am on HomePage",
+    "When I click on element HomePageContentModule.CommonCardSet.XPayCard",
+    "Then XPay Landing Page is open",
+    "When I click on element XPayHeader.ActivateNowButton",
+    "Then XPay Anagrafica1 Page is open"
+  ]
+}

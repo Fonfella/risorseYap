@@ -1,0 +1,38 @@
+{
+  "ids": [
+    {
+      "id":"YP-0028",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Accesso da menu '+'",
+  "description": "CheckFlow",
+  "priority": "MEDIUM",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+    //  "Given I click on Annulla_Impronta_Digitale if present",
+    "When I click on element Input_3",
+    "When I click on element Input_3",
+    "When I click on element Input_4",
+    "When I click on element Input_4",
+    "When I click on element Input_5",
+    "When I click on element Input_5",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "When I click on element Bottone_Principale",
+    "Given I wait 2 seconds",
+    "Given Menu Page_Yap is open",
+    "When I click on element Bottone_Ricarica",
+    "Given I wait 2 seconds",
+    "Given Ricarica Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then RicaricaLabel is displayed",
+    "Then RicaricaLabel data matches Provayap.Labels",
+    "When I click on element CTA_Back",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "Given I wait 2 seconds"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PROFILO",
+  "description": "Profilo test suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/ProfiloYap/CambiaPassword.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/ProfiloYap/CambiaPasswordTroppoSemplice.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/ProfiloYap/CambiaFoto.json"
+  ]
+}

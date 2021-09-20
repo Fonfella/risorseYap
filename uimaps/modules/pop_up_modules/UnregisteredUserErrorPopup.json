@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "PopupTitle",
+      "testData":"PopupTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//h2/span"
+      }
+    },
+    {
+      "entityId": "PopupMessage",
+      "testData":"PopupMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//p/span"
+      }
+    },
+    {
+      "entityId": "CloseButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//button"
+      }
+    }
+  ]
+}

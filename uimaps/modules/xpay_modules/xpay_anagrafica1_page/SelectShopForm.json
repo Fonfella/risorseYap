@@ -1,0 +1,33 @@
+{
+  "children": [
+    {
+      "entityId": "DropdownLabel",
+      "type": "ELEMENT",
+      "testData": "DropdownLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "./*//label/span"
+      }
+    },
+    {
+      "entityId": "DropdownInput",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/labeled_input_elements/LabeledInput3.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'form-field__label_material')]"
+      }
+    },
+    {
+      "entityId": "DropdownList",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "/modules/faq_modules/DropdownBoxList.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[2][contains(@class, 'dropdown-content')]"
+      }
+    }
+  ]
+}

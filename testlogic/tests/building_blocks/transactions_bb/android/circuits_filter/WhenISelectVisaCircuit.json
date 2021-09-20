@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectVisaCircuit",
+  "description": "Select visa circuit by index",
+  "type": "TestCase",
+  "aliases": "When I select visa circuit",
+  "children": [
+    "When I click on element FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='1']"
+  ]
+}

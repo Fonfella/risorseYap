@@ -1,0 +1,10 @@
+{
+  "name": "TerminalNameInFilterMatchesData",
+  "description": "Check Terminals alias in Filter",
+  "aliases": "Then Terminal Name in Filter details matches",
+  "type": "TestCase",
+  "children": [
+    "Then TransactionsFiltersModule.FilterDetailsModule.FiltersParametersList.InputLabel data matches ${data}",
+    "Then I click on element TransactionsFiltersModule.FilterDetailsModule.CloseButton"
+  ]
+}

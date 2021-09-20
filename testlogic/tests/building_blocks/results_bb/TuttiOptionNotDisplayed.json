@@ -1,0 +1,9 @@
+{
+  "name": "TuttiOptionNotDisplayed",
+  "description": "Check if tutti option is not displayed for a user with a single shop",
+  "aliases": "Then Tutti option is not displayed",
+  "type": "TestCase",
+  "children": [
+    "Then SalesPointsPickerModule.SelectAllOption is not displayed"
+  ]
+}

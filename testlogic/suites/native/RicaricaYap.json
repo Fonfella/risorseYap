@@ -1,0 +1,13 @@
+{
+  "name": "RICARICA",
+  "description": "Ricarica suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/RicaricaYap/AccessoDaMenu.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/RicaricaYap/AccessoDaBurgerMenu.json"
+
+
+
+  ]
+}

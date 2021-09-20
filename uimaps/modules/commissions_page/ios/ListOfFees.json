@@ -1,0 +1,24 @@
+{
+  "children": [
+    {
+      "entityId": "FeeLabelItem",
+      "testData": "FeeLabelItem",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeLink[1]"
+      }
+    },
+    {
+      "entityId": "FeeAmountItem",
+      "testData": "FeeAmountItem",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeLink[2]"
+      }
+    }
+  ]
+}

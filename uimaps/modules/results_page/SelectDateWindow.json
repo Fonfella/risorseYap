@@ -1,0 +1,118 @@
+{
+  "children": [
+    {
+      "entityId": "FromDateLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'from-to-fields')]/div[1]/.//label"
+      }
+    },
+    {
+      "entityId": "ToDateLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'from-to-fields')]/div[2]/.//label"
+      }
+    },
+    {
+      "entityId": "FromDateInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'from-to-fields')]/div[1]/.//input"
+      }
+    },
+    {
+      "entityId": "ToDateInput",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'from-to-fields')]/div[2]/.//input"
+      }
+    },
+    {
+      "entityId": "PreviousMonthButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//button[contains(@class, 'DayPickerNavigation_button')][1]"
+      }
+    },
+    {
+      "entityId": "NextMonthButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//button[contains(@class, 'DayPickerNavigation_button')][2]"
+      }
+    },
+    {
+      "entityId": "FromDateCalendarDaysLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'DayPicker_weekHeader_1')][1]/.//ul"
+      }
+    },
+    {
+      "entityId": "ToDateCalendarDaysLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'DayPicker_weekHeader_1')][2]/.//ul"
+      }
+    },
+    {
+      "entityId": "FromMonthTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'n_2')][1]/.//strong"
+      }
+    },
+    {
+      "entityId": "ToMonthTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'n_2')][1]/.//strong"
+      }
+    },
+    {
+      "entityId": "FromSelectDay",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//td[contains(@role,'button')][2]"
+
+      }
+    },
+    {
+      "entityId": "ToSelectDate",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//div[contains(@class, 'l_1')][4]/.//table/.//td[5]"
+      }
+    },
+
+    {
+      "entityId": "CancelButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//footer[contains(@class, 'p g')]/./div[1]/./div[1]/.//a"
+      }
+    },
+    {
+      "entityId": "SaveButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value":".//footer[contains(@class, 'p g')]/./div[1]/./div[2]/.//a"
+      }
+    }
+  ]
+}

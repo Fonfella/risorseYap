@@ -1,0 +1,67 @@
+{
+  "children": [
+    {
+      "entityId":"PageHeader",
+      "reference":"modules/xpay_modules/xpay_landing_page/AnagraficaHeader.json",
+      "type":"MODULE",
+      "locator": {
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "testData":"PageTitle",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='XPay']/XCUIElementTypeOther[4]"
+      }
+    },
+    {
+      "entityId":"BackButton",
+      "reference": "modules/reusable_elements/BackButtonModule.json",
+      "type": "MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeLink[@name='Previous'])[1]"
+      }
+    },
+    {
+      "entityId":"SelectShopForm",
+      "reference":"modules/xpay_modules/xpay_anagrafica1_page/SelectShopForm.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "testData":"SubmitButton",
+      "type":"ELEMENT",
+      "reference":"modules/labeled_input_elements/LabeledInput3.json",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='AVANTI']"
+      }
+    },
+    {
+      "entityId":"PageFooter",
+      "reference":"modules/xpay_modules/XPayFooter.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='XPay']"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "type":"ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

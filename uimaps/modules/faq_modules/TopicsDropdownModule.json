@@ -1,0 +1,21 @@
+{
+  "children": [
+    {
+      "entityId": "DropdownLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//label//span"
+      }
+    },
+    {
+      "entityId": "DropdownBoxModule",
+      "type": "MODULE",
+      "reference": "modules/faq_modules/DropdownBoxModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'newId')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ThenShopsListIsDisplayedForSpecificCompany",
+  "description": "List of shops for specific company are displayed",
+  "aliases": "Then Shops list is displayed for specific company",
+  "type": "TestCase",
+  "children": [
+    "Then ShopsDetailsModule.MultipleShopsInfoModule.ShopListItem.ButtonTitleIterator data matches DB [MultipleShopsSection.sql][<UsernameTextBox>=ProfileData.MoreThanOneCompany.User,<companyCode>=${companyCode}]"
+  ]
+}
+

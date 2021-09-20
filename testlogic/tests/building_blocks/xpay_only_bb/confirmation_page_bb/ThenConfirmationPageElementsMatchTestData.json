@@ -1,0 +1,12 @@
+{
+  "name": "ThenConfirmationPageElementsMatchTestData.json",
+  "description": "Check Elements labels to match with testData",
+  "aliases":"Then Confirmation Page Elements match test data",
+  "type": "TestCase",
+  "children": [
+    "Then InfoModule.ParagraphsText[filterType='index',filterValue='0'] data matches XpayOnlyData.ConfirmationPage.FirstParagraph",
+    "Then InfoModule.ParagraphsText[filterType='index',filterValue='1'] data matches XpayOnlyData.ConfirmationPage.SecondParagraph",
+    "Then InfoModule.ParagraphsText[filterType='index',filterValue='2'] data matches XpayOnlyData.ConfirmationPage.UniqueID",
+    "Then InfoModule.ParagraphsText[filterType='index',filterValue='3'] data matches XpayOnlyData.ConfirmationPage.FourthParagraph"
+  ]
+}

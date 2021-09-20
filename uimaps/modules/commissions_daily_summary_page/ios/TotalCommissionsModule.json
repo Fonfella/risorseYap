@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "CommissionAmount",
+      "testData": "CommissionAmount",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[position()>1 and position()<4]/*"
+      }
+    },
+    {
+      "entityId": "CommissionLabel",
+      "testData": "CommissionLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeOther[position()=4]/*"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "children": [
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Nexi Business Logo'] | //XCUIElementTypeImage[@name='Nexi Business Logo']"
+      }
+    },
+    {
+      "entityId": "NotificationCounter",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='banner']/XCUIElementTypeOther[1]/XCUIElementTypeStaticText)"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Comunicazioni']"
+      }
+    },
+    {
+      "entityId": "MessagesTabButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='MESSAGGI']"
+      }
+    },
+    {
+      "entityId": "NewsTabButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='NOTIZIE']"
+      }
+    },
+    {
+      "entityId": "TopMessageModule",
+      "reference": "modules/NewsMessages/TopMessageModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Comunicazioni']"
+      }
+    },
+    {
+      "entityId": "MessagesCount",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Comunicazioni']/XCUIElementTypeOther[6]/XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "MessagesMarkAllReadButton",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeOther[@name='box'])[1]/XCUIElementTypeOther"
+      }
+    },
+    {
+      "entityId": "MessagesModule",
+      "reference": "modules/communication/messages/MessagesModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Comunicazioni']"
+      }
+    },
+    {
+      "entityId": "NeedHelp",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

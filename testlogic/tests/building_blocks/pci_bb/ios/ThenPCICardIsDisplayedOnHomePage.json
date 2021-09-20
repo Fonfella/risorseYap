@@ -1,0 +1,10 @@
+{
+  "name": "ThenPCICardIsDisplayedOnHomePage",
+  "description": "PCI Card is available on HomePage",
+  "type": "TestCase",
+  "aliases": "Then PCI Card is available on HomePage",
+  "children": [
+    "Then PCICard.CardHeader is displayed",
+    "Then PCICard.CardDescription is displayed"
+  ]
+}

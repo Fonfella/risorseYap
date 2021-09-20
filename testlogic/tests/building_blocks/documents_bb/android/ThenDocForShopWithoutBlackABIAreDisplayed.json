@@ -1,0 +1,10 @@
+{
+  "name": "ThenDocForShopWithoutBlackABIAreDisplayed",
+  "description": "Documents for shop without ABI from Black List are displayed",
+  "type": "TestCase",
+  "aliases": "Then documents for shop without black list ABI are displayed",
+  "children": [
+    "Then HomePageContentModule.CommonCardSet.LatestDocumentsCard[filterType='index',filterValue='0'] data matches DocumentsData.BlackListABIUser.DocsShopWithoutBlackABI.HomePage"
+
+  ]
+}

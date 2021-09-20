@@ -1,0 +1,22 @@
+{
+  "children": [
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//a[@class='logo' or contains(@class,'header-logo')] | .//*[@class='logo' or contains(@class,'header-logo')]"
+      }
+    },
+    {
+      "entityId": "QuickActionsModule",
+      "reference": "modules/common_modules/QuickActionsModule.json",
+      "optional": true,
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'header-icons')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "ids": [
+    {
+      "id":"YTA-0007",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "change email ok",
+  "description": "HappyFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User4",
+    "Given Login Page_Yap is open",
+    "When I input data into Input_Password",
+    "Given I wait 5 seconds",
+    "Given Home Page_Yap is open",
+    "When I click on element Burger_Menu_Open",
+    "Given I wait 2 seconds",
+    "When I click on element Profilo",
+    "Given I wait 2 seconds",
+    "As a Yapprofilo.Valid.3511669952",
+    "Given I save period \"+0D\" respect to current date as variable todayDate with format \"MMddyyyy_HHmmss\"",
+    "Given Profilo Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then ProfiloLabel is displayed",
+    "Then Email_label is displayed",
+    "Then Email_label data matches Yapprofilo.Valid.3511669952",
+    "When I click on element Email_label",
+    "Then Modifica_Email_title is displayed",
+    "Then Modifica_Email_title data matches Yapprofilo.Valid.3511669952",
+    "When I input data into Email_Today_input",
+    "When I click on element Modifica_button",
+    "Given I wait 2 seconds",
+    "Then Popup_Confirm_title is displayed",
+    "Then Popup_Confirm_title data matches Yapprofilo.Valid.3511669952",
+    "Given I wait 5 seconds",
+    "Then Continua_button is displayed",
+    "When I click on element Continua_button",
+    "Given I wait 5 seconds",
+    "Given Profilo Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open"
+  ]
+}

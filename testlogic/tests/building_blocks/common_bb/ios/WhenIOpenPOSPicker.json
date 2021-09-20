@@ -1,0 +1,9 @@
+{
+  "name": "WhenIOpenPOSPicker",
+  "description": "Click on sales points configuration label",
+  "aliases": "When I open POS picker",
+  "type": "TestCase",
+  "children": [
+    "When I click on element SalesPointsModule.SalePointsLabel[filterType='index',filterValue='0']"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ThenInputDataMatch",
+  "description": "Data match for value from input field based on input param",
+  "type": "TestCase",
+  "aliases": "Then input data match",
+  "children": [
+    "Then TransactionsFiltersModule.FilterDetailsModule.DigitsInputField data matches ${inputData}"
+  ]
+}

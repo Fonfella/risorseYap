@@ -1,0 +1,36 @@
+{
+  "children":
+  [
+    {
+      "entityId": "TransactionAuthorizationCode",
+      "optional": true,
+      "testData": "AuthCode",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value": ".//*[contains(@class,'authorisation-code')]"
+      }
+    },
+    {
+      "entityId": "TransactionElementsModule",
+      "reference": "modules/transactions_page/TransactionElementsModule.json",
+      "optional": true,
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value": ".//div[*[contains(@class, 'authorisation')]]/following-sibling::div"
+      }
+    },
+    {
+      "entityId": "TransactionCommission",
+      "reference": "modules/transactions_page/TransactionCommission.json",
+      "optional": true,
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value": ".//div[contains(@class,'d grommetux-box--responsive grommetux-box--pad-b')]"
+      }
+    }
+  ]
+}
+

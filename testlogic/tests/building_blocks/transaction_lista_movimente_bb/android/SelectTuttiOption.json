@@ -1,0 +1,13 @@
+{
+  "name": "SelectTuttiOption",
+  "description": "Select all elements from filters",
+  "aliases": "When I select tutti option for filter type",
+  "type": "TestCase",
+  "children": [
+    "When I select filter",
+    "When I click on element FilterDetailsModule.AllOption",
+    "When I click on element FilterDetailsModule.ApplyButton",
+    "Then FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterName',filterType='text',filterValue='${filterName}'] data matches TransactionsData.Circuito.CardBrands.TuttiSelected"
+
+  ]
+}

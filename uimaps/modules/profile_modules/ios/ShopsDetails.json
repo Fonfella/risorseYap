@@ -1,0 +1,47 @@
+{
+  "children": [
+    {
+      "entityId": "TitleMultipleShops",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='I tuoi Punti Vendita']//XCUIElementTypeStaticText"
+      }
+    },
+    {
+      "entityId": "MultipleShopsInfoModule",
+      "type": "MODULE",
+      "optional":true,
+      "reference": "modules/profile_modules/MultipleShopsInfo.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='I tuoi Punti Vendita']/following::XCUIElementTypeOther[1]"
+      }
+    },
+    {
+      "entityId": "SingleShopInfoModule",
+      "type": "MODULE",
+      "optional":true,
+      "reference": "modules/profile_modules/SingleShopInfo.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='shop-info']"
+      }
+    },
+    {
+      "entityId": "SingleShopTerminalsModule",
+      "optional":true,
+      "reference": "modules/profile_modules/SingleShopTerminals.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "./..//XCUIElementTypeOther[@name='shop-terminals']"
+      }
+    }
+  ]
+}
+
+
+
+

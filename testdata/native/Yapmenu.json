@@ -1,0 +1,23 @@
+{
+  "children": [
+    {
+      "tag": "Valid",
+      "children": [
+        {
+          "tag": "3511669952",
+          "children": [
+            {
+              "entityId": "Invita_Amici_link",
+              "value": "Invita amici"
+            }
+            ,
+            {
+              "entityId": "Bottone_Dividi_Conto_link",
+              "value": "Dividi conto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

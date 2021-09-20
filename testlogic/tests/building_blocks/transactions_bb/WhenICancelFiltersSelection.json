@@ -1,0 +1,10 @@
+{
+  "name": "WhenICancelFiltersSelection",
+  "description": "Click on chiudi button",
+  "aliases": "When I cancel filters selection",
+  "type": "TestCase",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FiltersLayoutModule.FooterButtons.ElementLabel[filterType='text',filterValue='CANCELLA']",
+    "Then Transactions Page is open"
+  ]
+}

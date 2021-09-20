@@ -1,0 +1,10 @@
+{
+  "name": "ThenTransactionTileIconsAreDisplayed",
+  "description": "Validate that transaction tile in transaction details are displayed",
+  "type": "TestCase",
+  "aliases": "Then transaction tile icons are displayed",
+  "children": [
+    "Then TransactionDetailsModule.TransactionsListModule.TransactionElementsModule.CardLogo is displayed",
+    "Then TransactionDetailsModule.TransactionsListModule.TransactionElementsModule.TransactionChannelIcon is displayed"
+  ]
+}

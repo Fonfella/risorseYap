@@ -1,0 +1,159 @@
+{
+  "children":
+  [
+    {
+      "entityId": "ContoCorentteAndCodiceLineaDirettaTitle1",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Scegli il codice di sicurezza con il']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteAndCodiceLineaDirettaTitle2",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='quale completare la registrazione']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteAndCodiceLineaDirettaTitleQuickSummary",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='È sufficiente una delle opzioni per proseguire']"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaOnlyTitle1",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Inserisci il codice linea diretta del']"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaOnlyTitle2",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='tuo POS']"
+      }
+    },
+    {
+      "entityId": "CodiceLineaDirettaOnlyQuickSummary",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Trovi questo codice dietro al tuo POS']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteOnlyTitle1",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Inserisci gli ultimi 4 caratteri del tuo']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteOnlyTitle2",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='conto corrente per completare la']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteOnlyTitle3",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='registrazione']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteOnlyQuickSummary1",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Il conto di riferimento deve essere quello che']"
+      }
+    },
+    {
+      "entityId": "ContoCorentteOnlyQuickSummary2",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='utilizzi per ricevere gli incassi di Nexi']"
+      }
+    },
+
+    {
+    "entityId": "SerialNumberOnlyTitle1",
+    "optional":true,
+    "type": "ELEMENT",
+    "locator": {
+      "type": "XPATH",
+      "value": "//XCUIElementTypeStaticText[@name='Inserisci le ultime 4 cifre del numero']"
+    }
+  },
+    {
+      "entityId": "SerialNumberOnlyTitle2",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='di serie che trovi dietro al tuo POS']"
+      }
+    },
+    {
+      "entityId": "BankAccountOnlyTitle1",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Inserisci gli ultimi 4 caratteri del tuo']"
+      }
+    },
+    {
+      "entityId": "BankAccountOnlyTitle2",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='conto corrente per completare la']"
+      }
+    },
+    {
+      "entityId": "BankAccountOnlyTitle3",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='registrazione']"
+      }
+    },
+    {
+      "entityId": "BankAccountOnlyQuickSummary1",
+      "optional":true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Il conto di riferimento deve essere quello che']"
+      }
+    }
+  ]
+}

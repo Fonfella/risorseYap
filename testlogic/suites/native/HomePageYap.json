@@ -1,0 +1,13 @@
+{
+  "name": "HOME PAGE",
+  "description": "Home Page suite Yap",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap-NoRegressionTest/HomePageYap/AccessoYapInfo.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/HomePageYap/AperturaChiusuraBurgerMenu.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/HomePageYap/AperturaChiusuraMenu.json",
+    "testlogic/tests/native/Yap-NoRegressionTest/HomePageYap/AperturaChiusuraTimeline.json"
+
+  ]
+}

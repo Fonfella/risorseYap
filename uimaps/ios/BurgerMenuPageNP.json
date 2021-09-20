@@ -1,0 +1,275 @@
+{
+  "children": [
+
+
+    {
+      "entityId": "Servizi_Pagamento",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//android.widget.TextView[@text='Servizi di pagamento']"
+      }
+    },
+    {
+      "entityId": "Ricevi_Assistenza",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@label='RICEVI ASSISTENZA']"
+      }
+      //XCUIElementTypeApplication[@name="NexiPay Stg"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[10]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton
+
+    },
+
+    {
+      "entityId": "BloccaCarta",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[11]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton"
+      }
+    },
+
+    {
+      "entityId": "BloccaCartaLabel",
+      "testData":"BloccaCartaLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='BLOCCA CARTA']"
+      }
+    },
+
+    {
+      "entityId": "ChiamateCaricoNexiLabel",
+      "testData":"ChiamateCaricoNexiLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='* È possibile effettuare chiamate a carico di Nexi.']"
+      }
+    },
+
+    {
+      "entityId": "NumeroVerdeLabel",
+      "testData":"NumeroVerdeLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Se chiami da rete fissa o mobile USA è disponibile il numero verde:']"
+      }
+    },
+
+    {
+      "entityId": "NumeroVerdeBtn",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='1 800 473 6896']"
+      }
+    },
+
+
+
+
+
+    {
+      "entityId": "Home",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[XCUIElementTypeStaticText[@name='Home']]//XCUIElementTypeButton"
+      }
+    },
+
+
+    {
+      "entityId": "Notifiche",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[XCUIElementTypeStaticText[@name='Notifiche']]//XCUIElementTypeButton"
+      }
+    },
+
+    {
+      "entityId": "NonSonoPresentiNotifiche",
+      "testData":"NonSonoPresentiNotificheIOS",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Non hai ancora notifiche.']"
+      }
+    },
+
+    {
+      "entityId": "LabelName",
+      "testData":"LabelName",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Ciao Angelo Giovanni Mari']"
+      }
+    },
+
+    {
+      "entityId": "Movimenti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[3]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton"
+      }
+    },
+
+
+    {
+      "entityId": "MovimentiLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='MOVIMENTI']"
+      }
+    },
+
+
+    {
+    "entityId": "RicaricaCellulareLabel",
+    "testData":"RicaricaCellulareLabel",
+    "type": "ELEMENT",
+    "locator": {
+    "type": "XPATH",
+    "value": "//XCUIElementTypeStaticText[@name='RICARICA CELLULARE']"
+      }
+    },
+
+    {
+      "entityId": "CV2Label",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='CV2']"
+      }
+    },
+
+    {
+      "entityId": "Continua",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='CONTINUA']"
+      }
+    },
+
+
+    {
+      "entityId": "CampObbligatorioLabel",
+      "testData":"CampObbligatorioLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Campo obbligatorio']"
+      }
+    },
+
+
+
+    {
+      "entityId": "RicaricaCellulare",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Ricarica cellulare']"
+      }
+    },
+
+    {
+      "entityId": "RicaricaCellulareBtn",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[7]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther"
+      }
+    },
+    {
+      "entityId": "MeseCorrenteLabel",
+      "testData":"MeseCorrenteLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Mese corrente']"
+      }
+    },
+
+    {
+      "entityId": "NonHaiEffettuatoMovimenti",
+      "testData":"NonHaiEffettuatoMovimenti",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "(//XCUIElementTypeStaticText[@name='Non hai effettuato movimenti.'])[1]"
+      }
+    },
+
+
+
+    {
+      "entityId": "Carte",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[6]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton"
+      }
+    },
+
+    {
+      "entityId": "Profilo",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeCollectionView/XCUIElementTypeCell[8]/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton"
+      }
+    },
+
+    {
+      "entityId": "ProfiloLabel",
+      "testData":"ProfiloLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='PROFILO']"
+      }
+    },
+
+    {
+      "entityId": "DatiContrattoLabel",
+      "testData":"DatiContrattoLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Dati di contatto']"
+      }
+    },
+
+
+
+
+
+    {
+      "entityId": "paginaBurgerMenu",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeApplication[@name='NexiPay Stg']"
+      }
+    },
+
+    {
+      "entityId": "Esci_Button",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeButton[@name='ESCI']"
+      }
+    }
+  ]
+}

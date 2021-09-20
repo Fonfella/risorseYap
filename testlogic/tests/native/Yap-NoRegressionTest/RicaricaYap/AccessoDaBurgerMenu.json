@@ -1,0 +1,38 @@
+{
+  "ids": [
+    {
+      "id":"YP-0029",
+      "platform": "ANDROID"
+    }
+  ],
+  "name": "Accesso da Burger menu",
+  "description": "CheckFlow",
+  "priority": "HIGH",
+  "type": "TestCase",
+  "children": [
+    "As a Provayap.Valid.User1",
+    "Given Login Page_Yap is open",
+    //  "Given I click on Annulla_Impronta_Digitale if present",
+    // "Given I wait 2 seconds",
+    "When I click on element Input_1",
+    "When I click on element Input_4",
+    "When I click on element Input_7",
+    "When I click on element Input_2",
+    "When I click on element Input_5",
+    "When I click on element Input_8",
+    "Given Home Page_Yap is open",
+    "When I click on element Burger_Menu_Open",
+    "Given I wait 2 seconds",
+    "When I click on element Ricarica_Yap",
+    "Given I wait 2 seconds",
+    "Given Ricarica Page_Yap is open",
+    "Given I wait 2 seconds",
+    "Then RicaricaLabel is displayed",
+    "Then RicaricaLabel data matches Provayap.Labels",
+    "When I click on element CTA_Back",
+    "Given I wait 2 seconds",
+    "Given Home Page_Yap is open",
+    "Then Yap_Card is displayed",
+    "Given I wait 2 seconds"
+  ]
+}

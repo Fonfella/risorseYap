@@ -1,0 +1,87 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header[contains(@class,'blue-gradient-horizontal')]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class='newId']/./div[contains(@class, 'icbpi_sidebar')]"
+      }
+    },
+    {
+      "entityId": "PageTitle",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//*[h1]/label/span"
+      }
+    },
+    {
+      "entityId": "MerchantNameSurnameLabel",
+      "testData":"MerchantNameSurnameLabel",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//h1[contains(@class,'profile__full-name')]"
+      }
+    },
+    {
+      "entityId": "UserInfo",
+      "reference": "modules/profile_modules/UserInfo.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[a[contains(@href,'profile/edit')]]"
+    }
+    },
+    {
+      "entityId": "CompanyInfo",
+      "reference": "modules/profile_modules/CompanyInfo.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'company-container')]"
+      }
+    },
+    {
+      "entityId": "ShopsDetailsModule",
+      "childCount":2,
+      "reference": "modules/profile_modules/ShopsDetails.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'accordion-main-wrapper')]"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'help helpButton')]"
+      }
+    },
+    {
+      "entityId": "NexiFooter",
+      "reference": "modules/common_modules/NexiFooter.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div/footer"
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,9 @@
+{
+  "name": "ThenFileWasDownloaded",
+  "description": "File was downloaded",
+  "aliases": "Then File was downloaded",
+  "type": "TestCase",
+  "children": [
+    "Then ${modelFileName} was downloaded to default directory"
+  ]
+}

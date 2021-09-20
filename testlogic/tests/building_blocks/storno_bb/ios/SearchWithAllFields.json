@@ -1,0 +1,12 @@
+{
+  "name": "SearchWithAllFields",
+  "description": "Fill Date and PAN fields with data and try to search",
+  "type": "TestCase",
+  "aliases": "When I try to search with all fields",
+  "children": [
+    "When I click on element StornoCard.DatePickerInput[filterType='index',filterValue='0']",
+    "When I set period in calendar",
+    "When I click on element DatePicker.SaveButton",
+    "When I try to search using PAN"
+  ]
+}

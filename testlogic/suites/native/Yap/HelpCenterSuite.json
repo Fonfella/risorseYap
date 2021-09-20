@@ -1,0 +1,9 @@
+{
+  "id": "01003",
+  "name": "HelpCenterSuite",
+  "description": "Help Center Suite",
+  "type": "TestSuite",
+  "children": [
+    { "path": "testlogic/suites/native/Yap/feature/HelpCenterFeature.json", "type": ["ANDROID","IOS"] }
+  ]
+}

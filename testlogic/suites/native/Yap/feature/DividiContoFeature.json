@@ -1,0 +1,14 @@
+{
+  "name": "Dividi Conto Feature",
+  "description": "Login Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+    "testlogic/tests/native/Yap/DividiContoYap/Dividi01.json",
+    "testlogic/tests/native/Yap/DividiContoYap/Dividi02.json",
+    "testlogic/tests/native/Yap/DividiContoYap/Dividi03.json",
+    "testlogic/tests/native/Yap/DividiContoYap/Dividi04.json",
+    "testlogic/tests/native/Yap/DividiContoYap/Dividi05.json",
+    "testlogic/tests/native/Yap/DividiContoYap/Dividi06.json"
+  ]
+}

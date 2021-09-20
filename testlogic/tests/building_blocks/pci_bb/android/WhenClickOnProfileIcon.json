@@ -1,0 +1,11 @@
+{
+  "name": "WhenClickOnProfileIcon",
+  "description": "Click on profile Icon",
+  "type": "TestCase",
+  "aliases": "When I click on profile Icon",
+  "children": [
+    "When I click on element NexiHeader.QuickActionsModule.SandwichButton",
+    "Then SandwichMenuModule.MenuTopSideModule.ProfilePageLink is displayed",
+    "When I click on element SandwichMenuModule.MenuTopSideModule.ProfilePageLink"
+  ]
+}

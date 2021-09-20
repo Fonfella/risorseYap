@@ -1,0 +1,11 @@
+{
+  "name": "ThenIApplyInsertedValueAndValidateError",
+  "description": "Insert and validate selected filter value based on input",
+  "aliases": "Then I apply inserted value and validate error",
+  "type": "TestCase",
+  "children": [
+    "When I input data",
+    "When I apply input data",
+    "Then input error data match"
+  ]
+}

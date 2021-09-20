@@ -1,0 +1,54 @@
+{
+  "children":
+  [
+    {
+      "entityId": "TimeRangeFilter",
+      "testData": "TimeRangeFilter",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./div//span[@class and not(contains(@class, 'icon'))]"
+      }
+    },
+    {
+      "entityId": "TransactionsNumber",
+      "testData": "TransactionsNumber",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//div[p or span]/*[1][not(@class) or span]"
+      }
+    },
+    {
+      "entityId": "LastSyncLabel",
+      "testData": "LastSyncLabel",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"./div/div//span[not(@class)]"
+      }
+    },
+    {
+      "entityId": "SyncButton",
+      "optional": true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":".//button"
+      }
+    },
+    {
+      "entityId": "ViewTodayData",
+      "testData": "ViewTodayData",
+      "type":"ELEMENT",
+      "optional": true,
+      "locator":{
+        "type":"XPATH",
+        "value": ".//span/following-sibling::a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "children": [
+    {
+      "entityId": "FooterLinks",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'footer-links')]"
+      }
+    },
+    {
+      "entityId": "CopyRight",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class,'footer-links')]/following-sibling::p/span | .//div[@class='footer-copyright']"
+      }
+    },
+    {
+      "entityId": "AppVersion",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div/span[contains(@class,'grommetux-text')]"
+      }
+    },
+    {
+      "entityId": "NexiLogo",
+      "type": "ELEMENT",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//*[contains(@class,'footer-logo-wrapper') or contains(@class,'nexi-logo')]"
+      }
+    }
+  ]
+}

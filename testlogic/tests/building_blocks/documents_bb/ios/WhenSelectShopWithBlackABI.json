@@ -1,0 +1,13 @@
+{
+  "name": "WhenSelectShopWithBlackABI",
+  "description": "Select a shop from POS Piker with terminal's ABI from Black list",
+  "type": "TestCase",
+  "aliases": "When I select a shop with ABI from Black List",
+  "children": [
+    "When I open POS picker",
+    "When I select all option from POS picker",
+    "When I select a shop from POS picker with [shopName=2.SHOP BLACK ABI]",
+    "When I apply POS picker selection",
+    "Given I wait 5 seconds"
+  ]
+}

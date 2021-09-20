@@ -1,0 +1,10 @@
+{
+  "name": "WhenIOpenEditProfilePage",
+  "description": "Change Name/Surname User",
+  "aliases": "When I open Edit Profile page",
+  "type": "TestCase",
+  "children": [
+    "When I click on element UserInfo.UserInformationLink",
+    "Then UserEdit Page is open"
+  ]
+}

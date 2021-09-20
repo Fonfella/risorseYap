@@ -1,0 +1,49 @@
+{
+  "children": [
+    {
+      "entityId": "NexiHeader",
+      "reference": "modules/common_modules/NexiHeader.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//header[div[div]]"
+      }
+    },
+    {
+      "entityId": "SandwichMenuModule",
+      "type": "MODULE",
+      "optional": true,
+      "reference": "modules/orphan_modules/sandwich_menu/SandwichMenuElements.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[@class='newId']/./div[contains(@class, 'icbpi_sidebar')]"
+      }
+    },
+    {
+      "entityId": "PCIContentModule",
+      "type": "MODULE",
+      "reference": "modules/pci_modules/PCIContentModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class,'pci_box wrapper-content')]"
+      }
+    },
+    {
+      "entityId": "NeedHelp",
+      "type": "MODULE",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//div[contains(@class, 'help helpButton')]/span"
+      }
+    },
+    {
+      "entityId": "NexiFooter",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "//footer[contains(@class, 'main-footer')]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "children": [
+    {
+      "entityId": "ValueInterval",
+      "type": "ELEMENT",
+      "testData": "TransactionValue",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/label"
+      }
+    },
+    {
+      "entityId": "MeterProgressIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'no-sign')]/div[1]"
+      }
+    },
+    {
+      "entityId": "MeterProgressValue",
+      "type": "ELEMENT",
+      "testData": "DeviationPercentage",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div[contains(@class, 'no-sign')]/div[2]"
+      }
+    }
+  ]
+}

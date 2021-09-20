@@ -1,0 +1,54 @@
+{
+  "children": [
+    {
+      "entityId": "SectionHeader",
+      "testData": "SectionHeader",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./XCUIElementTypeButton"
+      }
+    },
+    {
+      "entityId": "SectionDropDownIcon",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "../XCUIElementTypeButton[contains(@name, 'object')]"
+      }
+    },
+    {
+      "entityId": "ExpandedDetailsStorno",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/transactions_page/transaction_details/ExpandedDetails.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton[contains(@name, 'refund')]/following::XCUIElementTypeOther[contains(@name, 'panel')][1]/XCUIElementTypeOther/XCUIElementTypeOther"
+      }
+    },
+    {
+      "entityId": "ExpandedDetailsTransazione",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/transactions_page/transaction_details/ExpandedDetails.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton[contains(@name, 'transaction')]/following::XCUIElementTypeOther[contains(@name, 'panel')][1]/XCUIElementTypeOther/XCUIElementTypeOther"
+      }
+    },
+    {
+      "entityId": "ExpandedDetailsCliente",
+      "type": "MODULE",
+      "childCount": "2",
+      "reference": "modules/transactions_page/transaction_details/ExpandedDetails.json",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeButton[contains(@name, 'client')]/following::XCUIElementTypeOther[contains(@name, 'panel')][1]/XCUIElementTypeOther/XCUIElementTypeOther"
+      }
+    }
+  ]
+}

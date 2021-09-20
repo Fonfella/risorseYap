@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectMaestroCircuit",
+  "description": "Select maestro circuit by index",
+  "type": "TestCase",
+  "aliases": "When I select maestro circuit",
+  "children": [
+    "When I click on element FilterDetailsModule.FilterCircuitLogosList[filterType='index',filterValue='4']"
+  ]
+}

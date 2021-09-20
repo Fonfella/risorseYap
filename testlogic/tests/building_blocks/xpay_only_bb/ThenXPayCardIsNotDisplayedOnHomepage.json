@@ -1,0 +1,9 @@
+{
+  "name": "ThenXPayCardIsNotDisplayedOnHomepage",
+  "description": "XPay Card is not displayed on Homepage",
+  "aliases": "Then XPay card is not displayed on HomePage",
+  "type": "TestCase",
+  "children": [
+    "Then HomePageContentModule.CommonCardSet.XPayCard is not displayed"
+  ]
+}

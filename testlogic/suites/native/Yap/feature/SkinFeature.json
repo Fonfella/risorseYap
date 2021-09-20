@@ -1,0 +1,13 @@
+{
+  "name": "SkinFeature",
+  "description": "Skin Feature",
+  "type": "TestSuite",
+  "isNative": true,
+  "children": [
+
+    "testlogic/tests/native/Yap/Skin/skin02.json",
+    "testlogic/tests/native/Yap/Skin/skin03.json",
+    "testlogic/tests/native/Yap/Skin/skin04.json"
+
+  ]
+}

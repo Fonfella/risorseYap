@@ -1,0 +1,12 @@
+{
+  "name": "Using Valid Merchant data I go to page 4",
+  "description": "Registration Flow",
+  "aliases": "Given I go to Step4 of registration flow",
+  "type": "TestCase",
+  "children": [
+    "Given I go to Step3 of registration flow",
+    "When I Agree Improve Service and Promo Activities and Submit form",
+    "Then Registration Step4 is open"
+  ]
+}
+

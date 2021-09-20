@@ -1,0 +1,85 @@
+{
+  "children": [
+    {
+      "entityId":"PageHeader",
+      "reference":"modules/registration/RegHeaderModule.json",
+      "type":"MODULE",
+      "locator": {
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId":"PageTitle",
+      "type":"ELEMENT",
+      "testData":"Title",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']/XCUIElementTypeOther[4]"
+      }
+    },
+    {
+      "entityId":"IndietroButton",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"(//XCUIElementTypeLink[@name='Previous'])[1]"
+      }
+    },
+    {
+      "entityId":"RegistrationForm",
+      "reference":"modules/registration/step1/RegFormModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId":"SubmitButton",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='AVANTI']"
+      }
+    },
+    {
+      "entityId":"SubmitButtonLabel",
+      "optional":true,
+      "testData":"SubmitButtonText",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeButton[@name='AVANTI']"
+      }
+    },
+    {
+      "entityId":"PageFooter",
+      "reference":"modules/registration/RegPageFooter.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Registration']"
+      }
+    },
+    {
+      "entityId":"NeedHelp",
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    },
+    {
+      "entityId":"AccessTheAssistanceLink",
+      "optional":true,
+      "type":"ELEMENT",
+      "locator":{
+        "type":"XPATH",
+        "value":"///XCUIElementTypeStaticText[@name='ACCEDI ALL'ASSISTENZA']"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "WhenISelectFilter",
+  "description": "Click on input filter name",
+  "type": "TestCase",
+  "aliases": "When I select filter",
+  "children": [
+    "When I click on element TransactionsFiltersModule.FiltersLayoutModule.FilterSectionSelectableList[byChild='FilterName',filterType='text',filterValue='${filterName}']"
+  ]
+}

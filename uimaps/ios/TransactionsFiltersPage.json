@@ -1,0 +1,24 @@
+{
+  "children": [
+
+    {
+      "entityId": "FiltersLayoutModule", //left
+      "type": "MODULE",
+      "reference": "modules/transactions_page/FiltersLayout.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther[./XCUIElementTypeOther[./XCUIElementTypeStaticText[contains(@name,'CANCELLA')]]]]"
+      }
+    },
+    {
+      "entityId": "FilterDetailsModule", //right
+      "optional": true,
+      "type": "MODULE",
+      "reference": "modules/transactions_page/FilterDetailsModule.json",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[./XCUIElementTypeOther[./XCUIElementTypeOther[./XCUIElementTypeStaticText[contains(@name,'APPLICA')]]] and not(./XCUIElementTypeOther[./XCUIElementTypeOther[./XCUIElementTypeStaticText[contains(@name,'CANCELLA')]]])]"
+      }
+    }
+  ]
+}

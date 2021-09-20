@@ -1,0 +1,174 @@
+{
+  "children": [
+    {
+      "entityId": "ItalianLanguage",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@text='Italiano']"
+      }
+    },
+    {
+      "entityId": "Scroll_LangPage",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.ListView"
+      }
+    },
+    {
+      "entityId": "ContinueLanguage",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@resource-id='co.poynt.setupwizard:id/continue_button']"
+      }
+    },
+    {
+      "entityId": "SkipMobile",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@resource-id='co.poynt.setupwizard:id/skip_mobile_connection']"
+      }
+    },
+    {
+      "entityId": "WiFiConnectionButton",
+      "type": "ELEMENT",
+      "testData": "",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.TextView[@text='NEXI_test_network']"
+      }
+    },
+    {
+      "entityId": "WiFiPassword",
+      "type": "ELEMENT",
+      "testData": "Password",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.poynt.setupwizard:id/text_password_value']"
+      }
+    },
+    {
+      "entityId": "WiFiConnect",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='CONNETTI']"
+      }
+    },
+    {
+      "entityId": "EditTextFirstTID",
+      "type": "ELEMENT",
+      "testData": "TID1",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.nexi:id/find_business_input_tid_value']"
+      }
+    },
+    {
+      "entityId": "FirstTIDContinua",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='CONTINUA']"
+      }
+    },
+    {
+      "entityId": "ConfirmNEXI",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@resource-id='co.nexi:id/confirm_business_validbusiness']"
+      }
+    },
+    {
+      "entityId": "SecondTIDForm",
+      "type": "ELEMENT",
+      "testData": "TID2",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.nexi:id/activation_tid_title_et']"
+      }
+    },
+    {
+      "entityId": "IPAddressForm",
+      "type": "ELEMENT",
+      "testData": "IP",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.nexi:id/activation_ip_address_title_et']"
+      }
+    },
+    {
+      "entityId": "PortaForm",
+      "type": "ELEMENT",
+      "testData": "Porta",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.nexi:id/activation_portnumber_title_et']"
+      }
+    },
+    {
+      "entityId": "GT_IDForm",
+      "type": "ELEMENT",
+      "testData": "GT_ID",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.nexi:id/activation_gtid_title_et']"
+      }
+    },
+    {
+      "entityId": "ActivationButton",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@resource-id='co.nexi:id/acquiring_parameter_dll_button']"
+      }
+    },
+    {
+      "entityId": "ActivationRunning",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='IN ATTIVAZIONE...']"
+      }
+    },
+    {
+      "entityId": "ActivationFailed",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='Riprova']"
+      }
+    },
+    {
+      "entityId": "CreateUsername",
+      "type": "ELEMENT",
+      "testData": "user",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.poynt.setupwizard:id/username']"
+      }
+    },
+    {
+      "entityId": "DefinePassword",
+      "type": "ELEMENT",
+      "testData": "pw",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.EditText[@resource-id='co.poynt.setupwizard:id/passcode']"
+      }
+    },
+    {
+      "entityId": "Accedi",
+      "type": "ELEMENT",
+      "locator": {
+      "type": "XPATH",
+      "value": "//android.widget.Button[@text='Accedi']"
+      }
+    }
+    
+  ]
+}

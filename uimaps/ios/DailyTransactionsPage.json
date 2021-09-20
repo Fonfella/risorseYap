@@ -1,0 +1,59 @@
+{
+  "children": [
+    {
+      "entityId": "TotalCommissionsModule",
+      "reference": "modules/commissions_daily_summary_page/TotalCommissionsModule.json",
+      "type": "MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='Costi e Condizioni']"
+      }
+    },
+    {
+      "entityId":"DailyTransactionsContentModule",
+      "reference":"modules/commissions_daily_transactions_page/DailyTransactionsContentModule.json",
+      "type":"MODULE",
+      "locator":{
+        "type":"XPATH",
+        "value":"//XCUIElementTypeOther[@name='Costi e Condizioni']/XCUIElementTypeOther[5]"
+      }
+    },
+    {
+      "entityId": "TransactionDetailsModule",
+      "reference": "modules/transactions_page/TransactionDetailsModule.json",
+      "type": "MODULE",
+      "optional": true,
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeOther[@name='grommetux-modal']"
+      }
+    },
+    {
+      "entityId": "BackButton",
+      "testData": "BackButton",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeLink[@name='previous Dettaglio commissioni']"
+      }
+    },
+    {
+      "entityId": "NoTransactionsMessage",
+      "testData": "NoTransactionsMessage",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//XCUIElementTypeOther[@name='Costi e Condizioni']/XCUIElementTypeOther[2]/*"
+      }
+    },
+    {
+      "entityId": "NeedHelpButton",
+      "reference": "modules/common_modules/NeedHelp.json",
+      "type":"MODULE",
+      "locator": {
+        "type": "XPATH",
+        "value": "//XCUIElementTypeStaticText[@name='Serve aiuto?']"
+      }
+    }
+  ]
+}

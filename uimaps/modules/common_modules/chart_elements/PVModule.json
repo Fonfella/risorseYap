@@ -1,0 +1,31 @@
+{
+  "children":[
+    {
+      "entityId": "PVBullet",
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": "./div/*[@role='img']"
+      }
+    },
+    {
+      "entityId": "PVLabel",
+      "type": "ELEMENT",
+      "testData": "PVLabel",
+      "locator": {
+        "type": "XPATH",
+        "value": "..//label/span"
+      }
+    },
+    {
+      "entityId": "PVToolTip",
+      "reference": "modules/reusable_elements/TollTipElement.json",
+      "optional": true,
+      "type": "ELEMENT",
+      "locator": {
+        "type": "XPATH",
+        "value": ".//div[contains(@class, 'tooltip') and not(contains(@class, 'content'))]/div"
+      }
+    }
+  ]
+}

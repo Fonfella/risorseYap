@@ -1,0 +1,12 @@
+{
+  "name": "LogoutFromNexi",
+  "description": "Logout from Nexi",
+  "aliases": "Then I logout from Nexi",
+  "type": "TestCase",
+  "children": [
+    "When I click on element NexiHeader.QuickActionsModule.SandwichButton",
+    "When I click on element SandwichMenuModule.MenuFooter.LogOutButton",
+    "Then Login Page is open"
+
+  ]
+}

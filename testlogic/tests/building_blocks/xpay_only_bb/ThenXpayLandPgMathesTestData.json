@@ -1,0 +1,14 @@
+{
+  "name": "ThenXpayLandPgMathesTestData.json",
+  "description": "Check Xpay Landing Page text",
+  "aliases": "Then XPay Landing page text matches test data",
+  "type": "TestCase",
+  "children": [
+    "Then XPayHeader data matches XpayOnlyData.LandingPageHeader",
+    "Then XPayContentModule.AreaTitle data matches XpayOnlyData.TitleSubtitleArea",
+    "Then XPayContentModule.AreaSubTitle data matches XpayOnlyData.TitleSubtitleArea",
+    //    "Then XPayContentModule.CardsListModule data matches XpayOnlyData.CardsDataBeforeScrollRight",
+    "When I click on element XPayContentModule.CardsListModule.CarouselPaginationButtons[filterType='index',filterValue='1']"
+    //    "Then XPayContentModule.CardsListModule data matches XpayOnlyData.CardsDataAfterScrollRight"
+  ]
+}

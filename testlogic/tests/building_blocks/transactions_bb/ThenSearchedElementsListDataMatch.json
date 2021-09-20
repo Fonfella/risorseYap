@@ -1,0 +1,9 @@
+{
+  "name": "ThenSearchedElementsListDataMatch",
+  "description": "Data match for input search list",
+  "type": "TestCase",
+  "aliases": "Then searched elements list data match",
+  "children": [
+    "Then TransactionsFiltersModule.FilterDetailsModule.SearchedList data matches ${searchedData}"
+  ]
+}
